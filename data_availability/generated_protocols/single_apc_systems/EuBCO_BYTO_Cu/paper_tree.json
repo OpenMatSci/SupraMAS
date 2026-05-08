@@ -1,0 +1,186 @@
+{
+  "level": "1",
+  "topic": "{\"REBCO\":\"EuBa2Cu3O7(EuBCO)\",\"dopped_materials\":\"Ba2YTaO6(BYTO),Cu\",\"processing_method\":\"PLD\",\"sample_category\":\"films\"}",
+  "abstract": "… pinning contributions. This work contributes to a greater understanding for future optimizations of YBCO doped films with pinning … single target in PLD thin films for enhancing pinning is …",
+  "url": "source_paper_nodes/Enhancing_the_Flux_Pinning_of_High_Temperature_Superconducting_Yttrium_Barium_Copper_Oxide_Thin_Films.pdf",
+  "tuning_strategies": [
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Addition of Y2BaCuO5 (Y211) nanoparticles to YBCO thin films",
+      "tuning effects": "The 10 vol.% Y211 doped YBCO films achieved the highest current density, with increased isotropic weak and anisotropic strong flux pinning contributions."
+    },
+    {
+      "tuning dimensions": "Grain boundary tuning",
+      "tuning strategies": "Incorporation of BaZrO3 (BZO) and Y2O3 nanoparticles into YBCO thin films",
+      "tuning effects": "The 2 vol.% BZO + 3 vol.% Y2O3 doped YBCO films showed enhanced current density and pinning force, attributed to the formation of nanoscale defects and improved grain boundary pinning."
+    },
+    {
+      "tuning dimensions": "Interface tuning",
+      "tuning strategies": "Use of SrTiO3 (STO) and LaAlO3 (LAO) substrates for YBCO thin film deposition",
+      "tuning effects": "Films deposited on STO and LAO substrates exhibited improved epitaxial growth and reduced lattice mismatch, leading to enhanced current density and critical temperature."
+    },
+    {
+      "tuning dimensions": "Texture tuning",
+      "tuning strategies": "Optimization of deposition temperature and repetition rate during pulsed laser deposition (PLD)",
+      "tuning effects": "Films deposited at 835°C with a repetition rate of 4 Hz showed improved texture and crystallinity, resulting in higher current density and better flux pinning performance."
+    },
+    {
+      "tuning dimensions": "Stress tuning",
+      "tuning strategies": "Control of thermal expansion coefficient mismatch between dopants and YBCO matrix",
+      "tuning effects": "The Y211 doped YBCO films exhibited the least amount of lattice mismatch and thermal expansion coefficient difference, leading to reduced film stress and enhanced current density."
+    }
+  ],
+  "draw_backs": {
+    "shortcoming1": "The deposition temperature control was not optimized for all dopant systems, leading to variations in film quality and critical current density.",
+    "shortcoming2": "The lattice mismatch and thermal expansion coefficients between the dopants and YBCO were not fully minimized, which could limit the effectiveness of flux pinning.",
+    "shortcoming3": "The microstructure of the doped YBCO films showed some defects and non-uniformities, which could negatively impact the overall performance.",
+    "shortcoming4": "The critical current density improvement was significant but not uniform across all dopant systems, indicating potential limitations in the doping strategy."
+  },
+  "expections": {
+    "expectation1": "Optimize deposition temperature control to achieve consistent film quality and maximize critical current density across all dopant systems.",
+    "expectation2": "Minimize lattice mismatch and thermal expansion coefficients between dopants and YBCO to enhance flux pinning effectiveness.",
+    "expectation3": "Achieve a more uniform and defect-free microstructure in doped YBCO films to improve overall performance.",
+    "expectation4": "Develop a doping strategy that ensures significant and uniform improvement in critical current density across all dopant systems."
+  },
+  "children": [
+    {
+      "level": "1.1",
+      "title": "New insight into strain and composition of BaZrO3 nanorods in REBCO superconductor",
+      "abstract": "… Next, we show that the nominal BZO nanorods are in fact solid … The striking effect of nanorods on flux pinning has sparked … The BZO nanorods and REO nano-precipitates are readily …",
+      "url": "source_paper_nodes/New_insight_into_strain_and_composition_of_BaZrO3_nanorods_in_REBCO_superconductor.pdf",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Varying the Ba content in the nominal composition of 15 mol.% BZO + REBCO to control the Ba/(Ba + Zr) ratio.",
+          "tuning effects": "The unit cell density of BZO can be tuned from 5% to 23%, and the linear density of RE2O3 precipitates from 18 to 1 µm−1, significantly affecting pinning performance."
+        },
+        {
+          "tuning dimensions": "Interface tuning",
+          "tuning strategies": "Controlling the in-plane mismatch strain by growing BZO nanorods with integer unit cells smaller than the REBCO matrix.",
+          "tuning effects": "This results in the formation of I-0, I-I, and II-II type nanorods, which minimize strain energy and enhance flux pinning."
+        },
+        {
+          "tuning dimensions": "Stress tuning",
+          "tuning strategies": "Minimizing the misfit strain between BZO nanorods and the REBCO matrix by adjusting the number of unit cells in BZO relative to REBCO.",
+          "tuning effects": "Sharp minima in strain energy are achieved at specific nanorod sizes (e.g., 5.4 nm for I-I type and 10.8 nm for II-II type), leading to optimized pinning performance."
+        },
+        {
+          "tuning dimensions": "Texture tuning",
+          "tuning strategies": "Using advanced metal-organic chemical vapor deposition (A-MOCVD) to grow thick films with high texture quality.",
+          "tuning effects": "This results in films with high critical current density and improved in-field performance, particularly at low temperatures and high magnetic fields."
+        },
+        {
+          "tuning dimensions": "Grain boundary tuning",
+          "tuning strategies": "Incorporating excess RE to form RE2O3 precipitates, which act as isotropic pinning centers.",
+          "tuning effects": "The density of RE2O3 precipitates can be controlled by varying the Ba content, leading to a reduction in linear density from 18 to 1 µm−1 and enhancing isotropic pinning."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "The study primarily focuses on the effect of Ba non-stoichiometry on BZO and REO content, but it does not extensively explore the impact of other dopants or variations in deposition rate, which could also significantly influence the nanorod landscape and pinning performance.",
+        "shortcoming2": "The analysis of under-compensated Ba samples is limited, and the mechanism behind the drastic decrease in BZO fraction to near 5% is not fully explained, suggesting a need for further in-depth study on these samples.",
+        "shortcoming3": "The study acknowledges that the films may not be at true thermodynamic equilibrium due to the potential effect of growth kinetics on nanorod size distribution, indicating a limitation in the experimental approach to achieving equilibrium conditions.",
+        "shortcoming4": "While the study provides detailed insights into the in-plane mismatch accommodation mechanisms, it does not extensively address the out-of-plane mismatch and its impact on the overall strain energy and pinning performance, which could be crucial for optimizing the superconductor's properties."
+      },
+      "expections": {
+        "expectation1": "Explore the impact of additional dopants and variations in deposition rate to optimize the nanorod landscape and enhance pinning performance.",
+        "expectation2": "Conduct an in-depth study on under-compensated Ba samples to fully explain the mechanism behind the drastic decrease in BZO fraction and improve material design.",
+        "expectation3": "Achieve true thermodynamic equilibrium conditions in film growth to better control nanorod size distribution and improve overall material properties.",
+        "expectation4": "Address out-of-plane mismatch and its impact on strain energy to further optimize the superconductor's pinning performance and critical current density."
+      },
+      "children": [
+        {
+          "level": "1.1.1",
+          "title": "Flux pinning by a‐axis grains in c‐axis‐oriented Y‐Ba‐Cu‐O films",
+          "abstract": "… c-axis-oriented film which was studded with a-axis-oriented grains. The boundaries between … a-axis-oriented grain and the c-axis-oriented grain are considered to be effective as pinning …",
+          "url": "source_paper_nodes/Flux_pinning_by_a‐axis_grains_in_c‐axis‐oriented_Y‐Ba‐Cu‐O_films.pdf",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Varying the Y:Ba:Cu ratio to create Cu-rich compositions slightly deviating from the stoichiometric 1:2:3 ratio.",
+              "tuning effects": "Enhanced critical current density (Jc) in magnetic fields, particularly when the field is applied perpendicular to the ab plane, due to the formation of a-axis-oriented grains within the c-axis-oriented matrix."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Introducing a-axis-oriented grains within a c-axis-oriented matrix to create boundaries between differently oriented grains.",
+              "tuning effects": "Improved flux pinning for magnetic fields perpendicular to the ab plane, resulting in higher Jc values due to the energy penalty difference at the grain boundaries."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Forming sharp boundaries between a-axis-oriented grains and c-axis-oriented grains through controlled deposition and growth conditions.",
+              "tuning effects": "Effective pinning centers at the interfaces, leading to enhanced Jc in perpendicular magnetic fields by leveraging the coherence length anisotropy."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Optimizing the orientation of a-axis-oriented grains within a predominantly c-axis-oriented film using ionized cluster beam (ICB) deposition.",
+              "tuning effects": "Maintained high Jc values even in perpendicular magnetic fields, as the a-axis-oriented grains act as pinning centers without disrupting the current path significantly."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Minimizing strain within a-axis-oriented grains while maintaining a large strain in the c-axis-oriented matrix.",
+              "tuning effects": "Enhanced pinning force for magnetic fields perpendicular to the ab plane, as the strain-free a-axis-oriented grains create effective pinning sites at their boundaries with the strained c-axis-oriented matrix."
+            }
+          ],
+          "draw_backs": {
+            "shortcoming1": "The study does not provide detailed information on the precise control of chemical composition during the film deposition process, which could affect the reproducibility and optimization of the a-axis grain formation.",
+            "shortcoming2": "The ionized cluster beam (ICB) deposition method used may have limitations in achieving uniform and high-quality epitaxial growth, potentially leading to variations in the microstructure and pinning properties of the films.",
+            "shortcoming3": "The critical current density (Jc) for the magnetic field perpendicular to the ab plane (B ⊥ ab plane) in the sample with a-axis grains (S2) is still significantly lower than the theoretical prediction, indicating that the pinning strength at the boundaries between a-axis and c-axis grains is not fully optimized.",
+            "shortcoming4": "The study does not explore the long-term stability and performance of the pinning centers under varying operational conditions, which is crucial for practical applications in high magnetic fields."
+          },
+          "expections": {
+            "expectation1": "Achieve precise control of chemical composition during film deposition to optimize the formation and distribution of a-axis grains, enhancing reproducibility and pinning effectiveness.",
+            "expectation2": "Develop advanced deposition techniques to ensure uniform and high-quality epitaxial growth, leading to consistent microstructures and improved pinning properties.",
+            "expectation3": "Significantly enhance the critical current density (Jc) for the magnetic field perpendicular to the ab plane (B ⊥ ab plane) by optimizing the pinning strength at the boundaries between a-axis and c-axis grains.",
+            "expectation4": "Investigate the long-term stability and performance of pinning centers under varying operational conditions to ensure reliability and durability in practical high magnetic field applications."
+          },
+          "children": []
+        },
+        {
+          "level": "1.1.3",
+          "title": "Approaches in controllable generation of artificial pinning center in REBa2Cu3Oy-coated conductor for high-flux pinning",
+          "abstract": "… In particular, we present recent results obtained from controlling … We used an alternating target technique to add BHO to the … We discussed a large amount of BHO-doped SmBCO film …",
+          "url": "source_paper_nodes/Approaches_in_controllable_generation_of_artificial_pinning_center_in_REBa2Cu3Oy-coated_conductor_for_high-flux_pinning.pdf",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Introducing BaMO3 (BMO) materials such as BaHfO3 (BHO) and BaZrO3 (BZO) into REBa2Cu3Oy (REBCO) films.",
+              "tuning effects": "The introduction of BHO nanorods in SmBCO films significantly enhances flux pinning, achieving a maximum pinning force density (Fp_max) of 1.6 TN m^-3 at 4.2 K. The optimal BHO concentration is around 3.7 vol%, which improves Jc in high magnetic fields."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Using low-temperature growth (LTG) method with seed layers to control the growth of SmBCO films on IBAD substrates.",
+              "tuning effects": "The LTG method results in high-density, fine, and inclined BHO nanorods, leading to improved Jc in magnetic fields. The Fp_max reaches 1.5 TN m^-3 at 4.2 K for SmBCO-coated conductors on IBAD tapes."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Controlling the growth temperature of the upper layer in the LTG method to influence the interface between BHO nanorods and the SmBCO matrix.",
+              "tuning effects": "Lower growth temperatures (e.g., 690°C) result in thinner and more inclined BHO nanorods, enhancing random pinning centers and improving Jc_min at 4.2 K in high magnetic fields (up to 15 T)."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Depositing SmBCO films on biaxially textured MgO layers using the PLD method to enhance crystalline orientation.",
+              "tuning effects": "The textured CeO2 top layers with a full width at half maximum angle of 1.8° for the CeO2 (220) reflection improve the overall texture, leading to higher Jc values in magnetic fields."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Employing the LTG method to relax the misfit between the substrate and the superconducting layer, reducing stress in the film.",
+              "tuning effects": "The LTG method allows for the growth of high-quality SmBCO films at lower temperatures, reducing stress and enhancing flux pinning, resulting in a Fp_max of 1.6 TN m^-3 at 4.2 K on single crystalline substrates."
+            }
+          ],
+          "draw_backs": {
+            "shortcoming1": "The control of the shape, growth direction, and dispersion state of artificial pinning centers (APCs) is not fully optimized, particularly for different operating temperatures.",
+            "shortcoming2": "The growth mechanism of BaMO3 (BMO) nanorods, especially at lower temperatures, is not thoroughly understood, leading to challenges in achieving consistent and high-quality nanorod structures.",
+            "shortcoming3": "The critical current density (Jc) in magnetic fields, especially at angles other than parallel to the c-axis, is still limited, indicating insufficient pinning strength in certain orientations.",
+            "shortcoming4": "The maximum flux-pinning force (Fp) achieved, while high, is still below the theoretical potential, suggesting room for further improvement in APC design and integration."
+          },
+          "expections": {
+            "expectation1": "Achieve precise control over the shape, growth direction, and dispersion state of artificial pinning centers (APCs) to optimize performance across different operating temperatures.",
+            "expectation2": "Develop a comprehensive understanding of the growth mechanism of BaMO3 (BMO) nanorods, particularly at lower temperatures, to enable consistent and high-quality nanorod structures.",
+            "expectation3": "Significantly enhance the critical current density (Jc) in magnetic fields, especially at angles other than parallel to the c-axis, by improving pinning strength in all orientations.",
+            "expectation4": "Maximize the flux-pinning force (Fp) to approach its theoretical potential through advanced APC design and integration techniques."
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

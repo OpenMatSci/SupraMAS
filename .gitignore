@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+config.yaml
+*.local.yaml
+secrets/
+
+# Editors and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime outputs
+logs/
+outputs/
+results/tmp/
+results/raw/
+conversation*.json
+traceback_conversation.json
+traceback_chains.json
+
+# Archives and large local artifacts
+*.rar
+*.zip
+*.tar
+*.tar.gz
+
+# Do not vendor source PDFs by default
+data/papers/
+benchmark/data/papers/
+*.pdf
+!data_availability/optimization_trajectory/mibo_report.pdf
+

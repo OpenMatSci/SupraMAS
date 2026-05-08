@@ -1,0 +1,8 @@
+sample,growth_temperature_C,growth_oxygen_pressure_Pa,thickness_nm,annealing_temperature_C,annealing_oxygen_pressure_Pa
+SupraMAS-150 nm,675,26.7,150,450,80000
+SupraMAS-280 nm,675,26.7,280,450,80000
+1st Optimisation,705,26.3,280,611,22000
+2nd Optimisation,675,29.6,280,606,82000
+3rd Optimisation,706,24.8,280,613,19000
+4th Optimisation,709,25.1,280,575,62000
+5th Optimisation,689,26.5,280,548,55000

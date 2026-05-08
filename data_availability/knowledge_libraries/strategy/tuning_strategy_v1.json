@@ -1,0 +1,32 @@
+[
+  {
+    "tuning_dimensions": "Composition tuning",
+    "tuning_strategies": "Incorporation of 5 mol% BaZrO₃ nanoparticles into YBCO matrix via pulsed laser deposition using composite ceramic targets",
+    "tuning_effects": "Induced 9.4% lattice mismatch between YBCO and BaZrO₃ particles, generating dense c-axis-aligned edge dislocations (<50 nm spacing) with density >400 μm⁻². Achieved 1.5-5× enhancement in Jc (75.5 K) across 1-7 T fields compared to pure YBCO, particularly showing 5× improvement at 7 T.",
+    "id": 0
+  },
+  {
+    "tuning_dimensions": "Grain boundary tuning",
+    "tuning_strategies": "Generation of correlated linear defects through heteroepitaxial strain from BaZrO₃ nanoparticles",
+    "tuning_effects": "Created columnar defect structures acting as strong pinning centers, demonstrated by angular Jc dependence showing enhanced c-axis peak (inset Fig.1a). Maintained Jc improvement across 0°-80° field orientations with Fp/Fpmax ratio increase from 0.3 (pure YBCO) to 0.45 (YBCO+BaZrO₃) at 4T.",
+    "id": 1
+  },
+  {
+    "tuning_dimensions": "Interface tuning",
+    "tuning_strategies": "Heteroepitaxial growth control using SrTiO₃ (STO)-buffered IBAD-MgO substrates",
+    "tuning_effects": "Achieved cube-on-cube in-plane alignment between YBCO matrix and BaZrO₃ particles (φ-scan FWHM <2°), enabling effective strain transfer. Maintained high Jc (>0.1 MA/cm² at 4.5T) in practical conductors through optimized interfacial lattice matching.",
+    "id": 2
+  },
+  {
+    "tuning_dimensions": "Texture tuning",
+    "tuning_strategies": "Dual-axis texture propagation from IBAD-MgO substrates through STO buffer layer",
+    "tuning_effects": "Enabled (00l)-oriented YBCO growth with BaZrO₃ (110)||YBCO (103) orientation relationship, confirmed by XRD pole figures (Fig.2). Resulted in comparable Jc enhancement factors (1.5-2×) on both single-crystal and polycrystalline substrates.",
+    "id": 3
+  },
+  {
+    "tuning_dimensions": "Stress tuning",
+    "tuning_strategies": "Utilization of lattice mismatch-induced strain between YBCO (a=3.85Å) and BaZrO₃ (a=4.23Å)",
+    "tuning_effects": "Generated compressive stress fields around nanoparticles (9.4% mismatch) that created dislocation networks while maintaining Tc >87K. Enabled Jc retention up to 7T through optimized stress relaxation mechanisms without film cracking.",
+    "id": 4
+  }
+]

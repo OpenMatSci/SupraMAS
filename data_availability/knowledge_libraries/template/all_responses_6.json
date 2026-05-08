@@ -1,0 +1,155 @@
+[
+  {
+    "template_name": "Measurement of critical current density in YBCO composite films using four-probe transport method under magnetic fields",
+    "template_type": "second problem solving method",
+    "knowledge_tags": [
+      "four-probe transport",
+      "critical current density (Jc)",
+      "magnetic field dependence",
+      "film thickness measurement",
+      "bridge-patterned samples"
+    ],
+    "description": [
+      "This template describes the methodology to determine critical current density (Jc) of YBCO composite films using four-probe transport measurements under varying magnetic fields, with particular attention to sample patterning and error control."
+    ],
+    "application_scenarios": [
+      "Quantifying flux pinning enhancement in YBCO films containing 211 nanoparticles",
+      "Comparing Jc performance between composite and pure YBCO films",
+      "Measuring transport properties under magnetic fields up to several Tesla"
+    ],
+    "reason_flow": [
+      "Step 1: Create bridge-patterned samples with dimensions 0.05-0.075 cm width and 0.3-0.6 cm length through photolithography",
+      "Step 2: Perform measurements in variable temperature insert (1.5-100 K) with magnetic fields up to 14 T applied perpendicular to film surface",
+      "Step 3: Conduct four-probe transport measurements using 1 μV/cm electric field criterion for Jc determination, with repeated dimensional measurements to keep standard errors <5%",
+      "Step 4: Calculate Jc using formula Jc = I_c/(t×w) where I_c is critical current, t is total film thickness (including both 123 and 211 layers), and w is bridge width"
+    ],
+    "example_application": {
+      "example_problem": "Compare the magnetic field dependence of Jc between YBCO+211 nanoparticle composite films and pure YBCO films",
+      "solution_process": [
+        "Step 1: Fabricate bridge-patterned samples with controlled dimensions (width: 50-75 μm, length: 3-6 mm)",
+        "Step 2: Measure film thickness using profilometry (total thickness ~300 nm including 211 nanoparticle layers)",
+        "Step 3: Perform four-probe measurements at 77 K with magnetic fields 0-14 T applied perpendicular to film plane",
+        "Step 4: Calculate Jc values using measured critical currents and sample dimensions",
+        "Answer: {Composite films showed Jc = 4MA/cm² at self-field, maintaining >1MA/cm² up to 5T. Pure YBCO films exhibited faster Jc degradation with Jc = 2MA/cm² at self-field dropping to 0.3MA/cm² at 3T}"
+      ]
+    }
+  },
+  {
+    "template_name": "Measurement of critical current density by four-probe transport method under varying magnetic fields",
+    "template_type": "second problem solving method",
+    "knowledge_tags": [
+      "four-probe transport method",
+      "critical current density (Jc)",
+      "magnetic field orientation",
+      "voltage criterion",
+      "sample patterning",
+      "bridge dimensions",
+      "temperature control"
+    ],
+    "description": [
+      "This template describes the experimental protocol for determining critical current density (Jc) in superconducting films using four-probe transport measurements under varying magnetic field conditions."
+    ],
+    "application_scenarios": [
+      "Characterizing field-dependent current carrying capacity in superconducting films",
+      "Comparing flux pinning enhancement between composite and pure superconducting materials",
+      "Quantifying performance improvements from microstructural modifications"
+    ],
+    "reason_flow": [
+      "Step 1: Prepare bridge-patterned samples with precisely measured dimensions (width: 0.05-0.075 cm, length: 0.3-0.6 cm) to ensure accurate current density calculation",
+      "Step 2: Implement temperature control system maintaining superconducting state (below Tc ≈ 90 K)",
+      "Step 3: Perform four-probe measurements with: - Magnetic fields up to 0.3 T - Current applied perpendicular to magnetic field direction - Voltage criterion of 1 μV/cm for Jc determination",
+      "Step 4: Calculate Jc using formula: Jc = I_c/(w×d), where I_c is critical current from Step 3, w is bridge width, d is total film thickness (including both 211 and 123 layers)"
+    ],
+    "example_application": {
+      "example_problem": "Compare Jc performance between YBCO+211 nanoparticle composite films and pure YBCO films under magnetic fields up to 0.3 T",
+      "solution_process": [
+        "Step 1: Fabricate bridge-patterned samples with width 50-75 μm and length 3-6 mm using photolithography",
+        "Step 2: Perform repeated thickness measurements (SEM cross-section) to achieve <5% dimensional error",
+        "Step 3: Conduct four-probe measurements in PPMS system at 77 K with: - Magnetic fields 0-0.3 T perpendicular to current direction - 1 μV/cm voltage threshold",
+        "Step 4: Calculate Jc using measured I_c and averaged geometric dimensions",
+        "Answer: {Composite films: Jc = 4.2e6 A/cm² at 0.3 T (30% higher than pure YBCO), Tc = 90.2±0.4 K; Pure YBCO: Jc = 3.2e6 A/cm² at 0.3 T, Tc = 88.9±0.2 K}"
+      ]
+    }
+  },
+  {
+    "template_name": "Measurement of critical current density in magnetic fields using four-probe transport and magnetization methods",
+    "template_type": "second problem solving method",
+    "knowledge_tags": [
+      "four-probe transport method",
+      "critical current density (Jc)",
+      "magnetic field dependence",
+      "magnetization hysteresis loops",
+      "critical temperature (Tc)",
+      "flux pinning",
+      "c-axis oriented films",
+      "transport current direction"
+    ],
+    "description": [
+      "This template measures critical current density (Jc) using four-probe transport method under various magnetic fields and temperatures, with additional characterization through magnetization hysteresis loops. The electrical transport properties are analyzed in relation to magnetic field orientation (parallel or perpendicular to c-axis) and temperature conditions."
+    ],
+    "application_scenarios": [
+      "Characterizing Jc in superconducting films under magnetic fields up to 12 T",
+      "Comparing field dependence of Jc between different material compositions",
+      "Analyzing flux pinning enhancement in nanoparticle-doped superconductors",
+      "Measuring angular dependence of Jc relative to crystallographic axes",
+      "Determining superconducting transition temperature (Tc) through resistivity measurements"
+    ],
+    "reason_flow": [
+      "Step 1: Prepare bridge-patterned samples with dimensions 50-75 μm width and 300-600 μm length using photolithography. Measure actual bridge dimensions through SEM for accurate cross-sectional area calculation.",
+      "Step 2: Cool samples to 4.2-77 K range using cryogenic systems. Apply magnetic fields (0-12 T) perpendicular to both film surface (H‖c) and transport current direction (H⊥c). Maintain temperature stability within ±0.1 K during measurements.",
+      "Step 3: Perform four-probe DC measurements with 1 μV/cm electric field criterion. For magnetization measurements, use SQUID magnetometer with field sweep rates of 50-100 Oe/s. Record Jc values at multiple field points (0.1 T intervals below 5 T, 0.5 T intervals above 5 T).",
+      "Step 4: Calculate Jc from transport measurements using Jc = I_c/(w·d) where w=bridge width and d=film thickness. For magnetization data, apply Bean critical state model: Jc = 20ΔM/(a(1-a/3b)) where ΔM=M⁺-M⁻, a and b are sample dimensions perpendicular to field."
+    ],
+    "example_application": {
+      "example_problem": "Determine the magnetic field dependence of Jc in YBCO+211 nanocomposite films compared to pure YBCO at 77 K under both H‖c and H⊥c configurations",
+      "solution_process": [
+        "Step 1: Fabricate bridge-patterned samples with 50 μm width using laser ablation. Confirm dimensions through SEM imaging (width: 52±1 μm, thickness: 350±10 nm).",
+        "Step 2: Mount samples in cryostat with rotatable sample holder. Alangle H‖c configuration with <1° angular error using Hall probe feedback.",
+        "Step 3: Measure transport Jc at 77 K from 0-12 T in 0.5 T increments. Apply current ramp rate of 0.1 A/s until 1 μV voltage threshold is reached.",
+        "Step 4: Repeat measurements in H⊥c configuration by rotating sample 90°. Ensure temperature stability during rotation through thermal anchoring.",
+        "Step 5: Extract Jc values using measured I_c and cross-sectional area. Plot Jc(H) curves on logarithmic scale for comparison.",
+        "Answer: {YBCO+211 films: Jc(5T, H‖c) = 2.6e5 A/cm², Jc(5T, H⊥c) = 1.8e5 A/cm²; Pure YBCO: Jc(5T, H‖c) = 7.3e4 A/cm², Jc(5T, H⊥c) = 5.1e4 A/cm². Nanocomposites show 3.5× higher Jc at high fields}"
+      ]
+    }
+  },
+  {
+    "template_name": "AC magnetic penetration depth measurement to study vortex pinning potential and critical current density",
+    "template_type": "second promblem solving method",
+    "knowledge_tags": [
+      "AC magnetic penetration depth",
+      "vortex pinning potential",
+      "critical current density (jc)",
+      "irreversibility temperature (T_irr)",
+      "Campbell length",
+      "thermal hysteresis",
+      "magnetic relaxation"
+    ],
+    "description": [
+      "Measures AC magnetic penetration depth λ(T,H,j) under DC Bean current to study non-parabolic characteristics of vortex pinning potential and their relation to critical current density. Thermal hysteresis analysis reveals irreversible vortex position shifts within pinning wells."
+    ],
+    "application_scenarios": [
+      "Measure λ variations under fixed magnetic field during temperature cycling",
+      "Analyze j/jc ratio dependence of Campbell length below irreversibility temperature",
+      "Study magnetic relaxation dynamics through time-dependent λ measurements",
+      "Compare pinning potential characteristics across high-Tc and conventional superconductors"
+    ],
+    "reason_flow": [
+      "Step 1: Sample preparation - Use single crystal BSCCO and other superconducting samples with platelet geometry aligned for perpendicular field measurements",
+      "Step 2: Environmental setup - Apply DC magnetic fields (0-7 kOe) perpendicular to sample surface using superconducting magnet. Maintain temperatures below Tc (1.5-40K range) using ³He refrigerator",
+      "Step 3: AC measurement - Use 11MHz tunnel-diode LC resonator with 5mOe AC excitation field parallel to DC field. Measure frequency shift Δf proportional to Δλ with 0.5Å resolution",
+      "Step 4: Hysteresis analysis - Perform warming/cooling cycles below T_irr (~28K for BSCCO) to observe thermal hysteresis in λ(T) caused by j/jc-dependent Campbell length",
+      "Step 5: Relaxation measurement - Track time-logarithmic decay of λ(j) after field application to study flux creep dynamics"
+    ],
+    "example_application": {
+      "example_problem": "Determine the non-parabolic characteristics of vortex pinning potential in BSCCO single crystals under Bean current conditions",
+      "solution_process": [
+        "Step 1: Zero-field cool sample to 1.5K, apply 260Oe DC field and measure λ during warming to T_irr",
+        "Step 2: Perform cooling-warming cycles below T_irr to observe reversible λ(T) behavior",
+        "Step 3: Apply -7kOe magnetizing field at 12K then measure λ during cooling to study j/jc ratio effects",
+        "Step 4: Analyze λ(j) dependence using Δλ = βλ_c²(0)/(2λ(0)) × (j/jc) relationship",
+        "Answer: {Non-parabolic pinning potential shows β > 0 (saturating potential) with λ increasing by ~40Å at maximum j/jc ratio. Thermal hysteresis disappears above T_irr = 28K in BSCCO}"
+      ]
+    }
+  },
+  null
+]

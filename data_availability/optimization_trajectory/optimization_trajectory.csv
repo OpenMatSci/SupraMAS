@@ -1,0 +1,8 @@
+sample,growth_temperature_C,growth_oxygen_pressure_Pa,thickness_nm,annealing_temperature_C,annealing_oxygen_pressure_Pa,optimization_phase,Tc_MT_K,Jc_4p2K_5T_MA_cm2,Jc_20K_5T_MA_cm2,Jc_77K_0T_MA_cm2,mechanistic_interpretation
+SupraMAS-150 nm,675,26.7,150,450,80000,initial baseline,83.2,3.78,2.32,0.1,"Possible insufficient oxygen doping, incomplete Cu-O chain formation and strain-driven local disorder in thinner film."
+SupraMAS-280 nm,675,26.7,280,450,80000,thickness refinement,86.6,11.25,6.84,0.89,"Increased thickness expected to reduce substrate coupling, improve oxygenation and strain relaxation."
+1st Optimisation,705,26.3,280,611,22000,single-objective Tc maximisation,85.2,3.6,1.14,0.17,Low annealing oxygen pressure associated with pore growth and incomplete Cu-O chain recovery.
+2nd Optimisation,675,29.6,280,606,82000,single-objective Tc maximisation,89.4,7.99,3.79,2.79,High-pressure annealing associated with densification and improved 77 K connectivity.
+3rd Optimisation,706,24.8,280,613,19000,single-objective Tc maximisation,88.0,12.78,6.44,0.42,Lower oxygen-pressure window associated with oxygen-vacancy and nanoprecipitation pinning for low-temperature high-field performance.
+4th Optimisation,709,25.1,280,575,62000,multi-objective Tc and Jc,85.0,11.21,5.66,0.31,Intermediate annealing window balances pinning defects and oxygen ordering.
+5th Optimisation,689,26.5,280,548,55000,multi-objective Tc and Jc,87.4,14.11,7.67,0.65,Reduced annealing temperature and moderate oxygen pressure preserve effective nanoscale defect/vacancy pinning while maintaining Tc.

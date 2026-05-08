@@ -1,0 +1,80 @@
+[
+  {
+    "source": "supramas",
+    "label": "SupraMAS",
+    "overall_mean": 4.51875,
+    "num_scores": 800,
+    "dimension_means": {
+      "Content Completeness": 4.8625,
+      "Theme Relevance": 4.66875,
+      "Technical Innovation": 4.1625,
+      "Technical Feasibility": 4.4375,
+      "Application Value": 4.4625
+    }
+  },
+  {
+    "source": "gpt_researcher",
+    "label": "GPT-Researcher",
+    "overall_mean": 3.3975,
+    "num_scores": 800,
+    "dimension_means": {
+      "Content Completeness": 3.20625,
+      "Theme Relevance": 3.60625,
+      "Technical Innovation": 3.41875,
+      "Technical Feasibility": 3.41875,
+      "Application Value": 3.3375
+    }
+  },
+  {
+    "source": "gpt-5",
+    "label": "GPT-5",
+    "overall_mean": 4.24,
+    "num_scores": 800,
+    "dimension_means": {
+      "Content Completeness": 4.1,
+      "Theme Relevance": 4.35,
+      "Technical Innovation": 4.14375,
+      "Technical Feasibility": 4.21875,
+      "Application Value": 4.3875
+    }
+  },
+  {
+    "source": "gemini-2.5-pro-thinking",
+    "label": "Gemini-2.5-Pro-Thinking",
+    "overall_mean": 4.1525,
+    "num_scores": 800,
+    "dimension_means": {
+      "Content Completeness": 4.15,
+      "Theme Relevance": 4.5375,
+      "Technical Innovation": 3.9625,
+      "Technical Feasibility": 3.875,
+      "Application Value": 4.2375
+    }
+  },
+  {
+    "source": "grok-4",
+    "label": "Grok-4",
+    "overall_mean": 4.0575,
+    "num_scores": 800,
+    "dimension_means": {
+      "Content Completeness": 3.95,
+      "Theme Relevance": 4.61875,
+      "Technical Innovation": 3.7625,
+      "Technical Feasibility": 3.95625,
+      "Application Value": 4.0
+    }
+  },
+  {
+    "source": "deepseek-v3",
+    "label": "DeepSeek-V3",
+    "overall_mean": 3.8325,
+    "num_scores": 800,
+    "dimension_means": {
+      "Content Completeness": 3.81875,
+      "Theme Relevance": 4.36875,
+      "Technical Innovation": 3.54375,
+      "Technical Feasibility": 3.65625,
+      "Application Value": 3.775
+    }
+  }
+]

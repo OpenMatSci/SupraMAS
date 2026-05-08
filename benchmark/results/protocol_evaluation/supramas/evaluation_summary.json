@@ -1,0 +1,7 @@
+{
+  "baseline_model": "supramas",
+  "exp_reproducibility_avg": 0.831,
+  "exp_feasibility_avg": 0.8387,
+  "overall_avg": 0.8348,
+  "limit": null
+}

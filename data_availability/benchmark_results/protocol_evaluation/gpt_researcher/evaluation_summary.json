@@ -1,0 +1,7 @@
+{
+  "baseline_model": "gpt_researcher",
+  "exp_reproducibility_avg": 0.7884,
+  "exp_feasibility_avg": 0.6855,
+  "overall_avg": 0.7369,
+  "limit": null
+}

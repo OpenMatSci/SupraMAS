@@ -1,0 +1,114 @@
+[
+  {
+    "template_name": "Fabrication of Ni-5at%W substrates with CeO2/YSZ/Y2O3 buffer layers",
+    "template_type": "second promblem solving method",
+    "knowledge_tags": [
+      "Ni-5at%W substrate",
+      "CeO2/YSZ/Y2O3 buffer layer",
+      "textured surface",
+      "YBCO superconducting layer",
+      "sputtering deposition"
+    ],
+    "description": [
+      "Ni-5at%W alloy substrates were selected for their high mechanical strength and ability to develop strong cube texture through rolling/annealing processes.",
+      "CeO2/YSZ/Y2O3 multilayer buffer structure was deposited via sputtering to prevent Ni diffusion, transfer substrate texture, and provide lattice matching for YBCO growth."
+    ],
+    "application_scenarios": [
+      "For REBCO superconducting layers requiring biaxial texture",
+      "For coated conductors needing diffusion barriers",
+      "For applications demanding high critical current density"
+    ],
+    "reason_flow": [
+      "Step 1: Substrate preparation - Cold rolling with 95% reduction followed by recrystallization annealing at 1000°C in forming gas to achieve cube texture {surface roughness <5nm}",
+      "Step 2: Buffer layer deposition - Sequential sputtering of CeO2 (20nm), YSZ (50nm), Y2O3 (30nm) at 700°C with 0.5Pa Ar/O2 mixture {maintain Δa <0.5% between layers}",
+      "Step 3: Interface optimization - Post-deposition annealing at 850°C in vacuum to enhance crystallinity and reduce mismatch stress {FWHM <3° in φ-scan}"
+    ],
+    "example_application": {
+      "example_problem": "How to fabricate a 100m-long coated conductor with Jc >1MA/cm² at 77K",
+      "solution_process": [
+        "Step 1: Prepare Ni-5at%W tape through 12-pass rolling with 8% reduction per pass",
+        "Step 2: Anneal at 1000°C for 2hrs in 4%H2/Ar atmosphere to develop cube texture",
+        "Step 3: Deposit CeO2 layer by DC sputtering at 700°C with 150W power and 0.3Pa pressure",
+        "Step 4: Grow YSZ layer using RF sputtering at 750°C with 200W power and 0.4Pa pressure",
+        "Step 5: Deposit Y2O3 cap layer by pulsed laser deposition at 800°C with 5Hz repetition rate",
+        "Answer: {Achieved Jc=1.2MA/cm² at 77K with Δφ=2.8° and surface roughness Ra=3.2nm}"
+      ]
+    }
+  },
+  {
+    "template_name": "Preparation of Ni-5at%W substrates and CeO2/YSZ/Y2O3 buffer layers",
+    "template_type": "second promblem solving method",
+    "knowledge_tags": [
+      "Ni-5at%W substrate",
+      "CeO2/YSZ/Y2O3 buffer layer",
+      "textured structure",
+      "thermal expansion matching",
+      "sputtering deposition"
+    ],
+    "description": [
+      "Ni-5at%W alloy substrates were selected for their non-magnetic properties, mechanical strength, and ability to develop strong cube texture through rolling/recrystallization.",
+      "A triple-layer CeO2/YSZ/Y2O3 buffer architecture was deposited via sputtering to prevent Ni diffusion, transfer substrate texture, and match thermal expansion coefficients with superconducting layers."
+    ],
+    "application_scenarios": [
+      "For REBCO superconducting tapes requiring biaxial texture",
+      "For high critical current density applications",
+      "For multilayer coated conductor architectures"
+    ],
+    "reason_flow": [
+      "Step 1: Substrate preparation through cold rolling (95% reduction) and annealing (900-1100°C in Ar-4%H2) to achieve cube texture",
+      "Step 2: Y2O3 seed layer deposition by reactive sputtering (400°C, 5e-3 Torr) to initiate aligned growth",
+      "Step 3: YSZ barrier layer formation (DC sputtering at 650°C) for diffusion blocking",
+      "Step 4: CeO2 cap layer deposition (RF sputtering at 750°C) for surface planarization",
+      "Step 5: Thermal treatment optimization (800°C annealing) to enhance layer crystallinity and interface quality"
+    ],
+    "example_application": {
+      "example_problem": "How to achieve high-quality buffer layers on textured Ni-W substrates for coated conductors?",
+      "solution_process": [
+        "Step 1: Prepare Ni-5at%W substrate with 95% cold rolling reduction and anneal at 1000°C for 1h in reducing atmosphere",
+        "Step 2: Deposit 50nm Y2O3 seed layer via reactive sputtering at 400°C with 10sccm oxygen flow",
+        "Step 3: Grow 200nm YSZ layer by DC sputtering at 650°C with 5e-3 Torr working pressure",
+        "Step 4: Deposit 100nm CeO2 cap layer using RF sputtering at 750°C and 2e-2 Torr",
+        "Step 5: Perform post-annealing at 800°C for 30min in Ar/H2 mixture",
+        "Answer: {Achieved buffer layers with Δφ < 5° in-plane texture, surface roughness <5nm RMS, and critical current density >3MA/cm² at 77K}"
+      ]
+    }
+  },
+  {
+    "template_name": "Ni-W alloy substrate preparation with Y2O3 buffer layer deposition",
+    "template_type": "second promblem solving method",
+    "knowledge_tags": [
+      "Ni-5at%W substrate",
+      "Y2O3 buffer layer",
+      "Rolling-assisted biaxially textured substrate",
+      "Pulsed laser deposition",
+      "YBCO superconductor"
+    ],
+    "description": [
+      "Ni-5at%W alloy substrates were developed for their improved mechanical strength and non-magnetic properties compared to pure nickel. Y2O3 buffer layers were deposited to prevent nickel diffusion and provide lattice matching for subsequent superconducting layer growth."
+    ],
+    "application_scenarios": [
+      "For REBCO-type superconducting layers requiring biaxial texture",
+      "For applications demanding high critical current density",
+      "For multilayer superconducting tape architectures"
+    ],
+    "reason_flow": [
+      "Step 1: Substrate fabrication - Cold rolling with 95% reduction followed by recrystallization annealing at 800-1000°C in forming gas atmosphere to develop cube texture",
+      "Step 2: Surface treatment - Electro-polishing in H3PO4:CH3COOH (2:1) solution to achieve surface roughness <5nm",
+      "Step 3: Buffer layer deposition - Pulsed laser deposition of Y2O3 at 800°C with oxygen partial pressure 1e-2 Torr to obtain 50nm thick layer",
+      "Step 4: Structural optimization - Maintaining lattice mismatch <5% between substrate and buffer layer through precise thickness control"
+    ],
+    "example_application": {
+      "example_problem": "How to achieve high-quality YBCO growth on metallic substrates with minimized interface diffusion",
+      "solution_process": [
+        "Step 1: Prepare Ni-5at%W alloy through vacuum induction melting and homogenization at 1200°C for 24h",
+        "Step 2: Cold roll to 0.1mm thickness with 95% total reduction ratio",
+        "Step 3: Recrystallization anneal at 850°C in Ar-4%H2 atmosphere for 1h",
+        "Step 4: Deposit 50nm Y2O3 layer by PLD at 800°C with laser energy density 2J/cm²",
+        "Step 5: Characterize using XRD ω-scan showing FWHM <5° for (200) reflection",
+        "Answer: {Achieved YBCO films with Jc >1MA/cm² at 77K through optimized substrate/buffer architecture}"
+      ]
+    }
+  },
+  null,
+  null
+]

@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use SupraMAS, please cite the associated manuscript and this repository."
+title: "SupraMAS: mechanism-informed closed-loop on-demand design of high-temperature superconducting coated conductors"
+version: "0.1.0"
+date-released: "2026-05-08"
+license: MIT
+authors:
+  - family-names: Cui
+    given-names: Chaowei
+  - family-names: Li
+    given-names: Junrong
+  - family-names: Luo
+    given-names: Binzhao
+  - family-names: Cui
+    given-names: Taoyong
+  - family-names: Liu
+    given-names: Yu
+  - family-names: Liu
+    given-names: Tongfei
+  - family-names: Wang
+    given-names: Weida
+  - family-names: Zhou
+    given-names: Tianyu
+  - family-names: Wang
+    given-names: Dong
+  - family-names: Zhou
+    given-names: Bowen
+  - family-names: Fang
+    given-names: Zhong
+  - family-names: Cai
+    given-names: Yunqi
+  - family-names: Zhang
+    given-names: Shufei
+  - family-names: Ma
+    given-names: Ji
+  - family-names: Yang
+    given-names: Pengtao
+  - family-names: Bai
+    given-names: Lei
+  - family-names: Cheng
+    given-names: Jinguang
+  - family-names: Weng
+    given-names: Hongming
+

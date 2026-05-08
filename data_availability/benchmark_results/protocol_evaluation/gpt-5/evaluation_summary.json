@@ -1,0 +1,7 @@
+{
+  "baseline_model": "gpt-5",
+  "exp_reproducibility_avg": 0.7642,
+  "exp_feasibility_avg": 0.8314,
+  "overall_avg": 0.7978,
+  "limit": null
+}

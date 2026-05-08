@@ -1,0 +1,10 @@
+sample,Tc_MT_K,Jc_4p2K_5T_MA_cm2,Jc_20K_5T_MA_cm2,Jc_77K_0T_MA_cm2,note
+SupraMAS-150 nm,83.2,3.78,2.32,0.1,This study
+SupraMAS-280 nm,86.6,11.25,6.84,0.89,This study
+1st Optimisation,85.2,3.6,1.14,0.17,This study
+2nd Optimisation,89.4,7.99,3.79,2.79,This study
+3rd Optimisation,88.0,12.78,6.44,0.42,This study
+4th Optimisation,85.0,11.21,5.66,0.31,This study
+5th Optimisation,87.4,14.11,7.67,0.65,This study
+SST (2 um),,8,10,3.22,Commercial benchmark cited in manuscript
+Fujikura (2 um),,14,12,2.6,Commercial benchmark cited in manuscript

@@ -1,0 +1,237 @@
+{
+  "level": "1",
+  "topic": {
+    "REBCO": "YBa2Cu3O7(YBCO)",
+    "dopped_materials": "Y2BaCuO5(Y211)",
+    "processing_method": "PLD",
+    "sample_category": "films"
+  },
+  "abstract": "… with a multilayer PLD technique, and the use of a mixed YBCO and 2nd phase … YBCO superconducting films, the simplicity of utilizing a doped single target in PLD for enhancing pinning …",
+  "url": "source_paper_nodes/Study_of_the_flux_pinning_landscape_of_YBCO_thin_films_with_single_and_mixed_phase_additions_BaMO3+_Z:_M=_Hf,_Sn,_Zr_and_Z=_Y2O3,_Y211.pdf",
+  "tuning_strategies": [
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Simultaneous PLD co-deposition of YBCO with mixed-phase nanoparticle additions: BaSnO3 (BSO), BaZrO3 (BZO), BaHfO3 (BHO) as 1D nanorods plus Y2O3 or Y211 as 3D nanoparticles, while keeping the Y2O3/Y211 volume fixed at 3 % and varying the perovskite content (2–10 vol %).",
+      "tuning effects": "At 65 K and 5 K, 10 vol % Y211 single-phase doping yields the highest Jc (>50 % increase in both isotropic-weak and anisotropic-strong pinning contributions); dual-phase BSO+Y2O3 and BZO+Y2O3 give the next-best performance, whereas large lattice-mismatch systems (BHO+Y2O3, BSO+Y211) show reduced Jc despite stronger pinning, evidencing a trade-off between defect density and lattice-strain-induced degradation."
+    },
+    {
+      "tuning dimensions": "Grain boundary tuning",
+      "tuning strategies": "Epitaxial PLD growth on single-crystal LaAlO3 (LAO) and SrTiO3 (STO) substrates; selection of substrate is used to control the in-plane epitaxy and hence the low-angle grain-boundary network in the YBCO matrix.",
+      "tuning effects": "LAO-grown BSO+Y211 films exhibit a crossover at T > 45 K where isotropic weak pinning dominates over anisotropic strong pinning, whereas STO-grown films maintain stronger anisotropic pinning to lower T; substrate choice thus modulates the relative weight of grain-boundary (2D) versus nanorod (1D) pinning channels."
+    },
+    {
+      "tuning dimensions": "Interface tuning",
+      "tuning strategies": "Introduction of coherent perovskite nanorods (BSO, BZO, BHO) and semicoherent Y211 nanoparticles that form clean, chemically sharp interfaces with the YBCO matrix; optimization of deposition temperature (795–835 °C) and oxygen pressure (300 mTorr) to minimize interfacial reactions.",
+      "tuning effects": "TEM/STEM shows defect-free, epitaxial interfaces for Y211 (lowest lattice mismatch, −0.15 %), enabling efficient vortex core pinning without interfacial dislocation networks; higher-mismatch BHO (+7.5 %) and BZO (+8.3 %) develop interfacial strain fields that locally suppress the order parameter and offset pinning gains."
+    },
+    {
+      "tuning dimensions": "Texture tuning",
+      "tuning strategies": "Self-assembly of vertically aligned BSO/BZO/BHO nanorods along the YBCO c-axis during PLD; control of laser repetition rate (4–8 Hz) and substrate temperature to tune the aspect ratio and alignment of 1D APCs.",
+      "tuning effects": "Well-textured nanorods (aspect ratio >10) provide strong anisotropic pinning for H‖c, increasing the anisotropic-strong Jc term (Jan-strongc(0) up to 1.6×10^7 A cm^-2 for Y211); misaligned or shorter rods reduce the directional pinning efficiency and lower Jc anisotropy."
+    },
+    {
+      "tuning dimensions": "Stress tuning",
+      "tuning strategies": "Exploitation of lattice-mismatch-induced biaxial strain: negative mismatch (Y211) compresses the YBCO c-lattice (11.652 Å), whereas positive mismatch (BHO 11.778 Å, BZO 11.736 Å) induces tensile strain; strain state controlled by dopant selection and volume fraction.",
+      "tuning effects": "Compressive strain from Y211 enhances both weak and strong pinning energies (T0 = 14.4 K, T+ = 79.5 K) and raises Jc; tensile strain from BHO/BZO increases defect density but simultaneously introduces dislocations and local Tc suppression, limiting the net Jc gain and establishing an optimal strain window for pinning optimization."
+    }
+  ],
+  "draw_backs": {
+    "shortcoming1": "The study only varied the volume percent of BaHfO3, BaSnO3 or BaZrO3 while keeping Y2O3 or Y211 fixed at 3 vol %, so the full compositional space of mixed-phase additions was not systematically explored.",
+    "shortcoming2": "Deposition temperature was limited to 750–840 °C; no data are provided for the influence of substrate temperature on defect morphology or epitaxial quality, leaving open the possibility of sub-optimal growth conditions.",
+    "shortcoming3": "The use of single-crystal LAO and STO substrates introduces unavoidable lattice-mismatch strain (up to 8.3 % for BZO + Y2O3), which can degrade film quality and mask the intrinsic pinning performance of the added phases.",
+    "shortcoming4": "Despite achieving >50 % increase in both isotropic and anisotropic current contributions with Y211, the absolute Jc values at 65 K and 9 T remain modest, suggesting that the density, size distribution, or alignment of the artificial pinning centers is still insufficient for high-field applications."
+  },
+  "expections": {
+    "expectation1": "Systematically explore the full compositional space of mixed-phase additions by independently varying the volume fractions of all dopants to identify optimal pinning landscapes.",
+    "expectation2": "Establish a substrate-temperature window that maximizes epitaxial quality and minimizes defect-induced strain, enabling reproducible growth of high-performance films.",
+    "expectation3": "Develop strain-engineered or lattice-matched buffer layers to eliminate lattice-mismatch strain and isolate the intrinsic pinning contribution of each dopant phase.",
+    "expectation4": "Achieve markedly higher absolute critical current densities at 65 K and 9 T by increasing the density, refining the size distribution, and improving the alignment of artificial pinning centers."
+  },
+  "children": [
+    {
+      "level": "1.1",
+      "title": "Enhanced flux pinning in YBCO multilayer films with BCO nanodots and segmented BZO nanorods",
+      "abstract": "… The multilayer structure improves pinning capability throughout the whole angular … the BZO doped monolayer reference still has the most isotropic J c . Even though BZO forms nanorods…",
+      "url": "source_paper_nodes/Enhanced_flux_pinning_in_YBCO_multilayer_films_with_BCO_nanodots_and_segmented_BZO_nanorods.pdf",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Alternating BaZrO3 (BZO) and BaCeO3 (BCO) doping in YBCO multilayer films via pulsed-laser deposition (PLD); dopant content fixed at 4 wt-% for each layer; additional reference target with 2 wt-% BZO + 2 wt-% BCO.",
+          "tuning effects": "BZO forms columnar nanorods (diameter ≈ 5 nm, spacing ≈ 10 nm) while BCO forms spherical nanodots (diameter ≈ 3 nm); combined landscape yields higher absolute Jc across all angles and suppresses the c-axis peak when nanorods are segmented; multilayer design outperforms single-doped layers in total pinning force."
+        },
+        {
+          "tuning dimensions": "Grain boundary tuning",
+          "tuning strategies": "Creation of segmented, short BZO nanorods by inserting BCO-doped spacer layers between BZO-doped YBCO layers; nanorods are prevented from continuous growth across the entire film thickness.",
+          "tuning effects": "Segmented nanorods act as strong pinning centers for B||ab-plane fields due to rod-end pinning; shorter rods reduce c-axis correlated peak but enhance pinning at intermediate angles; segmented architecture outperforms continuous rods in Jc magnitude at low fields."
+        },
+        {
+          "tuning dimensions": "Interface tuning",
+          "tuning strategies": "Introduction of multiple BZO/BCO-doped YBCO interfaces by alternating layers; interfaces are formed every 100–1000 nm depending on layer thickness; longer deposition dwell at 750 °C allows interface relaxation.",
+          "tuning effects": "Interfaces act as barriers to vortex kink propagation; BCO nanodots in spacer layers prevent vortex hopping between nanorod segments; interfacial strain relaxation generates out-of-plane edge dislocations that provide extra pinning and increase self-field Jc."
+        },
+        {
+          "tuning dimensions": "Texture tuning",
+          "tuning strategies": "PLD growth on (001) SrTiO3 substrates at 750 °C with optimized fluence (1.3 J cm⁻²) and repetition rate (5 Hz); nanorods exhibit slight splay and flexure controlled by deposition temperature; no intentional off-axis texturing.",
+          "tuning effects": "Splayed nanorods broaden the c-axis peak into a double-peak structure, improving pinning over a wider angular range; flexural rods reduce intrinsic anisotropy; texture remains epitaxial (c-axis oriented) without degradation of Tc (87.7–88.6 K) except for distorted CZ sample."
+        },
+        {
+          "tuning dimensions": "Stress tuning",
+          "tuning strategies": "Exploiting lattice mismatch between BZO (larger lattice) and BCO (higher strain) layers; strain fields from BCO disrupt continuous nanorod growth; longer dwell time at deposition temperature allows stress relaxation via edge dislocations.",
+          "tuning effects": "Local strain around BCO nanodots enhances pinning potential; strain-induced dislocations at BZO/BCO interfaces provide additional uncorrelated pinning; overall stress management yields higher Jc without compromising Tc except in highly strained CZ sample."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "Manual in-situ target switching during multilayer deposition leads to non-uniform layer thickness and unavoidable interface roughness, limiting the reproducibility of the pinning landscape.",
+        "shortcoming2": "BCO doped layers introduce higher lattice strain than BZO layers, causing local structural distortions and out-of-plane edge dislocations that may locally suppress superconductivity and reduce the effective pinning volume.",
+        "shortcoming3": "Short BZO nanorods (< ~250 nm) fail to generate a pronounced c-axis peak in Jc(θ), indicating that their pinning efficiency along the c direction is insufficient for high-field applications.",
+        "shortcoming4": "The absence of a c-axis peak in multilayer samples prevents the use of Blatter scaling to quantify anisotropy, leaving the intrinsic pinning anisotropy incompletely characterized."
+      },
+      "expections": {
+        "expectation1": "Achieve atomically sharp and reproducible interfaces by implementing automated target-switching and real-time thickness monitoring during PLD growth.",
+        "expectation2": "Minimize lattice-strain-induced defects through co-doping or buffer-layer engineering to preserve bulk superconductivity while retaining strong pinning.",
+        "expectation3": "Engineer longer, continuous BZO nanorods or introduce additional correlated defects to restore a robust c-axis peak and enhance high-field Jc.",
+        "expectation4": "Develop complementary anisotropy-characterization protocols (e.g., torque magnetometry or angular-dependent magnetization) to accurately quantify pinning anisotropy even in the absence of a c-axis peak."
+      },
+      "children": [
+        {
+          "level": "1.1.1",
+          "title": "Enhanced 77 K vortex-pinning in Y Ba2Cu3O7− x films with Ba2Y TaO6 and mixed Ba2Y TaO6+ Ba2Y NbO6 nano-columnar inclusions with irreversibility …",
+          "abstract": "… c-axis oriented BYTO/BYNTO nanocolumns observed in the YBCO matrix. Additionally, for the YBCO-BYNTO … Mixed targets of YBCO with double perovskite-like BYTO and BYNTO were …",
+          "url": "source_paper_nodes/Enhanced_77_K_vortex-pinning_in_Y_Ba2Cu3O7−_x_films_with_Ba2Y_TaO6_and_mixed_Ba2Y_TaO6+_Ba2Y_NbO6_nano-columnar_inclusions_with_irreversibility_….pdf",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Replace 5 at.% Ba2YTaO6 (BYTO) single-phase pinning centers with 2.5 at.% BYTO + 2.5 at.% Ba2YNbO6 (BYNO) mixed-phase additions in YBa2Cu3O7−x (YBCO) targets used for pulsed-laser deposition.",
+              "tuning effects": "Mixed BYTO+BYNO columns remain continuous and un-segmented, increasing the 77 K irreversibility field from >10 T (BYTO only) to 11 T (BYTO+BYNO) and raising the maximum pinning-force density to 11.5 GN m−3, while preserving straight 5 nm-diameter nanocolumns at ~2500 µm−2 density."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Self-assemble c-axis-oriented BYTO or BYTO+BYNO nanocolumns (diameter ≈5 nm, density ≈2500 µm−2) that thread the entire YBCO film thickness (~230 nm) and act as artificial pinning centers (APCs) intersecting grain boundaries.",
+              "tuning effects": "Nanocolumns suppress grain-boundary weak-link behavior, yielding a strong correlated pinning peak at θ = 0° (B∥c) and extending the critical-current plateau to 5 T (matching field Bφ ≈ 5.2 T) without degradation of in-plane (θ = 90°) Jc."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Engineer the YBCO/STO substrate interface by introducing a thin distorted YBCO seed layer followed by continuous APC nanocolumn growth; additionally, allow Y2O3 nanoparticles to nucleate adjacent to BYNTO columns, creating a secondary pinning landscape.",
+              "tuning effects": "The seed layer promotes coherent columnar growth, while Y2O3 nanoparticles at column interfaces provide supplementary isotropic pinning, enhancing Jc in mid-to-high fields (1–5 T) and smoothing the angular Jc(θ) dependence."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Maintain epitaxial c-axis texture of YBCO matrix during PLD growth at ~0.3 nm s−1 on (001) STO single-crystal substrates while embedding perfectly aligned BYTO/BYNO double-perovskite nanocolumns along the c-direction.",
+              "tuning effects": "Strong c-axis texture preserves intrinsic ab-plane pinning and ensures that the nanocolumns act as highly effective correlated defects, giving a sharp Jc peak at θ = 0° and an extended angular window (±45°) of high Jc at 77 K."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Exploit lattice mismatch between YBCO and BYTO/BYNO to generate controlled strain fields; in BYTO-only films, accumulated stress is periodically relaxed via hammerhead-like column truncations and formation of Y124/Y247 intergrowths, whereas in BYTO+BYNO films, faster-diffusing Nb5+ ions relieve strain continuously, preventing column interruption.",
+              "tuning effects": "In BYTO films, partial stress relaxation via hammerheads and intergrowths limits high-field pinning, causing a Jc drop at ~3.5 T; in BYTO+BYNO films, continuous stress relaxation maintains column integrity, extending high-performance pinning to 11 T."
+            }
+          ],
+          "draw_backs": {
+            "shortcoming1": "In the YBCO-BYTO film, the BYTO nanocolumns are locally interrupted and exhibit hammerhead-like truncations; this segmentation reduces the effective pinning length and likely limits the achievable critical current density at high fields (>3.5 T).",
+            "shortcoming2": "The deposition process generates a high density of Y124/Y247 intergrowths and misfit dislocations around the APCs, introducing additional strain and local degradation of the YBCO matrix that may suppress the intrinsic Jc.",
+            "shortcoming3": "The study was performed only on 215–230 nm thin films grown on single-crystal SrTiO3 substrates; the high degree of epitaxy and substrate choice may not translate to the buffered metallic tapes required for practical coated conductors.",
+            "shortcoming4": "The overall self-field Jc(0) of the APC-doped films (1.6–3.2 MA cm⁻²) remains below that of the optimized pristine YBCO film (4.0 MA cm⁻²), indicating that the introduction of BYTO/BYNTO nanoparticles currently compromises the zero-field performance."
+          },
+          "expections": {
+            "expectation1": "Achieve fully continuous, non-truncated nanocolumns throughout the entire film thickness to maximize pinning effectiveness at high magnetic fields.",
+            "expectation2": "Suppress formation of Y124/Y247 intergrowths and misfit dislocations around the APCs to preserve the intrinsic integrity and Jc of the YBCO matrix.",
+            "expectation3": "Demonstrate comparable or superior performance on buffered metallic substrates typical of coated conductors, validating scalability beyond single-crystal STO.",
+            "expectation4": "Realize APC-enhanced films that retain or exceed the self-field Jc(0) of optimized pristine YBCO, eliminating the current zero-field penalty."
+          },
+          "children": []
+        },
+        {
+          "level": "1.1.2",
+          "title": "Flux pinning properties and microstructures of a SmBa2Cu3Oy film with high number density of BaHfO3 nanorods deposited by using low-temperature growth …",
+          "abstract": "… flux pinning properties and microstructures of the film with those of a BHO-doped SmBCO (PLD-SmBCO + BHO) … We applied an alternating target (ALT) technique to introduce BHO into …",
+          "url": "source_paper_nodes/Flux_pinning_properties_and_microstructures_of_a_SmBa2Cu3Oy_film_with_high_number_density_of_BaHfO3_nanorods_deposited_by_using_low-temperature_growth_….pdf",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Introduce 4.1 vol % BaHfO₃ (BHO) into SmBa₂Cu₃Oᵧ (SmBCO) matrix via alternating-target PLD; keep BHO content identical between LTG and conventional PLD films to isolate temperature effect.",
+              "tuning effects": "Maintains Tc > 90 K while enabling self-assembled BHO nanorods; LTG film achieves record-high number density 2830 µm⁻² (≈4× that of conventional PLD) and matching field Bφ = 5.8 T, leading to Fp^max = 23.8 GN m⁻³ at 77 K, 4.5 T (B || c)."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Employ low-temperature growth (LTG) technique: 50 nm c-axis SmBCO seed layer deposited at 850 °C followed by 450 nm SmBCO+BHO upper layer grown at 750 °C to suppress a-axis grain formation.",
+              "tuning effects": "Eliminates misoriented/a-axis grains seen in conventional low-T growth; preserves high in-plane texture (identical FWHM of (005) and (102) peaks), ensuring coherent BHO nanorod alignment and preventing weak-link degradation."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Use LaAlO₃(100) single-crystal substrate and epitaxial seed layer to establish coherent (001)[100] SmBCO || (001)[100] LaAlO₃ interface; continuous BHO nanorods nucleate from seed-layer interface to film surface.",
+              "tuning effects": "Provides defect-free, lattice-matched interface for vertical nanorod growth; intermittent connectivity of BHO from interface to surface maximizes c-axis correlated pinning volume, shifting Fp^max from 1.5 T (PLD) to 4.5 T (LTG)."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Lower upper-layer growth temperature (T_s^upper = 750 °C) under fixed 400 mTorr O₂ to shorten surface diffusion length, increase nucleation frequency, and promote dense, straight-to-slightly-tilted BHO nanorods along c-axis.",
+              "tuning effects": "Reduces nanorod diameter from 13.5 nm (PLD) to 7 nm (LTG) while quadrupling number density; slight tilting broadens angular pinning range, yielding sustained Jc = 0.46 MA cm⁻² at 5 T, 77 K (≈15× pure SmBCO)."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Exploit lattice mismatch and thermal-expansion difference between SmBCO matrix and BHO nanorods (perovskite structures with different lattice parameters) combined with low-temperature growth to introduce compressive strain around nanorods.",
+              "tuning effects": "Strain fields around finer, denser BHO nanorods enhance local Bc2 and core pinning potential; stress-induced defects cooperate with nanorods to boost high-field Fp, making LTG-SmBCO+BHO competitive with record BSO-doped YBCO films."
+            }
+          ],
+          "draw_backs": {
+            "shortcoming1": "The low-temperature growth (LTG) technique, while increasing the number density of BaHfO3 nanorods, simultaneously reduced the self-field critical current density (Jc^self) to only 2.0 MA cm⁻²—about one-third of the 6.2 MA cm⁻² obtained in the conventional PLD film—indicating a trade-off between nanorod density and in-field Jc performance.",
+            "shortcoming2": "Despite achieving a record-high nanorod density (2830 µm⁻²), the LTG film exhibited a lower maximum pinning force density (F_p^max = 23.8 GN m⁻³ at 4.5 T) compared to the literature record (28.3 GN m⁻³ at 3 T), suggesting that the smaller-diameter (7 nm) and partially tilted nanorods are less effective at high fields.",
+            "shortcoming3": "The LTG process produced BaHfO3 nanorods with a pronounced inclination away from the c-axis; these misaligned defects cannot act as ideal c-axis-correlated pinning centers, which likely limits the achievable matching field B* (5.8 T) and reduces pinning efficiency above 4 T.",
+            "shortcoming4": "The study was restricted to single-crystalline LaAlO₃ substrates and did not explore coated-conductor architectures (e.g., IBAD or RABiTS tapes); thus, the scalability and robustness of the LTG technique under more industrially relevant conditions remain unverified."
+          },
+          "expections": {
+            "expectation1": "Simultaneously achieve high nanorod density and retain high self-field critical current density (Jc^self > 6 MA cm⁻²) by optimizing the low-temperature growth parameters.",
+            "expectation2": "Attain or exceed the literature-record maximum pinning force density (F_p^max ≥ 28.3 GN m⁻³) at 77 K and 3 T while preserving the high nanorod density.",
+            "expectation3": "Realize perfectly c-axis-aligned BaHfO3 nanorods with minimal tilt to fully exploit c-axis-correlated pinning and raise the effective matching field beyond 6 T.",
+            "expectation4": "Demonstrate the scalability of the LTG technique on industrially relevant coated-conductor templates (IBAD/RABiTS) while maintaining superior pinning performance."
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": "1.2",
+      "title": "Multifunctional, phase separated, BaTiO3+ CoFe2O4 cap buffer layers for improved flux-pinning inYBa2Cu3O7− δ based coated conductors",
+      "abstract": "… antiphase boundaries, dislocations and stacking faults observed in the initial YBCO film should play an important role in improving pinning. Moreover, since the defects observed here …",
+      "url": "source_paper_nodes/Multifunctional,_phase_separated,_BaTiO3+_CoFe2O4_cap_buffer_layers_for_improved_flux-pinning_inYBa2Cu3O7−_δ_based_coated_conductors.pdf",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Adjusting the stellar-mass selection threshold (Mi(z)) for red-sequence galaxies while keeping comoving number density fixed; k+e correction with FSPS or M11 stellar-population models to isolate passive-evolution tracks.",
+          "tuning effects": "Maintains constant comoving density (0.4–2 × 10⁻⁴ h³ Mpc⁻³) across 0.43 < z < 0.7, yielding projected 2PCF amplitudes consistent with passive-evolution predictions; suppresses satellite-galaxy fraction in massive halos and preserves high clustering strength (r₀ ≈ 8–10 h⁻¹ Mpc) for luminous red galaxies."
+        },
+        {
+          "tuning dimensions": "Grain boundary tuning",
+          "tuning strategies": "Imposing color–magnitude cuts (Equations 1–3) and d⊥ sliding cut to remove faint/blue interlopers; subdividing red sequence into ‘redseq’ and ‘reddest’ subsamples via Gaussian fits to r−i color distribution.",
+          "tuning effects": "Narrows intrinsic color scatter of red-sequence galaxies at high luminosity and low redshift, sharpening the red-sequence ‘grain boundary’; increases small-scale clustering slope (γ ≈ 1.88–1.91) and boosts correlation length by ≈15 % for the reddest subset relative to the redseq sample."
+        },
+        {
+          "tuning dimensions": "Interface tuning",
+          "tuning strategies": "Cross-matching CMASS galaxies with COSMOS HST imaging to define observer-frame g−i = 2.35 cut, separating early-type (elliptical) from late-type (spiral) interfaces; applying k+e corrected r−i color cut to minimize redshift-dependent interface mixing.",
+          "tuning effects": "Reduces contamination of LRG progenitors with residual star formation; yields cleaner interface between red and blue populations, enhancing measured bias factor (b ≈ 2.1–2.3) and preserving passive-evolution consistency for red galaxies across 0.45 < z < 0.65."
+        },
+        {
+          "tuning dimensions": "Texture tuning",
+          "tuning strategies": "Measuring projected 2PCF wp(rp) on 0.05–25 h⁻¹ Mpc scales and fitting power-law ξ(r) = (r/r₀)⁻ᵞ; applying jackknife resampling with 100 sub-volumes to quantify texture covariance.",
+          "tuning effects": "Reveals scale-dependent transition from one-halo to two-halo term; steeper slope (γ ≈ 1.85–2.13) for more luminous/blue-cloud samples indicates denser halo ‘texture’ and stronger small-scale clustering, enabling tighter constraints on satellite fraction and halo occupation distribution."
+        },
+        {
+          "tuning dimensions": "Stress tuning",
+          "tuning strategies": "Correcting for redshift-space distortions via projection along line-of-sight to 80 h⁻¹ Mpc; applying fiber-collision correction (Guo et al. 2012) to recover pairs missed below 62″ angular separation; weighting galaxies with wFKP, wrf, wsys to mitigate systematic stresses.",
+          "tuning effects": "Recovers ≈5.5 % of collided galaxies, reducing systematic error in wp to <5 % at rp < 0.5 h⁻¹ Mpc; preserves measured large-scale bias (b = 2.16 ± 0.01) and enables robust detection of ‘Fingers-of-God’ compression, confirming stronger virialized motions in red galaxies."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "The CMASS selection cuts (Equations 1–3) introduce redshift-dependent incompleteness, especially for blue galaxies at z < 0.55 and for faint galaxies at high redshift, limiting the ability to construct fully volume-limited samples and thus constraining the accuracy of clustering measurements.",
+        "shortcoming2": "The d⊥ and sliding magnitude cuts (Equations 2–3) exclude a significant fraction of faint and blue galaxies, leading to an under-representation of low-luminosity star-forming galaxies and potentially biasing the inferred luminosity and color dependence of galaxy clustering.",
+        "shortcoming3": "The use of k + e corrections based on a single FSPS stellar evolution model introduces systematic uncertainties in the derived absolute magnitudes and colors, which may affect the interpretation of redshift evolution and the comparison between different redshift bins.",
+        "shortcoming4": "The jackknife error estimation method may overestimate the covariance on small scales (≤2 h⁻¹ Mpc) and underestimate it on large scales, potentially leading to inaccurate error bars and affecting the significance of clustering measurements, especially for subsamples with lower number densities."
+      },
+      "expections": {
+        "expectation1": "Achieve redshift-independent completeness across all galaxy populations by refining selection criteria to eliminate luminosity- and color-dependent incompleteness.",
+        "expectation2": "Obtain unbiased samples of faint and blue galaxies at all redshifts to accurately quantify their clustering properties and contribution to large-scale structure.",
+        "expectation3": "Implement multiple stellar-population synthesis models and cross-calibrate k + e corrections to reduce systematic uncertainties in absolute magnitudes and colors.",
+        "expectation4": "Develop mock catalogs that reproduce small-scale clustering and validate error-covariance matrices to ensure reliable clustering measurements across all scales."
+      },
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Critical Current Density (Jc) Calculation Details
+## Bean Critical-State Model Formula for Rectangular Thin Films
+Jc [A/cm²] = (20 × ΔM) / [b × (1 - b/(3a))]
+
+## Parameter Definitions
+- Jc: Critical current density, unit: A/cm²
+- ΔM: Volume magnetization difference from M-H hysteresis loops (M_up - M_down), unit: emu/cm³
+- a, b: Lateral dimensions of the rectangular thin film sample (perpendicular to the applied magnetic field), unit: cm
+- c: Thickness of the thin film, unit: cm
+
+## Parameters Used in This Work
+1.  Sample dimensions (converted to cm for unit consistency):
+    - a = 5 mm = 0.5 cm (long side of the film)
+    - b = 2.5 mm = 0.25 cm (short side of the film)
+    - c = 280 nm = 2.8 × 10⁻⁵ cm (measured by cross-sectional SEM, Fig.3c)
+2.  Sample volume for magnetization conversion:
+    V = a × b × c = 0.5 cm × 0.25 cm × 2.8 × 10⁻⁵ cm = 3.5 × 10⁻⁶ cm³
+    *Note: The raw magnetic moment (in emu) from SQUID was divided by this volume to obtain ΔM in emu/cm³.

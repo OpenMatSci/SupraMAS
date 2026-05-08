@@ -1,0 +1,191 @@
+{
+  "level": "1",
+  "topic": {
+    "REBCO": "EuBCO",
+    "dopped_materials": "BYNO",
+    "processing_method": "PLD",
+    "sample_category": "films"
+  },
+  "abstract": "… pinning properties of BHO-doped EuBCO CCs fabricated with different deposition rates by the hot-wall PLD … system that realizes stable heating during the REBCO film deposition [15]. …",
+  "url": "source_paper_nodes/Flux-Pinning_Properties_of_BaHfO3-Doped_EuBCO-Coated_Conductors_Fabricated_by_Hot-Wall_PLD.pdf",
+  "tuning_strategies": [
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Doping BaHfO3 (BHO) into EuBa2Cu3Ox (EuBCO) matrix",
+      "tuning effects": "Introduction of BHO precipitates as artificial pinning centers (APCs) significantly enhances the in-field critical current density (Jc) at low temperatures and high magnetic fields, with Fp max exceeding 1.0 TN/m3 at 4.2 K."
+    },
+    {
+      "tuning dimensions": "Grain boundary tuning",
+      "tuning strategies": "Utilizing hot-wall pulsed-laser deposition (PLD) for REBCO film growth",
+      "tuning effects": "The hot-wall PLD process ensures stable heating during deposition, leading to improved longitudinal critical current (Ic) uniformity and reproducibility, as evidenced by the 640 m long BHO-doped EuBCO CC with good Ic homogeneity."
+    },
+    {
+      "tuning dimensions": "Interface tuning",
+      "tuning strategies": "Deposition of REBCO on IBAD-MgO substrates with CeO2 buffer layer",
+      "tuning effects": "The IBAD-MgO substrate with CeO2 buffer layer provides a well-aligned template for REBCO growth, enhancing the overall superconducting properties and in-field performance of the coated conductors."
+    },
+    {
+      "tuning dimensions": "Texture tuning",
+      "tuning strategies": "Adjusting the deposition rate during PLD process",
+      "tuning effects": "Higher deposition rates (20-30 nm/sec) result in BHO precipitates behaving like random pinning centers, reducing anisotropy and improving Jc across various magnetic field angles, particularly at low temperatures and high fields."
+    },
+    {
+      "tuning dimensions": "Stress tuning",
+      "tuning strategies": "Optimizing the thickness of the REBCO layer through deposition rate control",
+      "tuning effects": "Fast deposition rates allow for thicker REBCO layers, which, despite lower Jc at 77 K and self-field, provide higher in-field Ic values at 4.2 K due to increased volume of superconducting material, making it advantageous for mass production and high-field magnet applications."
+    }
+  ],
+  "draw_backs": {
+    "shortcoming1": "The nanoparticles in the FAST sample are not clearly observed in the TEM images, which makes it difficult to distinguish them from the matrix phase due to the close lattice constants of BHO and the matrix phase.",
+    "shortcoming2": "The introduced APCs in the BHO-doped REBCO film deposited with a high rate by PLD behave like anisotropic but random pinning centers, and the reason for this behavior is not fully understood and requires further investigation.",
+    "shortcoming3": "The Jc-B properties of the FAST sample are not perfectly scaled with respect to Bcosθ, indicating that the anisotropy is decreased, which may lead to overestimation of the coil Ic in coil design.",
+    "shortcoming4": "The SLOW sample, despite having the highest Jc, does not have the highest Ic due to a thinner REBCO layer, which limits its practical application in high-field magnets."
+  },
+  "expections": {
+    "expectation1": "Achieve clear observation and distinction of nanoparticles in the TEM images to better understand the interaction between BHO and the matrix phase.",
+    "expectation2": "Elucidate the mechanism behind the anisotropic but random pinning behavior of APCs in high-rate PLD-deposited BHO-doped REBCO films for optimized pinning performance.",
+    "expectation3": "Develop a scaling model for Jc-B properties that accurately accounts for decreased anisotropy, ensuring precise coil design and performance prediction.",
+    "expectation4": "Enhance the REBCO layer thickness in SLOW samples to maximize both Jc and Ic, making them more suitable for high-field magnet applications."
+  },
+  "children": [
+    {
+      "level": "1.1",
+      "title": "Separating the effects of different flux pinning defects on the field, angular, and temperature dependence of Jc in commercial REBCO coated conductors",
+      "abstract": "… adds to the insulating nano-precipitate pinning of BZO and RE2O3. These vacancies … Pinning specification with 7.5 mol% Zr doping has its origin in significant variation of BZO nanorod …",
+      "url": "source_paper_nodes/Separating_the_effects_of_different_flux_pinning_defects_on_the_field,_angular,_and_temperature_dependence_of_Jc_in_commercial_REBCO_coated_conductors.pdf",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Doping with Zirconium (Zr) in the REBCO precursor to create self-assembled BaZrO3 (BZO) nanocolumns.",
+          "tuning effects": "Enhances flux pinning and increases Jc by up to 2.5 times at 77 K, 1 T when the field is perpendicular to the tape (B⊥tape)."
+        },
+        {
+          "tuning dimensions": "Grain boundary tuning",
+          "tuning strategies": "Introduction of RE2O3 precipitate arrays along the ab-planes.",
+          "tuning effects": "Improves vortex pinning at high temperatures, contributing to higher Jc in the ab-plane orientation."
+        },
+        {
+          "tuning dimensions": "Interface tuning",
+          "tuning strategies": "Use of ion beam assisted deposition (IBAD) to create highly textured buffer layers of MgO on Hastelloy substrates.",
+          "tuning effects": "Provides a template for the textured growth of the REBCO layer, enhancing overall superconducting properties."
+        },
+        {
+          "tuning dimensions": "Texture tuning",
+          "tuning strategies": "Metal organic chemical vapor deposition (MOCVD) for the REBCO layer.",
+          "tuning effects": "Achieves highly textured REBCO films, which are crucial for high critical current densities."
+        },
+        {
+          "tuning dimensions": "Stress tuning",
+          "tuning strategies": "Controlling the lattice mismatch between BaZrO3 (BZO) nanorods and the REBCO matrix.",
+          "tuning effects": "Generates dense point pins around the BZO nanorods, which significantly contribute to Jc at low temperatures (below 30 K)."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "The study acknowledges that the exponential temperature dependence does not properly describe the experimental behavior of Jc above 40 K, indicating limitations in the current modeling approach for higher temperatures.",
+        "shortcoming2": "The fitting parameters used to predict Jc(B, T) are less accurate at high fields and temperatures, suggesting a need for refined equations to reduce error and extend the temperature range.",
+        "shortcoming3": "The study highlights the significant variability in pinning properties among tapes made to the same specification, indicating inherent fluctuations in the manufacturing process that are difficult to control.",
+        "shortcoming4": "The presence of weak, uncorrelated pinning by isotropic point pins, which are active only below 30 K - 40 K, limits the effectiveness of the pinning landscape at higher temperatures."
+      },
+      "expections": {
+        "expectation1": "Develop refined models that accurately describe the temperature dependence of Jc above 40 K to improve the prediction of high-temperature behavior.",
+        "expectation2": "Enhance the fitting parameters and equations to reduce error and extend the applicability of Jc(B, T) predictions to higher fields and temperatures.",
+        "expectation3": "Implement improved manufacturing processes to reduce variability in pinning properties among tapes made to the same specification.",
+        "expectation4": "Increase the effectiveness of the pinning landscape at higher temperatures by optimizing the density and distribution of isotropic point pins and other pinning mechanisms."
+      },
+      "children": [
+        {
+          "level": "1.1.1",
+          "title": "c-axis superconducting performance enhancement in Co-doped Ba122 thin films by an artificial pinning center design",
+          "abstract": "… oriented along the c-axis of the Co-doped Ba122 matrix, as revealed by the transmission electron microscope (TEM) measurements, and serve as strong c-axis pinning … in c-axis J c , …",
+          "url": "source_paper_nodes/c-axis_superconducting_performance_enhancement_in_Co-doped_Ba122_thin_films_by_an_artificial_pinning_center_design.pdf",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Introducing 1% mol and 3% mol Y2O3 oxide particles into Co-doped BaFe2As2 thin films",
+              "tuning effects": "The Y2O3 oxide particles form amorphous nanorods oriented along the c-axis, serving as strong c-axis pinning centers. This significantly enhances the transport critical current density Jc, reaching ~3.9 MA cm−2 in self-field at 4.2 K, and improves the thermal activation energies for vortex motion parallel to the c-axis."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Using pulsed laser deposition (PLD) with optimal fabrication conditions (1.4 J cm−2 laser energy density, 9 Hz repetition rate, 40 mm target-substrate distance, 700 °C substrate temperature)",
+              "tuning effects": "The films exhibit high-quality epitaxial growth with c-axis orientation and in-plane four-fold symmetry. The structural degradation is minimal, and the films maintain robust grain boundaries, which are crucial for maintaining high Jc."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Depositing Co-doped BaFe2As2 thin films on CaF2 (00l) single crystal substrates",
+              "tuning effects": "A reaction layer of ~5 nm forms at the interface, which, despite being partly amorphized, supports cube-on-cube epitaxial growth. This interface engineering helps in achieving high-quality films with enhanced superconducting properties."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Controlling the growth orientation to achieve c-axis orientation and in-plane four-fold symmetry",
+              "tuning effects": "The films show sharp ab-plane peaks and strong c-axis peaks in the angular dependence of Jc, indicating effective texture control. This texture tuning enhances the pinning performance, particularly along the c-axis."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Incorporating Y2O3 oxide particles to induce local positive strain along the c-axis",
+              "tuning effects": "The local strain caused by the Y2O3 nanorods elongates the c-axis, which improves the pinning strength along the c-axis. This stress tuning results in a significant enhancement of the c-axis superconducting performance, especially at low and medium fields."
+            }
+          ],
+          "draw_backs": {
+            "shortcoming1": "The introduction of Y2O3 oxide particles leads to structural degradation, as evidenced by the increased out-of-plane mosaic Δω and in-plane mosaic Δj with higher doping levels.",
+            "shortcoming2": "The critical temperature (Tc) of the Co-doped Ba122 thin films is reduced due to the oxide doping, indicating a degradation in superconducting properties.",
+            "shortcoming3": "The effectiveness of the nanorods in enhancing the c-axis superconducting performance diminishes at higher temperatures and fields, particularly for the higher doping level (3% mol Y2O3).",
+            "shortcoming4": "The pinning mechanism introduced by the oxide doping is complex and involves a superposition of different pinning types, which may limit the overall optimization of the pinning strength."
+          },
+          "expections": {
+            "expectation1": "Achieve minimal structural degradation by optimizing the doping process to maintain high crystalline quality in the thin films.",
+            "expectation2": "Enhance the critical temperature (Tc) of the Co-doped Ba122 thin films by refining the oxide doping strategy to minimize its negative impact on superconducting properties.",
+            "expectation3": "Improve the effectiveness of nanorods in enhancing c-axis superconducting performance across a wider range of temperatures and fields, particularly for higher doping levels.",
+            "expectation4": "Clarify and optimize the pinning mechanism by isolating and enhancing specific pinning types to maximize the overall pinning strength and critical current density."
+          },
+          "children": []
+        },
+        {
+          "level": "1.1.3",
+          "title": "Approaches in controllable generation of artificial pinning center in REBa2Cu3Oy-coated conductor for high-flux pinning",
+          "abstract": "… 400 mTorr during the deposition. We used an alternating target technique to add BHO to the … We discussed a large amount of BHO-doped SmBCO film using the LTG method shown in …",
+          "url": "source_paper_nodes/Approaches_in_controllable_generation_of_artificial_pinning_center_in_REBa2Cu3Oy-coated_conductor_for_high-flux_pinning.pdf",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Introducing BaMO3 (BMO) materials such as BaHfO3 (BHO) into REBa2Cu3Oy (REBCO) films to form artificial pinning centers (APCs).",
+              "tuning effects": "The addition of BHO nanorods significantly enhances the flux-pinning force density (Fp) in SmBCO films, achieving Fp_max = 1.6 TN m−3 at 4.2 K on single crystalline substrates and 1.5 TN m−3 on metallic substrates with biaxially textured MgO layers."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Using low-temperature growth (LTG) technology with seed layers to control the growth of BHO nanorods in SmBCO films.",
+              "tuning effects": "The LTG method results in fine and high-density BHO nanorods, which improve the critical current density (Jc) in magnetic fields, particularly at low temperatures (4.2–40 K)."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Optimizing the growth temperature and amount of BHO to control the shape and density of nanorods in SmBCO films.",
+              "tuning effects": "Lower growth temperatures lead to thinner and more inclined BHO nanorods, enhancing the pinning energy and improving Jc in low-temperature and high magnetic field conditions."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Depositing SmBCO films on biaxially textured MgO layers using the ion-beam assisted deposition (IBAD) method.",
+              "tuning effects": "The textured MgO layers improve the alignment of SmBCO grains, leading to higher Jc values and better flux-pinning properties in coated conductors."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Employing the LTG method to relax the misfit between the substrate and the superconducting layer, reducing stress and defects.",
+              "tuning effects": "The LTG method results in high-quality SmBCO films with reduced stress, leading to enhanced superconducting properties and higher Fp values in magnetic fields."
+            }
+          ],
+          "draw_backs": {
+            "shortcoming1": "The study mentions that the increase in the amount of BaMO3 (BMO) materials can lead to a decrease in the critical temperature (Tc) and critical current density (Jc) at self-field, indicating that there is an optimal amount of BMO to be added. This suggests that the composition control of BMO materials is not fully optimized.",
+            "shortcoming2": "The paper discusses the challenges in controlling the shape and growth direction of BMO nanorods, especially at lower growth temperatures, where nanorods grow thinner and at different angles. This indicates limitations in the deposition temperature control and the ability to precisely control the nanostructure.",
+            "shortcoming3": "The study highlights that the flux-pinning mechanism in the low-temperature region is different from the high-temperature region near liquid nitrogen temperature and has not been sufficiently discussed. This points to a gap in understanding the flux-pinning mechanisms across different operational temperatures.",
+            "shortcoming4": "The paper acknowledges that the longitudinal magnetic-field effect, which is crucial for improving the force-free Jc, has been less explored in REBCO films compared to metal superconducting wires like Nb-Ti. This indicates a limitation in the exploration and application of longitudinal magnetic-field effects in REBCO superconductors."
+          },
+          "expections": {
+            "expectation1": "Optimize the composition control of BMO materials to achieve the optimal amount that maximizes critical temperature (Tc) and critical current density (Jc) at self-field.",
+            "expectation2": "Develop precise control over the deposition temperature to achieve uniform and well-aligned BMO nanorods, especially at lower growth temperatures.",
+            "expectation3": "Enhance the understanding of flux-pinning mechanisms across different operational temperatures to improve the performance of REBCO films in various temperature ranges.",
+            "expectation4": "Explore and apply longitudinal magnetic-field effects in REBCO films to significantly improve the force-free Jc, similar to advancements in metal superconducting wires like Nb-Ti."
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

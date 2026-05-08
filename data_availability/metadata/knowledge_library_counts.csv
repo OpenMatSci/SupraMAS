@@ -1,0 +1,10 @@
+relative_path,json_type,record_count
+knowledge_libraries/mechanism/mechanism.json,list,5
+knowledge_libraries/strategy/tuning_strategy_v1.json,list,5
+knowledge_libraries/template/all_responses_1.json,list,5
+knowledge_libraries/template/all_responses_2.json,list,5
+knowledge_libraries/template/all_responses_3.json,list,5
+knowledge_libraries/template/all_responses_4.json,list,5
+knowledge_libraries/template/all_responses_5.json,list,5
+knowledge_libraries/template/all_responses_6.json,list,5
+knowledge_libraries/template/all_responses_theory.json,list,5

@@ -1,0 +1,7 @@
+{
+  "baseline_model": "gemini-2.5-pro-thinking",
+  "exp_reproducibility_avg": 0.7787,
+  "exp_feasibility_avg": 0.7106,
+  "overall_avg": 0.7447,
+  "limit": null
+}

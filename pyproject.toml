@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supramas"
+version = "0.1.0"
+description = "Mechanism-informed multi-agent framework for superconducting-material research planning."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "SupraMAS contributors" }
+]
+dependencies = [
+  "aiohttp",
+  "arxiv",
+  "html2text",
+  "httpx",
+  "loguru",
+  "markdown",
+  "matplotlib",
+  "numpy",
+  "openai",
+  "openpyxl",
+  "pandas",
+  "pymilvus",
+  "PyMuPDF",
+  "python-dotenv",
+  "PyYAML",
+  "redis",
+  "reportlab",
+  "requests",
+  "scikit-learn",
+  "scipy",
+  "tenacity",
+  "termcolor",
+  "transformers"
+]
+
+[project.scripts]
+supramas = "supramas.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

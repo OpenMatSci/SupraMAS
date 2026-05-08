@@ -1,0 +1,7 @@
+{
+  "baseline_model": "grok-4",
+  "exp_reproducibility_avg": 0.7623,
+  "exp_feasibility_avg": 0.6635,
+  "overall_avg": 0.7129,
+  "limit": null
+}

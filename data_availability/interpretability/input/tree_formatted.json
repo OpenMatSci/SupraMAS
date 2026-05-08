@@ -1,0 +1,431 @@
+{
+  "level": "1",
+  "tuning_strategies": [
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Non-stoichiometric target composition with excess Y and Cu (Y:Ba:Cu ratio of 1:1.7:2.7) to form a small volume fraction (~6 vol.%) of liquid phase during pulsed laser deposition (PLD) growth.",
+      "tuning effects": "In YBCO films, the liquid phase enhances diffusion kinetics, enabling high growth rates (~250 nm/min) and improved crystalline perfection. This results in a higher critical temperature (Tc of 91.2 K for Y123 + liquid film #2 compared to 79.0 K for stoichiometric Y123 film #1) and significantly enhanced critical current density (Jc) by over an order of magnitude at various fields and temperatures."
+    },
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Mixed rare-earth (RE) doping with 80% Y and 20% Yb, Sm, or Yb+Sm to introduce point-like disorder pinning centres through ionic size variance and Ba-RE cross-substitution.",
+      "tuning effects": "In mixed RE films, point-like defects from RE mixing enhance pinning, particularly at lower temperatures (30 K and 10 K). At 10 K, the (Y,Yb,Sm)123 + liquid + BYNO film outperforms Y123 + liquid + BYNO, achieving Jc values up to 2 times higher than standard YBCO films."
+    },
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Addition of 5 mol.% Ba2YNbO6 (BYNO) to form c-axis aligned nanocolumnar artificial pinning centres (APCs) during high-rate PLD growth.",
+      "tuning effects": "Nanocolumns (~5 nm diameter) provide strong 1D pinning, doubling Jc for H||c compared to pure YBCO at 70 K to 30 K. At 30 K, film #6 shows the highest Jc among all samples, up to 3 times higher than ex-situ liquid-processed films at 3 T."
+    },
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Combination of mixed RE doping (Y, Yb, Sm) and BYNO nanocolumn additions.",
+      "tuning effects": "The synergy of point-like defects from RE mixing and columnar BYNO pinning centres results in optimal performance at 10 K, with Jc values comparable to the best in literature."
+    },
+    {
+      "tuning dimensions": "Composition tuning",
+      "tuning strategies": "Use of Sm doping to induce Ba-Sm cross-substitution defects.",
+      "tuning effects": "Ba-Sm cross-substitution creates additional point-like defects, enhancing pinning at 30 K compared to (Y,Yb)123 + liquid. This leads to a higher Jc at 30 K despite lower Tc."
+    }
+  ],
+  "draw_backs": {
+    "shortcoming1": "Mixed RE films exhibit reduced critical temperatures (T_c) compared to pure YBCO films",
+    "shortcoming2": "Films with rare-earth substitutions (e.g., Sm) show increased structural disorder.",
+    "shortcoming3": "Existing ex-situ liquid-assisted methods produce large Gd₂O₃ particles ineffective for high-field pinning"
+  },
+  "children": [
+    {
+      "level": "1.1",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Chemical doping with BaHfO3 (BHO) nanoparticles at varying concentrations (0, 1, 3, and 5 mol%) using the TFA-MOD technique",
+          "tuning effects": "Incorporation of BHO nanoparticles into YBCO thin films on STO substrates enhances Jc and flux pinning. 1 and 3 mol% BHO doping improves the superconducting phase, resulting in a reduced superconducting transition width (ΔT). However, 5 mol% BHO doping destabilizes the YBCO phase."
+        },
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Control of precursor solution composition through precise cationic ratio (Y:Ba:Cu = 1:2:3) and standardization of solution concentration",
+          "tuning effects": "Ensures uniform deposition of YBCO films via TFA-MOD, resulting in consistent film thicknesses and reproducible superconducting properties."
+        },
+        {
+          "tuning dimensions": "Interface tuning",
+          "tuning strategies": "Deposition of YBCO films on single-crystal SrTiO3 (STO) substrates to promote epitaxial growth",
+          "tuning effects": "Using STO substrates facilitates high-quality epitaxial growth of YBCO films, ensuring strong interfacial bonding and minimal defects."
+        },
+        {
+          "tuning dimensions": "Stress tuning",
+          "tuning strategies": "Optimized heat treatment protocol involving crystallization at 780°C and oxygenation at 450°C",
+          "tuning effects": "Minimizes residual stress in YBCO films by promoting phase formation and lattice relaxation. Results in stable superconducting properties."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "The critical current density of the specimens is two orders of magnitude inferior to those reported in Refenrence",
+        "shortcoming2": "the introduction of 3 mol% BHO nanoparticles destabilizes the YBCO phase once again. Moreover, at a concentration of 5 mol% Hf, the superconducting properties of the YBCO thin film are entirely abrogated.",
+        "shortcoming3": "For F(Hf-5), it exhibited an extensive width of 50 K,need wide transition width at high BHO doping"
+      },
+      "children": [
+        {
+          "level": "1.1.1",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Y-doping in BaZrO₃ thin films (BaZr₀.₈Y₀.₂O₂.₉) to introduce oxygen vacancies",
+              "tuning effects": "Y-doping creates oxygen vacancies, enabling proton conduction upon exposure to humidity at high temperatures."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Pulsed laser deposition (PLD) at 800°C to achieve polycrystalline Y-doped BaZrO₃ films with controlled grain size",
+              "tuning effects": "Polycrystalline films with fine particle size reduce charge carrier scattering at grain boundaries, improving baseline conductivity."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Deposition of Y-doped BaZrO₃ films on oxidized Si substrates with Cr/Au interdigitated electrodes",
+              "tuning effects": "Stable interfacial contact enables reliable conductivity measurements under high-temperature humidity cycles."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "PLD deposition at 800°C to induce polycrystalline texture with dominant (110) and (211) BaZrO₃ reflections",
+              "tuning effects": "Textured films exhibit tensile stress and improved crystallinity, enhancing proton diffusion."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Control of film thickness (200–500 nm) and deposition temperature (800°C)",
+              "tuning effects": "PLD films avoid cracking, maintaining structural integrity and long-term stability."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        },
+        {
+          "level": "1.1.2",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Hybrid solvothermal method to synthesize BaMO3 (M = Ti, Zr, Hf) perovskite nanocrystals",
+              "tuning effects": "Achieved high-quality, cubic-phase BaMO3 nanocrystals with uniform size distribution. Water content identified as key factor for size control."
+            },
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Non-stoichiometric Ba:Zr ratio (excess Ba(OH)2) during synthesis",
+              "tuning effects": "Improved homogeneity and dispersion of BaZrO3 nanocrystals, reducing agglomeration."
+            },
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Microwave-assisted synthesis as an alternative to solvothermal method",
+              "tuning effects": "Reduced reaction time from 1 hour to 5 minutes for BaZrO3 and BaHfO3 nanocrystals."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Controlled hydrolytic step via water addition to tune polycondensation of metal alkoxides",
+              "tuning effects": "Enabled size tuning of BaZrO3 and BaHfO3 nanocrystals (4-31 nm) by adjusting water content."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Use of triethylene glycol (TEG) as capping ligand during synthesis",
+              "tuning effects": "Prevented agglomeration and ensured long-term stability (6 months) of BaMO3 nanocrystals."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": "1.2",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Chemical doping with BaHfO3 (BHO) nanoparticles in EuBCO coated conductors via hot-wall PLD (FAST and SLOW samples)",
+          "tuning effects": "BHO doping enhances flux pinning. FAST samples (segmented nanorods) increase Jc by 1.5-2 times. SLOW samples (aligned nanorods) increase Jc by 2-3 times."
+        },
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Variation of deposition rate in hot-wall PLD to control BHO nanostructure morphology",
+          "tuning effects": "High deposition rate results in segmented, randomly oriented nanorods. Lower deposition rate forms well-aligned nanorods along the c-axis."
+        },
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Control of REBCO layer thickness via deposition time",
+          "tuning effects": "FAST sample with thicker REBCO layer achieves higher Ic compared to SLOW sample despite lower Jc."
+        },
+        {
+          "tuning dimensions": "Texture tuning",
+          "tuning strategies": "High-rate deposition to influence c-axis correlated pinning and anisotropy",
+          "tuning effects": "High-rate deposition reduces c-axis correlated pinning, leading to random pinning-like behavior and reduced anisotropy in Jc."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "Difficulty in Distinguishing Nanoparticles in TEM Images:Although the nanoparticles are not clearly observed, it is possibly considered that the lattice constant of BHO is close to that of matrix phase due to a strain from the surrounding the matrix phase, and it would be difficult to distinguish them in the TEM image.",
+        "shortcoming2": "Need for Further Investigation on APC Behavior: The reason why the introduced APCs in the BHO-doped REBCO film deposited with the high rate by PLD behave like this should be further investigated in the future."
+      },
+      "children": [
+        {
+          "level": "1.2.1",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Doping with BaHfO3 (BHO), BaZrO3 (BZO), and BaSnO3 (BSO) nanoparticles in YBCO films via PLD",
+              "tuning effects": "BZO-doped films exhibited solid, c-axis oriented nanorods. BHO and BSO dopants resulted in fragmented and splayed nanorods."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Use of CeO2-capped IBAD-MgO based metallic template for YBCO film growth",
+              "tuning effects": "The advanced template directed the growth of nanorods within the YBCO matrix."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Deposition of YBCO films on textured IBAD-MgO templates to induce biaxial alignment",
+              "tuning effects": "Promoted c-axis oriented growth of BZO nanorods. Broader XRD peaks indicated higher defect density for BHO/BSO."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Control of deposition temperature (775°C) and oxygen pressure (0.175 Torr) during PLD",
+              "tuning effects": "Optimized growth conditions for BZO led to strain accommodation at coherent interfaces."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Introduction of stacking faults between BZO nanorods in YBCO films",
+              "tuning effects": "Stacking faults provided additional pinning sites, sharpening the ab-peak in Jc(θ) curves."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        },
+        {
+          "level": "1.2.2",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "interface tuning",
+              "tuning strategies": "Surface decoration with BaZrO₃ (BZO) and ZrO₂ (ZO) nanoparticles via polymer-assisted deposition (PAD)",
+              "tuning effects": "Decorated templates induce strain in the YBCO matrix, leading to significant improvement in transport properties and Jc."
+            },
+            {
+              "tuning dimensions": "composition tuning",
+              "tuning strategies": "Introduction of artificial pinning centers (APCs) via secondary phases (BZO and ZO) in the YBCO matrix using chemical solution deposition (CSD)",
+              "tuning effects": "The strain from incoherent interfaces between secondary phases and YBCO matrix enhances pinning properties."
+            },
+            {
+              "tuning dimensions": "interface tuning",
+              "tuning strategies": "Use of ZrO₂ nanoparticles that react with YBCO precursor during growth to form BZO nanoparticles",
+              "tuning effects": "The reaction creates BZO nanoparticles in situ, which strain the YBCO matrix and improve Jc."
+            },
+            {
+              "tuning dimensions": "stress tuning",
+              "tuning strategies": "Controlled annealing and quenching of decorated substrates to manage thermal stress",
+              "tuning effects": "Promotes the formation of stacking faults and defects in the YBCO film, which act as isotropic pinning centers."
+            },
+            {
+              "tuning dimensions": "texture tuning",
+              "tuning strategies": "Epitaxial growth of YBCO films on decorated STO substrates",
+              "tuning effects": "Ensures high-quality YBCO films with minimal grain boundary resistance while nanoparticles introduce defects."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        },
+        {
+          "level": "1.2.3",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Sputtering pressure tuning",
+              "tuning strategies": "Adjusting sputtering pressure to 14 mTorr in Sm-Co thin films",
+              "tuning effects": "Resulted in Sm2Co17 phase being dominant, enhancing out-of-plane coercivity to 510 Oe."
+            },
+            {
+              "tuning dimensions": "DC power tuning",
+              "tuning strategies": "Setting DC power to 70 W in Sm-Co thin films",
+              "tuning effects": "Contributed to the formation of the Sm2Co17 phase as a major constituent."
+            },
+            {
+              "tuning dimensions": "Substrate-target distance tuning",
+              "tuning strategies": "Optimizing substrate-target distance to 125 mm",
+              "tuning effects": "Significantly reduced surface roughness and controlled film thickness."
+            },
+            {
+              "tuning dimensions": "Sputtering time tuning",
+              "tuning strategies": "Setting sputtering time to 30 minutes",
+              "tuning effects": "Balanced surface roughness and coercivity while achieving desired film thickness."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": "1.3",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Heavy doping of 8 mol.% BaHfO3 (BHO) into EuBa2Cu3O7 (EuBCO) film using pulsed laser deposition (PLD)",
+          "tuning effects": "Formation of highly aligned BHO nanocolumns leads to a pronounced broad peak in Jc(θ) curves at 30 K and strong pinning force."
+        },
+        {
+          "tuning dimensions": "Texture tuning",
+          "tuning strategies": "Use of IBAD-based Hastelloy substrates with buffer-stack",
+          "tuning effects": "Achieved highly textured EuBCO film with c-axis orientation, enabling efficient current transport."
+        },
+        {
+          "tuning dimensions": "Interface tuning",
+          "tuning strategies": "Modification of heating unit in PLD system to 'radiation assisted conductive heating model'",
+          "tuning effects": "Maintained temperature variation within ±5°C during deposition, ensuring high-quality crystallinity."
+        },
+        {
+          "tuning dimensions": "Stress tuning",
+          "tuning strategies": "Ultra-high speed PLD process (up to 100 nm s-1) combined with high deposition temperature",
+          "tuning effects": "Enabled transient liquid phase formation and enhanced diffusion, facilitating ultra-fast self-assembly of BHO nanocolumns."
+        },
+        {
+          "tuning dimensions": "Grain boundary tuning",
+          "tuning strategies": "Introduction of high-density BHO nanocolumns and nanoclusters",
+          "tuning effects": "Created correlated pinning landscape with areal density of ~70 pieces/μm, resulting in matching field of ~5.8 T."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "Uncertainty in Nanocolumn Formation Mechanism: However, we have to admit that the reason for nanocolumn formation in our case is not clear.",
+        "shortcoming2": "Need for Further Characterization and Analysis: More detailed characterization and analysis are being carried out."
+      },
+      "children": [
+        {
+          "level": "1.3.1",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Substrate Tuning",
+              "tuning strategies": "Use of bulk GaN single-crystal substrates grown by high-pressure synthesis",
+              "tuning effects": "Homoepitaxial GaN films show reduced dislocation density compared to heteroepitaxial GaN on sapphire."
+            },
+            {
+              "tuning dimensions": "Interface Tuning",
+              "tuning strategies": "Chemical cleaning of GaN substrate surface with HF followed by MBE growth initiation at 600°C",
+              "tuning effects": "Enables high-quality homoepitaxial growth, reducing interfacial defects."
+            },
+            {
+              "tuning dimensions": "Growth Condition Tuning",
+              "tuning strategies": "MBE growth with a hollow anode nitrogen source and purified nitrogen",
+              "tuning effects": "Controlled MBE conditions minimize contamination and ion damage, resulting in improved structural and optical quality."
+            },
+            {
+              "tuning dimensions": "Defect Density Tuning",
+              "tuning strategies": "Optimization of initial growth dynamics by starting MBE at 600°C",
+              "tuning effects": "Reduces extended defects compared to heteroepitaxial GaN, improving optical quality."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": "1.4",
+      "tuning_strategies": [
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Oxygen post-processing to achieve overdoped state in YBCO thin films",
+          "tuning effects": "Overdoping increases charge carrier density, strongly enhancing Jc up to 90 MA/cm² at 5 K."
+        },
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Catalytically activated surface oxygen exchange using a thin Ag surface decoration layer",
+          "tuning effects": "Ag layer facilitates oxygen dissociation, allowing precise control of oxygen doping state."
+        },
+        {
+          "tuning dimensions": "Composition tuning",
+          "tuning strategies": "Tuning the oxygen partial pressure during post-growth oxygenation",
+          "tuning effects": "Precise control of oxygen content optimizes the doping state, leading to a parabolic increase in Tc and enhanced Jc."
+        },
+        {
+          "tuning dimensions": "Texture tuning",
+          "tuning strategies": "Epitaxial growth of YBCO thin films on LaAlO₃ and SrTiO₃ single crystal substrates",
+          "tuning effects": "Ensures minimal strain and high crystallinity, contributing to enhanced Jc values."
+        },
+        {
+          "tuning dimensions": "Interface tuning",
+          "tuning strategies": "Deposition of a 100 nm thick patterned Ag layer on the YBCO surface",
+          "tuning effects": "Ag layer enhances oxygen exchange and provides good electrical contact."
+        },
+        {
+          "tuning dimensions": "Stress tuning",
+          "tuning strategies": "Controlled post-growth oxygenation at intermediate temperatures (280–550 °C)",
+          "tuning effects": "Minimizes residual stress and defects, resulting in a homogeneous doping state."
+        }
+      ],
+      "draw_backs": {
+        "shortcoming1": "The study does not explicitly detail limitations regarding the measurement techniques or potential variability in film quality across different deposition methods (CSD and PLD), which could affect the reproducibility of the ultra-high critical current density results. ",
+        "shortcoming2": "The analysis of the overdoped regime is limited by the lack of detailed discussion on the stability of the overdoped state under varying environmental conditions, such as temperature fluctuations or prolonged exposure to magnetic fields. ",
+        "shortcoming3": "The study does not address potential scalability issues of achieving ultra-high critical current densities in larger-scale REBCO coated conductors, which is critical for practical applications. "
+      },
+      "children": [
+        {
+          "level": "1.4.1",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "High levels of Zr addition (up to 30 at.%) to form BaZrO₃ (BZO) nanocolumns in (Gd,Y)Ba₂Cu₃Oₓ films using MOCVD",
+              "tuning effects": "At 20–40 K, 15% Zr-added films showed 20% higher critical current than 7.5% Zr films, indicating enhanced pinning force."
+            },
+            {
+              "tuning dimensions": "Process tuning",
+              "tuning strategies": "Reduction of MOCVD deposition rate to approximately 100 nm min⁻¹",
+              "tuning effects": "Improved crystallinity in high Zr-added films, achieving high critical current density and pinning force."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        },
+        {
+          "level": "1.4.2",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Doping YBCO films with varying concentrations of BaZrO3 nanoparticles (0.9 to 9.0 wt%) using PLD",
+              "tuning effects": "3.9 wt% BaZrO3 doping enhances Jc at 5 K by a factor of 4.5 in a 5 T magnetic field."
+            },
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Incorporation of BaZrO3 nanoparticles with consistent size but increasing areal density",
+              "tuning effects": "Increased density enhances flux pinning, leading to a peak in Jc at 3.9 wt% doping."
+            },
+            {
+              "tuning dimensions": "Grain boundary tuning",
+              "tuning strategies": "Epitaxial growth of BaZrO3 nanoparticles with YBCO in a cube-on-cube orientation",
+              "tuning effects": "Facilitates strain relaxation in the YBCO lattice, contributing to enhanced flux pinning."
+            },
+            {
+              "tuning dimensions": "Stress tuning",
+              "tuning strategies": "Introduction of BaZrO3 nanoparticles causing lattice strain in YBCO",
+              "tuning effects": "Lattice strain broadens XRD peaks; excessive strain at 9.0 wt% degrades superconducting properties."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        },
+        {
+          "level": "1.4.3",
+          "tuning_strategies": [
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Control of oxygen and carbon content through deposition atmosphere in (Cu,C)-1223 films",
+              "tuning effects": "Resulted in onset Tc of 112 K and Jc of 4.28e6 A cm⁻² at 4.2 K, significantly higher than (Cu,C)-1234 films."
+            },
+            {
+              "tuning dimensions": "Interface tuning",
+              "tuning strategies": "Selection of LaMnO₃ and CeO₂ as top buffer layers on Hastelloy tapes",
+              "tuning effects": "LaMnO₃ buffer layer supports higher film quality and lower residual resistivity compared to CeO₂."
+            },
+            {
+              "tuning dimensions": "Texture tuning",
+              "tuning strategies": "Epitaxial growth via PLD to achieve c-axis orientation on buffered Hastelloy tapes",
+              "tuning effects": "High degree of texture reduces weak links at grain boundaries, contributing to high Jc."
+            },
+            {
+              "tuning dimensions": "Composition tuning",
+              "tuning strategies": "Adjustment of deposition temperature and laser energy density during PLD",
+              "tuning effects": "Precise control enhances superconducting properties, achieving high upper critical field."
+            }
+          ],
+          "draw_backs": {},
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# SupraMAS example configuration.
+# Copy this file to configs/supramas.local.yaml and fill values locally.
+
+OPENAI_API_KEY: ""
+OPENAI_BASE_URL: "https://api.openai.com/v1"
+SEMANTIC_SEARCH_API_KEY: ""
+GOOGLE_SEARCH_API_KEY: ""
+
+MAIN_LLM_MODEL: "gpt-4o"
+CHEAP_LLM_MODEL: "gpt-4o-mini"
+
+EMBEDDING_NAME: "text-embedding-ada-002"
+EMBEDDING_API_ENDPOINT: "https://api.openai.com/v1"
+EMBEDDING_KEY: ""
+EMBEDDING_MAXLEN: 1024
+
+MILVUS_HOST: "127.0.0.1"
+MILVUS_PORT: "19530"
+MILVUS_URI: "http://127.0.0.1:19530"
+MILVUS_USER: "root"
+MILVUS_PASSWORD: ""
+MILVUS_DATABASE: "SupraMAS"
+COLLECTION_NAME: "papers"
+SEARCH_NAME: "search_collection"
+TUNING_NAME: "tuning_strategy"
+
+GROBID_URL: "http://127.0.0.1:8070"
+VOLCENGINE_ACCESS_KEY: ""
+VOLCENGINE_SECRET_KEY: ""
+
+agents:
+  draft_generation: {model: "gpt-4o", temperature: 0.7}
+  experiment_decomposition: {model: "gpt-4o", temperature: 0.7}
+  retrieval: {model: "gpt-4o", temperature: 0.7}
+  knowledge_base: {model: "gpt-4o", temperature: 0.7}
+  expert: {model: "gpt-4o", temperature: 0.7}
+  review: {model: "gpt-4o", temperature: 0.7}
+  parser: {model: "gpt-4o", temperature: 0.7}
+  plan_writing: {model: "gpt-4o", temperature: 0.9}
+  root_agent: {model: "gpt-4o", temperature: 0.7}
+  query_agent: {model: "gpt-4o", temperature: 0.7}
+  review_agent: {model: "gpt-4o", temperature: 0.7}
+  parser_agent: {model: "gpt-4o", temperature: 0.7}
+

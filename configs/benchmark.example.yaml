@@ -1,0 +1,17 @@
+# Benchmark example configuration.
+# The public repository contains labels and reported results; API-backed
+# re-evaluation requires local credentials.
+
+OPENAI_API_KEY: ""
+OPENAI_BASE_URL: "https://api.openai.com/v1"
+SEMANTIC_SEARCH_API_KEY: ""
+is_response: false
+
+agents:
+  idea2strategy_agent: {model: "gpt-4o", temperature: 0}
+  eval_agent: {model: "gpt-4o", temperature: 0}
+  extract_agent: {model: "gpt-4o", temperature: 0}
+  eval_exp_agent: {model: "gpt-4o", temperature: 0}
+  eval_exp_reproducibility_agent: {model: "gpt-4o", temperature: 0}
+  eval_exp_feasibility_agent: {model: "gpt-4o", temperature: 0}
+

@@ -1,0 +1,180 @@
+[
+  {
+    "template_name": "Holon Vortex Pseudogap and Core Spectroscopy",
+    "template_type": "Property Theorem",
+    "knowledge_tags": [
+      "Pseudogap Phenomenon",
+      "Vortex Core Spectroscopy",
+      "Doped Mott Insulator",
+      "U(1) Gauge Field Theory"
+    ],
+    "description": [
+      "The theory predicts insulating 'holon' vortices in underdoped regions with pseudogap excitation spectra in their cores, providing direct guidance for vortex core spectroscopy experiments using scanning tunneling microscopy (STM)."
+    ],
+    "application_scenarios": [
+      "Characterizing vortex core states in underdoped cuprates like Bi₂Sr₂CaCu₂O₈",
+      "Identifying ground state properties through local suppression of superconducting order"
+    ],
+    "reason_flow": [
+      "Step1 Establish Doping Dependence: Distinguish underdoped (x < xₘ) and overdoped (x > xₘ) regions through phase diagram analysis",
+      "Step2 Vortex Type Identification: Predict holon vortices with Δ(r) ≈ Δ_bulk and suppressed b(r) in underdoped regime",
+      "Step3 Spectral Signature Prediction: Calculate pseudogap spectrum with coherence peak shifts from Δ ≈ 40meV to higher energies",
+      "Step4 Experimental Verification: Guide STM measurements to detect absence of zero-bias conductance peaks in vortex cores",
+      "Step5 Parameter Optimization: Determine critical doping level xₘ through T_g(x) transition line calculation"
+    ],
+    "example_application": {
+      "example_problem": "How to verify the pseudogap nature of vortex cores in Bi₂Sr₂CaCu₂O₈?",
+      "solution_process": [
+        "Step1 Prepare underdoped samples (x = 0.16) below optimal doping xₘ = 0.2",
+        "Step2 Perform STM spectroscopy at 4.2K with magnetic field application",
+        "Step3 Map local density of states (LDOS) within vortex cores",
+        "Step4 Identify spectral weight transfer from ±Δ₀ (40meV) to higher energies",
+        "Step5 Confirm absence of zero-bias peaks characteristic of metallic states",
+        "Answer: Observation of pseudogap features with suppressed zero-bias conductance validates holon vortex prediction in underdoped regime"
+      ]
+    }
+  },
+  {
+    "template_name": "Spinon Vortex Metallic Core Detection",
+    "template_type": "Property Theorem",
+    "knowledge_tags": [
+      "Metallic Core State",
+      "Overdoped Regime",
+      "Flux Quantization",
+      "Slave Boson Model"
+    ],
+    "description": [
+      "The theory proposes metallic 'spinon' vortices in heavily overdoped samples with conventional flux quantization (Φ₀ = hc/2e), guiding experimental identification of doping-dependent vortex type transitions."
+    ],
+    "application_scenarios": [
+      "Investigating overdoped cuprate superconductors (x > xₘ)",
+      "Detecting vortex state transitions across phase diagram"
+    ],
+    "reason_flow": [
+      "Step1 Determine Critical Doping: Calculate transition line T_g(x) using β parameter from GL coefficients",
+      "Step2 Predict Core State Transition: Identify crossover from pseudogap to metallic core at x ≈ 2xₘ/(1+β)",
+      "Step3 Design Detection Protocol: Utilize high-resolution STM at sub-Kelvin temperatures",
+      "Step4 Characterize Metallic Signatures: Look for zero-bias conductance peaks in vortex cores",
+      "Step5 Verify Flux Quantization: Confirm single flux quantum Φ₀ through magnetic measurements"
+    ],
+    "example_application": {
+      "example_problem": "How to detect spinon vortices in overdoped cuprates?",
+      "solution_process": [
+        "Step1 Synthesize heavily overdoped samples (x = 0.25) with T₀ = 200K",
+        "Step2 Cool to 200mK for enhanced energy resolution",
+        "Step3 Apply magnetic field to create vortex lattice",
+        "Step4 Perform STS mapping with 1meV energy resolution",
+        "Step5 Identify broad zero-bias peaks in vortex cores",
+        "Step6 Confirm Φ₀ flux quantization through SQUID measurements",
+        "Answer: Observation of metallic-like LDOS with conventional flux quantization verifies spinon vortex existence in overdoped regime"
+      ]
+    }
+  },
+  {
+    "template_name": "Oxygen Vacancy Pinning and Vortex Core Delocalization",
+    "template_type": "Property Theorem",
+    "knowledge_tags": [
+      "Vortex Pinning",
+      "Quantum Tunneling",
+      "Oxygen Defects",
+      "Local Density of States"
+    ],
+    "description": [
+      "High-density oxygen vacancies (~10¹⁷ m⁻²) create effective pinning centers with spacing comparable to vortex core size (~10Å), leading to irregular vortex core shapes and split configurations observed in STS. Quantum tunneling between adjacent pinning centers explains vortex core delocalization and intermediate states."
+    ],
+    "application_scenarios": [
+      "Designing BSCCO crystals with controlled oxygen vacancy distributions",
+      "Optimizing flux pinning in highly anisotropic superconductors",
+      "Suppressing quantum tunneling through defect engineering"
+    ],
+    "reason_flow": [
+      "Step1 Identify Pinning Centers: Oxygen vacancies at Cu-O layers create local potential wells (ΔE ~100K)",
+      "Step2 Calculate Defect Spacing: Average 10Å spacing matches vortex core dimensions (ξ_ab ~30Å)",
+      "Step3 Analyze Quantum Effects: Estimate tunneling probability through pinning barriers (S_E/ħ ~10²)",
+      "Step4 Measure Core Delocalization: STS shows split cores with intermediate states (Fig.2-3)",
+      "Step5 Relate to Macroscopic Properties: Connect quantum tunneling to magnetic relaxation rates"
+    ],
+    "example_application": {
+      "example_problem": "How to improve flux pinning in BSCCO through defect control?",
+      "solution_process": [
+        "Step1 Increase Oxygen Vacancy Density: Achieve >1 vacancy per vortex core area (10Å×10Å)",
+        "Step2 Optimize Spatial Distribution: Ensure random distribution matching vortex motion scale",
+        "Step3 Characterize with STS: Verify split-core configurations and pinning potential depth (Fig.2)",
+        "Step4 Suppress Quantum Tunneling: Introduce larger defects to create wider potential barriers",
+        "Answer: Controlled oxygen deficiency creates dense pinning centers that localize vortices through strong pinning potentials, while secondary defects suppress quantum tunneling between primary sites."
+      ]
+    }
+  },
+  {
+    "template_name": "Anisotropy-Driven Quantum Vortex Behavior",
+    "template_type": "Property Theorem",
+    "knowledge_tags": [
+      "Quantum Creep",
+      "Pancake Vortices",
+      "Extreme Anisotropy",
+      "Magnetic Relaxation"
+    ],
+    "description": [
+      "Extreme 2D anisotropy (γ~200) in BSCCO creates pancake vortices with quantized cores (ξ_c~1.5Å) enabling quantum tunneling between pinning sites. Time-averaged STS images reveal vortex splitting and position delocalization."
+    ],
+    "application_scenarios": [
+      "Developing quantum fluxonic devices",
+      "Suppressing magnetic relaxation in persistent current applications",
+      "Engineering interlayer coupling for vortex stabilization"
+    ],
+    "reason_flow": [
+      "Step1 Calculate Anisotropy Parameter: γ = λ_c/λ_ab ~200 for BSCCO",
+      "Step2 Determine Vortex Quantization: Single Cu-O layer thickness (d=15Å) limits out-of-phase coherence",
+      "Step3 Measure Tunneling Rates: Zero-temperature magnetic relaxation shows quantum creep (Fig.3-4)",
+      "Step4 Correlate with STS Observations: Delocalized vortices appear split between pinning sites",
+      "Step5 Design 3D Pinning: Introduce columnar defects spanning multiple Cu-O layers"
+    ],
+    "example_application": {
+      "example_problem": "How to reduce quantum flux creep in BSCCO tapes?",
+      "solution_process": [
+        "Step1 Increase Interlayer Coupling: Add Ca-rich layers to enhance Josephson coupling",
+        "Step2 Create Columnar Defects: Use heavy-ion irradiation for through-layer pinning centers",
+        "Step3 Characterize with STS: Verify single-core vortex profiles vs. split configurations",
+        "Step4 Measure Relaxation Rates: Compare quantum creep rates before/after modification",
+        "Answer: Enhanced interlayer coupling and columnar defects suppress 2D pancake vortex motion while maintaining strong in-plane pinning."
+      ]
+    }
+  },
+  {
+    "template_name": "Out-of-Plane Anisotropy Optimization for Flux Pinning",
+    "template_type": "Property Theorem",
+    "knowledge_tags": [
+      "Critical Current Anisotropy",
+      "Flux Front Geometry",
+      "Vortex Line Curvature",
+      "Angular-dependent Pinning",
+      "Sheet Current Distribution"
+    ],
+    "description": [
+      "This template addresses how out-of-plane anisotropy in flux-line pinning (e.g., intrinsic pinning by CuO planes) influences critical current distribution and flux penetration patterns in thin superconductors. The theory demonstrates that angular dependence of j_c(θ) modifies the effective sheet current J(B_z) and creates characteristic flux front geometries."
+    ],
+    "application_scenarios": [
+      "Designing high-T_c superconducting films with columnar defects aligned perpendicular to film plane",
+      "Optimizing flux pinning in REBCO coated conductors with ab-plane anisotropy",
+      "Controlling magnetic relaxation through tilt angle-dependent pinning landscapes"
+    ],
+    "reason_flow": [
+      "Step1 Characterize angular dependence: Establish j_c(θ) profile through torque magnetometry or angular-dependent transport measurements",
+      "Step2 Calculate effective sheet current: Use relation J(B_z) = ∫j_c(θ(z))dz with θ(z) determined by flux line curvature",
+      "Step3 Design flux front geometry: Predict z_γ(x) penetration profiles using Eq.6 from critical state solutions",
+      "Step4 Optimize defect orientation: Align pinning centers along c-axis for maximum j_c at θ=π/2 (film normal)",
+      "Step5 Tune magnetization characteristics: Engineer central peak/dip in M(H) loops through p parameter control"
+    ],
+    "example_application": {
+      "example_problem": "How to enhance critical current in thin YBCO films with c-axis columnar defects?",
+      "solution_process": [
+        "Step1 Model j_c(θ) using Eq.18 with p=1 (peak at θ=π/2) and q=4",
+        "Step2 Calculate sheet current J(B_z) through numerical integration of Eq.17",
+        "Step3 Solve 2D critical state equations using Biot-Savart law (Eq.14) for rectangular geometry",
+        "Step4 Verify through magneto-optical imaging: Compare predicted steep flux fronts (Fig.3a) with experimental penetration patterns",
+        "Step5 Optimize defect density to maintain B_s = μ_0J/2 < matching theoretical J_c(B_z) curves",
+        "Answer: Columnar defects aligned along c-axis create θ=π/2 pinning maximum, producing J_c enhancement factors of (1+p) through modified sheet current behavior."
+      ]
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "label_factor": "in-plane alignment",
+    "factor": "In-plane alignment relationship between YBCO seed island and MgO substrate (0°-grain vs 45°-grain)",
+    "label_outcome": "grain survival",
+    "outcome": "Preferential dissolution of 45°-grains and growth of 0°-grains during the initial stage of LPE growth",
+    "response": "suppresses survival of 45°-grains",
+    "mechanism": "The difference in interface energies (bonding energy between seed crystal and substrate crystal, t_CS) between the YBCO grain and the MgO substrate, due to their crystallographic relationship, creates an additional driving force for coarsening. A higher t_CS (as in 0°-grains) results in a lower equilibrium undercooling compared to a grain with a lower t_CS (45°-grains). This difference in undercooling leads to a concentration gradient in the liquid, promoting solute flux towards the grain with the more favorable interface (0°-grain), causing its growth and the dissolution of the less favorably oriented grain (45°-grain)."
+  },
+  {
+    "label_factor": "grain size",
+    "factor": "Radius of YBCO seed islands (r)",
+    "label_outcome": "grain growth",
+    "outcome": "Driving force for conventional Ostwald ripening due to curvature difference",
+    "response": "enhances growth of larger grains",
+    "mechanism": "According to the Gibbs-Thomson effect, a smaller grain radius creates a higher undercooling (*ΔT_r = C/r), which corresponds to a higher equilibrium solute concentration in the liquid at its interface. This concentration gradient drives solute diffusion away from smaller grains (higher concentration) towards larger grains (lower concentration), leading to the dissolution of smaller grains and growth of larger grains."
+  },
+  {
+    "label_factor": "interface energy",
+    "factor": "Bonding energy between YBCO seed crystal and MgO substrate (t_CS)",
+    "label_outcome": "equilibrium undercooling",
+    "outcome": "Undercooling at the interface of a thin seed island (*ΔT_c)",
+    "response": "reduces equilibrium undercooling",
+    "mechanism": "For a thin disk-shaped seed island, the total bonding energy change upon melting is different for a grain on a substrate (discontinuous interface) compared to a bulk crystal (continuous interface). A higher bonding energy t_CS (indicating better lattice matching/interfacial coherence) results in a smaller enthalpy change of fusion for the grain on the substrate, which consequently leads to a lower equilibrium melting point and thus a reduced undercooling (*ΔT_c) required for growth at a given temperature."
+  },
+  {
+    "label_factor": "Seed orientation",
+    "factor": "Presence of c-axis oriented grains in the YBCO/LAO thin film seed",
+    "label_outcome": "Film orientation",
+    "outcome": "Orientation of the REBCO LPE thick film",
+    "response": "Determines",
+    "mechanism": "c-axis oriented grains in the seed film are more stable and possess lower surface Gibbs energy, allowing them to survive the LPE process and induce epitaxial growth of c-axis oriented thick films, while a-axis oriented grains tend to dissolve."
+  },
+  {
+    "label_factor": "Processing temperature",
+    "factor": "LPE growth temperature of 1055°C for SmBCO",
+    "label_outcome": "Seed thermal stability",
+    "outcome": "Survival and effectiveness of the YBCO/LAO thin film seed",
+    "response": "Demonstrates",
+    "mechanism": "The YBCO/LAO thin film seed possesses a superheating property, allowing it to remain stable and induce epitaxial growth of SmBCO thick films at a temperature approximately 50°C higher than the peritectic temperature (T_p) of YBCO."
+  }
+]

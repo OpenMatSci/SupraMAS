@@ -1,0 +1,137 @@
+relative_path,size_bytes
+README.md,4968
+benchmark_data/inputs/benchmark_topics.json,4551
+benchmark_data/inputs/post_cutoff_paper_ideas.json,152025
+benchmark_data/labels/idea_foresight_label_strategies.json,152025
+benchmark_data/labels/protocol_reference_labels.json,100510
+benchmark_results/benchmark_summary.csv,492
+benchmark_results/idea_foresight/deepseek-v3/evaluation.jsonl,1145165
+benchmark_results/idea_foresight/deepseek-v3/evaluation_summary.json,161
+benchmark_results/idea_foresight/deepseek-v3/extract_strategies/pred_strategies.json,129690
+benchmark_results/idea_foresight/gemini-2.5-pro-thinking/evaluation.jsonl,1021540
+benchmark_results/idea_foresight/gemini-2.5-pro-thinking/evaluation_summary.json,162
+benchmark_results/idea_foresight/gemini-2.5-pro-thinking/extract_strategies/pred_strategies.json,149348
+benchmark_results/idea_foresight/gpt-5/evaluation.jsonl,1251441
+benchmark_results/idea_foresight/gpt-5/evaluation_summary.json,162
+benchmark_results/idea_foresight/gpt-5/extract_strategies/pred_strategies.json,182514
+benchmark_results/idea_foresight/gpt_researcher/evaluation.jsonl,956372
+benchmark_results/idea_foresight/gpt_researcher/evaluation_summary.json,162
+benchmark_results/idea_foresight/gpt_researcher/extract_strategies/pred_strategies.json,138453
+benchmark_results/idea_foresight/grok-4/evaluation.jsonl,1136354
+benchmark_results/idea_foresight/grok-4/evaluation_summary.json,162
+benchmark_results/idea_foresight/grok-4/extract_strategies/pred_strategies.json,139293
+benchmark_results/idea_foresight/label_strategies.json,152025
+benchmark_results/idea_foresight/supramas/evaluation.jsonl,2407506
+benchmark_results/idea_foresight/supramas/evaluation_summary.json,162
+benchmark_results/idea_foresight/supramas/extract_strategies/pred_strategies.json,183739
+benchmark_results/protocol_evaluation/deepseek-v3/evaluation_feasibility.json,189656
+benchmark_results/protocol_evaluation/deepseek-v3/evaluation_reproducibility.json,228669
+benchmark_results/protocol_evaluation/deepseek-v3/evaluation_summary.json,149
+benchmark_results/protocol_evaluation/gemini-2.5-pro-thinking/evaluation_feasibility.json,289676
+benchmark_results/protocol_evaluation/gemini-2.5-pro-thinking/evaluation_reproducibility.json,575331
+benchmark_results/protocol_evaluation/gemini-2.5-pro-thinking/evaluation_summary.json,162
+benchmark_results/protocol_evaluation/gpt-5/evaluation_feasibility.json,484792
+benchmark_results/protocol_evaluation/gpt-5/evaluation_reproducibility.json,695504
+benchmark_results/protocol_evaluation/gpt-5/evaluation_summary.json,144
+benchmark_results/protocol_evaluation/gpt_researcher/evaluation_feasibility.json,135145
+benchmark_results/protocol_evaluation/gpt_researcher/evaluation_reproducibility.json,133025
+benchmark_results/protocol_evaluation/gpt_researcher/evaluation_summary.json,153
+benchmark_results/protocol_evaluation/grok-4/evaluation_feasibility.json,207154
+benchmark_results/protocol_evaluation/grok-4/evaluation_reproducibility.json,339377
+benchmark_results/protocol_evaluation/grok-4/evaluation_summary.json,145
+benchmark_results/protocol_evaluation/label_experiment.json,100510
+benchmark_results/protocol_evaluation/supramas/evaluation_feasibility.json,132782
+benchmark_results/protocol_evaluation/supramas/evaluation_reproducibility.json,132262
+benchmark_results/protocol_evaluation/supramas/evaluation_summary.json,146
+expert_evaluation/human_eval_mean_scores.json,1983
+expert_evaluation/human_expert_mean_scores.csv,1945
+expert_evaluation/human_template.md,2747
+expert_evaluation/result_1.xlsx,25967
+expert_evaluation/result_2.xlsx,25928
+expert_evaluation/result_3.xlsx,25981
+expert_evaluation/result_4.xlsx,19695
+expert_evaluation/result_5.xlsx,28599
+generated_protocols/multivariable_system/Y_Yb_Sm_BCO_BZO_BYNO/human_feedback.json,3023
+generated_protocols/multivariable_system/Y_Yb_Sm_BCO_BZO_BYNO/idea.md,2929
+generated_protocols/multivariable_system/Y_Yb_Sm_BCO_BZO_BYNO/idea_tree.json,43404
+generated_protocols/multivariable_system/Y_Yb_Sm_BCO_BZO_BYNO/initial_protocol.md,59766
+generated_protocols/multivariable_system/Y_Yb_Sm_BCO_BZO_BYNO/strategy_tree.json,26316
+generated_protocols/single_apc_systems/EuBCO_BYNO/experiment.json,16346
+generated_protocols/single_apc_systems/EuBCO_BYNO/experiment_plan.md,43839
+generated_protocols/single_apc_systems/EuBCO_BYNO/idea.json,4736
+generated_protocols/single_apc_systems/EuBCO_BYNO/paper_tree.json,18343
+generated_protocols/single_apc_systems/EuBCO_BYTO_Cu/experiment.json,25262
+generated_protocols/single_apc_systems/EuBCO_BYTO_Cu/experiment_plan.md,56592
+generated_protocols/single_apc_systems/EuBCO_BYTO_Cu/idea.json,8503
+generated_protocols/single_apc_systems/EuBCO_BYTO_Cu/paper_tree.json,17939
+generated_protocols/single_apc_systems/YBCO_Y211/experiment.json,9350
+generated_protocols/single_apc_systems/YBCO_Y211/experiment_plan.md,36415
+generated_protocols/single_apc_systems/YBCO_Y211/idea.json,6046
+generated_protocols/single_apc_systems/YBCO_Y211/paper_tree.json,29192
+generated_protocols/single_apc_systems/YBCO_Y211/process.md,27169
+interpretability/input/final_protocol.json,111682
+interpretability/input/mechanism_analysis.md,5982
+interpretability/input/tree_formatted.json,26316
+interpretability/output/traceback_report.md,12991
+knowledge_libraries/mechanism/mechanism.json,3644
+knowledge_libraries/strategy/tuning_strategy_v1.json,2399
+knowledge_libraries/template/all_responses_1.json,9370
+knowledge_libraries/template/all_responses_2.json,7262
+knowledge_libraries/template/all_responses_3.json,6973
+knowledge_libraries/template/all_responses_4.json,8735
+knowledge_libraries/template/all_responses_5.json,9708
+knowledge_libraries/template/all_responses_6.json,11693
+knowledge_libraries/template/all_responses_theory.json,10897
+metadata/DATA_AVAILABILITY_TEXT.md,1173
+metadata/knowledge_library_counts.csv,553
+metadata/post_cutoff_reference_papers.csv,6303
+optimization_trajectory/mibo_report.pdf,475332
+optimization_trajectory/optimization_trajectory.csv,1591
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3a/Fig3a_R-T_EuBCO+BYNO.xlsx,13075
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3a/Fig3a_R-T_EuBCO+BYTO.xlsx,14770
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3a/Fig3a_R-T_YBCO+Y211.xlsx,12197
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3b/Fig3b_Jc-B_EuBCO+BYNO.xlsx,14583
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3b/Fig3b_Jc-B_EuBCO+BYTO.xlsx,14376
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3b/Fig3b_Jc-B_YBCO+Y211.xlsx,14664
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3b/Fig3b_M-H/Fig3b_M-H_EuBCO+BYNO.xlsx,136645
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3b/Fig3b_M-H/Fig3b_M-H_EuBCO+BYTO.xlsx,145204
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3b/Fig3b_M-H/Fig3b_M-H_YBCO+Y211.xlsx,136976
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3b/Fig3b_M-H/calculation_formula.txt,1026
+source_data/figure_source_data/Fig3_single_pinning_system/Fig3c_SEM.tif,2085584
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4a/Fig4a_M-T_1st Optimization.xlsx,25356
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4a/Fig4a_M-T_2nd Optimization.xlsx,26177
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4a/Fig4a_M-T_3rd Optimization.xlsx,25932
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4a/Fig4a_M-T_4th Optimization.xlsx,24744
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4a/Fig4a_M-T_5th Optimization.xlsx,26248
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4a/Fig4a_M-T_Initial-150 nm.xlsx,26202
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4a/Fig4a_M-T_Initial-280 nm.xlsx,16417
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4b/Fig4b_R-T_1st Optimization.xlsx,14543
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4b/Fig4b_R-T_2nd Optimization.xlsx,13545
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4b/Fig4b_R-T_3rd Optimization.xlsx,14572
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4b/Fig4b_R-T_4th Optimization.xlsx,14665
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4b/Fig4b_R-T_5th Optimization.xlsx,10746
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4b/Fig4b_R-T_Initial-150 nm.xlsx,14014
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4b/Fig4b_R-T_Initial-280 nm.xlsx,12878
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c-i_M-H/Fig4c_M-H_Initial-150 nm.xlsx,205495
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c-i_M-H/Fig4d_M-H_Initial-280 nm.xlsx,389980
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c-i_M-H/Fig4e_M-H_1st Optimization.xlsx,176652
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c-i_M-H/Fig4f_M-H_2nd Optimization.xlsx,183655
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c-i_M-H/Fig4g_M-H_3rd Optimization.xlsx,189060
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c-i_M-H/Fig4h_M-H_4th Optimization.xlsx,176415
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c-i_M-H/Fig4i_M-H_5th Optimization.xlsx,180739
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4c_Jc-B_Initial-150 nm.xlsx,27524
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4d_Jc-B_Initial-280 nm.xlsx,106878
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4e_Jc-B_1st Optimization.xlsx,27458
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4f_Jc-B_2nd Optimization.xlsx,27770
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4g_Jc-B_3rd Optimization.xlsx,27649
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4h_Jc-B_4th Optimization.xlsx,27627
+source_data/figure_source_data/Fig4_multicomponent_films/Fig4c-i/Fig4i_Jc-B_5th Optimization.xlsx,27622
+source_data/figure_source_data/README.md,1731
+source_data/figure_source_data/Supplementary_Fig1_struct_morphology/Supp_Fig1a_XRD/Supplementary_Fig1a_XRD_1st_Opt.xlsx,76189
+source_data/figure_source_data/Supplementary_Fig1_struct_morphology/Supp_Fig1a_XRD/Supplementary_Fig1a_XRD_2nd_Opt.xlsx,76494
+source_data/figure_source_data/Supplementary_Fig1_struct_morphology/Supp_Fig1a_XRD/Supplementary_Fig1a_XRD_3rd_Opt.xlsx,75378
+source_data/figure_source_data/Supplementary_Fig1_struct_morphology/Supp_Fig1b-d_AFM/Supplementary_Fig1b_AFM_1st_Opt.jpg,981917
+source_data/figure_source_data/Supplementary_Fig1_struct_morphology/Supp_Fig1b-d_AFM/Supplementary_Fig1c_AFM_2nd_Opt.jpg,928639
+source_data/figure_source_data/Supplementary_Fig1_struct_morphology/Supp_Fig1b-d_AFM/Supplementary_Fig1d_AFM_3rd_Opt.jpg,940072
+source_data/main_tables/growth_parameters.csv,406
+source_data/main_tables/superconducting_properties.csv,549
