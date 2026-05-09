@@ -18,22 +18,22 @@
 
 ## Overview
 
-SupraMAS, short for **Supra Multi-Agent Scientist**, is a public research-code release for the manuscript:
+SupraMAS, short for **Supra Multi-Agent Scientist**, is the public reviewer-facing framework release for the manuscript:
 
 > Mechanism-informed closed-loop on-demand design of high-temperature superconducting coated conductors
 
-The framework converts literature-derived mechanisms, empirical rules, and process constraints into auditable research ideas, executable experimental protocols, and mechanism-informed optimization decisions for strongly constrained materials synthesis. The released implementation focuses on high-temperature superconducting REBCO coated conductors and flux-pinning engineering, but the workflow is designed around reusable abstractions: strategy mining, expert-critic protocol refinement, interpretability tracing, and closed-loop parameter optimization.
+The framework converts literature-derived mechanisms, empirical rules, and process constraints into auditable research ideas, executable experimental protocols, and mechanism-informed optimization decisions for strongly constrained materials synthesis. This public repository exposes the **overall software architecture, module interfaces, benchmark artifacts, examples, and data-availability package** so reviewers can inspect the research workflow and reproduce reported data checks.
 
-This repository contains the core framework code, example inputs, benchmark artifacts, reproduction helpers, and the public data-availability package. Internal deployment code, private service integrations, local credentials, and private infrastructure are intentionally excluded from the public release.
+Detailed production agent prompts, retrieval heuristics, optimization internals, private service integrations, local credentials, and deployment code are intentionally excluded. The `src/supramas` package is therefore a compact framework skeleton rather than the full private implementation.
 
-## What SupraMAS Does
+## What This Public Skeleton Shows
 
-- **Strategy mining** builds a recursively expandable strategy tree from literature-grounded tuning dimensions, reported effects, limitations, and expected outcomes.
-- **Idea innovation** assembles mechanism-aware strategy branches into candidate research hypotheses.
-- **Experiment construction** converts candidate ideas into SOP-like experimental protocols through an expert-critic loop.
-- **Real-world verification** records laboratory feedback and links measurements back to generated protocols.
-- **Mechanism-informed Bayesian optimization** updates candidate synthesis parameters using mechanistic priors and historical experimental data.
-- **Interpretability tracing** connects optimization decisions and protocol steps back to mechanism records, idea components, and strategy-tree evidence.
+- **Strategy mining** module boundaries and strategy-tree output shape.
+- **Idea innovation** orchestration interface and expected artifact flow.
+- **Experiment construction** proposal/evaluator boundaries and protocol artifact shape.
+- **Real-world verification** records through released case studies and data files.
+- **Mechanism-informed Bayesian optimization** interface and reported optimization trajectory.
+- **Interpretability tracing** input/output records and traceback artifact shape.
 
 ## Table Of Contents
 
@@ -63,11 +63,11 @@ python -m pip install --upgrade pip
 pip install -e .
 ```
 
-For local development or structural checks, the editable install is enough for the shipped tests and CLI smoke tests. Full end-to-end research runs require local credentials and runtime services described in [Configuration](#configuration).
+For local development or structural checks, the editable install is enough for the shipped tests and CLI smoke tests. The public package is an interface skeleton; full private end-to-end research execution is not included.
 
 ## Quick Start
 
-Validate the CLI without making model calls:
+Inspect the framework skeleton without making model calls:
 
 ```bash
 supramas --help
@@ -87,17 +87,17 @@ supramas \
   --dry-run
 ```
 
-After configuring an LLM endpoint, embedding endpoint, literature retrieval services, and vector database, remove `--dry-run` to execute the workflow:
+Optionally write a framework-overview artifact:
 
 ```bash
 supramas \
   --topic "Design REBCO coated conductors with enhanced flux pinning" \
-  --config configs/supramas.local.yaml \
+  --config configs/supramas.example.yaml \
   --output-dir outputs \
-  --max-tree-depth 3
+  --write-overview
 ```
 
-Typical workflow outputs are written under `outputs/<topic>/` and include generated ideas, refined ideas, refined experimental protocols, and conversation logs.
+The command writes `outputs/framework_overview.json`. It does not run private production agents.
 
 ## Configuration
 
@@ -107,11 +107,11 @@ Start from the public example configuration:
 cp configs/supramas.example.yaml configs/supramas.local.yaml
 ```
 
-Then fill values locally. Do not commit `configs/supramas.local.yaml`, `.env` files, API keys, model gateway URLs, Milvus credentials, or other secrets.
+Then fill values locally if you are adapting the skeleton to your own implementation. Do not commit `configs/supramas.local.yaml`, `.env` files, API keys, model gateway URLs, Milvus credentials, or other secrets.
 
 Important runtime services:
 
-| Service | Purpose | Required for full run |
+| Service | Purpose | Required for private/full run |
 | --- | --- | --- |
 | OpenAI-compatible LLM endpoint | Agent reasoning, self-revision, and protocol generation | Yes |
 | Embedding endpoint | Literature and knowledge-library retrieval | Yes |
@@ -125,13 +125,13 @@ Most values can be supplied through environment variables or YAML. See [`configs
 ## Repository Layout
 
 ```text
-src/supramas/                    Core Python package
+src/supramas/                    Public framework skeleton
   strategy_tree/                 Literature-grounded strategy-tree construction
   protocol_optimizer/            Protocol proposal, retrieval, and evaluator modules
   parameter_optimization/        Mechanism-informed Bayesian optimization utilities
   explainability/                Mechanism, protocol, idea, and strategy traceback
-  prompts/                       Agent prompt templates
-  utils/                         Formatting and conversion helpers
+  prompts/                       Prompt-family catalog placeholders
+  utils/                         Lightweight artifact helpers
 
 knowledge_libraries/             Mechanism, strategy, and template libraries
 benchmark/                       Benchmark inputs, labels, evaluators, adapters, and results
@@ -210,7 +210,7 @@ python -m pytest
 
 ## Security And Release Hygiene
 
-This repository is a cleaned public release. It should not contain real API keys, private model gateways, local `.env` files, private Milvus credentials, private PDF corpora, or old Git history.
+This repository is a cleaned public framework/data release. It should not contain real API keys, private model gateways, local `.env` files, private Milvus credentials, private PDF corpora, full private implementation internals, or old Git history.
 
 Before publishing a new release, scan for accidental secrets:
 

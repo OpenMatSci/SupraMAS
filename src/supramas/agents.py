@@ -1,178 +1,65 @@
-import json
-import os
-import sys
-import time
-from typing import List
+"""Top-level SupraMAS agent orchestration skeleton."""
 
-import asyncio
+from __future__ import annotations
 
-import scipdf
-from dotenv import load_dotenv
-from loguru import logger
+from dataclasses import dataclass, field
+from typing import Any
 
-from supramas.protocol_optimizer.pipeline import AGDPipline
-from supramas.llm import openai_llm
-from supramas.strategy_tree.pipeline import PolicyTreePipline
-from supramas.prompts import *
-from supramas.strategy_tree.searcher import Result, SementicSearcher
-from supramas.utils import *
-from termcolor import cprint
+from supramas.llm import ExternalLLMPlaceholder, get_llm
 
 
-def get_llms(conversation_logger):
-    load_dotenv()
-    if "MAIN_LLM_MODEL" not in os.environ or os.environ["MAIN_LLM_MODEL"] == "":
-        raise ValueError("MAIN_LLM_MODEL is not set")
-    model = os.environ.get("MAIN_LLM_MODEL", "gpt4o-0513")
-    main_llm = openai_llm(model,conversation_logger)
-    return main_llm
+@dataclass
+class ResearchRequest:
+    """Input contract for a SupraMAS research-planning run."""
+
+    topic: str
+    anchor_paper_path: str | None = None
+    constraints: dict[str, Any] = field(default_factory=dict)
 
 
-class NeedDownloadException(Exception):
-    def __init__(self, title, normalized_title, tree_depth, expectations, parent_title):
-        self.title = title
-        self.normalized_title = normalized_title
-        self.tree_depth = tree_depth
-        self.expectations = expectations
-        self.parent_title = parent_title
-        super().__init__(f"Need to download: {title}")
+@dataclass
+class WorkflowArtifacts:
+    """High-level outputs produced by the full private implementation."""
+
+    strategy_tree: dict[str, Any]
+    idea: dict[str, Any]
+    protocol: dict[str, Any]
+    optimization: dict[str, Any]
+    traceback: dict[str, Any]
+
 
 class DeepResearchAgent:
-    def __init__(
-        self,
-        topic,
-        topic_path="saves/",
-        llm=None,
-        **kwargs,
-    ) -> None:
-        # 统一使用topic_path作为基础路径
-        self.topic_path = topic_path
-        self.begin_time = time.time()
-        self.llm = llm
-        self.search_qeuries = []
-        self.reader = SementicSearcher(topic_path, header_dir=kwargs.get("header_dir"))
-        self.config = kwargs.get("config")
-        self.topic = topic
-        
+    """Coordinator for the five-stage SupraMAS workflow.
 
-    def wrap_messages(self, prompt):
-        return [{"role": "user", "content": prompt}]
+    The public class documents the orchestration boundary. The detailed private
+    prompts, expert-critic loops, retrieval policies, and refinement logic are
+    intentionally omitted from this reviewer-facing release.
+    """
 
+    def __init__(self, llm: ExternalLLMPlaceholder | None = None, **kwargs):
+        self.llm = llm or get_llm()
+        self.options = kwargs
 
-    def idea_innovation(self, policy_tree):
-
-        self.agd = AGDPipline(
-            type="idea",  # 默认类型，可以在使用时修改
-            config=self.config,
-            topic=self.topic,
-            topic_path=self.topic_path,
-            llm=self.llm
+    def run(self, request: ResearchRequest) -> WorkflowArtifacts:
+        return WorkflowArtifacts(
+            strategy_tree={"stage": "strategy_mining", "topic": request.topic},
+            idea={"stage": "idea_innovation", "status": "interface-only"},
+            protocol={"stage": "experiment_construction", "status": "interface-only"},
+            optimization={"stage": "mechanism_informed_optimization", "status": "interface-only"},
+            traceback={"stage": "explainability_tracking", "status": "interface-only"},
         )
 
-        initial_idea, final_idea = self.agd.forward(idea=[], type="idea", policy_tree=policy_tree)
+    def idea_innovation(self, policy_tree: dict[str, Any]):
+        initial = {"stage": "idea_innovation", "input": "strategy_tree", "status": "interface-only"}
+        refined = {"stage": "idea_refinement", "status": "interface-only"}
+        return initial, refined
 
-        return initial_idea, final_idea
-
-
-    def experiment_construction(self, idea):
-
-        self.agd = AGDPipline(
-            type="experiment",  # 默认类型，可以在使用时修改
-            config=self.config,
-            topic=self.topic,
-            topic_path=self.topic_path,
-            llm=self.llm
-        )
-
-        final_exp = self.agd.forward(idea=idea, type="experiment")
-
-        return final_exp
+    def experiment_construction(self, idea: dict[str, Any]):
+        return {"stage": "experiment_construction", "input": "idea", "status": "interface-only"}
 
 
-    def regenerate_idea(self,  idea, human_feedback):
+def get_llms(*args, **kwargs) -> ExternalLLMPlaceholder:
+    """Compatibility helper returning the public LLM placeholder."""
 
-        ###########################################################################
-        logger.warning("重新生成idea!")
-        ###########################################################################
+    return get_llm()
 
-        final_idea = None
-        while not final_idea:
-            input_data = {
-                "idea": idea,
-                "human_feedback": human_feedback,
-            }
-            prompt = get_deep_regenerate_idea_prompt(input_data)
-            messages = self.wrap_messages(prompt)
-            
-            conversation_kwargs = {
-            "stage": "idea_innovation",
-            "role": "knowledge_agent",
-            "meta": {
-                "input_data": input_data,
-                "prompt": messages,
-            }
-        }
-            final_idea = self.llm.response(messages, extract_key="final_idea", **conversation_kwargs)
-
-        return final_idea
-    
-    def regenerate_experiment(self,  experiment, human_feedback):
-
-        ###########################################################################
-        logger.warning("重新生成实验!")
-        ###########################################################################
-        input_data = {
-            "experiment": experiment,
-            "human_feedback": human_feedback,
-        }
-        prompt = get_deep_refine_experiment_prompt(input_data)
-        messages = self.wrap_messages(prompt)
-        conversation_kwargs = {
-            "stage": "experiment_construction",
-            "role": "human_interaction_agent",
-            "meta": {
-                "input_data": input_data,
-                "prompt": messages,
-            }
-        }
-        refined_experiment = None
-        while not refined_experiment:
-            
-            refined_experiment = self.llm.response(messages, extract_key="experiment",load_json=True,**conversation_kwargs)
-
-        return refined_experiment
-
-
-    def human_intervention(self,plan,type):
-
-        human_feedback = input("请您提供对plan的改进建议,如果有改进建议,请您提供改进建议,如果没有,请您直接输入回车: ")
-        refined_plan = plan
-        while human_feedback != "":
-            if type == "idea":   
-                refined_plan = self.regenerate_idea(idea=plan, human_feedback=human_feedback)
-                cprint(f"final_idea: {refined_plan}", "blue")
-                human_feedback = input("请您提供对idea的改进建议,如果有改进建议,请您提供改进建议,如果没有,请您直接输入回车")
-
-            else:
-                refined_plan = self.regenerate_experiment(experiment=plan, human_feedback=human_feedback)
-                cprint(f"final_experiment: {refined_plan}", "blue")
-                human_feedback = input("请您提供对idea的改进建议,如果有改进建议,请您提供改进建议,如果没有,请您直接输入回车")
-                
-        return refined_plan
-        
-
-    def human_intervention_auto(self,plan,human_feedback,type):
-
-        refined_plan = plan
-
-        if type == "idea":   
-            refined_plan = self.regenerate_idea(idea=plan, human_feedback=human_feedback)
-            reasons = None
-            cprint(f"final_idea: {refined_plan}", "blue")
-
-        else:
-            refined_plan_with_feedback = self.regenerate_experiment(experiment=plan, human_feedback=human_feedback)
-            refined_plan = refined_plan_with_feedback["modified_scheme"]
-            reasons = refined_plan_with_feedback["reasons"]
-            
-        return refined_plan, reasons

@@ -1,2 +1,13 @@
-# from .idea_refiner_prompts import *
-from .deep_research_agent_prompts import *
+"""Prompt catalog placeholders.
+
+Detailed production prompts are intentionally omitted from the public skeleton.
+"""
+
+PROMPT_CATALOG = [
+    "strategy_mining",
+    "idea_innovation",
+    "experiment_construction",
+    "expert_review",
+    "mechanism_traceback",
+]
+

@@ -1,3 +1,6 @@
-from .semantic_search import Result, SementicSearcher
+"""Literature-search interfaces."""
 
-__all__ = ["Result", "SementicSearcher"]
+from .semantic_search import Result, SemanticSearcher, SementicSearcher
+
+__all__ = ["Result", "SemanticSearcher", "SementicSearcher"]
+
