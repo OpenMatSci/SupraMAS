@@ -10,6 +10,7 @@
 
   <p>
     <a href="https://github.com/OpenMatSci/SupraMAS"><img alt="GitHub repository" src="https://img.shields.io/badge/GitHub-OpenMatSci%2FSupraMAS-181717?logo=github"></a>
+    <a href="http://120.53.84.147:28000/"><img alt="SupraMAS platform" src="https://img.shields.io/badge/Platform-SupraMAS-blue"></a>
     <a href="https://github.com/OpenMatSci/SupraMAS/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
     <img alt="Python" src="https://img.shields.io/badge/Python-%3E%3D3.10-blue.svg">
     <a href="https://doi.org/10.57967/hf/8671"><img alt="Data DOI" src="https://img.shields.io/badge/Data-10.57967%2Fhf%2F8671-blue"></a>
@@ -26,6 +27,14 @@ The framework converts literature-derived mechanisms, empirical rules, and proce
 
 Detailed production agent prompts, retrieval heuristics, optimization internals, private service integrations, local credentials, and deployment code are intentionally excluded. The `src/supramas` package is therefore a compact framework skeleton rather than the full private implementation.
 
+## Platform Access
+
+A hosted SupraMAS platform is available at:
+
+<http://120.53.84.147:28000/>
+
+The platform provides an interactive entry point for inspecting and using the SupraMAS workflow, while this repository provides the reviewer-facing framework skeleton, benchmark artifacts, examples, and data-availability package.
+
 ## What This Public Skeleton Shows
 
 - **Strategy mining** module boundaries and strategy-tree output shape.
@@ -38,6 +47,7 @@ Detailed production agent prompts, retrieval heuristics, optimization internals,
 ## Table Of Contents
 
 - [Installation](#installation)
+- [Platform Access](#platform-access)
 - [Quick Start](#quick-start)
 - [Configuration](#configuration)
 - [Repository Layout](#repository-layout)
