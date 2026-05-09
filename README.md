@@ -320,4 +320,4 @@ https://doi.org/10.57967/hf/8671
 
 ## License
 
-SupraMAS is released under the [MIT License](LICENSE)..
+SupraMAS is released under the [MIT License](LICENSE).
