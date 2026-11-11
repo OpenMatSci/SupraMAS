@@ -1,0 +1,38 @@
+{
+  "seed": 20261025,
+  "bootstrap_resamples": 20000,
+  "n_systems": 6,
+  "idea_topics": 32,
+  "protocol_cases": 31,
+  "n_experts": 5,
+  "spearman_rho": 1.0,
+  "kendall_tau_b": 1.0,
+  "exact_permutation_p_two_sided": 0.002777777777777778,
+  "exact_permutations": 720,
+  "rho_case_bootstrap_percentile95": [
+    0.4857142857142857,
+    1.0
+  ],
+  "rho_crossed_expert_sensitivity_percentile95": [
+    0.4857142857142857,
+    1.0
+  ],
+  "case_bootstrap_rho_positive_frequency": 1.0,
+  "scoring_index": "Equal mean of four metric means, with equal mean of Claude and GPT within each metric.",
+  "resampling": "Shared 32 topic indices across idea metrics, all systems, both judges and expert track; separate shared 31 protocol-case indices across protocol metrics, systems and judges. Models are held fixed.",
+  "interpretation": "Conditional case-resampling intervals under an exchangeable-case working model, not coverage guarantees for all materials tasks. Rank intervals are percentile stability summaries. Exact label-permutation p is supplementary under an exchangeability null for the six system labels, not population inference over models.",
+  "source_sha256": {
+    "idea": "d52e90cc51ec125b2662d24f4b533276d5b69e7de4932b3f6f1f083731121932",
+    "protocol": "c288cec19c4d0949769eca916715e9d59e2e9b6452897bc51a6e3107d14c88eb"
+  },
+  "validation": {
+    "expert_cells_match_paper": true,
+    "automatic_means_match_current_analysis": true,
+    "shared_idea_expert_topics_exact": true
+  },
+  "software": {
+    "python": "3.12.7",
+    "numpy": "2.0.2",
+    "matplotlib": "3.10.3"
+  }
+}

@@ -1,0 +1,1153 @@
+﻿topic_id,model,metric,topic_mean_score
+1,supramas,Content Completeness,4.6
+1,supramas,Theme Relevance,4.6
+1,supramas,Technical Innovation,4.4
+1,supramas,Technical Feasibility,3.6
+1,supramas,Application Value,4.6
+1,supramas,Overall,4.36
+1,gpt_researcher,Content Completeness,2.4
+1,gpt_researcher,Theme Relevance,4.2
+1,gpt_researcher,Technical Innovation,4.6
+1,gpt_researcher,Technical Feasibility,4.2
+1,gpt_researcher,Application Value,3.2
+1,gpt_researcher,Overall,3.72
+1,gpt-5,Content Completeness,4.0
+1,gpt-5,Theme Relevance,4.4
+1,gpt-5,Technical Innovation,4.4
+1,gpt-5,Technical Feasibility,4.0
+1,gpt-5,Application Value,5.0
+1,gpt-5,Overall,4.36
+1,gemini-2.5-pro-thinking,Content Completeness,4.4
+1,gemini-2.5-pro-thinking,Theme Relevance,3.6
+1,gemini-2.5-pro-thinking,Technical Innovation,3.6
+1,gemini-2.5-pro-thinking,Technical Feasibility,3.8
+1,gemini-2.5-pro-thinking,Application Value,4.0
+1,gemini-2.5-pro-thinking,Overall,3.88
+1,grok-4,Content Completeness,4.0
+1,grok-4,Theme Relevance,4.0
+1,grok-4,Technical Innovation,3.8
+1,grok-4,Technical Feasibility,3.8
+1,grok-4,Application Value,4.2
+1,grok-4,Overall,3.96
+1,deepseek-v3,Content Completeness,4.0
+1,deepseek-v3,Theme Relevance,3.6
+1,deepseek-v3,Technical Innovation,3.4
+1,deepseek-v3,Technical Feasibility,4.2
+1,deepseek-v3,Application Value,3.2
+1,deepseek-v3,Overall,3.68
+2,supramas,Content Completeness,5.0
+2,supramas,Theme Relevance,4.4
+2,supramas,Technical Innovation,4.4
+2,supramas,Technical Feasibility,3.8
+2,supramas,Application Value,4.4
+2,supramas,Overall,4.4
+2,gpt_researcher,Content Completeness,2.6
+2,gpt_researcher,Theme Relevance,2.6
+2,gpt_researcher,Technical Innovation,3.2
+2,gpt_researcher,Technical Feasibility,2.8
+2,gpt_researcher,Application Value,1.6
+2,gpt_researcher,Overall,2.56
+2,gpt-5,Content Completeness,4.2
+2,gpt-5,Theme Relevance,4.4
+2,gpt-5,Technical Innovation,4.0
+2,gpt-5,Technical Feasibility,4.2
+2,gpt-5,Application Value,4.4
+2,gpt-5,Overall,4.24
+2,gemini-2.5-pro-thinking,Content Completeness,4.2
+2,gemini-2.5-pro-thinking,Theme Relevance,4.6
+2,gemini-2.5-pro-thinking,Technical Innovation,4.2
+2,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+2,gemini-2.5-pro-thinking,Application Value,4.8
+2,gemini-2.5-pro-thinking,Overall,4.36
+2,grok-4,Content Completeness,4.0
+2,grok-4,Theme Relevance,4.0
+2,grok-4,Technical Innovation,4.4
+2,grok-4,Technical Feasibility,3.4
+2,grok-4,Application Value,3.0
+2,grok-4,Overall,3.76
+2,deepseek-v3,Content Completeness,4.0
+2,deepseek-v3,Theme Relevance,3.4
+2,deepseek-v3,Technical Innovation,3.8
+2,deepseek-v3,Technical Feasibility,3.0
+2,deepseek-v3,Application Value,3.6
+2,deepseek-v3,Overall,3.56
+3,supramas,Content Completeness,5.0
+3,supramas,Theme Relevance,4.6
+3,supramas,Technical Innovation,4.2
+3,supramas,Technical Feasibility,4.2
+3,supramas,Application Value,4.4
+3,supramas,Overall,4.48
+3,gpt_researcher,Content Completeness,3.0
+3,gpt_researcher,Theme Relevance,3.8
+3,gpt_researcher,Technical Innovation,4.0
+3,gpt_researcher,Technical Feasibility,3.6
+3,gpt_researcher,Application Value,2.6
+3,gpt_researcher,Overall,3.4
+3,gpt-5,Content Completeness,4.0
+3,gpt-5,Theme Relevance,4.6
+3,gpt-5,Technical Innovation,4.0
+3,gpt-5,Technical Feasibility,4.2
+3,gpt-5,Application Value,4.4
+3,gpt-5,Overall,4.24
+3,gemini-2.5-pro-thinking,Content Completeness,4.2
+3,gemini-2.5-pro-thinking,Theme Relevance,4.4
+3,gemini-2.5-pro-thinking,Technical Innovation,4.0
+3,gemini-2.5-pro-thinking,Technical Feasibility,4.4
+3,gemini-2.5-pro-thinking,Application Value,3.4
+3,gemini-2.5-pro-thinking,Overall,4.08
+3,grok-4,Content Completeness,4.0
+3,grok-4,Theme Relevance,4.8
+3,grok-4,Technical Innovation,3.4
+3,grok-4,Technical Feasibility,4.4
+3,grok-4,Application Value,4.0
+3,grok-4,Overall,4.12
+3,deepseek-v3,Content Completeness,4.0
+3,deepseek-v3,Theme Relevance,4.2
+3,deepseek-v3,Technical Innovation,3.6
+3,deepseek-v3,Technical Feasibility,3.0
+3,deepseek-v3,Application Value,3.6
+3,deepseek-v3,Overall,3.68
+4,supramas,Content Completeness,5.0
+4,supramas,Theme Relevance,4.2
+4,supramas,Technical Innovation,4.0
+4,supramas,Technical Feasibility,4.2
+4,supramas,Application Value,4.0
+4,supramas,Overall,4.28
+4,gpt_researcher,Content Completeness,3.0
+4,gpt_researcher,Theme Relevance,2.4
+4,gpt_researcher,Technical Innovation,3.4
+4,gpt_researcher,Technical Feasibility,4.2
+4,gpt_researcher,Application Value,4.0
+4,gpt_researcher,Overall,3.4
+4,gpt-5,Content Completeness,4.2
+4,gpt-5,Theme Relevance,3.6
+4,gpt-5,Technical Innovation,4.8
+4,gpt-5,Technical Feasibility,3.8
+4,gpt-5,Application Value,3.0
+4,gpt-5,Overall,3.88
+4,gemini-2.5-pro-thinking,Content Completeness,4.2
+4,gemini-2.5-pro-thinking,Theme Relevance,4.4
+4,gemini-2.5-pro-thinking,Technical Innovation,3.8
+4,gemini-2.5-pro-thinking,Technical Feasibility,3.6
+4,gemini-2.5-pro-thinking,Application Value,3.6
+4,gemini-2.5-pro-thinking,Overall,3.92
+4,grok-4,Content Completeness,3.8
+4,grok-4,Theme Relevance,4.0
+4,grok-4,Technical Innovation,3.2
+4,grok-4,Technical Feasibility,3.8
+4,grok-4,Application Value,4.4
+4,grok-4,Overall,3.84
+4,deepseek-v3,Content Completeness,3.8
+4,deepseek-v3,Theme Relevance,4.0
+4,deepseek-v3,Technical Innovation,3.4
+4,deepseek-v3,Technical Feasibility,3.6
+4,deepseek-v3,Application Value,3.8
+4,deepseek-v3,Overall,3.72
+5,supramas,Content Completeness,4.8
+5,supramas,Theme Relevance,4.8
+5,supramas,Technical Innovation,4.0
+5,supramas,Technical Feasibility,4.8
+5,supramas,Application Value,3.8
+5,supramas,Overall,4.44
+5,gpt_researcher,Content Completeness,3.8
+5,gpt_researcher,Theme Relevance,3.2
+5,gpt_researcher,Technical Innovation,3.4
+5,gpt_researcher,Technical Feasibility,3.0
+5,gpt_researcher,Application Value,3.2
+5,gpt_researcher,Overall,3.32
+5,gpt-5,Content Completeness,4.6
+5,gpt-5,Theme Relevance,4.2
+5,gpt-5,Technical Innovation,4.0
+5,gpt-5,Technical Feasibility,3.8
+5,gpt-5,Application Value,4.4
+5,gpt-5,Overall,4.2
+5,gemini-2.5-pro-thinking,Content Completeness,4.0
+5,gemini-2.5-pro-thinking,Theme Relevance,4.2
+5,gemini-2.5-pro-thinking,Technical Innovation,3.8
+5,gemini-2.5-pro-thinking,Technical Feasibility,4.2
+5,gemini-2.5-pro-thinking,Application Value,4.6
+5,gemini-2.5-pro-thinking,Overall,4.16
+5,grok-4,Content Completeness,4.2
+5,grok-4,Theme Relevance,4.4
+5,grok-4,Technical Innovation,3.4
+5,grok-4,Technical Feasibility,4.2
+5,grok-4,Application Value,4.4
+5,grok-4,Overall,4.12
+5,deepseek-v3,Content Completeness,3.8
+5,deepseek-v3,Theme Relevance,5.0
+5,deepseek-v3,Technical Innovation,3.8
+5,deepseek-v3,Technical Feasibility,2.8
+5,deepseek-v3,Application Value,4.0
+5,deepseek-v3,Overall,3.88
+6,supramas,Content Completeness,4.8
+6,supramas,Theme Relevance,4.6
+6,supramas,Technical Innovation,4.2
+6,supramas,Technical Feasibility,4.6
+6,supramas,Application Value,4.6
+6,supramas,Overall,4.56
+6,gpt_researcher,Content Completeness,3.0
+6,gpt_researcher,Theme Relevance,3.8
+6,gpt_researcher,Technical Innovation,2.8
+6,gpt_researcher,Technical Feasibility,3.6
+6,gpt_researcher,Application Value,4.0
+6,gpt_researcher,Overall,3.44
+6,gpt-5,Content Completeness,4.0
+6,gpt-5,Theme Relevance,4.8
+6,gpt-5,Technical Innovation,4.0
+6,gpt-5,Technical Feasibility,3.8
+6,gpt-5,Application Value,4.8
+6,gpt-5,Overall,4.28
+6,gemini-2.5-pro-thinking,Content Completeness,4.2
+6,gemini-2.5-pro-thinking,Theme Relevance,4.8
+6,gemini-2.5-pro-thinking,Technical Innovation,4.0
+6,gemini-2.5-pro-thinking,Technical Feasibility,3.4
+6,gemini-2.5-pro-thinking,Application Value,4.0
+6,gemini-2.5-pro-thinking,Overall,4.08
+6,grok-4,Content Completeness,4.0
+6,grok-4,Theme Relevance,5.0
+6,grok-4,Technical Innovation,3.6
+6,grok-4,Technical Feasibility,2.8
+6,grok-4,Application Value,3.6
+6,grok-4,Overall,3.8
+6,deepseek-v3,Content Completeness,4.0
+6,deepseek-v3,Theme Relevance,4.2
+6,deepseek-v3,Technical Innovation,3.4
+6,deepseek-v3,Technical Feasibility,3.4
+6,deepseek-v3,Application Value,4.2
+6,deepseek-v3,Overall,3.84
+7,supramas,Content Completeness,5.0
+7,supramas,Theme Relevance,4.8
+7,supramas,Technical Innovation,3.8
+7,supramas,Technical Feasibility,4.4
+7,supramas,Application Value,4.6
+7,supramas,Overall,4.52
+7,gpt_researcher,Content Completeness,3.2
+7,gpt_researcher,Theme Relevance,4.8
+7,gpt_researcher,Technical Innovation,3.2
+7,gpt_researcher,Technical Feasibility,4.0
+7,gpt_researcher,Application Value,4.0
+7,gpt_researcher,Overall,3.84
+7,gpt-5,Content Completeness,4.2
+7,gpt-5,Theme Relevance,4.0
+7,gpt-5,Technical Innovation,4.2
+7,gpt-5,Technical Feasibility,4.4
+7,gpt-5,Application Value,4.2
+7,gpt-5,Overall,4.2
+7,gemini-2.5-pro-thinking,Content Completeness,4.2
+7,gemini-2.5-pro-thinking,Theme Relevance,4.2
+7,gemini-2.5-pro-thinking,Technical Innovation,4.0
+7,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+7,gemini-2.5-pro-thinking,Application Value,3.6
+7,gemini-2.5-pro-thinking,Overall,4.0
+7,grok-4,Content Completeness,4.0
+7,grok-4,Theme Relevance,4.6
+7,grok-4,Technical Innovation,3.6
+7,grok-4,Technical Feasibility,3.8
+7,grok-4,Application Value,4.4
+7,grok-4,Overall,4.08
+7,deepseek-v3,Content Completeness,3.2
+7,deepseek-v3,Theme Relevance,4.2
+7,deepseek-v3,Technical Innovation,3.8
+7,deepseek-v3,Technical Feasibility,4.6
+7,deepseek-v3,Application Value,3.6
+7,deepseek-v3,Overall,3.88
+8,supramas,Content Completeness,4.8
+8,supramas,Theme Relevance,4.8
+8,supramas,Technical Innovation,3.4
+8,supramas,Technical Feasibility,4.8
+8,supramas,Application Value,3.8
+8,supramas,Overall,4.32
+8,gpt_researcher,Content Completeness,3.0
+8,gpt_researcher,Theme Relevance,4.8
+8,gpt_researcher,Technical Innovation,3.8
+8,gpt_researcher,Technical Feasibility,3.8
+8,gpt_researcher,Application Value,3.8
+8,gpt_researcher,Overall,3.84
+8,gpt-5,Content Completeness,4.4
+8,gpt-5,Theme Relevance,4.2
+8,gpt-5,Technical Innovation,4.0
+8,gpt-5,Technical Feasibility,3.6
+8,gpt-5,Application Value,4.4
+8,gpt-5,Overall,4.12
+8,gemini-2.5-pro-thinking,Content Completeness,4.2
+8,gemini-2.5-pro-thinking,Theme Relevance,4.4
+8,gemini-2.5-pro-thinking,Technical Innovation,4.0
+8,gemini-2.5-pro-thinking,Technical Feasibility,3.6
+8,gemini-2.5-pro-thinking,Application Value,4.8
+8,gemini-2.5-pro-thinking,Overall,4.2
+8,grok-4,Content Completeness,4.0
+8,grok-4,Theme Relevance,4.6
+8,grok-4,Technical Innovation,3.8
+8,grok-4,Technical Feasibility,4.2
+8,grok-4,Application Value,4.2
+8,grok-4,Overall,4.16
+8,deepseek-v3,Content Completeness,4.0
+8,deepseek-v3,Theme Relevance,4.4
+8,deepseek-v3,Technical Innovation,3.6
+8,deepseek-v3,Technical Feasibility,4.4
+8,deepseek-v3,Application Value,3.8
+8,deepseek-v3,Overall,4.04
+9,supramas,Content Completeness,5.0
+9,supramas,Theme Relevance,4.4
+9,supramas,Technical Innovation,4.2
+9,supramas,Technical Feasibility,4.4
+9,supramas,Application Value,4.2
+9,supramas,Overall,4.44
+9,gpt_researcher,Content Completeness,3.6
+9,gpt_researcher,Theme Relevance,2.8
+9,gpt_researcher,Technical Innovation,3.0
+9,gpt_researcher,Technical Feasibility,3.2
+9,gpt_researcher,Application Value,3.2
+9,gpt_researcher,Overall,3.16
+9,gpt-5,Content Completeness,4.2
+9,gpt-5,Theme Relevance,4.2
+9,gpt-5,Technical Innovation,4.0
+9,gpt-5,Technical Feasibility,4.4
+9,gpt-5,Application Value,4.0
+9,gpt-5,Overall,4.16
+9,gemini-2.5-pro-thinking,Content Completeness,4.0
+9,gemini-2.5-pro-thinking,Theme Relevance,4.4
+9,gemini-2.5-pro-thinking,Technical Innovation,4.6
+9,gemini-2.5-pro-thinking,Technical Feasibility,4.2
+9,gemini-2.5-pro-thinking,Application Value,3.6
+9,gemini-2.5-pro-thinking,Overall,4.16
+9,grok-4,Content Completeness,4.0
+9,grok-4,Theme Relevance,4.6
+9,grok-4,Technical Innovation,4.2
+9,grok-4,Technical Feasibility,3.8
+9,grok-4,Application Value,4.2
+9,grok-4,Overall,4.16
+9,deepseek-v3,Content Completeness,3.8
+9,deepseek-v3,Theme Relevance,5.0
+9,deepseek-v3,Technical Innovation,3.0
+9,deepseek-v3,Technical Feasibility,3.4
+9,deepseek-v3,Application Value,4.0
+9,deepseek-v3,Overall,3.84
+10,supramas,Content Completeness,4.6
+10,supramas,Theme Relevance,4.8
+10,supramas,Technical Innovation,4.0
+10,supramas,Technical Feasibility,4.8
+10,supramas,Application Value,4.4
+10,supramas,Overall,4.52
+10,gpt_researcher,Content Completeness,2.6
+10,gpt_researcher,Theme Relevance,2.6
+10,gpt_researcher,Technical Innovation,2.6
+10,gpt_researcher,Technical Feasibility,2.8
+10,gpt_researcher,Application Value,1.4
+10,gpt_researcher,Overall,2.4
+10,gpt-5,Content Completeness,4.2
+10,gpt-5,Theme Relevance,4.4
+10,gpt-5,Technical Innovation,4.2
+10,gpt-5,Technical Feasibility,4.0
+10,gpt-5,Application Value,4.4
+10,gpt-5,Overall,4.24
+10,gemini-2.5-pro-thinking,Content Completeness,4.0
+10,gemini-2.5-pro-thinking,Theme Relevance,4.0
+10,gemini-2.5-pro-thinking,Technical Innovation,4.0
+10,gemini-2.5-pro-thinking,Technical Feasibility,3.8
+10,gemini-2.5-pro-thinking,Application Value,4.0
+10,gemini-2.5-pro-thinking,Overall,3.96
+10,grok-4,Content Completeness,4.0
+10,grok-4,Theme Relevance,4.4
+10,grok-4,Technical Innovation,4.0
+10,grok-4,Technical Feasibility,4.2
+10,grok-4,Application Value,4.0
+10,grok-4,Overall,4.12
+10,deepseek-v3,Content Completeness,4.0
+10,deepseek-v3,Theme Relevance,4.6
+10,deepseek-v3,Technical Innovation,3.2
+10,deepseek-v3,Technical Feasibility,3.8
+10,deepseek-v3,Application Value,4.2
+10,deepseek-v3,Overall,3.96
+11,supramas,Content Completeness,5.0
+11,supramas,Theme Relevance,4.8
+11,supramas,Technical Innovation,4.4
+11,supramas,Technical Feasibility,4.4
+11,supramas,Application Value,4.8
+11,supramas,Overall,4.68
+11,gpt_researcher,Content Completeness,3.2
+11,gpt_researcher,Theme Relevance,3.2
+11,gpt_researcher,Technical Innovation,3.2
+11,gpt_researcher,Technical Feasibility,2.8
+11,gpt_researcher,Application Value,2.6
+11,gpt_researcher,Overall,3.0
+11,gpt-5,Content Completeness,4.0
+11,gpt-5,Theme Relevance,4.0
+11,gpt-5,Technical Innovation,4.2
+11,gpt-5,Technical Feasibility,4.0
+11,gpt-5,Application Value,5.0
+11,gpt-5,Overall,4.24
+11,gemini-2.5-pro-thinking,Content Completeness,4.2
+11,gemini-2.5-pro-thinking,Theme Relevance,4.8
+11,gemini-2.5-pro-thinking,Technical Innovation,3.2
+11,gemini-2.5-pro-thinking,Technical Feasibility,3.6
+11,gemini-2.5-pro-thinking,Application Value,4.2
+11,gemini-2.5-pro-thinking,Overall,4.0
+11,grok-4,Content Completeness,4.0
+11,grok-4,Theme Relevance,4.6
+11,grok-4,Technical Innovation,4.0
+11,grok-4,Technical Feasibility,3.6
+11,grok-4,Application Value,4.2
+11,grok-4,Overall,4.08
+11,deepseek-v3,Content Completeness,4.0
+11,deepseek-v3,Theme Relevance,4.2
+11,deepseek-v3,Technical Innovation,3.8
+11,deepseek-v3,Technical Feasibility,3.2
+11,deepseek-v3,Application Value,3.8
+11,deepseek-v3,Overall,3.8
+12,supramas,Content Completeness,4.8
+12,supramas,Theme Relevance,4.6
+12,supramas,Technical Innovation,4.4
+12,supramas,Technical Feasibility,4.4
+12,supramas,Application Value,4.8
+12,supramas,Overall,4.6
+12,gpt_researcher,Content Completeness,2.8
+12,gpt_researcher,Theme Relevance,3.4
+12,gpt_researcher,Technical Innovation,3.4
+12,gpt_researcher,Technical Feasibility,3.2
+12,gpt_researcher,Application Value,3.4
+12,gpt_researcher,Overall,3.24
+12,gpt-5,Content Completeness,4.2
+12,gpt-5,Theme Relevance,4.4
+12,gpt-5,Technical Innovation,4.2
+12,gpt-5,Technical Feasibility,4.4
+12,gpt-5,Application Value,3.8
+12,gpt-5,Overall,4.2
+12,gemini-2.5-pro-thinking,Content Completeness,4.2
+12,gemini-2.5-pro-thinking,Theme Relevance,4.6
+12,gemini-2.5-pro-thinking,Technical Innovation,4.6
+12,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+12,gemini-2.5-pro-thinking,Application Value,4.4
+12,gemini-2.5-pro-thinking,Overall,4.36
+12,grok-4,Content Completeness,3.6
+12,grok-4,Theme Relevance,5.0
+12,grok-4,Technical Innovation,3.8
+12,grok-4,Technical Feasibility,4.2
+12,grok-4,Application Value,4.2
+12,grok-4,Overall,4.16
+12,deepseek-v3,Content Completeness,3.4
+12,deepseek-v3,Theme Relevance,4.6
+12,deepseek-v3,Technical Innovation,3.8
+12,deepseek-v3,Technical Feasibility,3.6
+12,deepseek-v3,Application Value,3.6
+12,deepseek-v3,Overall,3.8
+13,supramas,Content Completeness,4.6
+13,supramas,Theme Relevance,4.8
+13,supramas,Technical Innovation,4.6
+13,supramas,Technical Feasibility,4.8
+13,supramas,Application Value,4.6
+13,supramas,Overall,4.68
+13,gpt_researcher,Content Completeness,3.4
+13,gpt_researcher,Theme Relevance,3.8
+13,gpt_researcher,Technical Innovation,3.8
+13,gpt_researcher,Technical Feasibility,3.4
+13,gpt_researcher,Application Value,4.0
+13,gpt_researcher,Overall,3.68
+13,gpt-5,Content Completeness,4.2
+13,gpt-5,Theme Relevance,3.6
+13,gpt-5,Technical Innovation,4.2
+13,gpt-5,Technical Feasibility,4.0
+13,gpt-5,Application Value,4.0
+13,gpt-5,Overall,4.0
+13,gemini-2.5-pro-thinking,Content Completeness,4.2
+13,gemini-2.5-pro-thinking,Theme Relevance,4.2
+13,gemini-2.5-pro-thinking,Technical Innovation,3.4
+13,gemini-2.5-pro-thinking,Technical Feasibility,4.4
+13,gemini-2.5-pro-thinking,Application Value,4.2
+13,gemini-2.5-pro-thinking,Overall,4.08
+13,grok-4,Content Completeness,4.0
+13,grok-4,Theme Relevance,5.0
+13,grok-4,Technical Innovation,3.2
+13,grok-4,Technical Feasibility,3.8
+13,grok-4,Application Value,3.8
+13,grok-4,Overall,3.96
+13,deepseek-v3,Content Completeness,4.0
+13,deepseek-v3,Theme Relevance,4.4
+13,deepseek-v3,Technical Innovation,4.2
+13,deepseek-v3,Technical Feasibility,3.0
+13,deepseek-v3,Application Value,3.8
+13,deepseek-v3,Overall,3.88
+14,supramas,Content Completeness,4.8
+14,supramas,Theme Relevance,4.4
+14,supramas,Technical Innovation,4.6
+14,supramas,Technical Feasibility,4.6
+14,supramas,Application Value,4.4
+14,supramas,Overall,4.56
+14,gpt_researcher,Content Completeness,3.2
+14,gpt_researcher,Theme Relevance,3.0
+14,gpt_researcher,Technical Innovation,3.0
+14,gpt_researcher,Technical Feasibility,2.4
+14,gpt_researcher,Application Value,2.8
+14,gpt_researcher,Overall,2.88
+14,gpt-5,Content Completeness,4.0
+14,gpt-5,Theme Relevance,4.6
+14,gpt-5,Technical Innovation,3.8
+14,gpt-5,Technical Feasibility,4.6
+14,gpt-5,Application Value,4.6
+14,gpt-5,Overall,4.32
+14,gemini-2.5-pro-thinking,Content Completeness,4.2
+14,gemini-2.5-pro-thinking,Theme Relevance,4.8
+14,gemini-2.5-pro-thinking,Technical Innovation,3.0
+14,gemini-2.5-pro-thinking,Technical Feasibility,3.8
+14,gemini-2.5-pro-thinking,Application Value,4.4
+14,gemini-2.5-pro-thinking,Overall,4.04
+14,grok-4,Content Completeness,4.0
+14,grok-4,Theme Relevance,5.0
+14,grok-4,Technical Innovation,3.8
+14,grok-4,Technical Feasibility,4.2
+14,grok-4,Application Value,4.2
+14,grok-4,Overall,4.24
+14,deepseek-v3,Content Completeness,4.0
+14,deepseek-v3,Theme Relevance,4.2
+14,deepseek-v3,Technical Innovation,3.0
+14,deepseek-v3,Technical Feasibility,3.4
+14,deepseek-v3,Application Value,4.0
+14,deepseek-v3,Overall,3.72
+15,supramas,Content Completeness,4.8
+15,supramas,Theme Relevance,4.8
+15,supramas,Technical Innovation,4.6
+15,supramas,Technical Feasibility,4.6
+15,supramas,Application Value,4.6
+15,supramas,Overall,4.68
+15,gpt_researcher,Content Completeness,4.0
+15,gpt_researcher,Theme Relevance,4.8
+15,gpt_researcher,Technical Innovation,3.8
+15,gpt_researcher,Technical Feasibility,4.2
+15,gpt_researcher,Application Value,4.2
+15,gpt_researcher,Overall,4.2
+15,gpt-5,Content Completeness,4.2
+15,gpt-5,Theme Relevance,4.2
+15,gpt-5,Technical Innovation,4.2
+15,gpt-5,Technical Feasibility,4.6
+15,gpt-5,Application Value,4.4
+15,gpt-5,Overall,4.32
+15,gemini-2.5-pro-thinking,Content Completeness,4.0
+15,gemini-2.5-pro-thinking,Theme Relevance,4.8
+15,gemini-2.5-pro-thinking,Technical Innovation,4.2
+15,gemini-2.5-pro-thinking,Technical Feasibility,3.2
+15,gemini-2.5-pro-thinking,Application Value,4.6
+15,gemini-2.5-pro-thinking,Overall,4.16
+15,grok-4,Content Completeness,4.0
+15,grok-4,Theme Relevance,5.0
+15,grok-4,Technical Innovation,3.6
+15,grok-4,Technical Feasibility,4.8
+15,grok-4,Application Value,3.8
+15,grok-4,Overall,4.24
+15,deepseek-v3,Content Completeness,4.4
+15,deepseek-v3,Theme Relevance,4.2
+15,deepseek-v3,Technical Innovation,3.4
+15,deepseek-v3,Technical Feasibility,3.8
+15,deepseek-v3,Application Value,4.2
+15,deepseek-v3,Overall,4.0
+16,supramas,Content Completeness,4.8
+16,supramas,Theme Relevance,4.6
+16,supramas,Technical Innovation,4.4
+16,supramas,Technical Feasibility,4.4
+16,supramas,Application Value,4.4
+16,supramas,Overall,4.52
+16,gpt_researcher,Content Completeness,3.2
+16,gpt_researcher,Theme Relevance,2.4
+16,gpt_researcher,Technical Innovation,2.6
+16,gpt_researcher,Technical Feasibility,2.8
+16,gpt_researcher,Application Value,2.6
+16,gpt_researcher,Overall,2.72
+16,gpt-5,Content Completeness,4.2
+16,gpt-5,Theme Relevance,5.0
+16,gpt-5,Technical Innovation,4.2
+16,gpt-5,Technical Feasibility,5.0
+16,gpt-5,Application Value,4.6
+16,gpt-5,Overall,4.6
+16,gemini-2.5-pro-thinking,Content Completeness,4.2
+16,gemini-2.5-pro-thinking,Theme Relevance,4.4
+16,gemini-2.5-pro-thinking,Technical Innovation,3.6
+16,gemini-2.5-pro-thinking,Technical Feasibility,3.0
+16,gemini-2.5-pro-thinking,Application Value,4.4
+16,gemini-2.5-pro-thinking,Overall,3.92
+16,grok-4,Content Completeness,4.0
+16,grok-4,Theme Relevance,4.2
+16,grok-4,Technical Innovation,4.0
+16,grok-4,Technical Feasibility,3.2
+16,grok-4,Application Value,4.2
+16,grok-4,Overall,3.92
+16,deepseek-v3,Content Completeness,3.0
+16,deepseek-v3,Theme Relevance,4.2
+16,deepseek-v3,Technical Innovation,3.0
+16,deepseek-v3,Technical Feasibility,4.0
+16,deepseek-v3,Application Value,3.2
+16,deepseek-v3,Overall,3.48
+17,supramas,Content Completeness,5.0
+17,supramas,Theme Relevance,5.0
+17,supramas,Technical Innovation,4.2
+17,supramas,Technical Feasibility,4.6
+17,supramas,Application Value,4.2
+17,supramas,Overall,4.6
+17,gpt_researcher,Content Completeness,3.0
+17,gpt_researcher,Theme Relevance,3.4
+17,gpt_researcher,Technical Innovation,2.8
+17,gpt_researcher,Technical Feasibility,2.8
+17,gpt_researcher,Application Value,2.6
+17,gpt_researcher,Overall,2.92
+17,gpt-5,Content Completeness,4.2
+17,gpt-5,Theme Relevance,4.0
+17,gpt-5,Technical Innovation,3.8
+17,gpt-5,Technical Feasibility,3.8
+17,gpt-5,Application Value,4.2
+17,gpt-5,Overall,4.0
+17,gemini-2.5-pro-thinking,Content Completeness,4.2
+17,gemini-2.5-pro-thinking,Theme Relevance,4.8
+17,gemini-2.5-pro-thinking,Technical Innovation,4.0
+17,gemini-2.5-pro-thinking,Technical Feasibility,3.4
+17,gemini-2.5-pro-thinking,Application Value,4.8
+17,gemini-2.5-pro-thinking,Overall,4.24
+17,grok-4,Content Completeness,3.8
+17,grok-4,Theme Relevance,4.6
+17,grok-4,Technical Innovation,3.8
+17,grok-4,Technical Feasibility,4.2
+17,grok-4,Application Value,3.4
+17,grok-4,Overall,3.96
+17,deepseek-v3,Content Completeness,4.0
+17,deepseek-v3,Theme Relevance,4.4
+17,deepseek-v3,Technical Innovation,3.4
+17,deepseek-v3,Technical Feasibility,3.6
+17,deepseek-v3,Application Value,3.6
+17,deepseek-v3,Overall,3.8
+18,supramas,Content Completeness,5.0
+18,supramas,Theme Relevance,4.8
+18,supramas,Technical Innovation,3.8
+18,supramas,Technical Feasibility,4.8
+18,supramas,Application Value,4.6
+18,supramas,Overall,4.6
+18,gpt_researcher,Content Completeness,3.0
+18,gpt_researcher,Theme Relevance,2.4
+18,gpt_researcher,Technical Innovation,2.8
+18,gpt_researcher,Technical Feasibility,3.4
+18,gpt_researcher,Application Value,3.6
+18,gpt_researcher,Overall,3.04
+18,gpt-5,Content Completeness,3.6
+18,gpt-5,Theme Relevance,5.0
+18,gpt-5,Technical Innovation,4.0
+18,gpt-5,Technical Feasibility,4.4
+18,gpt-5,Application Value,4.8
+18,gpt-5,Overall,4.36
+18,gemini-2.5-pro-thinking,Content Completeness,4.2
+18,gemini-2.5-pro-thinking,Theme Relevance,4.4
+18,gemini-2.5-pro-thinking,Technical Innovation,4.2
+18,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+18,gemini-2.5-pro-thinking,Application Value,3.8
+18,gemini-2.5-pro-thinking,Overall,4.12
+18,grok-4,Content Completeness,4.0
+18,grok-4,Theme Relevance,5.0
+18,grok-4,Technical Innovation,4.0
+18,grok-4,Technical Feasibility,4.2
+18,grok-4,Application Value,3.6
+18,grok-4,Overall,4.16
+18,deepseek-v3,Content Completeness,4.0
+18,deepseek-v3,Theme Relevance,4.0
+18,deepseek-v3,Technical Innovation,3.2
+18,deepseek-v3,Technical Feasibility,3.6
+18,deepseek-v3,Application Value,4.0
+18,deepseek-v3,Overall,3.76
+19,supramas,Content Completeness,5.0
+19,supramas,Theme Relevance,4.8
+19,supramas,Technical Innovation,3.8
+19,supramas,Technical Feasibility,4.4
+19,supramas,Application Value,4.6
+19,supramas,Overall,4.52
+19,gpt_researcher,Content Completeness,4.0
+19,gpt_researcher,Theme Relevance,4.4
+19,gpt_researcher,Technical Innovation,3.8
+19,gpt_researcher,Technical Feasibility,4.4
+19,gpt_researcher,Application Value,4.6
+19,gpt_researcher,Overall,4.24
+19,gpt-5,Content Completeness,3.6
+19,gpt-5,Theme Relevance,4.8
+19,gpt-5,Technical Innovation,4.4
+19,gpt-5,Technical Feasibility,4.0
+19,gpt-5,Application Value,4.4
+19,gpt-5,Overall,4.24
+19,gemini-2.5-pro-thinking,Content Completeness,4.2
+19,gemini-2.5-pro-thinking,Theme Relevance,4.8
+19,gemini-2.5-pro-thinking,Technical Innovation,3.8
+19,gemini-2.5-pro-thinking,Technical Feasibility,4.2
+19,gemini-2.5-pro-thinking,Application Value,4.2
+19,gemini-2.5-pro-thinking,Overall,4.24
+19,grok-4,Content Completeness,4.0
+19,grok-4,Theme Relevance,5.0
+19,grok-4,Technical Innovation,3.2
+19,grok-4,Technical Feasibility,4.4
+19,grok-4,Application Value,4.4
+19,grok-4,Overall,4.2
+19,deepseek-v3,Content Completeness,3.2
+19,deepseek-v3,Theme Relevance,4.6
+19,deepseek-v3,Technical Innovation,3.6
+19,deepseek-v3,Technical Feasibility,3.6
+19,deepseek-v3,Application Value,4.6
+19,deepseek-v3,Overall,3.92
+20,supramas,Content Completeness,4.8
+20,supramas,Theme Relevance,4.8
+20,supramas,Technical Innovation,4.4
+20,supramas,Technical Feasibility,4.8
+20,supramas,Application Value,4.4
+20,supramas,Overall,4.64
+20,gpt_researcher,Content Completeness,3.0
+20,gpt_researcher,Theme Relevance,4.4
+20,gpt_researcher,Technical Innovation,3.4
+20,gpt_researcher,Technical Feasibility,4.0
+20,gpt_researcher,Application Value,3.8
+20,gpt_researcher,Overall,3.72
+20,gpt-5,Content Completeness,3.4
+20,gpt-5,Theme Relevance,4.2
+20,gpt-5,Technical Innovation,4.4
+20,gpt-5,Technical Feasibility,3.8
+20,gpt-5,Application Value,4.6
+20,gpt-5,Overall,4.08
+20,gemini-2.5-pro-thinking,Content Completeness,4.2
+20,gemini-2.5-pro-thinking,Theme Relevance,4.4
+20,gemini-2.5-pro-thinking,Technical Innovation,3.6
+20,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+20,gemini-2.5-pro-thinking,Application Value,3.8
+20,gemini-2.5-pro-thinking,Overall,4.0
+20,grok-4,Content Completeness,4.0
+20,grok-4,Theme Relevance,5.0
+20,grok-4,Technical Innovation,4.0
+20,grok-4,Technical Feasibility,3.8
+20,grok-4,Application Value,3.8
+20,grok-4,Overall,4.12
+20,deepseek-v3,Content Completeness,4.0
+20,deepseek-v3,Theme Relevance,4.2
+20,deepseek-v3,Technical Innovation,3.8
+20,deepseek-v3,Technical Feasibility,3.2
+20,deepseek-v3,Application Value,4.4
+20,deepseek-v3,Overall,3.92
+21,supramas,Content Completeness,4.8
+21,supramas,Theme Relevance,5.0
+21,supramas,Technical Innovation,4.2
+21,supramas,Technical Feasibility,4.6
+21,supramas,Application Value,4.4
+21,supramas,Overall,4.6
+21,gpt_researcher,Content Completeness,3.0
+21,gpt_researcher,Theme Relevance,3.6
+21,gpt_researcher,Technical Innovation,3.4
+21,gpt_researcher,Technical Feasibility,2.8
+21,gpt_researcher,Application Value,3.8
+21,gpt_researcher,Overall,3.32
+21,gpt-5,Content Completeness,3.6
+21,gpt-5,Theme Relevance,4.6
+21,gpt-5,Technical Innovation,3.6
+21,gpt-5,Technical Feasibility,4.6
+21,gpt-5,Application Value,4.6
+21,gpt-5,Overall,4.2
+21,gemini-2.5-pro-thinking,Content Completeness,4.2
+21,gemini-2.5-pro-thinking,Theme Relevance,4.8
+21,gemini-2.5-pro-thinking,Technical Innovation,4.2
+21,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+21,gemini-2.5-pro-thinking,Application Value,4.4
+21,gemini-2.5-pro-thinking,Overall,4.32
+21,grok-4,Content Completeness,4.2
+21,grok-4,Theme Relevance,4.8
+21,grok-4,Technical Innovation,3.4
+21,grok-4,Technical Feasibility,4.0
+21,grok-4,Application Value,4.6
+21,grok-4,Overall,4.2
+21,deepseek-v3,Content Completeness,4.2
+21,deepseek-v3,Theme Relevance,3.6
+21,deepseek-v3,Technical Innovation,3.2
+21,deepseek-v3,Technical Feasibility,4.2
+21,deepseek-v3,Application Value,3.8
+21,deepseek-v3,Overall,3.8
+22,supramas,Content Completeness,5.0
+22,supramas,Theme Relevance,4.4
+22,supramas,Technical Innovation,4.0
+22,supramas,Technical Feasibility,4.2
+22,supramas,Application Value,4.4
+22,supramas,Overall,4.4
+22,gpt_researcher,Content Completeness,3.0
+22,gpt_researcher,Theme Relevance,3.4
+22,gpt_researcher,Technical Innovation,3.8
+22,gpt_researcher,Technical Feasibility,3.6
+22,gpt_researcher,Application Value,3.8
+22,gpt_researcher,Overall,3.52
+22,gpt-5,Content Completeness,4.0
+22,gpt-5,Theme Relevance,4.2
+22,gpt-5,Technical Innovation,4.6
+22,gpt-5,Technical Feasibility,4.0
+22,gpt-5,Application Value,3.6
+22,gpt-5,Overall,4.08
+22,gemini-2.5-pro-thinking,Content Completeness,4.0
+22,gemini-2.5-pro-thinking,Theme Relevance,5.0
+22,gemini-2.5-pro-thinking,Technical Innovation,3.6
+22,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+22,gemini-2.5-pro-thinking,Application Value,4.8
+22,gemini-2.5-pro-thinking,Overall,4.28
+22,grok-4,Content Completeness,4.0
+22,grok-4,Theme Relevance,4.0
+22,grok-4,Technical Innovation,4.0
+22,grok-4,Technical Feasibility,5.0
+22,grok-4,Application Value,3.2
+22,grok-4,Overall,4.04
+22,deepseek-v3,Content Completeness,4.0
+22,deepseek-v3,Theme Relevance,4.8
+22,deepseek-v3,Technical Innovation,3.4
+22,deepseek-v3,Technical Feasibility,4.2
+22,deepseek-v3,Application Value,2.8
+22,deepseek-v3,Overall,3.84
+23,supramas,Content Completeness,5.0
+23,supramas,Theme Relevance,4.8
+23,supramas,Technical Innovation,4.4
+23,supramas,Technical Feasibility,4.6
+23,supramas,Application Value,4.6
+23,supramas,Overall,4.68
+23,gpt_researcher,Content Completeness,3.0
+23,gpt_researcher,Theme Relevance,3.8
+23,gpt_researcher,Technical Innovation,3.2
+23,gpt_researcher,Technical Feasibility,2.8
+23,gpt_researcher,Application Value,4.4
+23,gpt_researcher,Overall,3.44
+23,gpt-5,Content Completeness,4.6
+23,gpt-5,Theme Relevance,4.4
+23,gpt-5,Technical Innovation,4.0
+23,gpt-5,Technical Feasibility,4.2
+23,gpt-5,Application Value,4.4
+23,gpt-5,Overall,4.32
+23,gemini-2.5-pro-thinking,Content Completeness,4.0
+23,gemini-2.5-pro-thinking,Theme Relevance,4.6
+23,gemini-2.5-pro-thinking,Technical Innovation,4.0
+23,gemini-2.5-pro-thinking,Technical Feasibility,3.4
+23,gemini-2.5-pro-thinking,Application Value,3.8
+23,gemini-2.5-pro-thinking,Overall,3.96
+23,grok-4,Content Completeness,4.0
+23,grok-4,Theme Relevance,4.6
+23,grok-4,Technical Innovation,3.8
+23,grok-4,Technical Feasibility,3.6
+23,grok-4,Application Value,3.6
+23,grok-4,Overall,3.92
+23,deepseek-v3,Content Completeness,3.4
+23,deepseek-v3,Theme Relevance,4.8
+23,deepseek-v3,Technical Innovation,3.6
+23,deepseek-v3,Technical Feasibility,3.4
+23,deepseek-v3,Application Value,3.2
+23,deepseek-v3,Overall,3.68
+24,supramas,Content Completeness,4.8
+24,supramas,Theme Relevance,4.8
+24,supramas,Technical Innovation,4.0
+24,supramas,Technical Feasibility,4.2
+24,supramas,Application Value,4.4
+24,supramas,Overall,4.44
+24,gpt_researcher,Content Completeness,3.8
+24,gpt_researcher,Theme Relevance,3.2
+24,gpt_researcher,Technical Innovation,4.6
+24,gpt_researcher,Technical Feasibility,3.6
+24,gpt_researcher,Application Value,3.8
+24,gpt_researcher,Overall,3.8
+24,gpt-5,Content Completeness,4.2
+24,gpt-5,Theme Relevance,4.6
+24,gpt-5,Technical Innovation,4.4
+24,gpt-5,Technical Feasibility,4.4
+24,gpt-5,Application Value,4.4
+24,gpt-5,Overall,4.4
+24,gemini-2.5-pro-thinking,Content Completeness,4.2
+24,gemini-2.5-pro-thinking,Theme Relevance,4.6
+24,gemini-2.5-pro-thinking,Technical Innovation,4.2
+24,gemini-2.5-pro-thinking,Technical Feasibility,4.6
+24,gemini-2.5-pro-thinking,Application Value,4.2
+24,gemini-2.5-pro-thinking,Overall,4.36
+24,grok-4,Content Completeness,3.6
+24,grok-4,Theme Relevance,5.0
+24,grok-4,Technical Innovation,3.8
+24,grok-4,Technical Feasibility,3.8
+24,grok-4,Application Value,4.2
+24,grok-4,Overall,4.08
+24,deepseek-v3,Content Completeness,4.0
+24,deepseek-v3,Theme Relevance,4.4
+24,deepseek-v3,Technical Innovation,3.6
+24,deepseek-v3,Technical Feasibility,3.2
+24,deepseek-v3,Application Value,3.4
+24,deepseek-v3,Overall,3.72
+25,supramas,Content Completeness,4.8
+25,supramas,Theme Relevance,4.8
+25,supramas,Technical Innovation,4.6
+25,supramas,Technical Feasibility,4.2
+25,supramas,Application Value,4.6
+25,supramas,Overall,4.6
+25,gpt_researcher,Content Completeness,2.4
+25,gpt_researcher,Theme Relevance,2.2
+25,gpt_researcher,Technical Innovation,2.8
+25,gpt_researcher,Technical Feasibility,2.8
+25,gpt_researcher,Application Value,2.8
+25,gpt_researcher,Overall,2.6
+25,gpt-5,Content Completeness,4.2
+25,gpt-5,Theme Relevance,4.2
+25,gpt-5,Technical Innovation,4.0
+25,gpt-5,Technical Feasibility,4.6
+25,gpt-5,Application Value,4.6
+25,gpt-5,Overall,4.32
+25,gemini-2.5-pro-thinking,Content Completeness,4.2
+25,gemini-2.5-pro-thinking,Theme Relevance,4.8
+25,gemini-2.5-pro-thinking,Technical Innovation,3.8
+25,gemini-2.5-pro-thinking,Technical Feasibility,3.8
+25,gemini-2.5-pro-thinking,Application Value,4.8
+25,gemini-2.5-pro-thinking,Overall,4.28
+25,grok-4,Content Completeness,4.0
+25,grok-4,Theme Relevance,5.0
+25,grok-4,Technical Innovation,3.6
+25,grok-4,Technical Feasibility,4.0
+25,grok-4,Application Value,4.6
+25,grok-4,Overall,4.24
+25,deepseek-v3,Content Completeness,4.0
+25,deepseek-v3,Theme Relevance,4.6
+25,deepseek-v3,Technical Innovation,4.2
+25,deepseek-v3,Technical Feasibility,3.6
+25,deepseek-v3,Application Value,3.8
+25,deepseek-v3,Overall,4.04
+26,supramas,Content Completeness,4.8
+26,supramas,Theme Relevance,4.4
+26,supramas,Technical Innovation,4.2
+26,supramas,Technical Feasibility,4.8
+26,supramas,Application Value,4.2
+26,supramas,Overall,4.48
+26,gpt_researcher,Content Completeness,3.8
+26,gpt_researcher,Theme Relevance,4.6
+26,gpt_researcher,Technical Innovation,3.6
+26,gpt_researcher,Technical Feasibility,3.6
+26,gpt_researcher,Application Value,4.0
+26,gpt_researcher,Overall,3.92
+26,gpt-5,Content Completeness,4.2
+26,gpt-5,Theme Relevance,4.0
+26,gpt-5,Technical Innovation,3.8
+26,gpt-5,Technical Feasibility,4.6
+26,gpt-5,Application Value,4.2
+26,gpt-5,Overall,4.16
+26,gemini-2.5-pro-thinking,Content Completeness,4.2
+26,gemini-2.5-pro-thinking,Theme Relevance,5.0
+26,gemini-2.5-pro-thinking,Technical Innovation,4.0
+26,gemini-2.5-pro-thinking,Technical Feasibility,4.2
+26,gemini-2.5-pro-thinking,Application Value,4.4
+26,gemini-2.5-pro-thinking,Overall,4.36
+26,grok-4,Content Completeness,4.0
+26,grok-4,Theme Relevance,5.0
+26,grok-4,Technical Innovation,3.6
+26,grok-4,Technical Feasibility,4.2
+26,grok-4,Application Value,4.0
+26,grok-4,Overall,4.16
+26,deepseek-v3,Content Completeness,4.0
+26,deepseek-v3,Theme Relevance,3.8
+26,deepseek-v3,Technical Innovation,3.8
+26,deepseek-v3,Technical Feasibility,4.0
+26,deepseek-v3,Application Value,3.6
+26,deepseek-v3,Overall,3.84
+27,supramas,Content Completeness,5.0
+27,supramas,Theme Relevance,4.6
+27,supramas,Technical Innovation,4.2
+27,supramas,Technical Feasibility,4.4
+27,supramas,Application Value,4.8
+27,supramas,Overall,4.6
+27,gpt_researcher,Content Completeness,2.4
+27,gpt_researcher,Theme Relevance,2.2
+27,gpt_researcher,Technical Innovation,2.6
+27,gpt_researcher,Technical Feasibility,3.2
+27,gpt_researcher,Application Value,1.8
+27,gpt_researcher,Overall,2.44
+27,gpt-5,Content Completeness,4.4
+27,gpt-5,Theme Relevance,4.2
+27,gpt-5,Technical Innovation,4.2
+27,gpt-5,Technical Feasibility,4.4
+27,gpt-5,Application Value,4.6
+27,gpt-5,Overall,4.36
+27,gemini-2.5-pro-thinking,Content Completeness,4.2
+27,gemini-2.5-pro-thinking,Theme Relevance,4.8
+27,gemini-2.5-pro-thinking,Technical Innovation,4.0
+27,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+27,gemini-2.5-pro-thinking,Application Value,4.8
+27,gemini-2.5-pro-thinking,Overall,4.36
+27,grok-4,Content Completeness,4.0
+27,grok-4,Theme Relevance,3.8
+27,grok-4,Technical Innovation,4.6
+27,grok-4,Technical Feasibility,3.8
+27,grok-4,Application Value,4.0
+27,grok-4,Overall,4.04
+27,deepseek-v3,Content Completeness,4.0
+27,deepseek-v3,Theme Relevance,4.0
+27,deepseek-v3,Technical Innovation,3.2
+27,deepseek-v3,Technical Feasibility,4.0
+27,deepseek-v3,Application Value,4.0
+27,deepseek-v3,Overall,3.84
+28,supramas,Content Completeness,4.2
+28,supramas,Theme Relevance,4.2
+28,supramas,Technical Innovation,4.4
+28,supramas,Technical Feasibility,4.0
+28,supramas,Application Value,4.8
+28,supramas,Overall,4.32
+28,gpt_researcher,Content Completeness,4.0
+28,gpt_researcher,Theme Relevance,5.0
+28,gpt_researcher,Technical Innovation,3.8
+28,gpt_researcher,Technical Feasibility,3.6
+28,gpt_researcher,Application Value,4.2
+28,gpt_researcher,Overall,4.12
+28,gpt-5,Content Completeness,3.8
+28,gpt-5,Theme Relevance,4.6
+28,gpt-5,Technical Innovation,3.8
+28,gpt-5,Technical Feasibility,4.2
+28,gpt-5,Application Value,5.0
+28,gpt-5,Overall,4.28
+28,gemini-2.5-pro-thinking,Content Completeness,4.0
+28,gemini-2.5-pro-thinking,Theme Relevance,4.8
+28,gemini-2.5-pro-thinking,Technical Innovation,3.8
+28,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+28,gemini-2.5-pro-thinking,Application Value,4.6
+28,gemini-2.5-pro-thinking,Overall,4.24
+28,grok-4,Content Completeness,3.6
+28,grok-4,Theme Relevance,4.2
+28,grok-4,Technical Innovation,4.0
+28,grok-4,Technical Feasibility,3.8
+28,grok-4,Application Value,4.0
+28,grok-4,Overall,3.92
+28,deepseek-v3,Content Completeness,3.8
+28,deepseek-v3,Theme Relevance,4.6
+28,deepseek-v3,Technical Innovation,3.2
+28,deepseek-v3,Technical Feasibility,4.2
+28,deepseek-v3,Application Value,3.8
+28,deepseek-v3,Overall,3.92
+29,supramas,Content Completeness,5.0
+29,supramas,Theme Relevance,4.6
+29,supramas,Technical Innovation,4.2
+29,supramas,Technical Feasibility,3.8
+29,supramas,Application Value,4.8
+29,supramas,Overall,4.48
+29,gpt_researcher,Content Completeness,4.0
+29,gpt_researcher,Theme Relevance,4.4
+29,gpt_researcher,Technical Innovation,4.0
+29,gpt_researcher,Technical Feasibility,3.6
+29,gpt_researcher,Application Value,3.2
+29,gpt_researcher,Overall,3.84
+29,gpt-5,Content Completeness,4.0
+29,gpt-5,Theme Relevance,4.2
+29,gpt-5,Technical Innovation,4.2
+29,gpt-5,Technical Feasibility,4.0
+29,gpt-5,Application Value,5.0
+29,gpt-5,Overall,4.28
+29,gemini-2.5-pro-thinking,Content Completeness,4.2
+29,gemini-2.5-pro-thinking,Theme Relevance,4.2
+29,gemini-2.5-pro-thinking,Technical Innovation,4.2
+29,gemini-2.5-pro-thinking,Technical Feasibility,4.0
+29,gemini-2.5-pro-thinking,Application Value,4.2
+29,gemini-2.5-pro-thinking,Overall,4.16
+29,grok-4,Content Completeness,3.8
+29,grok-4,Theme Relevance,4.0
+29,grok-4,Technical Innovation,3.4
+29,grok-4,Technical Feasibility,4.2
+29,grok-4,Application Value,4.0
+29,grok-4,Overall,3.88
+29,deepseek-v3,Content Completeness,3.2
+29,deepseek-v3,Theme Relevance,5.0
+29,deepseek-v3,Technical Innovation,3.8
+29,deepseek-v3,Technical Feasibility,3.6
+29,deepseek-v3,Application Value,4.4
+29,deepseek-v3,Overall,4.0
+30,supramas,Content Completeness,5.0
+30,supramas,Theme Relevance,4.8
+30,supramas,Technical Innovation,3.6
+30,supramas,Technical Feasibility,4.6
+30,supramas,Application Value,4.8
+30,supramas,Overall,4.56
+30,gpt_researcher,Content Completeness,3.0
+30,gpt_researcher,Theme Relevance,4.8
+30,gpt_researcher,Technical Innovation,3.8
+30,gpt_researcher,Technical Feasibility,3.2
+30,gpt_researcher,Application Value,3.4
+30,gpt_researcher,Overall,3.64
+30,gpt-5,Content Completeness,4.4
+30,gpt-5,Theme Relevance,4.4
+30,gpt-5,Technical Innovation,4.4
+30,gpt-5,Technical Feasibility,4.2
+30,gpt-5,Application Value,4.6
+30,gpt-5,Overall,4.4
+30,gemini-2.5-pro-thinking,Content Completeness,4.2
+30,gemini-2.5-pro-thinking,Theme Relevance,4.2
+30,gemini-2.5-pro-thinking,Technical Innovation,4.8
+30,gemini-2.5-pro-thinking,Technical Feasibility,3.8
+30,gemini-2.5-pro-thinking,Application Value,4.6
+30,gemini-2.5-pro-thinking,Overall,4.32
+30,grok-4,Content Completeness,3.6
+30,grok-4,Theme Relevance,5.0
+30,grok-4,Technical Innovation,3.8
+30,grok-4,Technical Feasibility,4.0
+30,grok-4,Application Value,4.2
+30,grok-4,Overall,4.12
+30,deepseek-v3,Content Completeness,3.8
+30,deepseek-v3,Theme Relevance,4.8
+30,deepseek-v3,Technical Innovation,4.0
+30,deepseek-v3,Technical Feasibility,3.2
+30,deepseek-v3,Application Value,4.0
+30,deepseek-v3,Overall,3.96
+31,supramas,Content Completeness,5.0
+31,supramas,Theme Relevance,5.0
+31,supramas,Technical Innovation,4.2
+31,supramas,Technical Feasibility,4.6
+31,supramas,Application Value,4.4
+31,supramas,Overall,4.64
+31,gpt_researcher,Content Completeness,4.0
+31,gpt_researcher,Theme Relevance,4.4
+31,gpt_researcher,Technical Innovation,3.6
+31,gpt_researcher,Technical Feasibility,3.6
+31,gpt_researcher,Application Value,4.0
+31,gpt_researcher,Overall,3.92
+31,gpt-5,Content Completeness,4.2
+31,gpt-5,Theme Relevance,4.4
+31,gpt-5,Technical Innovation,4.4
+31,gpt-5,Technical Feasibility,4.8
+31,gpt-5,Application Value,4.0
+31,gpt-5,Overall,4.36
+31,gemini-2.5-pro-thinking,Content Completeness,3.8
+31,gemini-2.5-pro-thinking,Theme Relevance,4.6
+31,gemini-2.5-pro-thinking,Technical Innovation,4.4
+31,gemini-2.5-pro-thinking,Technical Feasibility,3.8
+31,gemini-2.5-pro-thinking,Application Value,3.6
+31,gemini-2.5-pro-thinking,Overall,4.04
+31,grok-4,Content Completeness,4.2
+31,grok-4,Theme Relevance,4.8
+31,grok-4,Technical Innovation,4.0
+31,grok-4,Technical Feasibility,4.0
+31,grok-4,Application Value,3.8
+31,grok-4,Overall,4.16
+31,deepseek-v3,Content Completeness,3.2
+31,deepseek-v3,Theme Relevance,5.0
+31,deepseek-v3,Technical Innovation,3.4
+31,deepseek-v3,Technical Feasibility,4.0
+31,deepseek-v3,Application Value,3.0
+31,deepseek-v3,Overall,3.72
+32,supramas,Content Completeness,5.0
+32,supramas,Theme Relevance,4.6
+32,supramas,Technical Innovation,3.4
+32,supramas,Technical Feasibility,4.6
+32,supramas,Application Value,4.4
+32,supramas,Overall,4.4
+32,gpt_researcher,Content Completeness,3.2
+32,gpt_researcher,Theme Relevance,3.6
+32,gpt_researcher,Technical Innovation,3.6
+32,gpt_researcher,Technical Feasibility,4.4
+32,gpt_researcher,Application Value,2.4
+32,gpt_researcher,Overall,3.44
+32,gpt-5,Content Completeness,4.0
+32,gpt-5,Theme Relevance,4.8
+32,gpt-5,Technical Innovation,4.2
+32,gpt-5,Technical Feasibility,4.2
+32,gpt-5,Application Value,4.0
+32,gpt-5,Overall,4.24
+32,gemini-2.5-pro-thinking,Content Completeness,4.2
+32,gemini-2.5-pro-thinking,Theme Relevance,4.8
+32,gemini-2.5-pro-thinking,Technical Innovation,4.2
+32,gemini-2.5-pro-thinking,Technical Feasibility,3.8
+32,gemini-2.5-pro-thinking,Application Value,4.2
+32,gemini-2.5-pro-thinking,Overall,4.24
+32,grok-4,Content Completeness,4.0
+32,grok-4,Theme Relevance,4.8
+32,grok-4,Technical Innovation,3.6
+32,grok-4,Technical Feasibility,3.4
+32,grok-4,Application Value,3.8
+32,grok-4,Overall,3.92
+32,deepseek-v3,Content Completeness,4.0
+32,deepseek-v3,Theme Relevance,4.8
+32,deepseek-v3,Technical Innovation,3.8
+32,deepseek-v3,Technical Feasibility,4.2
+32,deepseek-v3,Application Value,3.8
+32,deepseek-v3,Overall,4.12

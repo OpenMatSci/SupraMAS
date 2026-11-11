@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-SUMMARY_ROOT = BASE_DIR / "results" / "benchmark_output" / "Idea_forward"
-EXP_FEASIBILITY_ROOT = BASE_DIR / "results" / "benchmark_output" / "experiment_feasibility"
+SUMMARY_ROOT = BASE_DIR / "results" / "idea_foresight"
+EXP_FEASIBILITY_ROOT = BASE_DIR / "results" / "protocol_evaluation"
 OUTPUT_DIR = BASE_DIR / "results" / "visulized_res"
 RASTER_DPI = 450
 SINGLE_CHART_FIGSIZE = (13.5, 7.4)
@@ -45,7 +45,6 @@ PAPER_STYLE = {
 METRICS = [
     ("strategy_overlap_avg", "Idea-strategy overlap", "#E69F00"),
     ("strategy_combination_avg", "Idea-strategy combination", "#CC79A7"),
-    ("overall_avg", "Idea foresight", "#3287bd"),
 ]
 
 LLM_BASED_EVALUATION_SERIES = [
@@ -430,9 +429,6 @@ def main() -> None:
     for metric_key, title, color in METRICS:
         output_path = render_metric_chart(idea_rows, metric_key, title, color)
         print(f"[saved] {output_path}")
-
-    exp_output = render_experimental_feasibility_chart(exp_rows)
-    print(f"[saved] {exp_output}")
 
     exp_dimension_output = render_experiment_dimension_comparison_chart(exp_rows)
     print(f"[saved] {exp_dimension_output}")

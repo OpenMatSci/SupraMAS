@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
-echo "The core data availability package is included in data_availability/."
-echo "If a future large-data archive is published externally, add the download URL here."
-
+curl --fail --location --retry 3 "https://huggingface.co/datasets/cuichaowei/supramas-data-availability/resolve/main/SupraMAS_Supporting_Data.zip?download=true" --output SupraMAS_Supporting_Data.zip

@@ -1,0 +1,36 @@
+{
+  "seed": 20261024,
+  "bootstrap": 20000,
+  "permutations": 100000,
+  "CI": "Pointwise 95% BCa, midrank bias correction",
+  "resampling_unit": "Topic (idea n=32) or case (protocol n=31); paired indices shared across systems and judges",
+  "test": "Two-sided paired sign-flip of mean difference; plus-one Monte Carlo p",
+  "multiplicity": "Main two-judge-mean analysis: Holm across 20 metric x baseline comparisons; judge-specific analysis: separate Holm family of 40",
+  "scoring_rule": "Analyze the recorded fixed scores without rescoring or selecting among repeated runs.",
+  "fixed_judges": "Two fixed judges, not independent subject replicates; no inference to a population of judges",
+  "idea_input": "Final per-idea aggregates from valid group-level evaluations.",
+  "source_sha256": {
+    "idea": "d52e90cc51ec125b2662d24f4b533276d5b69e7de4932b3f6f1f083731121932",
+    "protocol": "c288cec19c4d0949769eca916715e9d59e2e9b6452897bc51a6e3107d14c88eb"
+  },
+  "versions": {
+    "python": "3.12.7",
+    "numpy": "2.0.2",
+    "matplotlib": "3.10.3"
+  },
+  "artifact_type": "Quantitative grid; fixed-score comparison and case-sampling uncertainty",
+  "exports": "PNG 400 dpi, TIFF 600 dpi LZW, editable SVG/PDF; figures 183 mm wide",
+  "score_changes": false,
+  "API_calls": 0,
+  "scoring_revision": {
+    "name": "Unified A protocols for five baselines",
+    "baseline_protocols": 155,
+    "baseline_reproducibility": "Original scores evaluated on the same A texts",
+    "baseline_feasibility": "310 fresh scores from protocol_A_feasibility_20261025",
+    "SupraMAS": "Original 62 input records and 124 score records unchanged",
+    "same_protocol_for_both_metrics": true,
+    "first_valid_response_only": true,
+    "feasibility_run_scope": "The five baselines were scored in a separate run through an alternate gateway; SupraMAS was not rescored.",
+    "interpretation": "Case-paired tests describe the recorded scores and do not separate system effects from evaluation-run or gateway effects."
+  }
+}

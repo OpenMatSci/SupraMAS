@@ -1,8 +1,7 @@
 {
   "topic_num": 32,
-  "strategy_overlap_avg": 0.1792,
-  "strategy_combination_avg": 0.4719,
-  "overall_avg": 0.3256,
-  "limit": null,
-  "evaluated_topics": 32
+  "judge_num": 2,
+  "strategy_overlap_avg": 0.10515156250000002,
+  "strategy_combination_avg": 0.46968750000000004,
+  "aggregation": "Equal mean of Claude and GPT within topic, then across 32 topics."
 }

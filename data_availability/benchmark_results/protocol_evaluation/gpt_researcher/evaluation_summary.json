@@ -1,7 +1,8 @@
 {
   "baseline_model": "gpt_researcher",
-  "exp_reproducibility_avg": 0.7884,
-  "exp_feasibility_avg": 0.6855,
-  "overall_avg": 0.7369,
-  "limit": null
+  "protocol_case_num": 31,
+  "judge_num": 2,
+  "exp_reproducibility_avg": 0.6032258064516128,
+  "exp_feasibility_avg": 0.6651612903225806,
+  "aggregation": "Equal mean of Claude and GPT within case, then across 31 cases."
 }

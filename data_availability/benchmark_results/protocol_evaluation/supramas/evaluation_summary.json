@@ -1,7 +1,8 @@
 {
   "baseline_model": "supramas",
-  "exp_reproducibility_avg": 0.831,
-  "exp_feasibility_avg": 0.8387,
-  "overall_avg": 0.8348,
-  "limit": null
+  "protocol_case_num": 31,
+  "judge_num": 2,
+  "exp_reproducibility_avg": 0.6498387096774193,
+  "exp_feasibility_avg": 0.7948387096774193,
+  "aggregation": "Equal mean of Claude and GPT within case, then across 31 cases."
 }

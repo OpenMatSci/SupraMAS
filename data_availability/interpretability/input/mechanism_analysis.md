@@ -4,22 +4,28 @@
 
 ## 1. Executive Summary
 
-This report summarizes a Bayesian-optimization exploration of the process-parameter space for YBCO superconducting thin films. The results show a clear bimodal response and a nonlinear threshold effect.
+This report summarizes the Bayesian-optimization exploration of the process-parameter space for REBCO superconducting thin films. Y1–Y5 denote the 1st–5th Optimisation conditions in the SI. Tc values are the mean M–T values from three independent films per condition; Jc values are reported at the temperature and magnetic field specified below. The results show application-dependent performance differences and suggest nonlinear sensitivity to the process parameters.
 
-- **Y2 (preferred for 77 K operation):** This sample gives the best liquid-nitrogen-temperature performance, with Jc approximately 2.79 MA/cm2 and Tc approximately 89.4 K. It represents an optimization direction dominated by high crystallinity, low defect density and high film density.
-- **Y3 (preferred for 4.2 K high-field operation):** This sample gives the strongest low-temperature/high-field performance, with Jc approximately 11.13 MA/cm2. It represents an optimization direction dominated by strong flux pinning.
-- **Y1 (performance collapse):** Although its growth parameters are close to those of Y3, its performance decreases sharply. The analysis suggests that a small increase in growth oxygen pressure crossed a thermodynamic threshold for c-axis/a-axis growth competition.
+- **Y2 (preferred for 77 K operation):** This sample gives the best liquid-nitrogen-temperature performance, with Jc approximately 2.79 MA/cm2 and mean M–T Tc of 88.63 K. It represents an optimization direction dominated by high crystallinity, low defect density and high film density.
+- **Y3 (strong 4.2 K high-field performance):** Among Y1–Y4, this sample gives the highest Jc at 4.2 K and 5 T, 12.78 MA/cm2. It represents an optimization direction dominated by strong flux pinning.
+- **Y5 (highest final 4.2 K, 5 T performance):** The 5th Optimisation condition gives Jc of 14.11 MA/cm2 at 4.2 K and 5 T, Jc of 0.65 MA/cm2 at 77 K and 0 T, and mean M–T Tc of 87.26 K.
+- **Y1 (lower current-carrying performance):** Although its growth parameters are close to those of Y3, its performance decreases sharply. The analysis suggests that a small increase in growth oxygen pressure crossed a thermodynamic threshold for c-axis/a-axis growth competition.
 
 ---
 
 ## 2. Key Parameters and Performance
 
-| Sample | Growth temperature (deg C) | Growth oxygen pressure (Pa) | Annealing pressure (Pa) | Jc (4.2 K, 7 T) | Jc (77 K, 0 T) | Main feature |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Y1** | 705 | **26.3** | 22,000 | 1.31 | 0.17 | Failed regime / threshold effect |
-| **Y2** | 675 | 29.6 | **82,000** | 4.24 | **2.79** | Best 77 K regime / densification |
-| **Y3** | 706 | **24.8** | 19,000 | **11.13** | 0.42 | Best 4.2 K regime / strong pinning |
-| **Y4** | 709 | 25.1 | 62,000 | - | - | Reference condition / incomplete testing |
+| Sample | Growth temperature (deg C) | Growth oxygen pressure (Pa) | Annealing pressure (Pa) | Tc (M–T, K) | Jc (4.2 K, 5 T) | Jc (20 K, 5 T) | Jc (77 K, 0 T) |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| SupraMAS-150 nm | 675 | 26.7 | 80,000 | 84.62 | 3.78 | 2.32 | 0.10 |
+| SupraMAS-280 nm | 675 | 26.7 | 80,000 | 86.95 | 11.25 | 6.84 | 0.89 |
+| Y1 (1st Optimisation) | 705 | 26.3 | 22,000 | 86.40 | 3.60 | 1.14 | 0.17 |
+| Y2 (2nd Optimisation) | 675 | 29.6 | 82,000 | 88.63 | 7.99 | 3.79 | 2.79 |
+| Y3 (3rd Optimisation) | 706 | 24.8 | 19,000 | 85.73 | 12.78 | 6.44 | 0.42 |
+| Y4 (4th Optimisation) | 709 | 25.1 | 62,000 | 87.20 | 11.21 | 5.66 | 0.31 |
+| Y5 (5th Optimisation) | 689 | 26.5 | 55,000 | 87.26 | 14.11 | 7.67 | 0.65 |
+
+All Jc values are in MA/cm2.
 
 ---
 
@@ -50,7 +56,7 @@ Y1 (705 deg C, 26.3 Pa) and Y3 (706 deg C, 24.8 Pa) have nearly identical growth
 - **High-pressure annealing (82 kPa):** A near-atmospheric annealing environment can suppress large pores, reduce porosity and improve film density.
 - **Lower growth temperature (675 deg C):** Lower-temperature growth may slow interfacial reactions and reduce unwanted diffusion into the superconducting layer, supporting a higher Tc.
 
-#### Y3: Best 4.2 K high-field performance through high-temperature growth and low-pressure annealing
+#### Y3: Strong 4.2 K high-field performance through high-temperature growth and low-pressure annealing
 
 - **Point-defect pinning:** Strong Jc at 4.2 K is consistent with enhanced flux pinning. Lower annealing pressure may preserve oxygen vacancies or other small lattice defects. These defects can act as weak links at 77 K, but as effective isotropic pinning centers at 4.2 K.
 - **Nanophase precipitation:** Higher growth temperature may promote self-assembly or precipitation of nanoscale secondary phases, providing additional lattice-distortion fields and enhancing high-field performance.

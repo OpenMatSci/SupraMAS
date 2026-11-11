@@ -1,0 +1,961 @@
+﻿expert,system_id,system,topic_id,original_topic_label,CC,TR,TI,TF,AV
+1,S01,SupraMAS,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,5,4,5,4,5
+1,S01,SupraMAS,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,5,5,4,5,3
+1,S01,SupraMAS,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,5,5,5,4,5
+1,S01,SupraMAS,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,5,4,5,5,4
+1,S01,SupraMAS,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,5,4,5,4
+1,S01,SupraMAS,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,5,5,4,5,5
+1,S01,SupraMAS,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,5,5,4,5,5
+1,S01,SupraMAS,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,5,5,4,5,4
+1,S01,SupraMAS,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,5,5,4,5,5
+1,S01,SupraMAS,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,5,4,5,5,4
+1,S01,SupraMAS,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,5,5,5,4,5
+1,S01,SupraMAS,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,5,5,5,4,5
+1,S01,SupraMAS,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,5,4,5,5,4
+1,S01,SupraMAS,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,5,5,5,5,5
+1,S01,SupraMAS,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,5,5,5
+1,S01,SupraMAS,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,5,4,5,5,4
+1,S01,SupraMAS,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,5,5,5,4,5
+1,S01,SupraMAS,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,5,5,4,5,4
+1,S01,SupraMAS,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,5,5,4,4,5
+1,S01,SupraMAS,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,5,5,5
+1,S01,SupraMAS,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,5,5,3
+1,S01,SupraMAS,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,5,4,4,5,5
+1,S01,SupraMAS,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,5,4,5,5
+1,S01,SupraMAS,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,5,4,3,5,4
+1,S01,SupraMAS,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,5,5,5,5,4
+1,S01,SupraMAS,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,5,4,5,5,4
+1,S01,SupraMAS,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,5,5,5,5
+1,S01,SupraMAS,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,4,4,4,5
+1,S01,SupraMAS,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,5,4,5,5,5
+1,S01,SupraMAS,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,5,5,4,5
+1,S01,SupraMAS,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,5,5,5,4
+1,S01,SupraMAS,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,5,5,3,5,4
+1,S02,GPT-Researcher,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,3,4,5,5,3
+1,S02,GPT-Researcher,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,3,3,3,2
+1,S02,GPT-Researcher,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,3,4,4,4,2
+1,S02,GPT-Researcher,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,3,2,4,5,4
+1,S02,GPT-Researcher,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,4,5,3
+1,S02,GPT-Researcher,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,3,4,4,4,5
+1,S02,GPT-Researcher,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,5,3,4,5
+1,S02,GPT-Researcher,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,3,5,5,4,4
+1,S02,GPT-Researcher,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,2,2,4,3
+1,S02,GPT-Researcher,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,2,2,2,3,1
+1,S02,GPT-Researcher,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,3,3,2,3
+1,S02,GPT-Researcher,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,2,4,3,3,3
+1,S02,GPT-Researcher,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,3,4,4,4,4
+1,S02,GPT-Researcher,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,3,4,3,2,4
+1,S02,GPT-Researcher,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,4,5,4
+1,S02,GPT-Researcher,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,3,4,3,2
+1,S02,GPT-Researcher,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,3,3,2,3,3
+1,S02,GPT-Researcher,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,3,3,4,3,4
+1,S02,GPT-Researcher,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,4,5,5
+1,S02,GPT-Researcher,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,5,4,4,4
+1,S02,GPT-Researcher,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,3,4,4,3,4
+1,S02,GPT-Researcher,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,3,3,5,5,4
+1,S02,GPT-Researcher,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,3,4,4,3,5
+1,S02,GPT-Researcher,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,3,5,5,4
+1,S02,GPT-Researcher,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,2,2,3,3,3
+1,S02,GPT-Researcher,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,4,5,3
+1,S02,GPT-Researcher,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,2,2,2,4,3
+1,S02,GPT-Researcher,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,5,5,5
+1,S02,GPT-Researcher,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,5,4,4
+1,S02,GPT-Researcher,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,5,4,4,3
+1,S02,GPT-Researcher,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,5,5,4
+1,S02,GPT-Researcher,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,3,3,4,5,3
+1,S03,GPT-5,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,5,5,4,5
+1,S03,GPT-5,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,5,5,4
+1,S03,GPT-5,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,5,5,4
+1,S03,GPT-5,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,5,4,5,4,3
+1,S03,GPT-5,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,4,5,3,4
+1,S03,GPT-5,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,4,4,5
+1,S03,GPT-5,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,4,5,3
+1,S03,GPT-5,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,3,5,3
+1,S03,GPT-5,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,3,3,5
+1,S03,GPT-5,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,5,5
+1,S03,GPT-5,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,3,5,3,4,5
+1,S03,GPT-5,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,4,5,5
+1,S03,GPT-5,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,4,5,5,4
+1,S03,GPT-5,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,5,4,4,5,5
+1,S03,GPT-5,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,3,4,5,5
+1,S03,GPT-5,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,4,5,5
+1,S03,GPT-5,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,3,4,2
+1,S03,GPT-5,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,5,5
+1,S03,GPT-5,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,3,5,4,4,3
+1,S03,GPT-5,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,4,4,5
+1,S03,GPT-5,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,4,5,5
+1,S03,GPT-5,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,3,4,4,5,3
+1,S03,GPT-5,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,3,2,4
+1,S03,GPT-5,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,4,5,4
+1,S03,GPT-5,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,2,5,5
+1,S03,GPT-5,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,2,5,4
+1,S03,GPT-5,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,5,4,5,5
+1,S03,GPT-5,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,5,5
+1,S03,GPT-5,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,3,4,5
+1,S03,GPT-5,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,5,4,5,5
+1,S03,GPT-5,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,4,5,5,5
+1,S03,GPT-5,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,5,5,3,5,5
+1,S04,Gemini-2.5-Pro-Thinking,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,3,4,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,4,5,5
+1,S04,Gemini-2.5-Pro-Thinking,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,4,3,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,4,3,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,5,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,3,4,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,3,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,5,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,5,5
+1,S04,Gemini-2.5-Pro-Thinking,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,3,3,5
+1,S04,Gemini-2.5-Pro-Thinking,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,5,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,3,2,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,2,3,5
+1,S04,Gemini-2.5-Pro-Thinking,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,5,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,2,2,3
+1,S04,Gemini-2.5-Pro-Thinking,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,3,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,3,3,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,5,3,4
+1,S04,Gemini-2.5-Pro-Thinking,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,3,3,4
+1,S04,Gemini-2.5-Pro-Thinking,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,4,5,4,4
+1,S04,Gemini-2.5-Pro-Thinking,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,4,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,4,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,4,5,5
+1,S04,Gemini-2.5-Pro-Thinking,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,5,4,4,5
+1,S04,Gemini-2.5-Pro-Thinking,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,5,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,3,3,5
+1,S04,Gemini-2.5-Pro-Thinking,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,5,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,4,5,4
+1,S04,Gemini-2.5-Pro-Thinking,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,5,4,5
+1,S05,Grok-4,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,5,4,4,4
+1,S05,Grok-4,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,5,4,3
+1,S05,Grok-4,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,4,5,5,3
+1,S05,Grok-4,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,4,5,4,4
+1,S05,Grok-4,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,4,4,5,4
+1,S05,Grok-4,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,4,3,4
+1,S05,Grok-4,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,2,5,5
+1,S05,Grok-4,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,5,4,5
+1,S05,Grok-4,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,4,5,5
+1,S05,Grok-4,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,5,5
+1,S05,Grok-4,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,3,5,5
+1,S05,Grok-4,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,4,5,5
+1,S05,Grok-4,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,4,5,5
+1,S05,Grok-4,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,5,4,5
+1,S05,Grok-4,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,5,5,4
+1,S05,Grok-4,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,4,4,5
+1,S05,Grok-4,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,4,5
+1,S05,Grok-4,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,5,3
+1,S05,Grok-4,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,4,5,4
+1,S05,Grok-4,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,5,4,4
+1,S05,Grok-4,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,5,4,5,3,5
+1,S05,Grok-4,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,5,3
+1,S05,Grok-4,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,4,5,4
+1,S05,Grok-4,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,4,3,5
+1,S05,Grok-4,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,4,4,5
+1,S05,Grok-4,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,4,5,3
+1,S05,Grok-4,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,4,5,4,5
+1,S05,Grok-4,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,4,5,4,4
+1,S05,Grok-4,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,4,5,5,4
+1,S05,Grok-4,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,4,5,5
+1,S05,Grok-4,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,5,5,4
+1,S05,Grok-4,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,4,4,5,5
+1,S06,DeepSeek-V3,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,3,3,4,5
+1,S06,DeepSeek-V3,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,2,5,4,5
+1,S06,DeepSeek-V3,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,4,5,2,4
+1,S06,DeepSeek-V3,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,5,2,2,4
+1,S06,DeepSeek-V3,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,4,2,5
+1,S06,DeepSeek-V3,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,4,5,4
+1,S06,DeepSeek-V3,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,5,4,5,4
+1,S06,DeepSeek-V3,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,5,5,4
+1,S06,DeepSeek-V3,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,4,2,3
+1,S06,DeepSeek-V3,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,3,4,5
+1,S06,DeepSeek-V3,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,4,3,3
+1,S06,DeepSeek-V3,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,4,5,3,5
+1,S06,DeepSeek-V3,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,5,3,4
+1,S06,DeepSeek-V3,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,3,4,5
+1,S06,DeepSeek-V3,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,3,4,5
+1,S06,DeepSeek-V3,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,4,3,4,2
+1,S06,DeepSeek-V3,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,3,4,5
+1,S06,DeepSeek-V3,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,5,4
+1,S06,DeepSeek-V3,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,3,5,4,4,5
+1,S06,DeepSeek-V3,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,4,4,5
+1,S06,DeepSeek-V3,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,5,5,4,5,4
+1,S06,DeepSeek-V3,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,5,3
+1,S06,DeepSeek-V3,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,4,2,2
+1,S06,DeepSeek-V3,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,5,3,3
+1,S06,DeepSeek-V3,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,4,5,4
+1,S06,DeepSeek-V3,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,3,5,5,4
+1,S06,DeepSeek-V3,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,4,5,5,4
+1,S06,DeepSeek-V3,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,5,4
+1,S06,DeepSeek-V3,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,3,5,4,2,4
+1,S06,DeepSeek-V3,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,5,4,3
+1,S06,DeepSeek-V3,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,3,5,4,5,3
+1,S06,DeepSeek-V3,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,5,5,4
+2,S01,SupraMAS,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,5,5,4,3,4
+2,S01,SupraMAS,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,5,5,4,4,5
+2,S01,SupraMAS,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,5,5,4,5,4
+2,S01,SupraMAS,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,5,4,4,3,4
+2,S01,SupraMAS,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,5,4,5
+2,S01,SupraMAS,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,5,5,4
+2,S01,SupraMAS,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,5,5,5,4,5
+2,S01,SupraMAS,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,5,5,4,5,4
+2,S01,SupraMAS,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,5,4,4,3,5
+2,S01,SupraMAS,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,5,5
+2,S01,SupraMAS,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,5,5,3,5,5
+2,S01,SupraMAS,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,5,4,5,5,5
+2,S01,SupraMAS,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,5,5,4,5,5
+2,S01,SupraMAS,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,5,4,4,5,3
+2,S01,SupraMAS,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,5,5,5,4,5
+2,S01,SupraMAS,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,4,4,5
+2,S01,SupraMAS,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,5,5,4,5,4
+2,S01,SupraMAS,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,5,5,4,5,5
+2,S01,SupraMAS,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,5,5,4,5,5
+2,S01,SupraMAS,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,5,5,4,5,5
+2,S01,SupraMAS,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,5,5,4,4,5
+2,S01,SupraMAS,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,5,5,4,3,5
+2,S01,SupraMAS,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,5,5,4,5
+2,S01,SupraMAS,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,5,5,4,5,4
+2,S01,SupraMAS,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,5,5,4,4,5
+2,S01,SupraMAS,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,5,5,4,5,4
+2,S01,SupraMAS,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,5,4,5,5
+2,S01,SupraMAS,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,5,4,5,4,5
+2,S01,SupraMAS,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,5,5,4,3,5
+2,S01,SupraMAS,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,4,3,5,5
+2,S01,SupraMAS,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,5,4,5,4
+2,S01,SupraMAS,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,5,4,3,5,4
+2,S02,GPT-Researcher,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,2,4,5,4,3
+2,S02,GPT-Researcher,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,2,3,3,2,2
+2,S02,GPT-Researcher,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,3,4,4,4,3
+2,S02,GPT-Researcher,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,3,2,3,4,4
+2,S02,GPT-Researcher,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,3,4,2,3
+2,S02,GPT-Researcher,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,3,4,2,4,5
+2,S02,GPT-Researcher,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,5,5,4,5
+2,S02,GPT-Researcher,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,3,5,5,4,4
+2,S02,GPT-Researcher,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,3,4,4,3,4
+2,S02,GPT-Researcher,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,3,3,3,2,2
+2,S02,GPT-Researcher,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,3,4,4,3,2
+2,S02,GPT-Researcher,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,4,3,3,4
+2,S02,GPT-Researcher,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,4,4,3,4
+2,S02,GPT-Researcher,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,4,3,2,2
+2,S02,GPT-Researcher,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,4,5,5
+2,S02,GPT-Researcher,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,3,2,2,4
+2,S02,GPT-Researcher,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,4,3,3,2
+2,S02,GPT-Researcher,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,3,2,2,4,3
+2,S02,GPT-Researcher,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,5,5,5
+2,S02,GPT-Researcher,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,5,4,4,4
+2,S02,GPT-Researcher,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,3,4,2,3,4
+2,S02,GPT-Researcher,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,3,3,4,4,4
+2,S02,GPT-Researcher,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,4,3,3,5
+2,S02,GPT-Researcher,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,3,5,4,4
+2,S02,GPT-Researcher,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,3,2,3,3,3
+2,S02,GPT-Researcher,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,5,5,5
+2,S02,GPT-Researcher,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,2,2,2,3,2
+2,S02,GPT-Researcher,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,5,4,3
+2,S02,GPT-Researcher,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,4,4,4
+2,S02,GPT-Researcher,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,5,4,4,4
+2,S02,GPT-Researcher,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,4,4,5
+2,S02,GPT-Researcher,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,3,4,4,5,2
+2,S03,GPT-5,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,4,5,4,5
+2,S03,GPT-5,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,3,5,4,5
+2,S03,GPT-5,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,3,4,5,5
+2,S03,GPT-5,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,4,5,4,3
+2,S03,GPT-5,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,4,5,4,4
+2,S03,GPT-5,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,5,4,5
+2,S03,GPT-5,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,3,5,4,5
+2,S03,GPT-5,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,4,5,4,5
+2,S03,GPT-5,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,4,5,4
+2,S03,GPT-5,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,3,5,4,5
+2,S03,GPT-5,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,5,4,5
+2,S03,GPT-5,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,4,5,5,4
+2,S03,GPT-5,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,3,4,4,4
+2,S03,GPT-5,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,4,5,5
+2,S03,GPT-5,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,4,5,4,5
+2,S03,GPT-5,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,4,5,5
+2,S03,GPT-5,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,3,4,4,5
+2,S03,GPT-5,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,3,5,4,4,5
+2,S03,GPT-5,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,5,4,5
+2,S03,GPT-5,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,4,4,4,5
+2,S03,GPT-5,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,3,4,4,5,5
+2,S03,GPT-5,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,4,5,5,4
+2,S03,GPT-5,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,4,5,4,5
+2,S03,GPT-5,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,4,5,4,5
+2,S03,GPT-5,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,4,5,5,5
+2,S03,GPT-5,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,4,5,5,5
+2,S03,GPT-5,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,4,4,4,3
+2,S03,GPT-5,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,5,4,5
+2,S03,GPT-5,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,3,4,4,5
+2,S03,GPT-5,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,3,5,5,4
+2,S03,GPT-5,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,3,5,5,2
+2,S03,GPT-5,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,4,5,4,2
+2,S04,Gemini-2.5-Pro-Thinking,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,5,4,3,4,4
+2,S04,Gemini-2.5-Pro-Thinking,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,5,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,3,5,5,4
+2,S04,Gemini-2.5-Pro-Thinking,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,5,5,4,3
+2,S04,Gemini-2.5-Pro-Thinking,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,4,5,5
+2,S04,Gemini-2.5-Pro-Thinking,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,4,3,5
+2,S04,Gemini-2.5-Pro-Thinking,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,4,5,4
+2,S04,Gemini-2.5-Pro-Thinking,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,3,4,5,5
+2,S04,Gemini-2.5-Pro-Thinking,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,5,4,2
+2,S04,Gemini-2.5-Pro-Thinking,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,4,5,4,4
+2,S04,Gemini-2.5-Pro-Thinking,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,3,5,4
+2,S04,Gemini-2.5-Pro-Thinking,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,4,5,3
+2,S04,Gemini-2.5-Pro-Thinking,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,3,5,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,3,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,4,3,5
+2,S04,Gemini-2.5-Pro-Thinking,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,4,5,5
+2,S04,Gemini-2.5-Pro-Thinking,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,3,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,4,5,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,5,5,5
+2,S04,Gemini-2.5-Pro-Thinking,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,4,3,4
+2,S04,Gemini-2.5-Pro-Thinking,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,5,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,5,5
+2,S04,Gemini-2.5-Pro-Thinking,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,5,4,4
+2,S04,Gemini-2.5-Pro-Thinking,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,4,5,5,4
+2,S04,Gemini-2.5-Pro-Thinking,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,5,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,4,5,5
+2,S04,Gemini-2.5-Pro-Thinking,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,5,5,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,4,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,5,5,5
+2,S04,Gemini-2.5-Pro-Thinking,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,4,5,4,5
+2,S04,Gemini-2.5-Pro-Thinking,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,3,4,5,5,4
+2,S04,Gemini-2.5-Pro-Thinking,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,4,4,5
+2,S05,Grok-4,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,4,5,4,4
+2,S05,Grok-4,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,4,5,4,3
+2,S05,Grok-4,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,5,5
+2,S05,Grok-4,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,4,3,4,5
+2,S05,Grok-4,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,4,5,5
+2,S05,Grok-4,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,4,4,5
+2,S05,Grok-4,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,5,4,3
+2,S05,Grok-4,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,4,5,5
+2,S05,Grok-4,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,5,4,5
+2,S05,Grok-4,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,5,4
+2,S05,Grok-4,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,5,5,4
+2,S05,Grok-4,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,3,5,4,5,5
+2,S05,Grok-4,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,3,4,5
+2,S05,Grok-4,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,4,5,5
+2,S05,Grok-4,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,4,5,5
+2,S05,Grok-4,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,4,5,3,4
+2,S05,Grok-4,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,5,5
+2,S05,Grok-4,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,4,5
+2,S05,Grok-4,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,3,4,5
+2,S05,Grok-4,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,4,5,4
+2,S05,Grok-4,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,4,5,5
+2,S05,Grok-4,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,3,4,5,5
+2,S05,Grok-4,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,4,5,4
+2,S05,Grok-4,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,5,4,5
+2,S05,Grok-4,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,5,5,5
+2,S05,Grok-4,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,5,4,5
+2,S05,Grok-4,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,4,5,4,5
+2,S05,Grok-4,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,3,4,5,4,5
+2,S05,Grok-4,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,3,5,5
+2,S05,Grok-4,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,5,4,5,5
+2,S05,Grok-4,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,5,5,4
+2,S05,Grok-4,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,3,4,5
+2,S06,DeepSeek-V3,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,5,4,5,4
+2,S06,DeepSeek-V3,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,4,4,4
+2,S06,DeepSeek-V3,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,4,4,3,4
+2,S06,DeepSeek-V3,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,5,5,4,4
+2,S06,DeepSeek-V3,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,5,5,5
+2,S06,DeepSeek-V3,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,4,3,5,5
+2,S06,DeepSeek-V3,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,5,4,4,4
+2,S06,DeepSeek-V3,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,4,5,4
+2,S06,DeepSeek-V3,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,3,5,4
+2,S06,DeepSeek-V3,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,5,5,4
+2,S06,DeepSeek-V3,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,4,5,4
+2,S06,DeepSeek-V3,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,3,5,5,4,4
+2,S06,DeepSeek-V3,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,5,4,5
+2,S06,DeepSeek-V3,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,4,5,4
+2,S06,DeepSeek-V3,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,5,5,4,4,4
+2,S06,DeepSeek-V3,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,4,4,4,5
+2,S06,DeepSeek-V3,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,5,5
+2,S06,DeepSeek-V3,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,3,4,5
+2,S06,DeepSeek-V3,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,3,5,5,4,5
+2,S06,DeepSeek-V3,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,5,3,5
+2,S06,DeepSeek-V3,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,4,5,5,4
+2,S06,DeepSeek-V3,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,5,3
+2,S06,DeepSeek-V3,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,3,5,4,4,5
+2,S06,DeepSeek-V3,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,3,4,5
+2,S06,DeepSeek-V3,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,4,5,4
+2,S06,DeepSeek-V3,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,5,5,4
+2,S06,DeepSeek-V3,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,4,4,5,4
+2,S06,DeepSeek-V3,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,4,4,4
+2,S06,DeepSeek-V3,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,3,5,5,4,5
+2,S06,DeepSeek-V3,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,4,3,5
+2,S06,DeepSeek-V3,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,3,5,4,5,3
+2,S06,DeepSeek-V3,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,5,5,5
+3,S01,SupraMAS,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,4,5,3,5
+3,S01,SupraMAS,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,5,4,5,4,5
+3,S01,SupraMAS,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,5,4,3,5,4
+3,S01,SupraMAS,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,5,5,3,5,4
+3,S01,SupraMAS,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,5,3,5,3
+3,S01,SupraMAS,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,5,4,4,5,5
+3,S01,SupraMAS,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,5,4,3,5,4
+3,S01,SupraMAS,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,5,4,3,5,4
+3,S01,SupraMAS,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,5,4,5,5,3
+3,S01,SupraMAS,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,3,5,4
+3,S01,SupraMAS,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,5,4,5,4,5
+3,S01,SupraMAS,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,5,5,4,5,5
+3,S01,SupraMAS,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,5,5,5
+3,S01,SupraMAS,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,5,5,4
+3,S01,SupraMAS,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,5,5,4,5,4
+3,S01,SupraMAS,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,5,5,4,5,4
+3,S01,SupraMAS,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,5,5,3,5,4
+3,S01,SupraMAS,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,5,5,3,5,4
+3,S01,SupraMAS,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,5,5,3,5,3
+3,S01,SupraMAS,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,5,5,4,5,4
+3,S01,SupraMAS,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,5,5,4,5,4
+3,S01,SupraMAS,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,5,5,4,5,4
+3,S01,SupraMAS,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,5,4,5,4
+3,S01,SupraMAS,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,5,5,4,5,5
+3,S01,SupraMAS,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,5,5,4,5,5
+3,S01,SupraMAS,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,5,4,5,5,4
+3,S01,SupraMAS,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,4,5,5,5
+3,S01,SupraMAS,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,4,5,4,5
+3,S01,SupraMAS,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,5,5,4,4,5
+3,S01,SupraMAS,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,5,3,5,5
+3,S01,SupraMAS,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,5,4,4,5
+3,S01,SupraMAS,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,5,5,3,5,4
+3,S02,GPT-Researcher,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,2,4,5,4,3
+3,S02,GPT-Researcher,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,2,1,3,3,1
+3,S02,GPT-Researcher,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,3,3,4,4,3
+3,S02,GPT-Researcher,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,3,2,3,4,4
+3,S02,GPT-Researcher,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,2,3,3,5
+3,S02,GPT-Researcher,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,3,3,2,3,5
+3,S02,GPT-Researcher,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,5,3,4,3
+3,S02,GPT-Researcher,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,3,4,3,4,4
+3,S02,GPT-Researcher,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,3,3,2,2,3
+3,S02,GPT-Researcher,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,2,3,2,3,1
+3,S02,GPT-Researcher,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,3,1,4,4,3
+3,S02,GPT-Researcher,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,2,2,3,4,2
+3,S02,GPT-Researcher,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,3,4,3,4
+3,S02,GPT-Researcher,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,2,3,3,2,3
+3,S02,GPT-Researcher,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,4,4,3,3
+3,S02,GPT-Researcher,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,2,3,3,2
+3,S02,GPT-Researcher,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,3,3,2,2,3
+3,S02,GPT-Researcher,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,3,2,2,3,3
+3,S02,GPT-Researcher,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,3,3,3,4
+3,S02,GPT-Researcher,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,3,2,3,4
+3,S02,GPT-Researcher,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,3,2,4,3,4
+3,S02,GPT-Researcher,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,3,3,2,4,4
+3,S02,GPT-Researcher,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,3,4,3,3,5
+3,S02,GPT-Researcher,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,3,5,4,4
+3,S02,GPT-Researcher,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,3,2,3,2,3
+3,S02,GPT-Researcher,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,4,3,3,4
+3,S02,GPT-Researcher,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,2,2,5,3,1
+3,S02,GPT-Researcher,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,4,5
+3,S02,GPT-Researcher,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,3,3,4,3
+3,S02,GPT-Researcher,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,5,4,2,4
+3,S02,GPT-Researcher,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,2,4,4,3
+3,S02,GPT-Researcher,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,3,4,3,5,2
+3,S03,GPT-5,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,5,4,4,5
+3,S03,GPT-5,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,3,3,5
+3,S03,GPT-5,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,4,4,3
+3,S03,GPT-5,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,4,5,4,3
+3,S03,GPT-5,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,5,2,5,4
+3,S03,GPT-5,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,3,4,5
+3,S03,GPT-5,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,4,5,4
+3,S03,GPT-5,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,4,5,3,5
+3,S03,GPT-5,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,3,4,5,4
+3,S03,GPT-5,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,4,5
+3,S03,GPT-5,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,4,3,4,5
+3,S03,GPT-5,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,4,3,4
+3,S03,GPT-5,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,5,3,4,4,3
+3,S03,GPT-5,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,3,5,4
+3,S03,GPT-5,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,5,4,5
+3,S03,GPT-5,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,4,5,5
+3,S03,GPT-5,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,4,5
+3,S03,GPT-5,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,3,5,4,4,5
+3,S03,GPT-5,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,4,4,5
+3,S03,GPT-5,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,5,4,4,5
+3,S03,GPT-5,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,3,5,3,4,5
+3,S03,GPT-5,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,3,4,4,3
+3,S03,GPT-5,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,4,5,5
+3,S03,GPT-5,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,4,4,5
+3,S03,GPT-5,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,4,5,5
+3,S03,GPT-5,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,4,5,5
+3,S03,GPT-5,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,5,4,4,5
+3,S03,GPT-5,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,4,5
+3,S03,GPT-5,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,4,4,5
+3,S03,GPT-5,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,4,4,5
+3,S03,GPT-5,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,5,4,5
+3,S03,GPT-5,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,3,5,5,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,5,3,4,4
+3,S04,Gemini-2.5-Pro-Thinking,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,4,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,4,5,3
+3,S04,Gemini-2.5-Pro-Thinking,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,5,4,3,4
+3,S04,Gemini-2.5-Pro-Thinking,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,4,3,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,4,4,2
+3,S04,Gemini-2.5-Pro-Thinking,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,4,3,4
+3,S04,Gemini-2.5-Pro-Thinking,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,5,3,5
+3,S04,Gemini-2.5-Pro-Thinking,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,3,5,4,4
+3,S04,Gemini-2.5-Pro-Thinking,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,3,4,4,3,4
+3,S04,Gemini-2.5-Pro-Thinking,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,3,5,3
+3,S04,Gemini-2.5-Pro-Thinking,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,5,3,5
+3,S04,Gemini-2.5-Pro-Thinking,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,3,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,3,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,3,3,5
+3,S04,Gemini-2.5-Pro-Thinking,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,3,5,3,5
+3,S04,Gemini-2.5-Pro-Thinking,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,5,2,5
+3,S04,Gemini-2.5-Pro-Thinking,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,4,5,4,4
+3,S04,Gemini-2.5-Pro-Thinking,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,3,5,5
+3,S04,Gemini-2.5-Pro-Thinking,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,3,4,4
+3,S04,Gemini-2.5-Pro-Thinking,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,4,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,5,5
+3,S04,Gemini-2.5-Pro-Thinking,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,4,3,4
+3,S04,Gemini-2.5-Pro-Thinking,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,4,5,5,4
+3,S04,Gemini-2.5-Pro-Thinking,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,3,5,5
+3,S04,Gemini-2.5-Pro-Thinking,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,4,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,5,5,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,4,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,4,5,5
+3,S04,Gemini-2.5-Pro-Thinking,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,3,5,4,5
+3,S04,Gemini-2.5-Pro-Thinking,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,3,4,5,3,2
+3,S04,Gemini-2.5-Pro-Thinking,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,4,4,3
+3,S05,Grok-4,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,5,3,4,5
+3,S05,Grok-4,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,3,4,4,3
+3,S05,Grok-4,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,5,5
+3,S05,Grok-4,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,3,3,4,5
+3,S05,Grok-4,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,4,3,5
+3,S05,Grok-4,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,3,2,2
+3,S05,Grok-4,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,3,5,4,5
+3,S05,Grok-4,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,3,5,5,3
+3,S05,Grok-4,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,3,5,3,4
+3,S05,Grok-4,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,3,3
+3,S05,Grok-4,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,3,5,3,4
+3,S05,Grok-4,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,3,5,4,5,3
+3,S05,Grok-4,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,3,4,3
+3,S05,Grok-4,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,3,5,3
+3,S05,Grok-4,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,3,5,2
+3,S05,Grok-4,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,4,4,3,4
+3,S05,Grok-4,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,3,5,3,4,3
+3,S05,Grok-4,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,5,3
+3,S05,Grok-4,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,3,4,5
+3,S05,Grok-4,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,4,5,4
+3,S05,Grok-4,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,3,5,4
+3,S05,Grok-4,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,2,4,5,3
+3,S05,Grok-4,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,3,4,3,4
+3,S05,Grok-4,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,2,5,3,4,3
+3,S05,Grok-4,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,3,3,5
+3,S05,Grok-4,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,3,3,5
+3,S05,Grok-4,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,3,5,4,3
+3,S05,Grok-4,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,3,4,2,4,5
+3,S05,Grok-4,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,3,2,3,4,5
+3,S05,Grok-4,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,5,4,4,3
+3,S05,Grok-4,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,2,3,4
+3,S05,Grok-4,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,3,4,3
+3,S06,DeepSeek-V3,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,3,4,5,2
+3,S06,DeepSeek-V3,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,3,4,3,3
+3,S06,DeepSeek-V3,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,2,4
+3,S06,DeepSeek-V3,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,3,5,3,4,4
+3,S06,DeepSeek-V3,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,3,5,3,2,5
+3,S06,DeepSeek-V3,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,3,2,5
+3,S06,DeepSeek-V3,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,4,4,5,4
+3,S06,DeepSeek-V3,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,4,5,4
+3,S06,DeepSeek-V3,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,3,5,3,5,4
+3,S06,DeepSeek-V3,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,3,3,5
+3,S06,DeepSeek-V3,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,3,4,3,5
+3,S06,DeepSeek-V3,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,3,5,4,4,3
+3,S06,DeepSeek-V3,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,4,3,2
+3,S06,DeepSeek-V3,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,4,3,4
+3,S06,DeepSeek-V3,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,5,4,3,4,5
+3,S06,DeepSeek-V3,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,5,3,4,3
+3,S06,DeepSeek-V3,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,4,3
+3,S06,DeepSeek-V3,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,4,3,4,5
+3,S06,DeepSeek-V3,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,3,5,4,4,5
+3,S06,DeepSeek-V3,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,4,5,3,4
+3,S06,DeepSeek-V3,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,3,2,5,3
+3,S06,DeepSeek-V3,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,4,4,3,2
+3,S06,DeepSeek-V3,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,3,5,4,4,3
+3,S06,DeepSeek-V3,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,4,3,4,5
+3,S06,DeepSeek-V3,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,4,3,4
+3,S06,DeepSeek-V3,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,3,3,4
+3,S06,DeepSeek-V3,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,4,3,5,4
+3,S06,DeepSeek-V3,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,4,3
+3,S06,DeepSeek-V3,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,3,5,4,5,5
+3,S06,DeepSeek-V3,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,4,4,3,4
+3,S06,DeepSeek-V3,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,3,5,4,3,3
+3,S06,DeepSeek-V3,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,3,5,3
+4,S01,SupraMAS,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,5,5,4,4
+4,S01,SupraMAS,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,5,4,5,3,4
+4,S01,SupraMAS,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,5,4,5,4,4
+4,S01,SupraMAS,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,5,4,5,4,3
+4,S01,SupraMAS,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,5,4,5,3
+4,S01,SupraMAS,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,5,5,4,5,4
+4,S01,SupraMAS,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,5,5,3,5,4
+4,S01,SupraMAS,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,5,5,3,5,4
+4,S01,SupraMAS,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,5,5,3,5,4
+4,S01,SupraMAS,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,5,5,4,5,4
+4,S01,SupraMAS,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,5,5,4,5,4
+4,S01,SupraMAS,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,5,5,3,5,4
+4,S01,SupraMAS,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,5,5,4,5,4
+4,S01,SupraMAS,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,5,3,5,4,5
+4,S01,SupraMAS,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,5,5,4,5,4
+4,S01,SupraMAS,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,5,5,4,4,4
+4,S01,SupraMAS,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,5,5,4,5,3
+4,S01,SupraMAS,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,5,5,4,4,5
+4,S01,SupraMAS,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,5,5,5,4,5
+4,S01,SupraMAS,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,5,5,4,5,4
+4,S01,SupraMAS,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,5,5,4,5,5
+4,S01,SupraMAS,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,5,4,3,4,3
+4,S01,SupraMAS,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,4,5,5,4
+4,S01,SupraMAS,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,5,2,4
+4,S01,SupraMAS,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,5,3,4
+4,S01,SupraMAS,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,5,5,4
+4,S01,SupraMAS,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,5,2,3,4
+4,S01,SupraMAS,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,4,4
+4,S01,SupraMAS,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,5,5,3,3,4
+4,S01,SupraMAS,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,5,4,5,4
+4,S01,SupraMAS,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,5,4,5,4
+4,S01,SupraMAS,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,5,5,4,4,5
+4,S02,GPT-Researcher,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,2,4,4,5,4
+4,S02,GPT-Researcher,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,3,4,4,3,2
+4,S02,GPT-Researcher,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,3,4,5,4,2
+4,S02,GPT-Researcher,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,3,2,4,5,4
+4,S02,GPT-Researcher,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,2,3,3,2
+4,S02,GPT-Researcher,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,3,4,4,4,2
+4,S02,GPT-Researcher,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,4,2,4,3
+4,S02,GPT-Researcher,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,3,5,3,4,4
+4,S02,GPT-Researcher,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,2,3,3,3
+4,S02,GPT-Researcher,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,2,2,3,1
+4,S02,GPT-Researcher,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,3,4,3,2,3
+4,S02,GPT-Researcher,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,3,4,4,3,4
+4,S02,GPT-Researcher,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,3,4,4,3,4
+4,S02,GPT-Researcher,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,3,3,4,3
+4,S02,GPT-Researcher,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,4,5,5
+4,S02,GPT-Researcher,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,2,2,3,4
+4,S02,GPT-Researcher,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,3,4,4,2,3
+4,S02,GPT-Researcher,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,3,3,4,3,5
+4,S02,GPT-Researcher,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,4,4,5
+4,S02,GPT-Researcher,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,5,4,4,4
+4,S02,GPT-Researcher,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,3,4,4,3,4
+4,S02,GPT-Researcher,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,3,3,5,3,4
+4,S02,GPT-Researcher,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,3,4,4,3,5
+4,S02,GPT-Researcher,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,3,5,2,4
+4,S02,GPT-Researcher,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,2,2,3,3,3
+4,S02,GPT-Researcher,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,3,3,5
+4,S02,GPT-Researcher,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,2,2,2,3,1
+4,S02,GPT-Researcher,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,3,5
+4,S02,GPT-Researcher,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,5,4,4
+4,S02,GPT-Researcher,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,5,4,4,3
+4,S02,GPT-Researcher,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,2,3,5
+4,S02,GPT-Researcher,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,3,4,5,2
+4,S03,GPT-5,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,4,3,5,5
+4,S03,GPT-5,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,4,5,4
+4,S03,GPT-5,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,4,5
+4,S03,GPT-5,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,3,5,4,2
+4,S03,GPT-5,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,4,5,4,5
+4,S03,GPT-5,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,3,4,5
+4,S03,GPT-5,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,4,3,5,5
+4,S03,GPT-5,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,5,3,3,3,5
+4,S03,GPT-5,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,3,5,5,4
+4,S03,GPT-5,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,4,3
+4,S03,GPT-5,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,3,5,4,5
+4,S03,GPT-5,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,4,5,3
+4,S03,GPT-5,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,3,3,5,4,4
+4,S03,GPT-5,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,4,5,5,4
+4,S03,GPT-5,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,4,5,3
+4,S03,GPT-5,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,5,5,4
+4,S03,GPT-5,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,4,5,3,4
+4,S03,GPT-5,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,5,5
+4,S03,GPT-5,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,4,5,4,4
+4,S03,GPT-5,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,3,5,4,4
+4,S03,GPT-5,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,4,5,5,3
+4,S03,GPT-5,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,5,4,4
+4,S03,GPT-5,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,4,4,5,4
+4,S03,GPT-5,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,4,5,3
+4,S03,GPT-5,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,3,5,5,4
+4,S03,GPT-5,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,3,4,5,3
+4,S03,GPT-5,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,4,4,5,5
+4,S03,GPT-5,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,4,3,4,5
+4,S03,GPT-5,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,5,4,5
+4,S03,GPT-5,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,5,4,5
+4,S03,GPT-5,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,3,5,4
+4,S03,GPT-5,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,3,4,4
+4,S04,Gemini-2.5-Pro-Thinking,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,3,4,4,3
+4,S04,Gemini-2.5-Pro-Thinking,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,5,3,3,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,4,4,2
+4,S04,Gemini-2.5-Pro-Thinking,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,5,2,2,4
+4,S04,Gemini-2.5-Pro-Thinking,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,3,5,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,3,3,5
+4,S04,Gemini-2.5-Pro-Thinking,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,4,5,3
+4,S04,Gemini-2.5-Pro-Thinking,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,4,3,5
+4,S04,Gemini-2.5-Pro-Thinking,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,4,4,5,4
+4,S04,Gemini-2.5-Pro-Thinking,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,3,4,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,4,2,5
+4,S04,Gemini-2.5-Pro-Thinking,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,4,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,4,5,3
+4,S04,Gemini-2.5-Pro-Thinking,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,3,5,4
+4,S04,Gemini-2.5-Pro-Thinking,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,4,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,3,2,5
+4,S04,Gemini-2.5-Pro-Thinking,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,3,5,4
+4,S04,Gemini-2.5-Pro-Thinking,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,4,5,3
+4,S04,Gemini-2.5-Pro-Thinking,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,4,5,4
+4,S04,Gemini-2.5-Pro-Thinking,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,4,4,4
+4,S04,Gemini-2.5-Pro-Thinking,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,3,3,5
+4,S04,Gemini-2.5-Pro-Thinking,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,4,3,4,3
+4,S04,Gemini-2.5-Pro-Thinking,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,4,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,3,3,5
+4,S04,Gemini-2.5-Pro-Thinking,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,4,5,4
+4,S04,Gemini-2.5-Pro-Thinking,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,5,3,4,4
+4,S04,Gemini-2.5-Pro-Thinking,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,3,5,5,3
+4,S04,Gemini-2.5-Pro-Thinking,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,5,3,5
+4,S04,Gemini-2.5-Pro-Thinking,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,4,4,5
+4,S04,Gemini-2.5-Pro-Thinking,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,3,4,4
+4,S05,Grok-4,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,3,4,3,4
+4,S05,Grok-4,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,3,4,2,2
+4,S05,Grok-4,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,4,3
+4,S05,Grok-4,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,3,4,3,4,5
+4,S05,Grok-4,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,3,2,5,4
+4,S05,Grok-4,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,4,3,4
+4,S05,Grok-4,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,3,3,5
+4,S05,Grok-4,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,3,4,5
+4,S05,Grok-4,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,4,4,3
+4,S05,Grok-4,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,2,4,5,4
+4,S05,Grok-4,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,3,3,5
+4,S05,Grok-4,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,3,4,5
+4,S05,Grok-4,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,4,3,3
+4,S05,Grok-4,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,3,4,4
+4,S05,Grok-4,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,3,5,4
+4,S05,Grok-4,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,3,4,4,5
+4,S05,Grok-4,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,3,4,4,2
+4,S05,Grok-4,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,5,3,4
+4,S05,Grok-4,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,3,5,5
+4,S05,Grok-4,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,4,3,4
+4,S05,Grok-4,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,3,4,5
+4,S05,Grok-4,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,5,3
+4,S05,Grok-4,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,4,3,4
+4,S05,Grok-4,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,4,4,5
+4,S05,Grok-4,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,3,5,4
+4,S05,Grok-4,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,3,5,4
+4,S05,Grok-4,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,3,5,4,3
+4,S05,Grok-4,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,4,5,3,3
+4,S05,Grok-4,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,4,2,5,3
+4,S05,Grok-4,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,4,3,5
+4,S05,Grok-4,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,4,5,4,3
+4,S05,Grok-4,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,4,2,3
+4,S06,DeepSeek-V3,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,4,2,4,3
+4,S06,DeepSeek-V3,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,3,3,2,2
+4,S06,DeepSeek-V3,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,3,3,4,3
+4,S06,DeepSeek-V3,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,3,4,5,3
+4,S06,DeepSeek-V3,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,3,3,2
+4,S06,DeepSeek-V3,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,2,4,3,4
+4,S06,DeepSeek-V3,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,3,2,4,5,3
+4,S06,DeepSeek-V3,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,2,3,4,4
+4,S06,DeepSeek-V3,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,3,2,5
+4,S06,DeepSeek-V3,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,3,2,5,4
+4,S06,DeepSeek-V3,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,3,4,3,4
+4,S06,DeepSeek-V3,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,3,4,3,4,2
+4,S06,DeepSeek-V3,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,4,5,3,4
+4,S06,DeepSeek-V3,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,3,2,3,4
+4,S06,DeepSeek-V3,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,2,5,4,3
+4,S06,DeepSeek-V3,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,4,3,5,2
+4,S06,DeepSeek-V3,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,4,4,3,2
+4,S06,DeepSeek-V3,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,3,4,3,3
+4,S06,DeepSeek-V3,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,3,5,3,4,5
+4,S06,DeepSeek-V3,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,4,3,4,5
+4,S06,DeepSeek-V3,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,3,3,4,4
+4,S06,DeepSeek-V3,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,3,4,3
+4,S06,DeepSeek-V3,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,3,5,4,4,3
+4,S06,DeepSeek-V3,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,3,2,2
+4,S06,DeepSeek-V3,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,3,5,2,4
+4,S06,DeepSeek-V3,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,3,4,5,3
+4,S06,DeepSeek-V3,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,3,4,2,2,4
+4,S06,DeepSeek-V3,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,3,3,5,4
+4,S06,DeepSeek-V3,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,3,5,4,4,5
+4,S06,DeepSeek-V3,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,4,4,5
+4,S06,DeepSeek-V3,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,3,5,2,5,3
+4,S06,DeepSeek-V3,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,4,3,3,3
+5,S01,SupraMAS,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,5,5,3,4,5
+5,S01,SupraMAS,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,5,4,4,3,5
+5,S01,SupraMAS,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,5,5,4,3,5
+5,S01,SupraMAS,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,5,4,3,4,5
+5,S01,SupraMAS,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,4,4,5,4
+5,S01,SupraMAS,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,5,4,4,3,5
+5,S01,SupraMAS,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,5,5,4,3,5
+5,S01,SupraMAS,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,3,4,3
+5,S01,SupraMAS,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,5,4,5,4,4
+5,S01,SupraMAS,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,5,5,4,4,5
+5,S01,SupraMAS,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,5,5,5,4,5
+5,S01,SupraMAS,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,4,5,3,5
+5,S01,SupraMAS,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,5,4,5
+5,S01,SupraMAS,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,5,5,4,4,5
+5,S01,SupraMAS,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,5,4,5,4,5
+5,S01,SupraMAS,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,5,4,5,4,5
+5,S01,SupraMAS,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,5,5,5,4,5
+5,S01,SupraMAS,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,5,4,4,5,5
+5,S01,SupraMAS,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,5,4,3,4,5
+5,S01,SupraMAS,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,5,4,5,4,4
+5,S01,SupraMAS,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,5,5,4,4,5
+5,S01,SupraMAS,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,5,4,5,4,5
+5,S01,SupraMAS,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,5,4,4,5
+5,S01,SupraMAS,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,5,5,4,4,5
+5,S01,SupraMAS,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,5,4,5,4,5
+5,S01,SupraMAS,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,5,4,2,4,5
+5,S01,SupraMAS,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,4,5,4,5
+5,S01,SupraMAS,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,4,5,4,5
+5,S01,SupraMAS,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,5,4,5,4,5
+5,S01,SupraMAS,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,5,3,4,5
+5,S01,SupraMAS,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,5,4,4,5
+5,S01,SupraMAS,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,5,4,4,4,5
+5,S02,GPT-Researcher,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,3,5,4,3,3
+5,S02,GPT-Researcher,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,2,2,3,3,1
+5,S02,GPT-Researcher,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,3,4,3,2,3
+5,S02,GPT-Researcher,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,3,4,3,3,4
+5,S02,GPT-Researcher,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,3,4,3,2,3
+5,S02,GPT-Researcher,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,3,4,2,3,3
+5,S02,GPT-Researcher,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,3,4,4
+5,S02,GPT-Researcher,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,3,5,3,3,3
+5,S02,GPT-Researcher,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,3,4,4,3
+5,S02,GPT-Researcher,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,2,3,4,3,2
+5,S02,GPT-Researcher,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,3,4,2,3,2
+5,S02,GPT-Researcher,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,3,3,4,3,4
+5,S02,GPT-Researcher,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,3,4,3,4,4
+5,S02,GPT-Researcher,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,3,1,3,2,2
+5,S02,GPT-Researcher,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,3,3,4
+5,S02,GPT-Researcher,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,2,2,3,1
+5,S02,GPT-Researcher,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,2,3,3,4,2
+5,S02,GPT-Researcher,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,3,2,2,4,3
+5,S02,GPT-Researcher,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,4,3,5,4
+5,S02,GPT-Researcher,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,4,3,5,3
+5,S02,GPT-Researcher,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,3,4,3,2,3
+5,S02,GPT-Researcher,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,3,5,3,2,3
+5,S02,GPT-Researcher,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,2,3,2,2,2
+5,S02,GPT-Researcher,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,3,4,3,3,3
+5,S02,GPT-Researcher,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,2,3,2,3,2
+5,S02,GPT-Researcher,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,3,4,3,2,3
+5,S02,GPT-Researcher,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,3,2,3,2
+5,S02,GPT-Researcher,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,2,3
+5,S02,GPT-Researcher,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,4,3,2,1
+5,S02,GPT-Researcher,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,4,3,2,3
+5,S02,GPT-Researcher,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,3,2,3
+5,S02,GPT-Researcher,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,3,4,3,2,3
+5,S03,GPT-5,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,4,5,3,5
+5,S03,GPT-5,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,5,4,3,4,4
+5,S03,GPT-5,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,4,3,5
+5,S03,GPT-5,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,3,4,3,4
+5,S03,GPT-5,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,5,4,3,3,5
+5,S03,GPT-5,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,4,5,3,4
+5,S03,GPT-5,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,5,3,5,3,4
+5,S03,GPT-5,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,5,5,4,3,4
+5,S03,GPT-5,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,5,5,4,4,3
+5,S03,GPT-5,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,5,4,4,3,4
+5,S03,GPT-5,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,5,3,5,4,5
+5,S03,GPT-5,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,5,3,4,4,3
+5,S03,GPT-5,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,5,5,3,3,5
+5,S03,GPT-5,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,3,5,3,3,5
+5,S03,GPT-5,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,5,4,3,5,4
+5,S03,GPT-5,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,5,5,4,5,4
+5,S03,GPT-5,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,5,3,3,4,5
+5,S03,GPT-5,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,4,4,4
+5,S03,GPT-5,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,3,5,4,4,5
+5,S03,GPT-5,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,3,4,5,3,4
+5,S03,GPT-5,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,2,4,5
+5,S03,GPT-5,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,5,5,5,2,4
+5,S03,GPT-5,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,5,4,4,5,4
+5,S03,GPT-5,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,5,4,5,4,5
+5,S03,GPT-5,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,5,4,4,3,4
+5,S03,GPT-5,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,5,3,4,3,4
+5,S03,GPT-5,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,3,5,4,5
+5,S03,GPT-5,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,3,4,5,4,5
+5,S03,GPT-5,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,3,5,4,5
+5,S03,GPT-5,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,4,4,3,4
+5,S03,GPT-5,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,5,4,5,4
+5,S03,GPT-5,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,5,4,4
+5,S04,Gemini-2.5-Pro-Thinking,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,5,3,4,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,5,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,5,4,4,4,3
+5,S04,Gemini-2.5-Pro-Thinking,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,5,3,5,4,3
+5,S04,Gemini-2.5-Pro-Thinking,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,4,4,3
+5,S04,Gemini-2.5-Pro-Thinking,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,5,4,4,3,3
+5,S04,Gemini-2.5-Pro-Thinking,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,5,3,4,2,3
+5,S04,Gemini-2.5-Pro-Thinking,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,5,4,4,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,4,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,5,4,3,3,2
+5,S04,Gemini-2.5-Pro-Thinking,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,5,4,3,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,5,3,5,4,4
+5,S04,Gemini-2.5-Pro-Thinking,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,5,5,3,4,4
+5,S04,Gemini-2.5-Pro-Thinking,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,5,4,4,3,3
+5,S04,Gemini-2.5-Pro-Thinking,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,4,5,2,3
+5,S04,Gemini-2.5-Pro-Thinking,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,5,4,4,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,5,4,4,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,5,4,4,2,2
+5,S04,Gemini-2.5-Pro-Thinking,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,5,4,4,2,3
+5,S04,Gemini-2.5-Pro-Thinking,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,5,4,4,3,3
+5,S04,Gemini-2.5-Pro-Thinking,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,5,4,3,5,4
+5,S04,Gemini-2.5-Pro-Thinking,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,4,5
+5,S04,Gemini-2.5-Pro-Thinking,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,3,2,4
+5,S04,Gemini-2.5-Pro-Thinking,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,5,5,3,4,4
+5,S04,Gemini-2.5-Pro-Thinking,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,5,4,4,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,5,5,4,2,3
+5,S04,Gemini-2.5-Pro-Thinking,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,5,4,3,4,5
+5,S04,Gemini-2.5-Pro-Thinking,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,4,3,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,5,3,4,2,3
+5,S04,Gemini-2.5-Pro-Thinking,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,5,4,4,3,4
+5,S04,Gemini-2.5-Pro-Thinking,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,5,5,4,2,3
+5,S04,Gemini-2.5-Pro-Thinking,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,5,4,5,3,4
+5,S05,Grok-4,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,3,3,4,4
+5,S05,Grok-4,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,5,4,3,4
+5,S05,Grok-4,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,3,4
+5,S05,Grok-4,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,5,2,3,3
+5,S05,Grok-4,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,3,3,4
+5,S05,Grok-4,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,3,2,3
+5,S05,Grok-4,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,3,3,4
+5,S05,Grok-4,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,2,3,3
+5,S05,Grok-4,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,3,3,4
+5,S05,Grok-4,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,4,3,4
+5,S05,Grok-4,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,4,2,3
+5,S05,Grok-4,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,4,2,3
+5,S05,Grok-4,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,5,2,3,3
+5,S05,Grok-4,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,5,4,3,4
+5,S05,Grok-4,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,3,4,4
+5,S05,Grok-4,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,4,5,3,2,3
+5,S05,Grok-4,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,5,4,4,2
+5,S05,Grok-4,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,5,3,4,3
+5,S05,Grok-4,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,5,3,4,3
+5,S05,Grok-4,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,5,3,2,3
+5,S05,Grok-4,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,5,2,3,4
+5,S05,Grok-4,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,4,5,2
+5,S05,Grok-4,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,5,3,2,2
+5,S05,Grok-4,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,5,3,4,3
+5,S05,Grok-4,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,3,3,4
+5,S05,Grok-4,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,5,3,4,3
+5,S05,Grok-4,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,5,3,3,4
+5,S05,Grok-4,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,4,5,3,4,3
+5,S05,Grok-4,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,4,2,3
+5,S05,Grok-4,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,4,5,3,3,3
+5,S05,Grok-4,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,3,3,4
+5,S05,Grok-4,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,4,2,3
+5,S06,DeepSeek-V3,T01,Achieving significant flux pinning enhancement in REBCO coated conductors,4,3,4,3,2
+5,S06,DeepSeek-V3,T02,Constructing REBCO superconductors with segmented c-axis aligned nanocolumns and localized planar precipitate 6e7c8a58f0,4,4,3,2,4
+5,S06,DeepSeek-V3,T03,Constructing a hybrid pinning landscape of point defects and nanorods in REBCO to maintain high Jc under inte 14c1cf9f5f,4,5,3,4,3
+5,S06,DeepSeek-V3,T04,Constructing continuous 1D c-axis aligned nanorods within REBCO films to establish strongly correlated pinnin b446d0463d,4,2,3,3,4
+5,S06,DeepSeek-V3,T05,Designing REBCO conductors with controlled through-thickness defect gradients (transitioning from c-axis nano 4beda40346,4,5,4,2,3
+5,S06,DeepSeek-V3,T06,Designing REBCO superconductors with dense 1D c-axis aligned nanorods for enhanced isotropic pinning,4,5,3,2,3
+5,S06,DeepSeek-V3,T07,Designing REBCO thick films with optimized stacking fault density for high critical current performance,4,5,3,4,3
+5,S06,DeepSeek-V3,T08,Designing a hierarchical defect landscape by coupling atomic-level site substitutions with nanoscale inclusions in REBCO,4,5,2,3,3
+5,S06,DeepSeek-V3,T09,Designing multielement REBCO conductors featuring a multi-scale defect landscape (atomic substitutions couple 02d41e4475,4,5,2,3,4
+5,S06,DeepSeek-V3,T10,Developing REBCO coated conductors with high-density planar defects to maximize flux pinning forces parallel c1230ee343,4,5,3,2,3
+5,S06,DeepSeek-V3,T11,Developing REBCO coated conductors with intertwined 1D nanorods and interfacial strain layers to maintain ult b42334f394,4,5,3,2,3
+5,S06,DeepSeek-V3,T12,Developing multielement REBCO films with a controlled distribution of nanoscale precipitates to achieve a hig 848cb9ea11,4,5,2,3,4
+5,S06,DeepSeek-V3,T13,Elevating the irreversibility field of REBCO through the synergistic action of intrinsic and extrinsic pinning,4,3,2,2,4
+5,S06,DeepSeek-V3,T14,Engineering REBCO superconductors featuring continuous columnar defects to significantly reduce Jc anisotropy,4,3,2,2,3
+5,S06,DeepSeek-V3,T15,Engineering REBCO thick films with sub-10 nm c-axis nanorods and high-density ab-plane stacking faults to ach 0673f3beb5,4,5,2,3,4
+5,S06,DeepSeek-V3,T16,Engineering REBCO thin films with uniformly distributed 3D nanoparticles to achieve superior critical current c20493d74e,3,4,2,3,4
+5,S06,DeepSeek-V3,T17,Engineering composite REBCO structures with tailored grain orientations and dense c-axis columnar defects to e098e7931a,4,3,2,2,3
+5,S06,DeepSeek-V3,T18,Engineering randomly distributed 3D nanoscale precipitates with controlled size variance inside the REBCO matrix,4,3,2,2,3
+5,S06,DeepSeek-V3,T19,Enhancing the isotropic flux-pinning properties across different magnetic field orientations in REBCO,4,3,2,2,3
+5,S06,DeepSeek-V3,T20,Generating abundant ab-plane planar defects and localized stacking faults within the REBCO crystal lattice,4,3,2,2,3
+5,S06,DeepSeek-V3,T21,Improving the overall critical current density of REBCO materials through generalized defect engineering,4,3,2,2,4
+5,S06,DeepSeek-V3,T22,Inducing high-density columnar damage tracks in REBCO thick films to provide strictly one-dimensional correla 857269e884,4,5,2,4,3
+5,S06,DeepSeek-V3,T23,Introducing high-density artificial point defects into the REBCO matrix to act as zero-dimensional pinning centers,4,4,2,3,3
+5,S06,DeepSeek-V3,T24,Maximizing the global flux pinning forces in REBCO superconducting thin films,4,3,4,3,2
+5,S06,DeepSeek-V3,T25,Maximizing the pinning potential to enhance the current-carrying capacity of REBCO thick films,4,5,4,3,3
+5,S06,DeepSeek-V3,T26,Modulating intrinsic growth defects and inter-grain boundary networks to create a self-assembled microstructu 4c1b0a6e4c,4,3,2,2,3
+5,S06,DeepSeek-V3,T27,Optimizing REBCO films with a synergistic combination of rare-earth size-variance-induced strain fields and u 0fb4d85db3,4,4,2,3,4
+5,S06,DeepSeek-V3,T28,Optimizing the overall superconducting performance and vortex pinning landscape in REBCO,3,5,3,3,4
+5,S06,DeepSeek-V3,T29,Suppressing magnetic flux creep to improve the vortex stability in REBCO superconductors,4,5,2,3,3
+5,S06,DeepSeek-V3,T30,Tailoring REBCO conductors with localized lattice strain networks to enhance vortex pinning forces in in-field regimes,3,5,3,2,3
+5,S06,DeepSeek-V3,T31,Tailoring REBCO thin films with a hierarchical pinning structure combining periodic ab-plane planar defects a 270591c0c9,4,5,3,2,3
+5,S06,DeepSeek-V3,T32,Tailoring the localized interfacial strain fields and lattice misfits around secondary nanophases within the 0a0f721e29,4,5,3,3,4

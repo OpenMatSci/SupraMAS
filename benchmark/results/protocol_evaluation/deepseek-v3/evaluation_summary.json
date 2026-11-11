@@ -1,7 +1,8 @@
 {
   "baseline_model": "deepseek-v3",
-  "exp_reproducibility_avg": 0.789,
-  "exp_feasibility_avg": 0.6569,
-  "overall_avg": 0.7229,
-  "limit": null
+  "protocol_case_num": 31,
+  "judge_num": 2,
+  "exp_reproducibility_avg": 0.6214516129032257,
+  "exp_feasibility_avg": 0.6704838709677419,
+  "aggregation": "Equal mean of Claude and GPT within case, then across 31 cases."
 }

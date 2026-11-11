@@ -1,7 +1,8 @@
 {
   "baseline_model": "grok-4",
-  "exp_reproducibility_avg": 0.7623,
-  "exp_feasibility_avg": 0.6635,
-  "overall_avg": 0.7129,
-  "limit": null
+  "protocol_case_num": 31,
+  "judge_num": 2,
+  "exp_reproducibility_avg": 0.6251612903225806,
+  "exp_feasibility_avg": 0.6798387096774194,
+  "aggregation": "Equal mean of Claude and GPT within case, then across 31 cases."
 }

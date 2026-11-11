@@ -20,3 +20,7 @@ python -m benchmark.evaluation.eval_protocol --help
 
 Running a full re-evaluation requires local model credentials configured outside Git.
 
+
+## Current result records
+
+Final results average Claude and GPT within each case, then average 32 idea topics or 31 protocol cases. `results/idea_foresight/*/evaluation.jsonl` stores one compact record per topic and judge; protocol JSON files store one record per case and judge. `benchmark_summary.csv` reports the four metrics separately. Full rationale archives and statistical analyses are linked in [the data index](../data_availability/README.md).

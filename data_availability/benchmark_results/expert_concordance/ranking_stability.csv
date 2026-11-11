@@ -1,0 +1,7 @@
+﻿system,automatic_top1_frequency,expert_top1_frequency,automatic_rank_p025,automatic_rank_p975
+SupraMAS,1.0,1.0,1.0,1.0
+GPT-Researcher,0.0,0.0,3.0,6.0
+GPT-5,0.0,0.0,2.0,2.0
+Gemini-2.5-Pro-Thinking,0.0,0.0,3.0,6.0
+Grok-4,0.0,0.0,3.0,6.0
+DeepSeek-V3,0.0,0.0,3.0,6.0

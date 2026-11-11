@@ -1,0 +1,134 @@
+[
+  {
+    "system": "SupraMAS",
+    "metric": "strategy_overlap",
+    "topics": 32,
+    "Claude_mean": 0.46431875,
+    "GPT_mean": 0.4373125,
+    "two_judge_mean": 0.450815625,
+    "sd_across_topics": 0.07268817008677902,
+    "min_topic_mean": 0.2484,
+    "max_topic_mean": 0.55805
+  },
+  {
+    "system": "SupraMAS",
+    "metric": "strategy_combination",
+    "topics": 32,
+    "Claude_mean": 0.5959375,
+    "GPT_mean": 0.67125,
+    "two_judge_mean": 0.63359375,
+    "sd_across_topics": 0.07596937386953398,
+    "min_topic_mean": 0.45,
+    "max_topic_mean": 0.76
+  },
+  {
+    "system": "GPT-Researcher",
+    "metric": "strategy_overlap",
+    "topics": 32,
+    "Claude_mean": 0.147384375,
+    "GPT_mean": 0.115728125,
+    "two_judge_mean": 0.13155624999999999,
+    "sd_across_topics": 0.08184161508473192,
+    "min_topic_mean": 0.0,
+    "max_topic_mean": 0.3097
+  },
+  {
+    "system": "GPT-Researcher",
+    "metric": "strategy_combination",
+    "topics": 32,
+    "Claude_mean": 0.3834375,
+    "GPT_mean": 0.5703125,
+    "two_judge_mean": 0.476875,
+    "sd_across_topics": 0.08866164388716348,
+    "min_topic_mean": 0.25,
+    "max_topic_mean": 0.6499999999999999
+  },
+  {
+    "system": "GPT-5",
+    "metric": "strategy_overlap",
+    "topics": 32,
+    "Claude_mean": 0.15665,
+    "GPT_mean": 0.152415625,
+    "two_judge_mean": 0.1545328125,
+    "sd_across_topics": 0.08381859599021067,
+    "min_topic_mean": 0.0065,
+    "max_topic_mean": 0.4226
+  },
+  {
+    "system": "GPT-5",
+    "metric": "strategy_combination",
+    "topics": 32,
+    "Claude_mean": 0.36843750000000003,
+    "GPT_mean": 0.5859375,
+    "two_judge_mean": 0.4771875,
+    "sd_across_topics": 0.08082176228012178,
+    "min_topic_mean": 0.26,
+    "max_topic_mean": 0.625
+  },
+  {
+    "system": "Gemini-2.5-Pro-Thinking",
+    "metric": "strategy_overlap",
+    "topics": 32,
+    "Claude_mean": 0.11413125,
+    "GPT_mean": 0.096171875,
+    "two_judge_mean": 0.1051515625,
+    "sd_across_topics": 0.07842307869290384,
+    "min_topic_mean": 0.0,
+    "max_topic_mean": 0.29035
+  },
+  {
+    "system": "Gemini-2.5-Pro-Thinking",
+    "metric": "strategy_combination",
+    "topics": 32,
+    "Claude_mean": 0.3740625,
+    "GPT_mean": 0.5653125,
+    "two_judge_mean": 0.4696875,
+    "sd_across_topics": 0.13365179542136663,
+    "min_topic_mean": 0.21,
+    "max_topic_mean": 0.7
+  },
+  {
+    "system": "Grok-4",
+    "metric": "strategy_overlap",
+    "topics": 32,
+    "Claude_mean": 0.135275,
+    "GPT_mean": 0.12801875,
+    "two_judge_mean": 0.131646875,
+    "sd_across_topics": 0.0728139663773151,
+    "min_topic_mean": 0.0,
+    "max_topic_mean": 0.28385
+  },
+  {
+    "system": "Grok-4",
+    "metric": "strategy_combination",
+    "topics": 32,
+    "Claude_mean": 0.37125,
+    "GPT_mean": 0.57625,
+    "two_judge_mean": 0.47375,
+    "sd_across_topics": 0.09052713013413481,
+    "min_topic_mean": 0.25,
+    "max_topic_mean": 0.7
+  },
+  {
+    "system": "DeepSeek-V3",
+    "metric": "strategy_overlap",
+    "topics": 32,
+    "Claude_mean": 0.1375,
+    "GPT_mean": 0.118346875,
+    "two_judge_mean": 0.12792343750000001,
+    "sd_across_topics": 0.06849847535903333,
+    "min_topic_mean": 0.00325,
+    "max_topic_mean": 0.271
+  },
+  {
+    "system": "DeepSeek-V3",
+    "metric": "strategy_combination",
+    "topics": 32,
+    "Claude_mean": 0.3959375,
+    "GPT_mean": 0.5821875,
+    "two_judge_mean": 0.4890625,
+    "sd_across_topics": 0.09633976752334215,
+    "min_topic_mean": 0.235,
+    "max_topic_mean": 0.7
+  }
+]

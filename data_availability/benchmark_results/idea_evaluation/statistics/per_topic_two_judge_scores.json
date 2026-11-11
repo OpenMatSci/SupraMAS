@@ -1,0 +1,3458 @@
+[
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.5742,
+    "GPT": 0.5419,
+    "case_mean": 0.55805
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.1613,
+    "GPT": 0.0581,
+    "case_mean": 0.10969999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.0903,
+    "GPT": 0.0774,
+    "case_mean": 0.08385000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.2,
+    "GPT": 0.2,
+    "case_mean": 0.2
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.2452,
+    "GPT": 0.2194,
+    "case_mean": 0.2323
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.1935,
+    "GPT": 0.1419,
+    "case_mean": 0.16770000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.3806,
+    "GPT": 0.4194,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.1355,
+    "GPT": 0.129,
+    "case_mean": 0.13225
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.1548,
+    "GPT": 0.1419,
+    "case_mean": 0.14834999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.0323,
+    "GPT": 0.0065,
+    "case_mean": 0.0194
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.1548,
+    "GPT": 0.1419,
+    "case_mean": 0.14834999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.1419,
+    "GPT": 0.0645,
+    "case_mean": 0.1032
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.4323,
+    "GPT": 0.4323,
+    "case_mean": 0.4323
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.1548,
+    "GPT": 0.129,
+    "case_mean": 0.1419
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.129,
+    "GPT": 0.1226,
+    "case_mean": 0.1258
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.1355,
+    "GPT": 0.1419,
+    "case_mean": 0.1387
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.1806,
+    "GPT": 0.1548,
+    "case_mean": 0.16770000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.071,
+    "GPT": 0.0516,
+    "case_mean": 0.06129999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.5226,
+    "GPT": 0.4452,
+    "case_mean": 0.4839
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.0,
+    "GPT": 0.0,
+    "case_mean": 0.0
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.1677,
+    "GPT": 0.1548,
+    "case_mean": 0.16125
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.0452,
+    "GPT": 0.0645,
+    "case_mean": 0.054849999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.1548,
+    "GPT": 0.1484,
+    "case_mean": 0.1516
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.2581,
+    "GPT": 0.2839,
+    "case_mean": 0.271
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.3613,
+    "GPT": 0.5032,
+    "case_mean": 0.43225
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.1806,
+    "GPT": 0.1419,
+    "case_mean": 0.16125
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.129,
+    "GPT": 0.1355,
+    "case_mean": 0.13225
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.1097,
+    "GPT": 0.1355,
+    "case_mean": 0.12260000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.1226,
+    "GPT": 0.1355,
+    "case_mean": 0.12905
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.1806,
+    "GPT": 0.2,
+    "case_mean": 0.19030000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.4903,
+    "GPT": 0.3355,
+    "case_mean": 0.41290000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.1161,
+    "GPT": 0.1097,
+    "case_mean": 0.1129
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.0452,
+    "GPT": 0.0581,
+    "case_mean": 0.05165
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.0194,
+    "GPT": 0.0258,
+    "case_mean": 0.022600000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.2968,
+    "GPT": 0.1613,
+    "case_mean": 0.22905
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.1484,
+    "GPT": 0.1871,
+    "case_mean": 0.16775
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.4452,
+    "GPT": 0.3871,
+    "case_mean": 0.41615
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.0065,
+    "GPT": 0.0,
+    "case_mean": 0.00325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.0645,
+    "GPT": 0.1161,
+    "case_mean": 0.09029999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.0258,
+    "GPT": 0.0581,
+    "case_mean": 0.04195
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.071,
+    "GPT": 0.0581,
+    "case_mean": 0.06455
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.0065,
+    "GPT": 0.0,
+    "case_mean": 0.00325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.5484,
+    "GPT": 0.471,
+    "case_mean": 0.5097
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.1677,
+    "GPT": 0.0968,
+    "case_mean": 0.13224999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.1935,
+    "GPT": 0.1742,
+    "case_mean": 0.18385
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.1677,
+    "GPT": 0.0516,
+    "case_mean": 0.10965
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.1613,
+    "GPT": 0.1742,
+    "case_mean": 0.16775
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.2,
+    "GPT": 0.1032,
+    "case_mean": 0.1516
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.4581,
+    "GPT": 0.5613,
+    "case_mean": 0.5097
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.1677,
+    "GPT": 0.1548,
+    "case_mean": 0.16125
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.1935,
+    "GPT": 0.1613,
+    "case_mean": 0.1774
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.1355,
+    "GPT": 0.0452,
+    "case_mean": 0.09035
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.1613,
+    "GPT": 0.1548,
+    "case_mean": 0.15805
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.2,
+    "GPT": 0.1161,
+    "case_mean": 0.15805
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.471,
+    "GPT": 0.4194,
+    "case_mean": 0.4452
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.0774,
+    "GPT": 0.0323,
+    "case_mean": 0.054849999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.1484,
+    "GPT": 0.1355,
+    "case_mean": 0.14195000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.0065,
+    "GPT": 0.0,
+    "case_mean": 0.00325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.1871,
+    "GPT": 0.1742,
+    "case_mean": 0.18064999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.0516,
+    "GPT": 0.071,
+    "case_mean": 0.06129999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.4839,
+    "GPT": 0.3871,
+    "case_mean": 0.4355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.3226,
+    "GPT": 0.2968,
+    "case_mean": 0.3097
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.471,
+    "GPT": 0.3742,
+    "case_mean": 0.4226
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.2129,
+    "GPT": 0.1613,
+    "case_mean": 0.1871
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.1548,
+    "GPT": 0.1419,
+    "case_mean": 0.14834999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.1677,
+    "GPT": 0.1613,
+    "case_mean": 0.16449999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.4065,
+    "GPT": 0.4387,
+    "case_mean": 0.4226
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.2258,
+    "GPT": 0.2258,
+    "case_mean": 0.2258
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.1742,
+    "GPT": 0.1935,
+    "case_mean": 0.18385
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.1806,
+    "GPT": 0.1677,
+    "case_mean": 0.17415
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.1806,
+    "GPT": 0.1484,
+    "case_mean": 0.1645
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.1484,
+    "GPT": 0.1419,
+    "case_mean": 0.14515
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.5677,
+    "GPT": 0.4258,
+    "case_mean": 0.49675
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.1484,
+    "GPT": 0.0387,
+    "case_mean": 0.09355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.1613,
+    "GPT": 0.1548,
+    "case_mean": 0.15805
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.1484,
+    "GPT": 0.1355,
+    "case_mean": 0.14195000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.0516,
+    "GPT": 0.0516,
+    "case_mean": 0.0516
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.1742,
+    "GPT": 0.1677,
+    "case_mean": 0.17095
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.3484,
+    "GPT": 0.2968,
+    "case_mean": 0.3226
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.0387,
+    "GPT": 0.0,
+    "case_mean": 0.01935
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.0129,
+    "GPT": 0.0194,
+    "case_mean": 0.01615
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.0839,
+    "GPT": 0.1871,
+    "case_mean": 0.1355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.2516,
+    "GPT": 0.1871,
+    "case_mean": 0.21935
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.2774,
+    "GPT": 0.1871,
+    "case_mean": 0.23224999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.4129,
+    "GPT": 0.4581,
+    "case_mean": 0.4355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.1613,
+    "GPT": 0.1355,
+    "case_mean": 0.1484
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.2065,
+    "GPT": 0.2968,
+    "case_mean": 0.25165
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.1484,
+    "GPT": 0.1806,
+    "case_mean": 0.1645
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.2452,
+    "GPT": 0.2,
+    "case_mean": 0.22260000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.1419,
+    "GPT": 0.129,
+    "case_mean": 0.13545000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.5419,
+    "GPT": 0.5097,
+    "case_mean": 0.5258
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.3032,
+    "GPT": 0.2129,
+    "case_mean": 0.25805
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.1226,
+    "GPT": 0.1226,
+    "case_mean": 0.1226
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.0,
+    "GPT": 0.0,
+    "case_mean": 0.0
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.1419,
+    "GPT": 0.129,
+    "case_mean": 0.13545000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.2,
+    "GPT": 0.129,
+    "case_mean": 0.1645
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.5806,
+    "GPT": 0.4581,
+    "case_mean": 0.51935
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.2323,
+    "GPT": 0.2258,
+    "case_mean": 0.22905
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.2129,
+    "GPT": 0.1742,
+    "case_mean": 0.19355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.1613,
+    "GPT": 0.1097,
+    "case_mean": 0.1355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.0,
+    "GPT": 0.0065,
+    "case_mean": 0.00325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.071,
+    "GPT": 0.0387,
+    "case_mean": 0.054849999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.3548,
+    "GPT": 0.2194,
+    "case_mean": 0.2871
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.2387,
+    "GPT": 0.2,
+    "case_mean": 0.21935
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.0968,
+    "GPT": 0.0645,
+    "case_mean": 0.08065
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.1226,
+    "GPT": 0.1097,
+    "case_mean": 0.11615
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.1161,
+    "GPT": 0.1419,
+    "case_mean": 0.129
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.1097,
+    "GPT": 0.271,
+    "case_mean": 0.19035000000000002
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.5871,
+    "GPT": 0.529,
+    "case_mean": 0.5580499999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.1742,
+    "GPT": 0.0387,
+    "case_mean": 0.10644999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.1742,
+    "GPT": 0.1548,
+    "case_mean": 0.16449999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.0,
+    "GPT": 0.0,
+    "case_mean": 0.0
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.0,
+    "GPT": 0.0,
+    "case_mean": 0.0
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.1484,
+    "GPT": 0.1226,
+    "case_mean": 0.1355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.4968,
+    "GPT": 0.4839,
+    "case_mean": 0.49035
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.0258,
+    "GPT": 0.0581,
+    "case_mean": 0.04195
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.129,
+    "GPT": 0.1677,
+    "case_mean": 0.14834999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.0065,
+    "GPT": 0.0129,
+    "case_mean": 0.0097
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.1032,
+    "GPT": 0.2645,
+    "case_mean": 0.18385
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.0258,
+    "GPT": 0.0516,
+    "case_mean": 0.0387
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.471,
+    "GPT": 0.4387,
+    "case_mean": 0.45485
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.2065,
+    "GPT": 0.2,
+    "case_mean": 0.20325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.2258,
+    "GPT": 0.1806,
+    "case_mean": 0.2032
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.1742,
+    "GPT": 0.1677,
+    "case_mean": 0.17095
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.1548,
+    "GPT": 0.1677,
+    "case_mean": 0.16125
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.1548,
+    "GPT": 0.1032,
+    "case_mean": 0.129
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.5097,
+    "GPT": 0.4452,
+    "case_mean": 0.47745000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.0194,
+    "GPT": 0.0,
+    "case_mean": 0.0097
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.1226,
+    "GPT": 0.0516,
+    "case_mean": 0.0871
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.0065,
+    "GPT": 0.0065,
+    "case_mean": 0.0065
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.0129,
+    "GPT": 0.0,
+    "case_mean": 0.00645
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.0581,
+    "GPT": 0.0065,
+    "case_mean": 0.0323
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.5419,
+    "GPT": 0.5419,
+    "case_mean": 0.5419
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.1742,
+    "GPT": 0.1484,
+    "case_mean": 0.1613
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.0065,
+    "GPT": 0.0065,
+    "case_mean": 0.0065
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.0065,
+    "GPT": 0.0,
+    "case_mean": 0.00325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.0065,
+    "GPT": 0.0,
+    "case_mean": 0.00325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.0323,
+    "GPT": 0.0065,
+    "case_mean": 0.0194
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.4645,
+    "GPT": 0.4452,
+    "case_mean": 0.45485
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.2194,
+    "GPT": 0.1806,
+    "case_mean": 0.2
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.1226,
+    "GPT": 0.1419,
+    "case_mean": 0.13225
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.3742,
+    "GPT": 0.2065,
+    "case_mean": 0.29035
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.1484,
+    "GPT": 0.1161,
+    "case_mean": 0.13225
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.1613,
+    "GPT": 0.1355,
+    "case_mean": 0.1484
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.4903,
+    "GPT": 0.4323,
+    "case_mean": 0.46130000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.2645,
+    "GPT": 0.2,
+    "case_mean": 0.23225
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.2,
+    "GPT": 0.2,
+    "case_mean": 0.2
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.2968,
+    "GPT": 0.2129,
+    "case_mean": 0.25485
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.1548,
+    "GPT": 0.1742,
+    "case_mean": 0.16449999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.2516,
+    "GPT": 0.2065,
+    "case_mean": 0.22904999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.4645,
+    "GPT": 0.4774,
+    "case_mean": 0.47095
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.0452,
+    "GPT": 0.0387,
+    "case_mean": 0.04195
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.1613,
+    "GPT": 0.2452,
+    "case_mean": 0.20325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.0968,
+    "GPT": 0.1161,
+    "case_mean": 0.10644999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.0581,
+    "GPT": 0.0645,
+    "case_mean": 0.0613
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.0903,
+    "GPT": 0.2129,
+    "case_mean": 0.1516
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.4581,
+    "GPT": 0.5355,
+    "case_mean": 0.4968
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.2258,
+    "GPT": 0.1806,
+    "case_mean": 0.2032
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.3677,
+    "GPT": 0.3677,
+    "case_mean": 0.3677
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.1613,
+    "GPT": 0.1548,
+    "case_mean": 0.15805
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.0774,
+    "GPT": 0.0516,
+    "case_mean": 0.0645
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.1355,
+    "GPT": 0.0516,
+    "case_mean": 0.09355000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.3419,
+    "GPT": 0.3871,
+    "case_mean": 0.3645
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.2,
+    "GPT": 0.1613,
+    "case_mean": 0.18065
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.1806,
+    "GPT": 0.1742,
+    "case_mean": 0.1774
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.2065,
+    "GPT": 0.129,
+    "case_mean": 0.16775
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.1032,
+    "GPT": 0.1226,
+    "case_mean": 0.1129
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.2387,
+    "GPT": 0.1871,
+    "case_mean": 0.21289999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.4516,
+    "GPT": 0.4839,
+    "case_mean": 0.46775
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.1097,
+    "GPT": 0.1484,
+    "case_mean": 0.12905
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.1484,
+    "GPT": 0.1484,
+    "case_mean": 0.1484
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.1226,
+    "GPT": 0.1097,
+    "case_mean": 0.11615
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.0645,
+    "GPT": 0.0452,
+    "case_mean": 0.054849999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.0516,
+    "GPT": 0.071,
+    "case_mean": 0.06129999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.2581,
+    "GPT": 0.2387,
+    "case_mean": 0.2484
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.0839,
+    "GPT": 0.071,
+    "case_mean": 0.07744999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.1677,
+    "GPT": 0.1613,
+    "case_mean": 0.16449999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.1613,
+    "GPT": 0.1355,
+    "case_mean": 0.1484
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.2903,
+    "GPT": 0.2774,
+    "case_mean": 0.28385
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.0194,
+    "GPT": 0.0387,
+    "case_mean": 0.02905
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.4968,
+    "GPT": 0.5226,
+    "case_mean": 0.5097
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.0323,
+    "GPT": 0.0065,
+    "case_mean": 0.0194
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.1097,
+    "GPT": 0.0516,
+    "case_mean": 0.08065
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.071,
+    "GPT": 0.0258,
+    "case_mean": 0.0484
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.1677,
+    "GPT": 0.1419,
+    "case_mean": 0.1548
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.1226,
+    "GPT": 0.0194,
+    "case_mean": 0.07100000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "SupraMAS",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.4452,
+    "GPT": 0.3226,
+    "case_mean": 0.3839
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-Researcher",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.0968,
+    "GPT": 0.0839,
+    "case_mean": 0.09035
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "GPT-5",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.1226,
+    "GPT": 0.1484,
+    "case_mean": 0.1355
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.0323,
+    "GPT": 0.0194,
+    "case_mean": 0.02585
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "Grok-4",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.1097,
+    "GPT": 0.1419,
+    "case_mean": 0.1258
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_overlap",
+    "system": "DeepSeek-V3",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.1677,
+    "GPT": 0.129,
+    "case_mean": 0.14834999999999998
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.6,
+    "GPT": 0.6,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.3,
+    "GPT": 0.4,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.45,
+    "GPT": 0.6,
+    "case_mean": 0.525
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Achieving_significant_flux_pinning_enhancement_in_REBCO_coated_conductors",
+    "Claude": 0.33,
+    "GPT": 0.6,
+    "case_mean": 0.46499999999999997
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.5,
+    "GPT": 0.72,
+    "case_mean": 0.61
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.4,
+    "GPT": 0.7,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.55,
+    "GPT": 0.6,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Constructing_REBCO_superconductors_with_segmented_c-axis_aligned_nanocolumns_and_localized_planar_precipitate_6e7c8a58f0",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.6,
+    "GPT": 0.6,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.45,
+    "GPT": 0.6,
+    "case_mean": 0.525
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.35,
+    "GPT": 0.6,
+    "case_mean": 0.475
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.4,
+    "GPT": 0.7,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Constructing_a_hybrid_pinning_landscape_of_point_defects_and_nanorods_in_REBCO_to_maintain_high_Jc_under_inte_14c1cf9f5f",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.66,
+    "GPT": 0.7,
+    "case_mean": 0.6799999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.45,
+    "GPT": 0.6,
+    "case_mean": 0.525
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.45,
+    "GPT": 0.8,
+    "case_mean": 0.625
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.45,
+    "GPT": 0.78,
+    "case_mean": 0.615
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Constructing_continuous_1D_c-axis_aligned_nanorods_within_REBCO_films_to_establish_strongly_correlated_pinnin_b446d0463d",
+    "Claude": 0.6,
+    "GPT": 0.8,
+    "case_mean": 0.7
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.72,
+    "GPT": 0.8,
+    "case_mean": 0.76
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.55,
+    "GPT": 0.65,
+    "case_mean": 0.6000000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Designing_REBCO_conductors_with_controlled_through-thickness_defect_gradients_(transitioning_from_c-axis_nano_4beda40346",
+    "Claude": 0.45,
+    "GPT": 0.6,
+    "case_mean": 0.525
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.6,
+    "GPT": 0.6,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.5,
+    "GPT": 0.7,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.3,
+    "GPT": 0.4,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.5,
+    "GPT": 0.72,
+    "case_mean": 0.61
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Designing_REBCO_superconductors_with_dense_1D_c-axis_aligned_nanorods_for_enhanced_isotropic_pinning",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.72,
+    "GPT": 0.8,
+    "case_mean": 0.76
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.2,
+    "GPT": 0.3,
+    "case_mean": 0.25
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.22,
+    "GPT": 0.55,
+    "case_mean": 0.385
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.4,
+    "GPT": 0.75,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.3,
+    "GPT": 0.4,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Designing_REBCO_thick_films_with_optimized_stacking_fault_density_for_high_critical_current_performance",
+    "Claude": 0.3,
+    "GPT": 0.4,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.6,
+    "GPT": 0.7,
+    "case_mean": 0.6499999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.55,
+    "case_mean": 0.47500000000000003
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Designing_a_hierarchical_defect_landscape_by_coupling_atomic-level_site_substitutions_with_nanoscale_inclusions_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.55,
+    "GPT": 0.6,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.35,
+    "GPT": 0.55,
+    "case_mean": 0.45
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Designing_multielement_REBCO_conductors_featuring_a_multi-scale_defect_landscape_(atomic_substitutions_couple_02d41e4475",
+    "Claude": 0.4,
+    "GPT": 0.56,
+    "case_mean": 0.48000000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.3,
+    "GPT": 0.4,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.2,
+    "GPT": 0.3,
+    "case_mean": 0.25
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Developing_REBCO_coated_conductors_with_high-density_planar_defects_to_maximize_flux_pinning_forces_parallel_c1230ee343",
+    "Claude": 0.35,
+    "GPT": 0.6,
+    "case_mean": 0.475
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.42,
+    "GPT": 0.6,
+    "case_mean": 0.51
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.5,
+    "GPT": 0.65,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.4,
+    "GPT": 0.75,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.4,
+    "GPT": 0.55,
+    "case_mean": 0.47500000000000003
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Developing_REBCO_coated_conductors_with_intertwined_1D_nanorods_and_interfacial_strain_layers_to_maintain_ult_b42334f394",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.68,
+    "GPT": 0.75,
+    "case_mean": 0.7150000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.35,
+    "GPT": 0.5,
+    "case_mean": 0.425
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Developing_multielement_REBCO_films_with_a_controlled_distribution_of_nanoscale_precipitates_to_achieve_a_hig_848cb9ea11",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.72,
+    "GPT": 0.78,
+    "case_mean": 0.75
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.35,
+    "GPT": 0.6,
+    "case_mean": 0.475
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.35,
+    "GPT": 0.55,
+    "case_mean": 0.45
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Elevating_the_irreversibility_field_of_REBCO_through_the_synergistic_action_of_intrinsic_and_extrinsic_pinning",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.6,
+    "GPT": 0.72,
+    "case_mean": 0.6599999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.3,
+    "GPT": 0.58,
+    "case_mean": 0.43999999999999995
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.4,
+    "GPT": 0.55,
+    "case_mean": 0.47500000000000003
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.35,
+    "GPT": 0.6,
+    "case_mean": 0.475
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_REBCO_superconductors_featuring_continuous_columnar_defects_to_significantly_reduce_Jc_anisotropy",
+    "Claude": 0.6,
+    "GPT": 0.78,
+    "case_mean": 0.69
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.6,
+    "GPT": 0.75,
+    "case_mean": 0.675
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.6,
+    "GPT": 0.7,
+    "case_mean": 0.6499999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.4,
+    "GPT": 0.65,
+    "case_mean": 0.525
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.6,
+    "GPT": 0.8,
+    "case_mean": 0.7
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_REBCO_thick_films_with_sub-10_nm_c-axis_nanorods_and_high-density_ab-plane_stacking_faults_to_ach_0673f3beb5",
+    "Claude": 0.5,
+    "GPT": 0.75,
+    "case_mean": 0.625
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.55,
+    "GPT": 0.6,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.3,
+    "GPT": 0.4,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_REBCO_thin_films_with_uniformly_distributed_3D_nanoparticles_to_achieve_superior_critical_current_c20493d74e",
+    "Claude": 0.45,
+    "GPT": 0.6,
+    "case_mean": 0.525
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.72,
+    "GPT": 0.8,
+    "case_mean": 0.76
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.5,
+    "GPT": 0.7,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.4,
+    "GPT": 0.55,
+    "case_mean": 0.47500000000000003
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_composite_REBCO_structures_with_tailored_grain_orientations_and_dense_c-axis_columnar_defects_to_e098e7931a",
+    "Claude": 0.4,
+    "GPT": 0.55,
+    "case_mean": 0.47500000000000003
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.66,
+    "GPT": 0.6,
+    "case_mean": 0.63
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.25,
+    "GPT": 0.5,
+    "case_mean": 0.375
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Engineering_randomly_distributed_3D_nanoscale_precipitates_with_controlled_size_variance_inside_the_REBCO_matrix",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.72,
+    "GPT": 0.78,
+    "case_mean": 0.75
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.25,
+    "GPT": 0.4,
+    "case_mean": 0.325
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.2,
+    "GPT": 0.3,
+    "case_mean": 0.25
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Enhancing_the_isotropic_flux-pinning_properties_across_different_magnetic_field_orientations_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.6,
+    "GPT": 0.75,
+    "case_mean": 0.675
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.3,
+    "GPT": 0.4,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.4,
+    "GPT": 0.7,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.2,
+    "GPT": 0.3,
+    "case_mean": 0.25
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Generating_abundant_ab-plane_planar_defects_and_localized_stacking_faults_within_the_REBCO_crystal_lattice",
+    "Claude": 0.22,
+    "GPT": 0.4,
+    "case_mean": 0.31
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.62,
+    "GPT": 0.78,
+    "case_mean": 0.7
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.5,
+    "GPT": 0.72,
+    "case_mean": 0.61
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.5,
+    "GPT": 0.78,
+    "case_mean": 0.64
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.35,
+    "GPT": 0.6,
+    "case_mean": 0.475
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Improving_the_overall_critical_current_density_of_REBCO_materials_through_generalized_defect_engineering",
+    "Claude": 0.4,
+    "GPT": 0.56,
+    "case_mean": 0.48000000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.6,
+    "GPT": 0.6,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.2,
+    "GPT": 0.4,
+    "case_mean": 0.30000000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.2,
+    "GPT": 0.35,
+    "case_mean": 0.275
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Inducing_high-density_columnar_damage_tracks_in_REBCO_thick_films_to_provide_strictly_one-dimensional_correla_857269e884",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.55,
+    "GPT": 0.65,
+    "case_mean": 0.6000000000000001
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.12,
+    "GPT": 0.4,
+    "case_mean": 0.26
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.12,
+    "GPT": 0.3,
+    "case_mean": 0.21
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.2,
+    "GPT": 0.4,
+    "case_mean": 0.30000000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Introducing_high-density_artificial_point_defects_into_the_REBCO_matrix_to_act_as_zero-dimensional_pinning_centers",
+    "Claude": 0.12,
+    "GPT": 0.35,
+    "case_mean": 0.235
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.55,
+    "GPT": 0.6,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.6,
+    "GPT": 0.8,
+    "case_mean": 0.7
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Maximizing_the_global_flux_pinning_forces_in_REBCO_superconducting_thin_films",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.6,
+    "GPT": 0.8,
+    "case_mean": 0.7
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.5,
+    "GPT": 0.7,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.35,
+    "GPT": 0.6,
+    "case_mean": 0.475
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.55,
+    "GPT": 0.78,
+    "case_mean": 0.665
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.4,
+    "GPT": 0.58,
+    "case_mean": 0.49
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Maximizing_the_pinning_potential_to_enhance_the_current-carrying_capacity_of_REBCO_thick_films",
+    "Claude": 0.5,
+    "GPT": 0.65,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.5,
+    "GPT": 0.62,
+    "case_mean": 0.56
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.35,
+    "GPT": 0.5,
+    "case_mean": 0.425
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Modulating_intrinsic_growth_defects_and_inter-grain_boundary_networks_to_create_a_self-assembled_microstructu_4c1b0a6e4c",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.55,
+    "GPT": 0.6,
+    "case_mean": 0.575
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.4,
+    "GPT": 0.5,
+    "case_mean": 0.45
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.35,
+    "GPT": 0.5,
+    "case_mean": 0.425
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.45,
+    "GPT": 0.58,
+    "case_mean": 0.515
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Optimizing_REBCO_films_with_a_synergistic_combination_of_rare-earth_size-variance-induced_strain_fields_and_u_0fb4d85db3",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.55,
+    "GPT": 0.7,
+    "case_mean": 0.625
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.6,
+    "GPT": 0.7,
+    "case_mean": 0.6499999999999999
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.33,
+    "GPT": 0.6,
+    "case_mean": 0.46499999999999997
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Optimizing_the_overall_superconducting_performance_and_vortex_pinning_landscape_in_REBCO",
+    "Claude": 0.45,
+    "GPT": 0.58,
+    "case_mean": 0.515
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.6,
+    "GPT": 0.6,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.2,
+    "GPT": 0.4,
+    "case_mean": 0.30000000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.3,
+    "GPT": 0.58,
+    "case_mean": 0.43999999999999995
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Suppressing_magnetic_flux_creep_to_improve_the_vortex_stability_in_REBCO_superconductors",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.4,
+    "GPT": 0.5,
+    "case_mean": 0.45
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.3,
+    "GPT": 0.5,
+    "case_mean": 0.4
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.35,
+    "GPT": 0.58,
+    "case_mean": 0.46499999999999997
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.55,
+    "GPT": 0.78,
+    "case_mean": 0.665
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.5,
+    "GPT": 0.7,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Tailoring_REBCO_conductors_with_localized_lattice_strain_networks_to_enhance_vortex_pinning_forces_in_in-field_regimes",
+    "Claude": 0.2,
+    "GPT": 0.5,
+    "case_mean": 0.35
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.6,
+    "GPT": 0.6,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.3,
+    "GPT": 0.55,
+    "case_mean": 0.42500000000000004
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.35,
+    "GPT": 0.55,
+    "case_mean": 0.45
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.5,
+    "GPT": 0.7,
+    "case_mean": 0.6
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Tailoring_REBCO_thin_films_with_a_hierarchical_pinning_structure_combining_periodic_ab-plane_planar_defects_a_270591c0c9",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "SupraMAS",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.55,
+    "GPT": 0.7,
+    "case_mean": 0.625
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-Researcher",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "GPT-5",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.4,
+    "GPT": 0.6,
+    "case_mean": 0.5
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Gemini-2.5-Pro-Thinking",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.3,
+    "GPT": 0.6,
+    "case_mean": 0.44999999999999996
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "Grok-4",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.4,
+    "GPT": 0.55,
+    "case_mean": 0.47500000000000003
+  },
+  {
+    "track": "idea",
+    "metric": "strategy_combination",
+    "system": "DeepSeek-V3",
+    "case": "Tailoring_the_localized_interfacial_strain_fields_and_lattice_misfits_around_secondary_nanophases_within_the_0a0f721e29",
+    "Claude": 0.5,
+    "GPT": 0.6,
+    "case_mean": 0.55
+  }
+]

@@ -1,0 +1,1077 @@
+\section*{\texorpdfstring{Supplementary Note 8: Automatic-evaluation prompts, rubrics and worked examples}{Supplementary Note 8: Automatic-evaluation prompts, rubrics and worked examples}}
+\phantomsection
+\addcontentsline{toc}{section}{Supplementary Note 8: Automatic-evaluation prompts, rubrics and worked examples}
+\label{note:evaluator_prompts}
+
+This section collects the complete prompts and worked examples for the automatic metrics defined in Supplementary Notes~4.2 and 4.3. Benchmark construction and statistical results remain in Supplementary Note~4.
+
+\subsection*{Supplementary Note 8.1: Idea-evaluation prompts and examples}
+\phantomsection
+\addcontentsline{toc}{subsection}{Supplementary Note 8.1: Idea-evaluation prompts and examples}
+
+\subsubsection*{Supplementary Note 8.1.1: Strategy extraction and normalization}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.1.1: Strategy extraction and normalization}
+The prompt used for \textit{Idea2StrategyAgent} is as follows:
+\begin{lstlisting}[style=jsonstyle]
+### Task Description
+I will send you a materials-science idea. Your task is to summarize it into a structured JSON representation according to the requirements below.
+
+The idea is:
+<idea>
+{idea}
+</idea>
+
+### Output Format
+Summarize the idea into one JSON object containing 4 key-value pairs.
+
+1. The first key-value pair should describe the material system, including the REBCO material system and dopant materials.
+   - In "description", describe the material system, lattice parameters, possible defects, texture, etc.
+   - "base_material" and "dopants" should specify the matrix material and dopants. If unavailable, they may be left empty.
+
+2. The second key-value pair should describe the material-property tuning strategies and tuning effects.
+   - In "description", explain how the property-tuning strategies work together to optimize the experimental objective.
+   - The value of "strategies" is an array [], containing multiple JSON objects. Each JSON object must include 2 key-value pairs: tuning dimensions and tuning strategies. Extract as many strategies as are supported by the idea, and include one JSON object per strategy.
+   - tuning strategies: use concise summary language to explain the specific tuning strategy, while also describing its deeper impact
+   - tuning dimensions: choose one from the following five tuning dimensions to match the current strategy:
+     Composition tuning, grain boundary tuning, interface tuning, texture tuning, stress tuning
+   - Explanation of tuning dimensions:
+     Composition tuning: adjusting the chemical composition of the material to introduce microscopic defects or modify crystal structure, thereby enhancing flux pinning.
+     Grain boundary tuning: optimizing interfaces between superconducting grains to reduce their obstruction to superconducting current.
+     Interface tuning: optimizing the interface between the REBCO superconducting layer and the metallic substrate/buffer layers to ensure high-quality crystal growth and reduced stress.
+     Texture tuning: controlling the orientation of grains in the superconducting layer so that they are highly aligned, reducing grain-boundary density and improving current transport efficiency.
+     Stress tuning: controlling residual internal stress (e.g., thermal stress, mechanical stress) to prevent film cracking or performance degradation.
+
+3. The third key-value pair should describe the experimental techniques.
+   - In "description", summarize the experimental techniques used in the idea, including sample fabrication techniques, characterization techniques, and property-measurement techniques. If a technique is especially innovative, emphasize it.
+   - "FabricationTech", "CharacterizationTech", and "MeasurementTech" should specify the concrete types of fabrication, characterization, and measurement techniques.
+
+4. The fourth key-value pair should describe the application scenario and application metrics.
+   - In "description", describe the application demand
+   - In "ApplicationScenario", briefly describe the concrete application scenario
+   - In "ApplicationIndex", provide performance metrics such as critical current density
+
+### Notes
+1. Every field must be directly supported by evidence from the idea.
+2. Fill in the content in English.
+3. Output in JSON format.
+4. Wrap the entire JSON object with <template> and </template>.
+5. In the array under "strategies": [], multiple JSON objects must be separated by commas so that the JSON format is valid.
+6. JSON may only use scientific notation with e (for example, 2e6); multiplication symbols are not allowed.
+
+### Final Output Format
+<template>
+{
+    "MaterialSystem": {
+        "description": "",
+        "base_material": "",
+        "dopants": ""
+    },
+    "TunningMethod": {
+        "description": "",
+        "strategies": [
+            {
+                "tuning dimensions": "",
+                "tuning strategies": "",
+                "tuning effects": ""
+            },
+            ...
+        ]
+    },
+    "ExperimentTech": {
+        "description": "",
+        "FabricationTech": "",
+        "CharacterizationTech": "",
+        "MeasurementTech": ""
+    },
+    "Application": {
+        "description": "",
+        "ApplicationScenario": "",
+        "ApplicationIndex": ""
+    }
+}
+</template>
+
+Please start now. Analyze the idea and finally generate a JSON template object strictly following the format above. The output must begin and end with <template> and </template>.
+\end{lstlisting}
+
+\subsubsection*{Supplementary Note 8.1.2: Strategy-overlap judge and scoring criteria}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.1.2: Strategy-overlap judge and scoring criteria}
+The prompt used for \textit{EvalOverlapAgent} is as follows:
+\begin{lstlisting}[style=jsonstyle]
+You are an expert in condensed-matter physics and superconducting materials, specializing in flux pinning in REBCO superconductors. Your task is to determine, under 5 fixed tuning dimensions, whether the input predicted strategies have the same or similar tuning methods and target effects as the strategy database.
+
+The strategies to be evaluated are:
+<Strategies_to_be_Evaluated>
+{json.dumps(input_tuning_strategies, ensure_ascii=False, indent=2)}
+</Strategies_to_be_Evaluated>
+
+The strategy database is:
+<Strategy_Database>
+{json.dumps(label_tuning_strategies, ensure_ascii=False, indent=2)}
+</Strategy_Database>
+
+The evaluation procedure is as follows:
+1. You must strictly evaluate under the following 5 fixed tuning dimensions, and the dimension names must match exactly:
+  - "Composition tuning"
+  - "Grain boundary tuning"
+  - "Interface tuning"
+  - "Texture tuning"
+  - "Stress tuning"
+2. The input predicted strategies `input_tuning_strategies` are a JSON object keyed by the 5 tuning dimensions. Each dimension corresponds to an array. The array contains the predicted strategies under that dimension. If an array is empty, it means there is no predicted strategy for that dimension.
+3. Each strategy in the database `label_tuning_strategies` contains `label_id` and `tuning dimensions`. During evaluation, comparison is only allowed against database strategies with the same tuning dimension. Cross-dimension matching is forbidden.
+4. For each dimension, first extract the key elements:
+  - Material system: e.g., YBCO, GdBCO, REBCO
+  - Tuning method: e.g., dopants (BZO, Ca), processing methods
+  - Technical method: e.g., PLD, MOCVD
+  - Structural feature: e.g., nanocolumns, c-axis orientation, grain-boundary defects
+  - Target effect: e.g., enhanced Jc, improved flux pinning, reduced weak links
+5. Score each dimension as follows:
+  - If the predicted strategy array for that dimension is empty, then `score = 0`
+  - If that dimension contains at least one predicted strategy, and at least one database strategy with scientifically identical or similar tuning methods and target effects is found in the same dimension, then `score = 1`
+  - Otherwise, `score = 0`
+6. Definition of `pred_side_score`:
+  - The sum of the scores across the five dimensions
+  - Full score is 5
+7. Definition of `label_side_score`:
+  - The number of database strategies judged similar to any predicted strategy
+  - Counting must be deduplicated by `label_id`: even if the same `label_id` is hit multiple times across dimensions or across predicted strategies, it counts only once
+8. You must output `matched_label_ids` for each dimension. The top-level `matched_label_ids` must also be the deduplicated overall list.
+
+The criteria for judging similar tuning strategies are as follows:
+### General Principles
+- **Core objective consistency**: the strategies should address the same key objective or embody the same scientific effect in essence
+- **Allowed differences**: differences in specific numerical values or implementation paths do not prevent a match
+- **Multiple objectives**: matching any one core objective is sufficient for effect matching
+
+### For Composition Tuning strategies
+- **True conditions**:
+  - The dopants belong to the same functional type
+  - The same category of doping mechanism is used (e.g., nanoparticles / elemental substitution)
+  - They target the same scientific problem (e.g., dislocation formation, second-phase formation, surface pinning, etc.)
+  - They use similar experimental techniques and similar experimental workflows
+  - Example: given "BaHfO3 doping", and the database has "BaZrO3 doping" -> True (both belong to oxide nanopinning)
+
+### For Interface Tuning strategies
+- **True conditions**:
+  - They use similar interface-engineering principles (e.g., mismatch relief / diffusion barrier)
+  - They solve the same category of interface problem (e.g., lattice strain / suppression of reaction layers)
+  - They use similar experimental techniques and similar experimental workflows
+  - Example: given "MgO buffer layer", and the database has "SrTiO3 interlayer" -> True (both are epitaxial interface optimization)
+
+### For Stress Tuning strategies
+- **True conditions**:
+  - They are based on the same physical principle (e.g., thickness effect / thermal-expansion matching)
+  - They address the same category of stress problem (e.g., film-substrate mismatch / dislocation control)
+  - They use similar experimental techniques and similar experimental workflows
+  - Example: given "10 nm ultrathin-layer stress tuning", and the database has "thickness-gradient stress management" -> True
+
+### For Texture Tuning strategies
+- **True conditions**:
+  - They use the same category of orientation-control principle (e.g., epitaxial growth / seed-induced growth)
+  - They achieve similar texture features (e.g., c-axis orientation / biaxial texture)
+  - They use similar experimental techniques and similar experimental workflows
+  - Example: given "IBAD-MgO texture", and the database has "PLD epitaxial texture" -> True (both are orientation-control technologies)
+
+### For Grain Boundary Tuning strategies
+- **True conditions**:
+  - They apply similar grain-boundary engineering principles (e.g., dopant segregation / grain-boundary reconstruction)
+  - They target the same failure mechanism (e.g., weak links / current limitation)
+  - They use similar experimental techniques and similar experimental workflows
+  - Example: given "Sr doping to improve grain boundaries", and the database has "Ca doping to optimize grain boundaries" -> True (both are alkaline-earth grain-boundary modification)
+
+Please output in the following format:
+<score>
+{
+    "pred_side_score": "",
+    "label_side_score": "",
+    "dimension_details": {
+        "Composition tuning": {
+            "score": "",
+            "matched_label_ids": [],
+            "analysis": ""
+        },
+        "Grain boundary tuning": {
+            "score": "",
+            "matched_label_ids": [],
+            "analysis": ""
+        },
+        "Interface tuning": {
+            "score": "",
+            "matched_label_ids": [],
+            "analysis": ""
+        },
+        "Texture tuning": {
+            "score": "",
+            "matched_label_ids": [],
+            "analysis": ""
+        },
+        "Stress tuning": {
+            "score": "",
+            "matched_label_ids": [],
+            "analysis": ""
+        }
+    },
+    "matched_label_ids": [],
+    "reason_summary": ""
+}
+</score>
+
+Notes:
+1. `pred_side_score` must equal the sum of the 5 dimension-level `score` values.
+2. `label_side_score` must equal the number of deduplicated top-level `matched_label_ids`.
+3. Every dimension must be present in the output; none may be omitted.
+4. If a dimension has no predicted strategy, you must output `score = 0` and explicitly state in `analysis` that this dimension lacks a predicted strategy.
+5. Output only the JSON wrapped by `<score>...</score>`. Do not output any extra explanation and do not use markdown code fences.
+\end{lstlisting}
+
+\subsubsection*{Supplementary Note 8.1.3: Strategy combination judge and scoring criteria}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.1.3: Strategy combination judge and scoring criteria}
+The prompt used for \textit{EvalCombinationAgent} is as follows:
+\begin{lstlisting}[style=jsonstyle]
+You are an expert in high-temperature superconductors and research-idea evaluation.
+
+Your task is to evaluate the "combination similarity" between one predicted research idea and a group of real future research ideas.
+
+Combination similarity measures whether the two sides share a similar multi-strategy design skeleton. In other words, whether several similar strategy elements are intentionally organized into a similar core design skeleton or collaborative co-design pattern.
+
+You will see 1 predicted idea and up to 4 label ideas at a time. Please score each label idea independently. Do not mix different label ideas together, and do not output only the highest-scoring one.
+
+You only need to focus on the "combination logic":
+- Which strategy elements are connected together
+- How they support each other
+- What core synergy they form
+- Whether the predicted idea captures the main co-design pattern of the real idea
+
+Do not evaluate wording similarity, sentence similarity, or broad topical similarity.
+Do not assign a high score simply because both sides mention several individually similar strategies.
+
+A valid "combination" is not a simple list of ingredients; it must reflect a meaningful relational structure, such as:
+- multi-scale pinning design
+- interface engineering + strain control + texture optimization
+- composition tuning + process tuning + directed microstructure design
+- hybrid APC architecture + epitaxial control
+- defect design + process compensation
+
+The predicted strategies to be evaluated are:
+<pred_strategies>
+{json.dumps(input_tuning_strategies, ensure_ascii=False, indent=2)}
+</pred_strategies>
+
+The label ideas to be scored in this round are:
+<label_idea_groups>
+{json.dumps(label_idea_groups, ensure_ascii=False, indent=2)}
+</label_idea_groups>
+
+For each label idea in `label_idea_groups`, perform the following steps:
+1. Extract the main strategy elements of that label idea.
+2. Identify its core combination skeleton and explicit synergy logic.
+3. Compare it with the predicted strategies:
+   - Are similar categories of strategies connected together?
+   - Do they reflect similar synergy logic?
+   - Does the match hit the core structure or only a peripheral structure?
+   - Did the predicted idea truly foresee the main co-design pattern of that label idea?
+4. Output that label idea's own `strategy_combination_score` and `reason`.
+
+Scoring rules (0.0-1.0):
+- 0.0 = no meaningful shared combination structure
+- 0.1-0.2 = extremely weak similarity; only peripheral or slight local similarity
+- 0.3-0.4 = some local combination similarity exists, but the main skeleton differs
+- 0.5-0.6 = moderate similarity; part of the core co-design logic overlaps, but key connections differ or are missing
+- 0.7-0.8 = strong similarity; most of the core combination skeleton and synergy logic align
+- 0.9 = very high similarity; the core combination logic is very close, with only minor differences
+- 1.0 = the core combination skeleton and synergy logic are almost identical
+
+Evaluation steps:
+1. Extract the main strategy elements from the predicted idea.
+2. Identify its core combination skeleton and explicit synergy logic.
+3. Perform the same analysis for the real idea.
+4. Compare the two:
+   - Are similar categories of strategies connected together?
+   - Do they reflect similar synergy logic?
+   - Does the match hit the core structure or only a peripheral structure?
+   - Did the predicted idea truly foresee the main co-design pattern of the real idea?
+5. Clearly distinguish:
+   - strongly matched combination skeletons
+   - partially similar local combinations
+   - core combination structures present in the real idea but missing from the predicted idea
+6. Output:
+   - combination_similarity_score (a decimal between 0 and 1)
+   - a concise reason
+
+Requirements for writing `reason`:
+You must use short contrastive sentences. Do not write long paragraphs, do not use abstract metaphors, and do not pile up adjectives.
+You must explicitly include three parts:
+1) the core combination skeleton on the predicted side;
+2) the core combination skeleton on the real side;
+3) the overlaps, differences, and missing key combination structures.
+Use direct language such as "predicted side / real side / similarities / differences / missing points".
+Prefer "structure name + role" rather than conceptual explanation.
+Do not use abstract phrases such as "longitudinal energy barrier" or "co-design pattern" unless they are immediately followed by concrete structural explanation.
+The conclusion must clearly state whether the overall combination similarity is high / medium / low.
+
+Recommended reason template:
+
+Predicted side: ...; Real side: ...
+Similarities: ...
+Differences: ...
+Conclusion: ..., therefore the combination similarity is ...
+
+Please stay conservative. Do not exaggerate local or scattered similarity into overall high combination similarity.
+
+Please strictly output in the following format:
+<score>
+{
+    "label_results": [
+        {
+            "label_idx": 1,
+            "strategy_combination_score": 0.0,
+            "reason": ""
+        }
+    ]
+}
+</score>
+
+Notes:
+1. `label_results` must cover every label idea that you successfully evaluate, using the `label_idx` provided in the input.
+2. `strategy_combination_score` must be a decimal between 0 and 1.
+3. `reason` must clearly explain the basis for the score of that label idea.
+4. Every label idea must be analyzed independently; do not merge 4 label ideas into one overall score.
+5. Output only the JSON wrapped by `<score>...</score>`. Do not output extra explanation and do not use markdown code fences.
+\end{lstlisting}
+
+\subsubsection*{Supplementary Note 8.1.4: Illustrative examples}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.1.4: Illustrative examples}
+The following examples summarize the final SupraMAS evaluations by Claude (J1) and GPT (J2). Strategy overlap is the number of unique matched label strategies divided by 155, rounded to four decimal places. Strategy combination is the highest combination score across the 31 reference groups. The two metrics are reported separately; each two-judge mean averages the recorded judge scores. Full matches and evaluator rationales are provided in the supporting data.
+
+\begin{lstlisting}[style=jsonstyle,caption={Illustrative example 1: Final SupraMAS idea evaluation for continuous c-axis-aligned nanorods.}]
+{
+  "input_id": "idea/S01/T04",
+  "judge_results": [
+    {
+      "judge": "Claude",
+      "strategy_overlap": {
+        "score": 0.5226,
+        "matched_label_count": 81,
+        "label_strategy_num": 155,
+        "matched_labels_by_dimension": {
+          "Composition tuning": 27,
+          "Grain boundary tuning": 2,
+          "Interface tuning": 18,
+          "Texture tuning": 24,
+          "Stress tuning": 10
+        }
+      },
+      "strategy_combination": {
+        "score": 0.66,
+        "best_label_idx": 30,
+        "matched_strategy_num": 5,
+        "label_strategy_num": 5
+      }
+    },
+    {
+      "judge": "GPT",
+      "strategy_overlap": {
+        "score": 0.4452,
+        "matched_label_count": 69,
+        "label_strategy_num": 155,
+        "matched_labels_by_dimension": {
+          "Composition tuning": 21,
+          "Grain boundary tuning": 0,
+          "Interface tuning": 8,
+          "Texture tuning": 27,
+          "Stress tuning": 13
+        }
+      },
+      "strategy_combination": {
+        "score": 0.7,
+        "best_label_idx": 13,
+        "matched_strategy_num": 5,
+        "label_strategy_num": 5
+      }
+    }
+  ],
+  "two_judge_means": {
+    "strategy_overlap": 0.4839,
+    "strategy_combination": 0.68
+  }
+}
+\end{lstlisting}
+
+\begin{lstlisting}[style=jsonstyle,caption={Illustrative example 2: Final SupraMAS idea evaluation for REBCO thick films with optimized stacking-fault density.}]
+{
+  "input_id": "idea/S01/T07",
+  "judge_results": [
+    {
+      "judge": "Claude",
+      "strategy_overlap": {
+        "score": 0.4452,
+        "matched_label_count": 69,
+        "label_strategy_num": 155,
+        "matched_labels_by_dimension": {
+          "Composition tuning": 22,
+          "Grain boundary tuning": 4,
+          "Interface tuning": 11,
+          "Texture tuning": 22,
+          "Stress tuning": 10
+        }
+      },
+      "strategy_combination": {
+        "score": 0.72,
+        "best_label_idx": 30,
+        "matched_strategy_num": 5,
+        "label_strategy_num": 5
+      }
+    },
+    {
+      "judge": "GPT",
+      "strategy_overlap": {
+        "score": 0.3871,
+        "matched_label_count": 60,
+        "label_strategy_num": 155,
+        "matched_labels_by_dimension": {
+          "Composition tuning": 18,
+          "Grain boundary tuning": 1,
+          "Interface tuning": 4,
+          "Texture tuning": 26,
+          "Stress tuning": 11
+        }
+      },
+      "strategy_combination": {
+        "score": 0.8,
+        "best_label_idx": 30,
+        "matched_strategy_num": 4,
+        "label_strategy_num": 5
+      }
+    }
+  ],
+  "two_judge_means": {
+    "strategy_overlap": 0.41615,
+    "strategy_combination": 0.76
+  }
+}
+\end{lstlisting}
+
+\subsection*{Supplementary Note 8.2: Protocol-evaluation prompts and examples}
+\phantomsection
+\addcontentsline{toc}{subsection}{Supplementary Note 8.2: Protocol-evaluation prompts and examples}
+
+\subsubsection*{Supplementary Note 8.2.1: Protocol standardization rules}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.2.1: Protocol standardization rules}
+The first step of protocol-level experiment evaluation is not direct scoring, but protocol extraction and normalization. \textit{ExtractPaperExpAgent} reads the full paper PDF and extracts the groundtruth experimental workflow into the form \textit{<exp>...</exp>}. The actual prompt is:
+\begin{lstlisting}[style=jsonstyle]
+You are an expert in condensed-matter physics research, specializing in materials physics, superconductivity, and experimental design.
+
+You will receive a full scientific paper PDF. Your task is to read the entire paper and output a scientifically accurate, well-structured, and faithful extraction of the experimental protocol based on the full text.
+
+Important constraints:
+1. You may use only information explicitly provided in the PDF.
+2. Do not fabricate, extend, optimize, redesign, or speculate about anything not clearly supported by the paper.
+3. If some experimental details are missing, you must explicitly state that they are not specified in the paper.
+4. You must extract information from the whole PDF, paying attention to, but not limited to:
+   - Title
+   - Abstract
+   - Methods / Experimental Methods
+   - Results
+   - Supplementary information (if included in the PDF)
+5. If information about the same workflow is scattered across multiple sections, you must integrate and reconstruct it across sections, but you must explicitly state that this was reconstructed from scattered descriptions in the paper.
+6. Do not mistake background introduction, theoretical analysis, mechanism discussion, or conclusions for experimental steps. Extract only content directly related to experimental design, sample preparation, device fabrication, measurement methods, data acquisition, and data-analysis workflow.
+7. Do not output any evaluation, feasibility judgment, reproducibility judgment, pros/cons analysis, or suggestions for improvement. Your task is only to extract the experimental protocol.
+
+## Task Requirements
+
+### 1. Experimental Protocol Extraction
+- Based on the full paper PDF, extract and reorganize the experimental protocol into a detailed and clearly structured summary, wrapped with `<exp> ... </exp>`.
+- The extracted protocol must faithfully reflect the experiments, methods, and measurement procedures actually described in the paper.
+- Extract the workflow step by step according to the actual order of the experiment.
+- Include, but do not limit yourself to:
+  - research materials, samples, systems, or device objects
+  - sample preparation, synthesis, or growth steps
+  - device processing and structure construction (if applicable)
+  - characterization steps
+  - measurement steps
+  - data acquisition workflow
+  - data-analysis workflow
+- If the paper does not explicitly provide a complete order, you may integrate information from multiple sections, but you must explicitly state:
+  - `Reconstructed from multiple sections of the PDF`
+
+### 2. Language Requirements
+- Use plain and clear language.
+- Assume the reader may not be an expert in condensed-matter physics.
+- Avoid unnecessary jargon overload.
+- If technical terms must be used, briefly explain them.
+
+## Fidelity Rules
+1. Do not generate a new experimental protocol.
+2. Do not optimize, rewrite, or redesign the experiment in the paper.
+3. Do not make any evaluation, judgment, criticism, or suggestion.
+4. Do not fill gaps with assumptions and present them as facts.
+5. If information in the paper is uncertain, vague, or missing, explicitly write:
+   - `Not specified in the paper`
+   - or `Not explicitly described by the authors`
+6. If an experimental step is reconstructed from multiple parts of the PDF, explicitly write:
+   - `Reconstructed from multiple sections of the PDF`
+
+## Output Format
+Please strictly output in the following format:
+
+<exp>
+
+[Experimental Workflow]
+Step1: ...
+Step2: ...
+Step3: ...
+
+</exp>
+
+## Formatting Rules
+1. All final output must be in English.
+2. Inside `<exp>`, use clear subheadings to organize the content.
+3. Every parameter value may be written only if it is supported by the PDF.
+4. If the PDF does not provide a parameter, do not guess; explicitly mark it as unspecified.
+5. Do not include any information from 2025 or later.
+6. Do not omit key experimental conditions given in figure captions, tables, or supplementary information.
+7. If the paper contains both experimental and theoretical/computational parts, prioritize extracting the experimental part; theoretical content may be mentioned only briefly when it directly serves explanation of the experimental steps.
+
+The full paper text extracted from the PDF is:
+<paper_pdf_text>
+{paper}
+</paper_pdf_text>
+\end{lstlisting}
+
+\subsubsection*{Supplementary Note 8.2.2: Experimental feasibility judge and scoring criteria}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.2.2: Experimental feasibility judge and scoring criteria}
+After the groundtruth protocol is extracted, \textit{EvalExpAgent\_feasibility} evaluates each generated protocol. This judge focuses on whether the protocol itself is executable and well structured, including task decomposition, operational detail, parameter specification, risk control and quality-control design. The detailed prompt and scoring criteria are provided below.
+
+\begin{lstlisting}[style=jsonstyle]
+# Task: Evaluate the feasibility of an experimental protocol
+
+Your task is to evaluate whether a given experimental protocol exhibits the characteristics of a high-quality, actionable and executable research plan.
+
+This evaluation focuses only on the quality of the protocol itself. It does not involve comparison with any external reference workflow.
+
+---
+
+## Evaluation goal
+
+Judge whether the protocol is an executable, assignable and implementation-ready experimental document that can be translated into an SOP-like plan. During evaluation, use the following full-score template as the calibration reference.
+
+---
+
+## Full-score reference template for protocol feasibility
+
+A top-tier experimental protocol should exhibit the following five categories of features:
+
+### 1. Overall protocol structure (clear hierarchy and logical closure)
+- Experimental overview / objective: clearly states the core scientific or engineering problem, the final goal and the key innovation point.
+- Experimental draft / summary: provides a high-level summary of materials, workflow and expected outcomes.
+- Detailed protocol with task decomposition: decomposes the full experiment into logically connected and independently executable subtasks (for example, Task 1: material preparation; Task 2: sample processing; Task 3: performance testing).
+- Condensed SOP-style plan: summarizes key steps, parameters and acceptance criteria in a standardized form such as parameter tables or process tables.
+
+### 2. Task modularity and assignability (clear decomposition and role separation)
+- Explicit subtask division: each subtask should contain its own objective, materials and instruments, procedure and expected outcome.
+- Task linkage: clearly states how the output of an upstream task becomes the input of a downstream task.
+- Independent operability: each subtask should be complete enough to be assigned to a different team member.
+
+### 3. SOP-level operational detail and parameterization (specific, quantified and executable)
+- Stepwise description: each experimental step should be decomposed into numbered operations.
+- Tabulated parameters: key process parameters should be clearly listed, including temperature, time, pressure, rate, atmosphere and other concrete values when available.
+- Materials and instrument list: required materials should include relevant specifications, and instruments should include key performance requirements when needed.
+
+### 4. Risk control and quality management (anticipating problems and setting control points)
+- Precautions: major steps should include likely risks and preventive measures.
+- Quality-control checkpoints: critical steps should include explicit checks, such as phase verification or morphology verification.
+- Troubleshooting and contingency plans: the protocol should provide fallback actions or adjustment strategies for likely failure cases.
+
+### 5. Expected outcomes and feedback closure (goal-oriented and measurable)
+- Quantified expected results: the protocol should define measurable performance targets or decision criteria.
+- Preparation-characterization-feedback closure: the workflow should reflect an iterative logic of preparation, characterization, analysis and optimization.
+- Engineering and scale-up awareness: the protocol should show awareness of scalability, long-length uniformity, area uniformity or other practical implementation factors when applicable.
+
+---
+
+## Score calibration and mandatory defect check
+
+Important instruction: to avoid inflated scores, you must follow the calibration procedure below before assigning the final score.
+
+### Step 0. Mandatory identification of feasibility defects
+Before calculating the score, explicitly identify the major feasibility defects in the protocol by checking it against the full-score template.
+
+Reference defect table for score calibration:
+
+| Defect type | Typical manifestation | Recommended penalty range | Typical score implication |
+| :--- | :--- | :--- | :--- |
+| Structural fragmentation | Flat narrative only, with no task decomposition and no clear top-down structure. | 0.20 - 0.30 | Usually below 0.70 |
+| Parameter shell | Process names are mentioned but there are no concrete values for temperature, time, pressure or related conditions. | 0.20 - 0.30 | Usually below 0.70 |
+| Missing closure | Includes preparation only, with no characterization, testing or verification steps. | 0.15 - 0.25 | Hard to exceed 0.75 |
+| Coarse granularity | Stays at slogan level, such as "optimize process conditions", without actionable details. | 0.15 - 0.20 | Usually capped at 0.80 |
+| No risk awareness | No precautions, quality-control design or troubleshooting guidance. | 0.10 - 0.15 | Usually capped at 0.85 |
+| Non-quantified outcome | Expected results are purely qualitative, with no explicit metrics or acceptance criteria. | 0.05 - 0.10 | Usually capped at 0.90 |
+
+### Recalibrated score anchors
+Before finalizing the score, force the protocol to align with the following anchors:
+
+- 0.90 - 1.00 (excellent / outstanding): very rare; requires close adherence to the full-score template, clear parameterization and strong risk-control design. Without clear engineering or SOP-style features, scores above 0.95 are not allowed.
+- 0.80 - 0.89 (good / strong): has clear strengths but still contains visible weaknesses. For example, the structure is clear and parameters are concrete, but risk prompts or troubleshooting are incomplete, or some parameters are still missing.
+- 0.70 - 0.79 (pass / executable threshold): the most common passing range. The protocol is logically coherent and contains key parameters, but lacks operational granularity. In other words, it has the skeleton but not enough flesh.
+- 0.55 - 0.69 (not reliable): obvious defects remain, such as missing key parameters, discontinuous workflow logic or no quality-control design.
+- 0.00 - 0.54 (very poor / not actionable): mostly conceptual description and cannot guide real execution.
+
+### Score correction logic
+Follow the logic below:
+1. If severe defects such as parameter shell or structural fragmentation are present, the score ceiling should be locked at 0.69.
+2. If the protocol contains only key parameters but lacks operational detail, the score should generally fall in the 0.70 - 0.78 range.
+3. Strictly control the proportion of high scores. Any score above 0.85 requires strong explicit evidence.
+
+---
+
+## Input
+
+Experimental protocol to be evaluated:
+<experiment_plan>
+{plan}
+</experiment_plan>
+
+---
+
+## Task steps
+
+### Step 1. Standardization and cleaning
+Standardize the protocol before evaluation:
+
+- unify units and notation:
+  - temperature: degC or K
+  - time: min / h
+  - pressure: Pa / mbar / Torr
+  - concentration: wt.% / mol% / at.%
+  - laser parameters: wavelength in nm, energy density in J cm^-2, repetition frequency in Hz
+  - thickness: nm / um
+- unify common material aliases and abbreviations (for example, YBCO = YBa2Cu3O7-delta)
+- ignore information that does not affect the core judgment:
+  - brands, vendors and equipment models
+  - auxiliary explanations
+  - non-core descriptive expansions
+
+### Step 2. Extract feasibility features and identify defects
+Evaluate the protocol against the full-score template and explicitly identify defects:
+
+- protocol structure: does it follow a clear hierarchy such as overview -> task decomposition -> SOP summary?
+- task decomposition: is the work divided into independent subtasks with objectives, materials, procedures and expected outcomes?
+- procedural clarity: are the steps described in a numbered and logically ordered way?
+- parameter specificity: are key parameters provided in a list-like or table-like form, with values and units?
+- risk and quality control: are precautions, checkpoints or contingency actions provided?
+- closure and engineering awareness: does the plan include preparation, characterization, feedback and awareness of scale-up or implementation?
+
+Mandatory output requirement:
+At this stage, you must identify and record at least 1-3 major defects based on the defect reference table.
+
+### Step 3. Dimension scoring
+Score the following seven dimensions from 0.00 to 1.00 and compute the weighted total score.
+
+| Dimension | Weight | Scoring focus |
+| :--- | :--- | :--- |
+| Structure completeness and hierarchy clarity | 0.15 | Whether the protocol contains a full structure from global objective to subtasks, procedures and summary. |
+| Task decomposition and assignability | 0.15 | Whether the work is clearly divided and independently assignable. |
+| Executability / operational granularity / SOP tendency | 0.25 | Whether steps are operational, parameterized and directly actionable. |
+| Parameter specificity and condition sufficiency | 0.18 | Whether key process parameters are concrete and adequate. |
+| Risk prompts, precautions and troubleshooting | 0.12 | Whether potential problems are anticipated and addressed. |
+| Quality-control checkpoints and success criteria | 0.09 | Whether process checkpoints and acceptance criteria are specified. |
+| Preparation-characterization-feedback-scale-up closure | 0.06 | Whether the protocol reflects iterative optimization and practical engineering awareness. |
+
+Total-score formula:
+`score = sum(dimension_score x weight)`
+
+---
+
+## Scoring principles
+
+1. Defects must lead to penalties. High scores without identified defects are invalid.
+2. Parameters are central. Parameter-shell protocols should not score above 0.69.
+3. High scores require strong evidence. For scores above 0.85, the reason must explicitly justify why the protocol satisfies the high-score standard.
+4. No reference comparison is allowed. This evaluation concerns only the protocol itself.
+5. Avoid score inflation. Scores above 0.80 should be assigned conservatively and only after strict verification.
+
+---
+
+## Score reference
+
+- 1.00 (extremely rare): a near-perfect implementation of the reference template, with strong parameterization, quality control and engineering closure.
+- 0.90 - 0.99: very strong feasibility, with specific parameters and clear structure, but perhaps a minor flaw.
+- 0.80 - 0.89: strong overall quality, though engineering awareness or quality-control detail may still be limited.
+- 0.70 - 0.79: passing level; the plan is executable but still coarse in operational detail.
+- 0.55 - 0.69: weak executability; key steps or parameters are missing.
+- 0.35 - 0.54: mostly conceptual and poor as an actionable protocol.
+- 0.00 - 0.34: not executable.
+
+Warning: most acceptable protocols should fall between 0.70 and 0.85. Scores above 0.90 should be rare and tightly controlled.
+
+---
+
+## Output requirements
+Output only concise JSON wrapped with `<res>` and `</res>`.
+Do not output True / False.
+Do not output complex nested structures.
+
+Output format:
+
+<res>
+{
+  "score": 0.00,
+  "reason": "First summarize the major defects identified in the protocol; then comment on its structure, task decomposition, operational granularity, parameter specificity, risk control, quality control and engineering closure; finally explain why these observations justify the assigned score, with strict control of high-score inflation."
+}
+</res>
+\end{lstlisting}
+
+\subsubsection*{Supplementary Note 8.2.3: Experimental reproducibility evaluation}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.2.3: Experimental reproducibility evaluation}
+The second judge evaluates whether the generated protocol still reproduces the same experiment as the paired reference workflow. \textit{EvalExpAgent\_reproducibility} uses the extracted groundtruth protocol as the central reference and emphasizes preservation of the core experimental storyline, including the experimental objective, sample design, fabrication route, key process parameters, measurement logic and data-analysis pathway. The reproducibility prompt is as follows:
+
+\begin{lstlisting}[style=jsonstyle]
+Your task is to evaluate the consistency between the given **model-output experiment** and the **groundtruth experiment**, and you must use the groundtruth as the core reference standard.
+
+## Evaluation Goal
+This evaluation focuses on whether the model output preserves the **core experimental storyline** of the groundtruth experiment, including:
+- experimental purpose
+- sample design and functional roles
+- fabrication method and main process route
+- key testing and characterization logic
+- key parameter ranges
+- data-analysis and conclusion-support pathway
+
+Note:
+This evaluation is not a simple comparison of surface wording, nor is it an assessment of which protocol is more complete, more creative, or more like a research proposal.
+The key question is: **does the model output still reproduce the same experiment, rather than rewriting it into a different experimental plan?**
+
+---
+
+Input:
+
+Model-output experiment:
+<model_output_experiment>
+{output}
+</model_output_experiment>
+
+Groundtruth experiment:
+<groundtruth_experiment>
+{label}
+</groundtruth_experiment>
+
+---
+
+## Task Steps
+
+### Step 1. Standardization and Cleaning
+First standardize both experimental texts:
+- unify units and notation:
+  - temperature: degC or K
+  - time: min / h
+  - pressure: Pa / mbar / Torr
+  - concentration: wt.% / mol% / at.%
+  - laser parameters: wavelength in nm, energy density in J·cm^-2, repetition frequency in Hz
+  - thickness: nm / um
+- unify common material aliases and abbreviations (e.g., YBCO = YBa2Cu3O7-delta)
+- ignore information that does not affect the core judgment:
+  - brands, vendors, equipment models
+  - auxiliary descriptions
+  - non-core descriptive expansions
+
+### Step 2. Extract key information from both sides
+From both the model output and the groundtruth, extract:
+- experimental purpose / core problem
+- materials and samples
+- sample design (e.g., thickness sets, layered structure)
+- fabrication method / process route
+- key steps and order
+- key process parameters
+- testing and characterization methods
+- key testing conditions
+- data processing / analysis logic
+- key conclusions or expected phenomena
+
+### Step 3. Compare item by item
+Focus on the following dimensions:
+1. experimental purpose and target criterion
+2. material and sample functional roles
+3. fabrication method / process route
+4. key process parameters
+5. comparability of testing and characterization
+6. data-analysis and inference logic
+7. workflow steps and order logic
+
+---
+
+## Scoring Principles
+
+### 1. Groundtruth first
+You must use the groundtruth as the reference and judge whether the model output covers and preserves its core experimental information.
+
+### 2. Core storyline is more important than detail richness
+If one output is shorter but preserves the core experimental storyline of the groundtruth, it should score higher than an output that is longer but clearly expands into a new proposal.
+
+### 3. Reasonable expansion is acceptable, but usually does not add points
+If the model output adds background explanation, engineering wording, extra instruments, or implementation details not present in the groundtruth:
+- if these additions do not change the experimental storyline, they usually should not be strongly penalized
+- but they should not receive extra credit simply for being "more complete"
+
+### 4. Rewriting the main storyline should be penalized
+If the model output:
+- introduces a new core control group or comparison group
+- rewrites the original experiment into another research design
+- replaces the key testing logic
+- replaces the main analytical framework
+- changes the core sample-design structure
+then it should be penalized
+
+### 5. Parameter comparison should focus on whether they still support the same experimental mechanism
+If parameters differ, judge whether they still support:
+- the same experimental objective
+- a similar material structure / defect configuration
+- the same testing logic
+- a similar conclusion-support pathway
+
+If they still support a similar experimental mechanism, the score should not be heavily reduced just because the literal numbers differ.
+
+---
+
+## Tolerance and Functional-Equivalence Rules
+
+### Numerical tolerance
+Apply moderate tolerance to key parameters:
+- temperature: +/-20%
+- time: +/-25%
+- pressure / flow / concentration / frequency / thickness: +/-20%
+
+### Functional equivalence
+If some parameters, material expressions, or descriptions differ, but they still play the same functional role and serve the same experimental storyline, they may be judged as partial or high match.
+
+However:
+If these differences already change the experimental storyline, sample design, testing logic, or analysis pathway in a substantial way, you must not assign a high score simply because they might achieve a similar goal.
+
+---
+
+## Dimension Weights
+- experimental purpose and target criterion: 0.15
+- material and sample functional roles: 0.15
+- fabrication method / process route: 0.25
+- key process parameters: 0.15
+- comparability of testing and characterization: 0.15
+- data-analysis and inference logic: 0.10
+- workflow steps and order logic: 0.05
+
+Total-score formula:
+`score = sum(dimension_score x weight)`
+
+---
+
+## Score Reference
+- 1.00 = core objective, experimental storyline, testing logic, and key parameters are highly consistent
+- 0.85 = storyline is highly consistent, with some additions, generalization, or local rewriting, but the core logic is unchanged
+- 0.70 = storyline is basically consistent, but there are several obvious expansions or local substitutions
+- 0.55 = only part of the storyline is consistent; key workflow or testing logic has already shifted noticeably
+- 0.35 = only locally related; it is already difficult to regard them as the same experiment
+- 0.00 = basically irrelevant
+
+---
+
+## Output Requirements
+Output only concise JSON wrapped with `<res>` and `</res>`.
+Do not output True / False.
+Do not output complex nested structures.
+
+Output format:
+
+<res>
+{
+  "score": 0.00,
+  "reason": "Explain in detail the consistencies and deviations between the model output and the groundtruth in terms of experimental objective, sample design, process route, key parameters, testing method, and analysis logic; explain whether the added content changes the original experimental storyline; and finally explain why these differences lead to the current score."
+}
+</res>
+\end{lstlisting}
+
+The final overall experiment score was defined as the equally weighted average of feasibility and reproducibility.
+
+\subsubsection*{Supplementary Note 8.2.4: Illustrative examples}
+\phantomsection
+\addcontentsline{toc}{subsubsection}{Supplementary Note 8.2.4: Illustrative examples}
+The following examples reproduce the recorded SupraMAS protocol inputs and the corresponding Claude (J1) and GPT (J2) evaluations. Scores and rationale text are taken from the current protocol-evaluation JSON records. Each mean equally averages the two judge scores. Judges evaluated the complete protocols; only opening sections are printed here for context. The evaluator rationales are reproduced verbatim. A reference protocol was supplied only for reproducibility.
+
+\paragraph*{Experimental feasibility: case 1.}
+Case 1 concerns BHO-modified MOD-YBCO coated conductors. Feasibility scores were 0.80 (Claude) and 0.69 (GPT), with a mean of 0.745. Both judges recognized the structured plan and risk controls, while identifying unresolved fabrication conditions that limited immediate execution.
+
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+{
+  "input_id": "three_stage_en/protocol/S01/L01/experimental_feasibility",
+  "system": "SupraMAS",
+  "case_id": 1,
+  "metric": "experimental_feasibility",
+  "judge_scores": [
+    {
+      "judge_id": "J1",
+      "model": "Claude",
+      "score": 0.8
+    },
+    {
+      "judge_id": "J2",
+      "model": "GPT",
+      "score": 0.69
+    }
+  ],
+  "two_judge_mean": 0.745
+}
+\end{lstlisting}
+
+\clearpage
+\noindent\textbf{Generated protocol excerpt.}
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+# Experimental Plan: YBCO–BHO coated-conductor protocol proposal
+
+## Experimental Draft
+
+### Stage I — Establish the comparison and qualify readiness
+
+Determine how pristine BHO size and loading relate to coarsening, embedded particle density, defects, texture, self-field connectivity and field-dependent pinning in YBCO coated conductors. Preserve preformed spherical BHO embedded above a pure YBCO seed, without nanorods or separate BHO layers. The proposed comparison comprises 3, 5.5 and 10 nm particles at 5, 10, 15 and 20 mol%, plus matched undoped controls, across three independent fabrication blocks. Confirm the mol% denominator before dosing.
+
+Use certified LaMnO3/MgO/Y2O3/Al2O3/Hastelloy templates, qualified low-fluorine YBCO MOD precursor, BHO synthesis reagents, controlled-atmosphere reel-to-reel equipment, microscopy, diffraction and calibrated magnetic/transport instrumentation. Approve synthesis, atmosphere, residence-time and cooling procedures before execution. All P settings remain proposed until pilot qualification and freezing.
+\end{lstlisting}
+
+\noindent\textbf{Claude (J1), score 0.80: original rationale.}
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+Main defects: (1) Many key parameters are only proposed starting values (marked P) that need pilot qualification. The gas composition, total pressure, pO2, humidity, residence time, and intermediate-cooling endpoints are explicitly left unspecified, so the plan cannot be run without further development. (2) The mol% denominator is undefined and must be confirmed before dosing, which blocks execution of the loading arms. (3) The Refined Plan is prose, not a parameter or workflow table; it refers back to the source table rather than summarizing parameters. Several steps are also conditional (for example, the 9 T magnetometer, 100 m extension, and current-capability issues), and some per-task material, instrument, and expected-result lists are not separated into task-level sections.
+
+Structure: The plan has a clear Draft → Detailed Tasks → Refined Plan hierarchy. It has seven tasks mapped to three stages, and Task 4 has numbered steps with explicit hand-offs.
+
+Task decomposition: Tasks have clear scope and hand-offs and could be assigned to different people (synthesis, coating, characterization, transport). Dependencies between tasks are explicit.
+
+Granularity and parameters: Parameter table in Task 3 covers synthesis, coating, pyrolysis, epitaxy at 785 °C, oxygenation, magnetic testing, and angular transport with values and tolerances. The Bean formula and current-density checks are also given. Sampling gates are numeric (Δω≤4°, Δφ≤7°, ≥200 particles, ten fields).
+
+Risk control: Risk coverage is strong. It includes safety controls, troubleshooting for aggregation, cracks, low Ic, coarsening, and noisy loops, and capability gates. It also includes rules on quarantining failed material and on new blocks for changed conditions.
+
+Quality control: Release criteria are quantified (TEM within ±10%, CV≤20%, thickness 2.4±0.2 µm, calibration and uncertainty requirements).
+
+Closed loop: Fabrication → characterization → diagnosis → new matched block is explicit. Scale-up is limited to an optional 100 m extension with a sampling plan.
+
+Assigned 0.80 because of the heavy provisional status of core parameters, the unresolved dosing convention, and the missing tabulated SOP summary. Strict control of high scores was applied.
+\end{lstlisting}
+
+\noindent\textbf{GPT (J2), score 0.69: original rationale.}
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+Main executability defects: (1) Critical fabrication conditions remain unresolved: total pressure, oxygen partial pressure, humidity, intermediate-cooling endpoints, and complete seed/composite MOD schedules are deferred to approval rather than specified. These omissions prevent direct execution despite the substantial parameter table. (2) Pilot qualification is insufficiently operationalized: the candidate BHO synthesis provides temperature/time ranges but no defined screening matrix or demonstrated settings for producing each required particle size; coating shrinkage, cycle count, and residence-time implementation also require development. Stating that conditions must be qualified is not equivalent to providing executable qualification procedures. (3) Several release criteria remain provisional or qualitative, including phase/stoichiometry acceptance, aggregation, formulation aging, and seed readiness. These defects are reflected in the dimension scores below, without an additional double deduction.
+
+Normalization: YBCO is interpreted as YBa2Cu3O7−δ and BHO as BaHfO3; temperatures, times, dimensions, loading, and electrical criteria are interpreted consistently. Equipment brands and source labels do not affect the assessment.
+
+Structural completeness: 0.95 × 0.15. The draft, seven detailed tasks, consolidated parameter table, and refined summary provide an excellent objective-to-workflow hierarchy.
+
+Task decomposition and assignability: 0.88 × 0.15. Synthesis, formulation, fabrication, characterization, transport, and analysis have clear sequencing, sample identifiers, and explicit hand-offs. However, some tasks depend on unspecified approved procedures rather than self-contained operating instructions.
+
+Operational granularity/SOP tendency: 0.47 × 0.25. Numbered fabrication operations and detailed measurement instructions are substantial strengths. Nevertheless, the central fabrication and qualification stages cannot yet be converted into an executable SOP without significant process-development decisions.
+
+Parameter specificity and sufficiency: 0.38 × 0.18. Numerous concrete values are supplied, including 785 °C growth, thickness tolerances, synthesis screening ranges, and transport criteria. This is not a parameter shell. However, essential atmosphere conditions, complete thermal transitions, size-specific synthesis recipes, and coating-cycle requirements remain absent or unfrozen.
+
+Risk control and troubleshooting: 0.94 × 0.12. Chemical, pressure, furnace, cryogenic, magnetic, high-current, and microscopy hazards are addressed. Failure-specific diagnostic actions and equipment-capability checks are unusually strong.
+
+Quality control: 0.70 × 0.09. Particle-size tolerances, texture gates, calibration, background subtraction, uncertainty, quarantine, and failure retention support reliable work. Incomplete release thresholds and provisional approvals limit immediate standardization.
+
+Feedback and engineering loop: 0.86 × 0.06. Matched controls, independent blocks, characterization-driven diagnosis, controlled recipe changes, residence-time feasibility checks, and optional long-length validation establish a convincing loop.
+
+The weighted total is 0.6878, rounded to 0.69. This is a strong planning and qualification framework, but an unreliable standalone execution document until critical fabrication conditions and release procedures are supplied. The score is strictly kept below the executability threshold because excellent structure and risk awareness do not compensate for operation-blocking omissions; an outstanding score is not justified.
+\end{lstlisting}
+
+\paragraph*{Experimental reproducibility: case 23.}
+Case 23 concerns mixed-RE YREBCO films with liquid-assisted and layer-by-layer deposition comparisons. Reproducibility scores were 0.60 (Claude) and 0.64 (GPT), with a mean of 0.620. The judges recognized the broad material platform and transport endpoint but identified changes in composition controls, liquid delivery, growth conditions and analysis logic.
+
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+{
+  "input_id": "three_stage_en/protocol/S01/L23/experimental_reproducibility",
+  "system": "SupraMAS",
+  "case_id": 23,
+  "metric": "experimental_reproducibility",
+  "judge_scores": [
+    {
+      "judge_id": "J1",
+      "model": "Claude",
+      "score": 0.6
+    },
+    {
+      "judge_id": "J2",
+      "model": "GPT",
+      "score": 0.64
+    }
+  ],
+  "two_judge_mean": 0.62
+}
+\end{lstlisting}
+
+\noindent\textbf{Generated protocol excerpt.}
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+# Experimental Plan: Protocol: mixed-RE YREBCO nanocomposite films on STO
+
+## Experimental Draft
+
+### Reconstructed experimental overview
+
+Compare rare-earth mixing, liquid assistance and deposition relaxation in YREBCO films grown directly on STO(001), keeping all core depositions at **790 °C**. Preserve the superconducting matrix with incidental mixed-RE sesquioxide inclusions; exclude buffers, discrete oxide layers, preformed nanoparticle loading and excess CuO.
+
+The core comparison comprises YBCO and (Y₀.₈Gd₀.₁Yb₀.₁)Ba₂Cu₃O₇₋y under SSD, +L and +L+LLD conditions. An approved additional mixed-RE series, including a higher-variance Nd-containing composition, is required at SSD; liquid-assisted variants are follow-up only. Use randomized growth blocks and **P: three independent films per arm**, with bridges treated as within-film repeats.
+\end{lstlisting}
+
+\noindent\textbf{Reference protocol excerpt.}
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+[Experimental Workflow]
+Step 1: Target synthesis
+- Commercial 99 % purity RE₂O₃ (RE = Yb, Er, Ho, Y, Dy, Gd, Eu, Sm, Nd), BaCO₃ and CuO powders are weighed and mixed to the cation ratio 1 RE : 2 Ba : 3 Cu.
+- 5 wt % stearic acid is added as lubricant, the powder is ground, pressed into a green compact and heated in flowing O₂ at 900 °C for 12–24 h.
+- The grind/press/sinter cycle is repeated ≥ 2 times to ensure full reaction and densification.
+- Two target variants are prepared for each composition:
+  (i) stoichiometric 1:2:3 (labelled “SSD” or “Y,RE”)
+  (ii) off-stoichiometric (Y,RE′,RE″)Ba₁.₇Cu₂.₇O₇₋x containing 26 mol % extra liquid (assumed BaCu₂O₂) (labelled “Y,RE + L”).
+
+Step 2: Substrate preparation
+- Single-crystal SrTiO₃ (STO) substrates are used as-received; no further surface treatment details are given.
+
+Step 3: Film deposition
+- PLD is carried out with a Lambda Physik KrF excimer laser (λ = 248 nm, fluence ≈ 2 J cm⁻², target–substrate distance 55 mm, target rotating).
+- Base growth conditions: substrate temperature 790 °C, pO₂ = 0.2 mTorr.
+- Three processing routes are explored:
+  (1) Standard solid-state deposition (SSD) at 5 Hz → growth rate 0.020 µm min⁻¹ (0.33 nm s⁻¹).
+  (2) Liquid-assisted deposition (Y,RE + L) at 5 Hz → same rate as (1).
+  (3) Layer-by-layer deposition (Y,RE + L + LLD) at 50 Hz with relaxation cycles; growth temperature raised to 820 °C to reduce disorder; growth rate 0.035 µm min⁻¹ (0.58 nm s⁻¹).
+- All films receive the same post-anneal: 550 °C, 500 Torr O₂, 1 h.
+\end{lstlisting}
+
+\noindent\textbf{Claude (J1), score 0.60: original rationale.}
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+Agreements: Both experiments study mixed rare-earth YREBCO films grown by PLD with a KrF laser at 248 nm directly on STO. Both compare SSD, +L (26 mol% BaCu2O2 liquid) and +L+LLD (50 Hz bursts with relaxation) arms, with Y as the control and Y/Gd/Yb as a mixed-RE composition. Both use a 790 °C base growth temperature and about 2 J cm⁻² fluence. Both use 25 µm bridges with Ag pads and four-point transport at 20 K, B∥c, up to 10 T, with the 0.2 µV/cm criterion. Both use XRD θ–2θ and (005) rocking curves, STEM of RE2O3 inclusions, and Raman. Both plan to relate mixed-RE variance and the processing route to inclusions, structure and Jc.
+
+Deviations:
+- Target synthesis: the groundtruth makes and sinters targets from RE2O3/BaCO3/CuO (900 °C), with stoichiometric and off-stoichiometric Ba1.7Cu2.7 liquid-containing targets. The model output uses certified targets plus simultaneous co-ablation of a separate BaCu2O2 source. This changes the liquid-addition route.
+- Substrate and growth parameters: the model output adds a detailed STO anneal and clean, whereas the groundtruth uses as-received STO. The model output uses 10 Hz for SSD and +L, against 5 Hz in the groundtruth. It uses 0.40 mbar O2, whereas the groundtruth uses 0.2 mTorr, about 0.27 mbar×10⁻³, so the pressure differs by orders of magnitude. The target distance is 50 mm versus 55 mm. It keeps LLD at 790 °C, whereas the groundtruth raises LLD to 820 °C. The post-anneal is 500 °C, 1 bar, 60 min versus 550 °C, 500 Torr, 1 h.
+- Composition set: the groundtruth uses five mixtures (Y, YDyHo, YGdYb, YSmYb, YNdYb) with +L and LLD variants and a variance calculation. The model output has a smaller core set (Y, GY across all processes) plus an unspecified variance series at SSD only, with the Nd-containing composition required.
+- Added analysis: the model output adds lamella-thickness density normalization, GPA, and qualification, stop-condition and safety frameworks that are not in the groundtruth. These mostly add rigor but also shift the plan toward a proposal with many 'P' provisional settings.
+- Thickness: the groundtruth gives 200–350 nm, measured with a Dektak profilometer after transport. The model output uses a target of 300 nm with AFM/profilometer.
+
+The core comparison line is preserved, but the process details and the sample matrix differ clearly, so the score is moderate.
+\end{lstlisting}
+
+\noindent\textbf{GPT (J2), score 0.64: original rationale.}
+\begin{lstlisting}[style=jsonstyle,basicstyle=\fontsize{8}{9.6}\selectfont\ttfamily,backgroundcolor=\color{white}]
+The model preserves the broad experimental objective: comparing rare-earth mixing, liquid-assisted growth and deposition relaxation in REBCO films on STO, and relating film structure and inclusions to superconducting transport. However, several changes go beyond supplementary implementation details and prevent a high-consistency score.
+
+Materials and sample design: Both descriptions use YBCO/mixed-REBCO matrices, RE₂O₃ inclusions and STO substrates, with SSD, +L and +L+LLD processing comparisons. The groundtruth specifies a five-composition matrix—Y, YDyHo, YGdYb, YSmYb and YNdYb—selected to maintain a weighted-average peritectic temperature near 1005 °C. The model fixes only Y and YGdYb, leaving the remaining compositions subject to approval and requiring them primarily under SSD. It also emphasizes matching mean ionic radius rather than preserving the groundtruth's peritectic-temperature selection criterion. Thus, the original composition-control logic is only partially reproduced.
+
+Fabrication route: KrF PLD, direct deposition on STO, liquid assistance, burst-based LLD and common oxygenation remain recognizable. Nevertheless, the groundtruth prepares separate stoichiometric and off-stoichiometric liquid-containing targets, including the Ba₁.₇Cu₂.₇ formulation. The model instead proposes simultaneous delivery of BaCu₂O₂-derived material alongside the host and leaves the 26 mol% denominator unresolved. This replaces an important part of the material-delivery route. The specified repeated 900 °C target-synthesis procedure is also replaced by certified targets or independently qualified synthesis. Substantial substrate cleaning and a 1000 °C anneal are added, whereas the groundtruth uses as-received STO.
+
+Key parameters: The largest mismatch is growth oxygen pressure: 0.2 mTorr is approximately 0.000267 mbar, whereas the model proposes 0.40 mbar, about 1500 times higher. This is far outside tolerance and can materially affect growth chemistry and liquid-assisted behavior. SSD/+L repetition rates change from 5 to 10 Hz, also outside tolerance. The model retains 50 Hz LLD bursts but fixes every route at 790 °C instead of raising LLD growth to 820 °C. Although that temperature difference is numerically within tolerance, it removes the deliberate route-specific adjustment for reducing disorder. Post-annealing changes from 550 °C/500 Torr/1 h to 500 °C/about 750 Torr/1 h; temperature and duration are compatible, but pressure exceeds tolerance. Laser wavelength, fluence, target distance and representative film thickness remain reasonably comparable.
+
+Testing and analysis: Agreement is strong for XRD scans and (005) rocking curves, cross-sectional STEM inclusion-size analysis, 25 µm bridges, four-point transport at 20 K, B parallel to c up to 10 T, and the 0.2 µV cm⁻¹ critical-current criterion. However, the groundtruth's Raman 585/340 cm⁻¹ intensity ratio as a cation-disorder metric is not retained; the model emphasizes shifts, linewidths and mapping instead. Together with the altered composition-selection logic, this weakens the original disorder/variance-to-performance inference pathway. Thickness measurement also moves from after transport to earlier characterization, a comparatively minor sequence change.
+
+Replication, calibration, safety controls and uncertainty reporting are mostly acceptable additions and receive no extra credit. The score reflects substantial preservation of the material platform and transport endpoint, offset by clear changes to composition controls, liquid delivery, growth atmosphere and disorder analysis. The result is a partially consistent reconstruction rather than the same experiment with minor elaboration.
+\end{lstlisting}
+
+
+\clearpage

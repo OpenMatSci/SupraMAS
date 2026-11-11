@@ -1,9 +1,3 @@
 # Benchmark
 
-The benchmark has two main evaluation tracks:
-
-- idea foresight: evaluates overlap and combinations of prospective tuning strategies
-- protocol evaluation: evaluates feasibility and reproducibility of generated experimental plans
-
-Reported results are included under `benchmark/results/`. Full LLM-based re-evaluation requires local API credentials and may incur model costs.
-
+The four reported metrics are strategy overlap and strategy combination across 32 topics, and protocol reproducibility and feasibility across 31 cases. Results equally average two fixed judges within each case before averaging across cases. See [the benchmark index](../benchmark/README.md) for the record schema and [the data index](../data_availability/README.md) for full statistical sources.

@@ -1,0 +1,61 @@
+﻿track,metric,model,n_cases,mean,ci_low,ci_high,ci_method
+automatic,strategy_overlap,supramas,32,0.450815625,0.42258680162307033,0.4725904468436461,BCa
+automatic,strategy_overlap,gpt_researcher,32,0.13155624999999999,0.10396371242487294,0.16028125,BCa
+automatic,strategy_overlap,gpt-5,32,0.1545328125,0.13016423881208908,0.1879643413846026,BCa
+automatic,strategy_overlap,gemini-2.5-pro-thinking,32,0.10515156250000002,0.07934843750000001,0.1329734375,BCa
+automatic,strategy_overlap,grok-4,32,0.131646875,0.1055421875,0.15563707735482832,BCa
+automatic,strategy_overlap,deepseek-v3,32,0.12792343750000001,0.10383358261802408,0.15100997089719118,BCa
+automatic,strategy_combination,supramas,32,0.63359375,0.60734375,0.6598437500000001,BCa
+automatic,strategy_combination,gpt_researcher,32,0.47687500000000005,0.44562500000000005,0.50625,BCa
+automatic,strategy_combination,gpt-5,32,0.4771875,0.4484375,0.50390625,BCa
+automatic,strategy_combination,gemini-2.5-pro-thinking,32,0.46968750000000004,0.42265625000000007,0.51390625,BCa
+automatic,strategy_combination,grok-4,32,0.47375,0.4423437500000001,0.504375,BCa
+automatic,strategy_combination,deepseek-v3,32,0.48906249999999996,0.45453125,0.5203125000000001,BCa
+automatic,experimental_reproducibility,supramas,31,0.6498387096774193,0.6193548387096774,0.6767741935483871,BCa
+automatic,experimental_reproducibility,gpt_researcher,31,0.6032258064516128,0.5617741935483871,0.6298387096774194,BCa
+automatic,experimental_reproducibility,gpt-5,31,0.5890322580645161,0.5574193548387097,0.6128472670969032,BCa
+automatic,experimental_reproducibility,gemini-2.5-pro-thinking,31,0.625483870967742,0.589516129032258,0.6561290322580644,BCa
+automatic,experimental_reproducibility,grok-4,31,0.6251612903225806,0.5943548387096774,0.6482258064516131,BCa
+automatic,experimental_reproducibility,deepseek-v3,31,0.6214516129032257,0.5820967741935484,0.6525806451612902,BCa
+automatic,experimental_feasibility,supramas,31,0.7948387096774193,0.7791935483870966,0.8075806451612902,BCa
+automatic,experimental_feasibility,gpt_researcher,31,0.6651612903225806,0.6546774193548387,0.6769354838709677,BCa
+automatic,experimental_feasibility,gpt-5,31,0.7891935483870965,0.7808064516129032,0.7943548387096772,BCa
+automatic,experimental_feasibility,gemini-2.5-pro-thinking,31,0.7161290322580645,0.7064516129032259,0.7229032258064516,BCa
+automatic,experimental_feasibility,grok-4,31,0.6798387096774194,0.6704838709677422,0.6890322580645161,BCa
+automatic,experimental_feasibility,deepseek-v3,31,0.6704838709677419,0.6603225806451613,0.6790322580645161,BCa
+expert,Content Completeness,supramas,32,4.8625,4.78125,4.90625,BCa
+expert,Content Completeness,gpt_researcher,32,3.20625,3.0375,3.38125,BCa
+expert,Content Completeness,gpt-5,32,4.1,4.0,4.1875,BCa
+expert,Content Completeness,gemini-2.5-pro-thinking,32,4.15,4.106249999999999,4.18125,BCa
+expert,Content Completeness,grok-4,32,3.9499999999999997,3.8812499999999996,3.9937500000000004,BCa
+expert,Content Completeness,deepseek-v3,32,3.81875,3.6875,3.925,BCa
+expert,Theme Relevance,supramas,32,4.668749999999999,4.5875,4.73125,BCa
+expert,Theme Relevance,gpt_researcher,32,3.60625,3.30625,3.90625,BCa
+expert,Theme Relevance,gpt-5,32,4.35,4.231249999999999,4.4625,BCa
+expert,Theme Relevance,gemini-2.5-pro-thinking,32,4.5375,4.4125,4.63125,BCa
+expert,Theme Relevance,grok-4,32,4.61875,4.46875,4.74375,BCa
+expert,Theme Relevance,deepseek-v3,32,4.36875,4.21875,4.512499999999999,BCa
+expert,Technical Innovation,supramas,32,4.1625,4.0375,4.2625,BCa
+expert,Technical Innovation,gpt_researcher,32,3.41875,3.24375,3.60625,BCa
+expert,Technical Innovation,gpt-5,32,4.143750000000001,4.0625,4.2375,BCa
+expert,Technical Innovation,gemini-2.5-pro-thinking,32,3.9624999999999995,3.8249999999999997,4.0875,BCa
+expert,Technical Innovation,grok-4,32,3.7625,3.6500000000000004,3.8812499999999996,BCa
+expert,Technical Innovation,deepseek-v3,32,3.54375,3.4312500000000004,3.65625,BCa
+expert,Technical Feasibility,supramas,32,4.4375,4.3125,4.5375,BCa
+expert,Technical Feasibility,gpt_researcher,32,3.41875,3.2375,3.60625,BCa
+expert,Technical Feasibility,gpt-5,32,4.21875,4.10625,4.3375,BCa
+expert,Technical Feasibility,gemini-2.5-pro-thinking,32,3.875,3.75,3.9875000000000003,BCa
+expert,Technical Feasibility,grok-4,32,3.95625,3.80625,4.1,BCa
+expert,Technical Feasibility,deepseek-v3,32,3.65625,3.5,3.8125,BCa
+expert,Application Value,supramas,32,4.4625,4.3625,4.54375,BCa
+expert,Application Value,gpt_researcher,32,3.3375000000000004,3.03125,3.5999999999999996,BCa
+expert,Application Value,gpt-5,32,4.387499999999999,4.2125,4.5125,BCa
+expert,Application Value,gemini-2.5-pro-thinking,32,4.237500000000001,4.09375,4.38125,BCa
+expert,Application Value,grok-4,32,4.0,3.8625,4.11875,BCa
+expert,Application Value,deepseek-v3,32,3.7750000000000004,3.6312499999999996,3.9125,BCa
+expert,Overall,supramas,32,4.518750000000001,4.47875,4.5562499999999995,BCa
+expert,Overall,gpt_researcher,32,3.3975,3.2109265540823366,3.5637499999999998,BCa
+expert,Overall,gpt-5,32,4.24,4.19125,4.28625,BCa
+expert,Overall,gemini-2.5-pro-thinking,32,4.1525,4.10125,4.202500000000001,BCa
+expert,Overall,grok-4,32,4.0575,4.00875,4.10125,BCa
+expert,Overall,deepseek-v3,32,3.8325,3.7824999999999998,3.87875,BCa

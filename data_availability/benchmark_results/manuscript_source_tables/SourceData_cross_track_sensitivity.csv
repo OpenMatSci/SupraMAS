@@ -1,0 +1,17 @@
+﻿analysis,variant,rho
+Individual automatic metric,strategy_overlap,0.6
+Individual automatic metric,strategy_combination,0.3142857142857143
+Individual automatic metric,experimental_reproducibility,0.42857142857142855
+Individual automatic metric,experimental_feasibility,1.0
+Single judge index,Claude,0.9428571428571428
+Single judge index,GPT,0.8285714285714286
+Leave one system out,SupraMAS,1.0
+Leave one system out,GPT-Researcher,1.0
+Leave one system out,GPT-5,1.0
+Leave one system out,Gemini-2.5-Pro-Thinking,1.0
+Leave one system out,Grok-4,1.0
+Leave one system out,DeepSeek-V3,1.0
+Leave one metric out,strategy_overlap,0.9428571428571428
+Leave one metric out,strategy_combination,1.0
+Leave one metric out,experimental_reproducibility,0.9428571428571428
+Leave one metric out,experimental_feasibility,0.3142857142857143

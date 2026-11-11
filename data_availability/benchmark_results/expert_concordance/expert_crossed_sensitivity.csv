@@ -1,0 +1,7 @@
+﻿system,mean,ci_low,ci_high,ci_method
+SupraMAS,4.518749999999999,4.42625,4.61375,Crossed topic-expert percentile sensitivity
+GPT-Researcher,3.3975,3.13375,3.675,Crossed topic-expert percentile sensitivity
+GPT-5,4.24,4.1575,4.32125,Crossed topic-expert percentile sensitivity
+Gemini-2.5-Pro-Thinking,4.1525,3.9975,4.29875,Crossed topic-expert percentile sensitivity
+Grok-4,4.0575,3.8075,4.3125,Crossed topic-expert percentile sensitivity
+DeepSeek-V3,3.8325000000000005,3.51,4.155,Crossed topic-expert percentile sensitivity

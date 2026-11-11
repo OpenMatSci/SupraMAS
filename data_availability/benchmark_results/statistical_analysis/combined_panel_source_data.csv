@@ -1,0 +1,25 @@
+﻿panel,metric,system,judge,n,mean,ci_low,ci_high
+b,strategy_overlap,SupraMAS,Two-judge mean,32,0.450815625,0.42258680162307033,0.4725904468436461
+b,strategy_overlap,GPT-Researcher,Two-judge mean,32,0.13155624999999999,0.10396371242487294,0.16028125
+b,strategy_overlap,GPT-5,Two-judge mean,32,0.1545328125,0.13016423881208908,0.1879643413846026
+b,strategy_overlap,Gemini-2.5-Pro-Thinking,Two-judge mean,32,0.10515156250000002,0.07934843750000001,0.1329734375
+b,strategy_overlap,Grok-4,Two-judge mean,32,0.131646875,0.1055421875,0.15563707735482832
+b,strategy_overlap,DeepSeek-V3,Two-judge mean,32,0.12792343750000001,0.10383358261802408,0.15100997089719118
+b,strategy_combination,SupraMAS,Two-judge mean,32,0.63359375,0.60734375,0.6598437500000001
+b,strategy_combination,GPT-Researcher,Two-judge mean,32,0.47687500000000005,0.44562500000000005,0.50625
+b,strategy_combination,GPT-5,Two-judge mean,32,0.4771875,0.4484375,0.50390625
+b,strategy_combination,Gemini-2.5-Pro-Thinking,Two-judge mean,32,0.46968750000000004,0.42265625000000007,0.51390625
+b,strategy_combination,Grok-4,Two-judge mean,32,0.47375,0.4423437500000001,0.504375
+b,strategy_combination,DeepSeek-V3,Two-judge mean,32,0.48906249999999996,0.45453125,0.5203125000000001
+c,experimental_reproducibility,SupraMAS,Two-judge mean,31,0.6498387096774193,0.6193548387096774,0.6767741935483871
+c,experimental_reproducibility,GPT-Researcher,Two-judge mean,31,0.6032258064516128,0.5617741935483871,0.6298387096774194
+c,experimental_reproducibility,GPT-5,Two-judge mean,31,0.5890322580645161,0.5574193548387097,0.6128472670969032
+c,experimental_reproducibility,Gemini-2.5-Pro-Thinking,Two-judge mean,31,0.625483870967742,0.589516129032258,0.6561290322580644
+c,experimental_reproducibility,Grok-4,Two-judge mean,31,0.6251612903225806,0.5943548387096774,0.6482258064516131
+c,experimental_reproducibility,DeepSeek-V3,Two-judge mean,31,0.6214516129032257,0.5820967741935484,0.6525806451612902
+c,experimental_feasibility,SupraMAS,Two-judge mean,31,0.7948387096774193,0.7791935483870966,0.8075806451612902
+c,experimental_feasibility,GPT-Researcher,Two-judge mean,31,0.6651612903225806,0.6546774193548387,0.6769354838709677
+c,experimental_feasibility,GPT-5,Two-judge mean,31,0.7891935483870965,0.7808064516129032,0.7943548387096772
+c,experimental_feasibility,Gemini-2.5-Pro-Thinking,Two-judge mean,31,0.7161290322580645,0.7064516129032259,0.7229032258064516
+c,experimental_feasibility,Grok-4,Two-judge mean,31,0.6798387096774194,0.6704838709677422,0.6890322580645161
+c,experimental_feasibility,DeepSeek-V3,Two-judge mean,31,0.6704838709677419,0.6603225806451613,0.6790322580645161

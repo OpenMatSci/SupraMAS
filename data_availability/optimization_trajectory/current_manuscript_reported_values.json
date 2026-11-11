@@ -1,0 +1,48 @@
+{
+  "source_sha256": "b85eb6b828616790e4709a593228452417f9f0c4d9e44bcb9149721d4e9efee6",
+  "kind": "Reported summary values, not individual raw measurements",
+  "samples": {
+    "SupraMAS-150 nm": {
+      "Tc_MT_K": 84.62,
+      "Jc_4p2K_5T_MA_cm2": 3.78,
+      "Jc_20K_5T_MA_cm2": 2.32,
+      "Jc_77K_0T_MA_cm2": 0.1
+    },
+    "SupraMAS-280 nm": {
+      "Tc_MT_K": 86.95,
+      "Jc_4p2K_5T_MA_cm2": 11.25,
+      "Jc_20K_5T_MA_cm2": 6.84,
+      "Jc_77K_0T_MA_cm2": 0.89
+    },
+    "1st Optimisation": {
+      "Tc_MT_K": 86.4,
+      "Jc_4p2K_5T_MA_cm2": 3.6,
+      "Jc_20K_5T_MA_cm2": 1.14,
+      "Jc_77K_0T_MA_cm2": 0.17
+    },
+    "2nd Optimisation": {
+      "Tc_MT_K": 88.63,
+      "Jc_4p2K_5T_MA_cm2": 7.99,
+      "Jc_20K_5T_MA_cm2": 3.79,
+      "Jc_77K_0T_MA_cm2": 2.79
+    },
+    "3rd Optimisation": {
+      "Tc_MT_K": 85.73,
+      "Jc_4p2K_5T_MA_cm2": 12.78,
+      "Jc_20K_5T_MA_cm2": 6.44,
+      "Jc_77K_0T_MA_cm2": 0.42
+    },
+    "4th Optimisation": {
+      "Tc_MT_K": 87.2,
+      "Jc_4p2K_5T_MA_cm2": 11.21,
+      "Jc_20K_5T_MA_cm2": 5.66,
+      "Jc_77K_0T_MA_cm2": 0.31
+    },
+    "5th Optimisation": {
+      "Tc_MT_K": 87.26,
+      "Jc_4p2K_5T_MA_cm2": 14.11,
+      "Jc_20K_5T_MA_cm2": 7.67,
+      "Jc_77K_0T_MA_cm2": 0.65
+    }
+  }
+}

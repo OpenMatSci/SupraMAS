@@ -1,0 +1,15 @@
+{
+  "source_sha256": "b85eb6b828616790e4709a593228452417f9f0c4d9e44bcb9149721d4e9efee6",
+  "content": "Evaluation prompts, scoring rubrics and evaluated-system versions.",
+  "text_edition": {
+    "language": "English",
+    "translation_models": [
+      "claude-sonnet-4-5-20250929",
+      "gpt-4o"
+    ],
+    "evaluation_timing": "Recorded scores were assigned to the original inputs before translation.",
+    "historical_hashes": "input_sha256, prompt_sha256 and protocol_text_sha256 identify original evaluation text.",
+    "translated_hashes": "translated_*_sha256 identify the corresponding translated text.",
+    "line_by_line_domain_expert_translation_review": false
+  }
+}
