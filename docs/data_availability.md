@@ -6,6 +6,10 @@ See [the local data index](../data_availability/README.md) for current results a
 python scripts/verify_checksums.py data_availability/metadata/checksums_sha256.csv
 ```
 
+## Current manuscript figures
+
+[View all 4 main figures and 13 supplementary figures](../assets/figures/README.md), named according to the current manuscript and SI. Original measurement exports in the data directory are separate from these publication figures.
+
 ## GitHub and Hugging Face paths
 
 The repositories share current reported results but are not identical file mirrors. Hugging Face hosts the complete 130-file supporting-data package; GitHub includes selected results and additional original measurement exports.
