@@ -1,5 +1,5 @@
 relative_path,size_bytes
-README.md,1775
+README.md,1923
 benchmark_data/inputs/benchmark_topics.json,4551
 benchmark_data/inputs/post_cutoff_paper_ideas.json,152025
 benchmark_data/labels/idea_foresight_label_strategies.json,152025
@@ -158,7 +158,7 @@ knowledge_libraries/template/all_responses_4.json,8735
 knowledge_libraries/template/all_responses_5.json,9708
 knowledge_libraries/template/all_responses_6.json,11693
 knowledge_libraries/template/all_responses_theory.json,10897
-metadata/DATA_AVAILABILITY_TEXT.md,1173
+metadata/DATA_AVAILABILITY_TEXT.md,964
 metadata/knowledge_library_counts.csv,553
 metadata/post_cutoff_reference_papers.csv,6303
 optimization_trajectory/current_manuscript_reported_values.json,1248

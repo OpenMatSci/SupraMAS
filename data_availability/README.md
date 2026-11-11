@@ -10,6 +10,8 @@ Current manuscript results are synchronized from the 1027 supporting-data packag
 - `source_data/figure_source_data/`: original measurement exports with earlier figure labels, retained without changing raw measurements. `source_data/main_tables/` contains the current reported summary values.
 - `metadata/`: inventory and checksums for this local GitHub selection.
 
+See [the GitHub–Hugging Face path index](../docs/data_availability.md#github-and-hugging-face-paths) for repository-specific paths and coverage.
+
 The two large judge archives (`grouped_judge_outputs.jsonl` and `per_idea_judge_aggregates.json`) are hosted on Hugging Face. `idea_foresight/*/evaluation.jsonl` contains a compact selection of final judge scores, matched-label IDs and combination-match metadata. Protocol `evaluation_*.json` files contain the final case/judge records. These replace the earlier single-run result schema. Statistical source tables retain the case-level scores needed to verify the reported means.
 
 ```bash
