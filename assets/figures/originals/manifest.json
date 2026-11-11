@@ -1,0 +1,121 @@
+[
+  {
+    "figure": "Figure 1",
+    "original": "originals/figs/workflow-0529.pdf",
+    "preview": "Main_Figures/Figure_01.png",
+    "source_path": "figs/workflow-0529.pdf",
+    "sha256": "fff85d8d40312adde983decdd2a2e229ca4e93c584ec17d73e6660f1f2700b47"
+  },
+  {
+    "figure": "Figure 2",
+    "original": "originals/figs/evaluation_statistics_horizontal_bcd_20261025.pdf",
+    "preview": "Main_Figures/Figure_02.png",
+    "source_path": "figs/evaluation_statistics_horizontal_bcd_20261025.pdf",
+    "sha256": "3a02a8f2a911b0899506a7c7e4222d91871b9de44c1ba6ecad126ada47116f19"
+  },
+  {
+    "figure": "Figure 3",
+    "original": "originals/figs/zong.pdf",
+    "preview": "Main_Figures/Figure_03.png",
+    "source_path": "figs/zong.pdf",
+    "sha256": "34c77c430fa9b1f02bd0e9db935a24a1978db087dd1f54b20e7d13369cec6c8f"
+  },
+  {
+    "figure": "Figure 4",
+    "original": "originals/figs/explainability/backtrack_0328.pdf",
+    "preview": "Main_Figures/Figure_04.png",
+    "source_path": "figs/explainability/backtrack_0328.pdf",
+    "sha256": "834015d319261d9540c5d2b1029ace5ebe01876334b40f7bd3d14327c19d5c9c"
+  },
+  {
+    "figure": "Supplementary Figure 1",
+    "original": "originals/figs/workflow/strategy_tree.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_01.png",
+    "source_path": "figs/workflow/strategy_tree.pdf",
+    "sha256": "6403faef89e8d9280895843e53ada4ccd41aca673f986148a2eabca74b3b3cb5"
+  },
+  {
+    "figure": "Supplementary Figure 2",
+    "original": "originals/figs/workflow/expert_critic.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_02.png",
+    "source_path": "figs/workflow/expert_critic.pdf",
+    "sha256": "99e1f90a95e65899d425de6b95649c585ead82db339da4e302fe01e639faa81f"
+  },
+  {
+    "figure": "Supplementary Figure 3",
+    "original": "originals/figs/workflow/optimization.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_03.png",
+    "source_path": "figs/workflow/optimization.pdf",
+    "sha256": "c371942ffdca76d86b172b7ead8288fbeb0d16a6bd8ebb759b09be5d9e897cd6"
+  },
+  {
+    "figure": "Supplementary Figure 4",
+    "original": "originals/figs/real_world/S10515.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_04.png",
+    "source_path": "figs/real_world/S10515.pdf",
+    "sha256": "ec5889e22796940929a8a90165c261b8549a63b84de1d06d90383ce3c6585775"
+  },
+  {
+    "figure": "Supplementary Figure 5",
+    "original": "originals/figs/real_world/S20515.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_05.png",
+    "source_path": "figs/real_world/S20515.pdf",
+    "sha256": "ce0880c4ec280edec7d7222159a412adc213f14a3e1887a2f0c58e81015af411"
+  },
+  {
+    "figure": "Supplementary Figure 6",
+    "original": "originals/figs/XPS.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_06.png",
+    "source_path": "figs/XPS.pdf",
+    "sha256": "b8ee51d3a5516a7b4d8c824001487b4faf8ca8b739726eae7dcea5fc7f219f72"
+  },
+  {
+    "figure": "Supplementary Figure 7",
+    "original": "originals/figs/optimize/compare.png",
+    "preview": "Supplementary_Figures/Supplementary_Figure_07.png",
+    "source_path": "figs/optimize/compare.png",
+    "sha256": "ff0c209f696967f725c0e2e225b46195ceda1ef487f7b4650e3317d8a341285b"
+  },
+  {
+    "figure": "Supplementary Figure 8",
+    "original": "originals/figs/optimize/reaction_optimization_abcd.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_08.png",
+    "source_path": "figs/optimize/reaction_optimization_abcd.pdf",
+    "sha256": "c136ec22b90264a5248cce327959a181cce1f02c3a229e693600bbbc34e45fbe"
+  },
+  {
+    "figure": "Supplementary Figure 9",
+    "original": "originals/statistics/automatic_paired_differences.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_09.png",
+    "source_path": "statistics/automatic_paired_differences.pdf",
+    "sha256": "e7d2a193716325bc6a1e52d9d26cae36989b10fcc487efdc45c1eafc87d7fd2d"
+  },
+  {
+    "figure": "Supplementary Figure 10",
+    "original": "originals/statistics/automatic_judge_intervals.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_10.png",
+    "source_path": "statistics/automatic_judge_intervals.pdf",
+    "sha256": "49f0e5b7dbaddec4745b6f09f4e152a18a59604e08da02ccbe066fcbb45d3560"
+  },
+  {
+    "figure": "Supplementary Figure 11",
+    "original": "originals/statistics/automatic_bootstrap_distributions.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_11.png",
+    "source_path": "statistics/automatic_bootstrap_distributions.pdf",
+    "sha256": "4e9f85079d018da63fcf606b211a843e53e1b94261bc6c61ad06abb2ba6b8d86"
+  },
+  {
+    "figure": "Supplementary Figure 12",
+    "original": "originals/statistics/automatic_judge_comparisons.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_12.png",
+    "source_path": "statistics/automatic_judge_comparisons.pdf",
+    "sha256": "b4fabe741ca9130e910fb39ed61ba47447a63e969ca543672186811356df46de"
+  },
+  {
+    "figure": "Supplementary Figure 13",
+    "original": "originals/statistics/automatic_expert_concordance.pdf",
+    "preview": "Supplementary_Figures/Supplementary_Figure_13.png",
+    "source_path": "statistics/automatic_expert_concordance.pdf",
+    "sha256": "939c46b3ca889c32d36789cd1fd1a996c2a27784cafc16d08a853cb575a21174"
+  }
+]
