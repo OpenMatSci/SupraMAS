@@ -7,7 +7,7 @@ Current manuscript results are synchronized from the 1027 supporting-data packag
 - `optimization_trajectory/`: seven process conditions and reported Tc/Jc summaries. Tc is the mean M–T value from three independent films; individual Tc values and standard deviations are not supplied in these summaries.
 - `generated_protocols/` and `interpretability/`: generated protocols, feedback, and the supplied Chain 3 traceback report.
 - `knowledge_libraries/`: released knowledge entries.
-- `source_data/figure_source_data/`: original measurement exports with earlier figure labels, retained without changing raw measurements. `source_data/main_tables/` contains the current reported summary values.
+- `source_data/figure_source_data/`: original measurement exports indexed by measurement filename, retained without changing raw measurements. `source_data/main_tables/` contains the current reported summary values.
 - `metadata/`: inventory and checksums for this local GitHub selection.
 
 See [the GitHub–Hugging Face path index](../docs/data_availability.md#github-and-hugging-face-paths) for repository-specific paths and coverage.

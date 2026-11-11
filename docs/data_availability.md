@@ -22,7 +22,7 @@ The repositories share current reported results but are not identical file mirro
 | Process and performance summaries | `data_availability/optimization_trajectory/` | `SupraMAS_Supporting_Data/optimization_trajectory/` |
 | Protocols, traceback and knowledge entries | `data_availability/{generated_protocols,interpretability,knowledge_libraries}/` | `SupraMAS_Supporting_Data/{generated_protocols,interpretability,knowledge_libraries}/` |
 | Complete idea-judge output archives | Linked from `data_availability/README.md`; compact records in `benchmark/results/idea_foresight/` | `SupraMAS_Supporting_Data/benchmark_results/idea_evaluation/judge_outputs/` |
-| Original experiment curve/image exports | `data_availability/source_data/figure_source_data/` (earlier figure labels retained) | Not included in the current package |
+| Original experiment curve/image exports | `data_availability/source_data/figure_source_data/` (original measurement filenames) | Not included in the current package |
 | Inventory and checksums | `data_availability/metadata/file_manifest.csv` and `checksums_sha256.csv` | `SupraMAS_Supporting_Data/manifest.json` and `checksums_sha256.txt` |
 
 The inventory files cover each repository's own selection. CSV line endings may differ while parsed values remain the same. The two large idea-judge archives are required by the statistical recomputation scripts; run those scripts from the complete downloaded package.

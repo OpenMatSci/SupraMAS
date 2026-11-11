@@ -1,32 +1,23 @@
-# Figure Source Data
+# Experimental Measurement Exports
 
-This folder contains source data underlying the experimental figure panels in the main manuscript and Supplementary Information.
+This directory preserves the original measurement exports. Directory and file names identify the stored records; the current publication figures and their numbers are listed in the [figure gallery](../../../assets/figures/README.md).
 
-## Fig3_single_pinning_system/
+## Data records and current figure coverage
 
-Source data for the single artificial pinning-system films.
+| Stored directory | Measurement records | Current manuscript/SI coverage |
+| --- | --- | --- |
+| `Fig3_single_pinning_system/Fig3a/` | R–T curves of EuBCO+BYNO, EuBCO+BYTO and YBCO+Y211 | Supplementary Figure 4a |
+| `Fig3_single_pinning_system/Fig3b/` | Jc–B curves and `Fig3b_M-H/` hysteresis data, with Bean-model calculation notes | Supplementary Figure 4b |
+| `Fig4_multicomponent_films/Fig4a/` | M–T curves of the initial films and five optimization states | Selected states in Figure 3g and Supplementary Figure 5a |
+| `Fig4_multicomponent_films/Fig4b/` | R–T curves of the same sample conditions | Selected states in Figure 3f and Supplementary Figure 5b |
+| `Fig4_multicomponent_films/Fig4c-i/` | Jc–B curves and `Fig4c-i_M-H/` hysteresis data | Selected samples/temperatures in Figure 3d,e and Supplementary Figure 5c–f |
+| `Supplementary_Fig1_struct_morphology/Supp_Fig1a_XRD/` | XRD scans of the first three optimization states | Supplementary Figure 5g |
+| `Supplementary_Fig1_struct_morphology/Supp_Fig1b-d_AFM/` | AFM images of the first three optimization states | Figure 3h–j |
 
-- `Fig3a/`: R-T curve data for EuBCO+BYNO, EuBCO+BYTO and YBCO+Y211 films.
-- `Fig3b/`: Jc-B curve data for EuBCO+BYNO, EuBCO+BYTO and YBCO+Y211 films.
-- `Fig3b/Fig3b_M-H/`: raw M-H hysteresis data used to derive Jc-B curves, plus `calculation_formula.txt` documenting the Bean critical-state model and sample geometry used for Jc conversion.
-- `Fig3c_SEM.tif`: SEM source image used for film-thickness characterisation.
+`Fig3_single_pinning_system/Fig3c_SEM.tif` is an additional deposited SEM source image. The directory name alone does not establish correspondence to the multivariable-film thickness panel in Figure 3k.
 
-## Fig4_multicomponent_films/
+The source files contain measurements, while [`../main_tables/`](../main_tables/) and [`../../optimization_trajectory/`](../../optimization_trajectory/) contain the current reported process and performance summaries. The summary files do not include individual-film Tc values or the standard deviations plotted in Figure 3b.
 
-Source data for the initial and optimised (Y,Yb,Sm)BCO+BZO+BYNO multicomponent films.
+## Formats
 
-- `Fig4a/`: M-T curve data for Initial-150 nm, Initial-280 nm and 1st-5th Optimisation samples.
-- `Fig4b/`: R-T curve data for Initial-150 nm, Initial-280 nm and 1st-5th Optimisation samples.
-- `Fig4c-i/`: Jc-B curve data for panels Fig. 4c-4i.
-- `Fig4c-i/Fig4c-i_M-H/`: raw M-H hysteresis data used to derive the Jc-B curves for panels Fig. 4c-4i.
-
-## Supplementary_Fig1_struct_morphology/
-
-Source data for the Supplementary structural and morphological characterisation figure.
-
-- `Supp_Fig1a_XRD/`: XRD scan data for the 1st, 2nd and 3rd Optimisation samples.
-- `Supp_Fig1b-d_AFM/`: AFM image source files for the 1st, 2nd and 3rd Optimisation samples.
-
-## Format Notes
-
-The numerical source files are provided as `.xlsx` workbooks. In each workbook, `Sheet1` contains the populated source data. Additional blank sheets, where present, were retained from the original measurement/export format. Image panels are provided as TIFF or JPEG files.
+Numerical exports use Excel workbooks; populated data are in `Sheet1`. Blank additional sheets are retained from the original export. Image source files use TIFF or JPEG. Raw records have not been altered to match reported summary values.

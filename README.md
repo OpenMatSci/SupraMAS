@@ -92,7 +92,7 @@ For the multivariable (Y,Yb,Sm)BCO + BZO + BYNO system, SupraMAS-guided optimiza
 | 4th Optimisation | 87.20 | 11.21 | 5.66 | 0.31 |
 | 5th Optimisation | 87.26 | 14.11 | 7.67 | 0.65 |
 
-Tc values are mean M–T transition temperatures from three independent films per condition. Reported summaries are in [`data_availability/optimization_trajectory/`](data_availability/optimization_trajectory/). The original measurement files in [`source_data/figure_source_data/`](data_availability/source_data/figure_source_data/) retain earlier figure labels; individual-film Tc values and standard deviations are not included in the summary files.
+Tc values are mean M–T transition temperatures from three independent films per condition. Reported summaries are in [`data_availability/optimization_trajectory/`](data_availability/optimization_trajectory/). The original measurement files in [`source_data/figure_source_data/`](data_availability/source_data/figure_source_data/) retain original measurement filenames; individual-film Tc values and standard deviations are not included in the summary files.
 
 ### Interpretability
 
