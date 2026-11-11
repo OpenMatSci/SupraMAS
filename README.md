@@ -37,7 +37,7 @@ The platform provides an interactive entry point for inspecting and using the Su
 
 ## Key Figures And Results
 
-The figures below are 300 dpi PNG previews. The [unaltered original files](assets/figures/originals/) retain the filenames referenced by the manuscript LaTeX. All **4 main figures and 13 supplementary figures**, with their manuscript/SI numbers and original files, are available in the [figure gallery](assets/figures/README.md). Numerical source data, benchmark outputs, and expert-evaluation records are released under [`data_availability/`](data_availability/).
+The figures below are high-resolution PNG previews. The [unaltered original files](assets/figures/originals/) retain the filenames referenced by the manuscript LaTeX. All **4 main figures and 13 supplementary figures**, with their manuscript/SI numbers and original files, are available in the [figure gallery](assets/figures/README.md). Numerical source data, benchmark outputs, and expert-evaluation records are released under [`data_availability/`](data_availability/).
 
 ### Workflow Overview
 

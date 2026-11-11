@@ -2,7 +2,7 @@
 
 The **original files referenced by the local manuscript LaTeX** are in [`originals/`](originals/). They retain their source filenames and PDF/PNG formats. Open the Original links below to view or download those files without raster conversion. Their contents are byte-identical to the source files; SHA-256 values are listed in [`originals/manifest.json`](originals/manifest.json).
 
-PNG images displayed below are 300 dpi previews of PDF originals; Supplementary Figure 7 uses its original PNG.
+PNG images displayed below are high-resolution previews of PDF originals; Supplementary Figure 7 uses its original PNG.
 
 | Figure | Original source file | PNG preview |
 | --- | --- | --- |
